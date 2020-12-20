@@ -1,6 +1,6 @@
 <template>
   <body>
-    <br /><br /><br /><br /><br />
+    <br />
     <h1>TO Know Us More</h1>
     <section class="activities-sec-cover">
       <article>
@@ -15,7 +15,7 @@
         />
         <div class="content">
           <div v-if="currentTab === 'tab1'" class="current-tab-sec">
-            <div class="">
+            <div class="tm-content">
               <p>
                 To design appropriate and sustainable ecosystem governance
                 mechanisms and tools by combining scientifically proven
@@ -23,12 +23,12 @@
                 practices
               </p>
             </div>
-            <div>
-              <img src="../assets/lio2.jpeg" alt="" />
+            <div class="tm-img">
+              <img src="../assets/dogs1.jpeg" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab2'" class="current-tab-sec">
-            <div>
+            <div class="tm-content">
               <p>
                 To open space for learning, research and to provide an
                 alternative route to addressing pressing ecosystems governance
@@ -36,14 +36,14 @@
                 corresponding threats that indigenous people face.
               </p>
             </div>
-            <div>
-              <img src="../assets/lio2.jpeg" alt="" />
+            <div class="tm-img">
+              <img src="../assets/dogs1.jpeg" alt="" />
             </div>
           </div>
         </div>
       </article>
-      <aside></aside>
     </section>
+    <br /><br /><br />
   </body>
 </template>
 
@@ -78,14 +78,20 @@ export default {
 <style lang="scss">
 body {
   .current-tab-sec {
-    // border: 1px solid red;
     display: flex;
+    width: 100%;
+    justify-content: space-between;
   }
-  .activities-sec-cover {
-    display: flex;
 
-    article {
-      flex: 1;
+  .activities-sec-cover {
+    width: 100%;
+
+    .tm-content {
+      width: 45%;
+    }
+
+    .tm-img {
+      width: 50%;
     }
 
     img {
@@ -98,19 +104,6 @@ body {
     position: relative;
     margin: 0 auto;
     &__item {
-      display: inline-block;
-      margin: 0 5px;
-      padding: 10px;
-      padding-bottom: 8px;
-      font-size: 16px;
-      letter-spacing: 0.8px;
-      color: #303030;
-      text-decoration: none;
-      border: none;
-      background-color: transparent;
-      border-bottom: 2px solid transparent;
-      cursor: pointer;
-      transition: all 0.25s;
       &_active {
         color: black;
       }

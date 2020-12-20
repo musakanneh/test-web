@@ -1,6 +1,5 @@
 <template>
   <body>
-    <br /><br /><br /><br /><br />
     <section class="activities-sec-cover">
       <article>
         <tabs
@@ -99,10 +98,11 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 body {
+  border: 1px solid red;
   .current-tab-sec {
-    // border: 1px solid red;
+    border: 1px solid red;
     display: flex;
   }
   .activities-sec-cover {

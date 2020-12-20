@@ -17,7 +17,6 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
-
 export default {
   name: "App",
   components: {
@@ -41,7 +40,6 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 h2 {
   color: #404040;
   font-size: 1.3em;
@@ -54,25 +52,21 @@ h2 {
   font-weight: bold;
   color: #6a6a6a;
 }
-
 h3 {
   color: #6a6a6a;
   opacity: 1;
   transition: 200ms;
   font-weight: 400;
 }
-
 span {
   color: #c98811;
 }
-
 h1 {
   color: #c98811;
   font-size: 35px;
   text-align: center;
   text-transform: capitalize;
 }
-
 p {
   line-height: 1.5;
   opacity: 1;
@@ -82,9 +76,7 @@ p {
   color: #303030;
 }
 
-.sec {
-  width: 90%;
-  margin: auto;
-  padding: 5% 0;
+img {
+  object-fit: contain;
 }
 </style>
