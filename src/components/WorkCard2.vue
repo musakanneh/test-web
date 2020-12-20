@@ -1,7 +1,7 @@
 <template>
   <body>
     <br /><br />
-    <h2>Community Development</h2>
+    <h2>Traditional Rangeland Management</h2>
     <section class="activities-sec-cover">
       <article>
         <tabs
@@ -17,12 +17,16 @@
           <div v-if="currentTab === 'tab1'" class="current-tab-sec">
             <div class="tm-content-work">
               <p>
-                Indigenous peoples and local communities in Tanzania still
-                experience acute poverty. They do not have access to reliable
-                water systems, quality education, health services or livelihoods
-                options. However, the design of public services for indigenous
-                peoples and local communities is such that sustainability is not
-                an element.
+                Traditionally indigenous peoples have their own ways of land
+                governance and use for all seasons and for all uses. This
+                cultural practice allowed the lands to recover between seasons
+                and pasture to be available throughout the year. But the
+                pastoralists in Tanzania can hardly do this. Population growth,
+                coupled with land defragmentation and climate change have
+                reduced the extent of their pasturelands and led also to a
+                deterioration in quality. As a result, their cattle often die in
+                the dry season or in droughts from lack of grass and lack of
+                water. This is devastating.
               </p>
             </div>
 
@@ -33,8 +37,10 @@
           <div v-if="currentTab === 'tab2'" class="current-tab-sec">
             <div class="tm-content-work">
               <p>
-                To solve poverty issues through enterprise-based models for
-                ensuring sustainability and growth.
+                to introduce a governance plan that will re-design grazing
+                patterns and organization for the livestock in the area to
+                improve the livelihoods of the local communities as well as
+                enhance the conservation of biodiversity.
               </p>
             </div>
             <div class="tm-img">
@@ -44,11 +50,13 @@
           <div v-if="currentTab === 'tab3'" class="current-tab-sec">
             <div class="tm-content-work">
               <p>
-                TEST will, in collaboration with its partners, assist indigenous
-                communities develop enterprise-based solutions in designing
-                social and basic services to address poverty and increase access
-                to fundamental social services such as education, health and
-                water. (SDG 1, 2, 3, 4, 5, 6, 7, 8)
+                Change is needed. TEST is working with the pastoralists in
+                Tanzania to restore indigenous land use practices and coping
+                mechanisms to ensure availability of pasture and to address the
+                effects of climate and cultural change. TEST helps pastoral
+                communities restore and adapt traditional land use practices and
+                coping mechanisms to address the effects of current pressures
+                including climate change. SDG 1, 2, 15, 13, 17)
               </p>
             </div>
             <div class="tm-img">
@@ -59,14 +67,12 @@
       </article>
     </section>
     <WorkCard />
-    <WorkCard2 />
+    <br /><br /><br />
   </body>
 </template>
 
 <script>
-// import Button from "@/components/Button.vue";
 import WorkCard from "@/components/WorkCard.vue";
-import WorkCard2 from "@/components/WorkCard2.vue";
 import Tabs from "vue-tabs-with-active-line";
 const TABS = [
   {
@@ -86,7 +92,6 @@ export default {
   components: {
     Tabs,
     WorkCard,
-    WorkCard2,
   },
   data: () => ({
     tabs: TABS,

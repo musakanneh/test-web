@@ -1,5 +1,7 @@
 <template>
   <body>
+    <br /><br /><br /><br /><br>
+    <h2>Wildlife Conservation</h2>
     <section class="activities-sec-cover">
       <article>
         <tabs
@@ -13,7 +15,7 @@
         />
         <div class="content">
           <div v-if="currentTab === 'tab1'" class="current-tab-sec">
-            <div class="">
+            <div class="tm-content-work">
               <p>
                 The wildlife in natural ecosystems share their habitats with
                 indigenous peoples and their livelihoods (grazing, farms).
@@ -26,12 +28,13 @@
                 their role.
               </p>
             </div>
-            <div>
-              <img src="../assets/lio2.jpeg" alt="" />
+
+            <div class="tm-img">
+              <img src="../assets/leo.png" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab2'" class="current-tab-sec">
-            <div>
+            <div class="tm-content-work">
               <p>
                 To re-activate the support of indigenous communities whose
                 indigenous traditional knowledge systems and their territories
@@ -41,12 +44,12 @@
                 of wildlife habitats.
               </p>
             </div>
-            <div>
-              <img src="../assets/lio2.jpeg" alt="" />
+            <div class="tm-img">
+              <img src="../assets/indg.png" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab3'" class="current-tab-sec">
-            <div>
+            <div class="tm-content-work">
               <p>
                 TEST is committed to facilitating conservation education and
                 campaigns for indigenous communities and assist in obtaining
@@ -55,18 +58,20 @@
                 15, 13, 17, etc)
               </p>
             </div>
-            <div>
-              <img src="../assets/lio2.jpeg" alt="" />
+            <div class="tm-img">
+              <img src="../assets/edu.png" alt="" />
             </div>
           </div>
         </div>
       </article>
-      <aside></aside>
     </section>
+    <WorkCard />
   </body>
 </template>
 
 <script>
+// import Button from "@/components/Button.vue";
+import WorkCard from "@/components/WorkCard.vue";
 import Tabs from "vue-tabs-with-active-line";
 const TABS = [
   {
@@ -85,6 +90,7 @@ const TABS = [
 export default {
   components: {
     Tabs,
+    WorkCard,
   },
   data: () => ({
     tabs: TABS,
@@ -100,18 +106,36 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  border: 1px solid red;
-  .current-tab-sec {
-    border: 1px solid red;
-    display: flex;
+  width: 100%;
+  // background-color: #c98811;
+
+  h2 {
+    text-align: left;
+    width: 85%;
+    color: #c98811;
+    margin: auto;
   }
+
+  p {
+    width: 90%;
+  }
+
+  .content {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+    padding: 10px 20px;
+    width: 82%;
+  }
+
+  .tm-content-work {
+    width: 60%;
+  }
+
+  .tm-img {
+    width: 40%;
+    float: right;
+  }
+
   .activities-sec-cover {
-    display: flex;
-
-    article {
-      flex: 1;
-    }
-
     img {
       width: 100%;
     }
@@ -121,12 +145,13 @@ body {
     width: 85%;
     position: relative;
     margin: 0 auto;
+
     &__item {
       display: inline-block;
       margin: 0 5px;
       padding: 10px;
       padding-bottom: 8px;
-      font-size: 16px;
+      font-size: 14px;
       letter-spacing: 0.8px;
       color: #303030;
       text-decoration: none;
@@ -135,6 +160,7 @@ body {
       border-bottom: 2px solid transparent;
       cursor: pointer;
       transition: all 0.25s;
+
       &_active {
         color: black;
       }
@@ -162,12 +188,6 @@ body {
       background-color: black;
       transition: transform 0.4s ease, width 0.4s ease;
     }
-  }
-  .content {
-    margin-top: 30px;
-    font-size: 20px;
-    width: 85%;
-    margin: auto;
   }
 }
 </style>
