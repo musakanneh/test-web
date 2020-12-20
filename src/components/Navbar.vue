@@ -7,16 +7,16 @@
       <nav class="nav-cover">
         <ul>
           <li>
-            <router-link to="/">HOME</router-link>
+            <router-link to="/">Home</router-link>
           </li>
           <li>
-            <router-link to="/work">WHAT WE DO</router-link>
+            <router-link to="/work">What We Do</router-link>
           </li>
           <li>
-            <router-link to="/how">HOW WE DO</router-link>
+            <router-link to="/how">How We Do</router-link>
           </li>
           <li>
-            <router-link to="/">NEWS</router-link>
+            <router-link to="/">News</router-link>
           </li>
         </ul>
       </nav>
@@ -61,13 +61,11 @@ header {
     img {
       width: 95%;
       margin-top: 5px;
-      //border: 1px solid red;
     }
   }
 
   .nav-cover,
   .btn-cover {
-    //border: 1px solid red;
     padding: 10px 0;
   }
   .btn-cover {
@@ -91,7 +89,6 @@ main {
 
 nav {
   width: 100%;
-
   ul {
     list-style: none;
     width: 40%;
@@ -106,10 +103,26 @@ nav {
       transition: 200ms;
       letter-spacing: 1px;
       text-decoration: none;
-
+      transition: all 0.25s;
+      &:hover {
+        border-bottom: 1px solid #c98811;
+        color: #c98811;
+        transition: all 0.25s;
+      }
+      &:focus {
+        outline: none;
+        border-bottom: 1px solid #c98811;
+        color: #c98811;
+      }
       &:hover {
         opacity: 1;
         color: #303030;
+      }
+      &:first-child {
+        margin-left: 0;
+      }
+      &:last-child {
+        margin-right: 0;
       }
     }
 
