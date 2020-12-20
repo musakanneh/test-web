@@ -9,10 +9,8 @@
 
 <script>
 import HowCard from "@/components/HowCard.vue";
-// import Button from "@/components/Button.vue";
 export default {
   components: {
-    // Button,
     HowCard,
   },
 };

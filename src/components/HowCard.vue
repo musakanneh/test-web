@@ -13,8 +13,8 @@
         />
         <div class="content">
           <div v-if="currentTab === 'tab1'" class="current-tab-sec">
-            <div class="">
-              <h2>COLLABORATIVE RESEARCH</h2>
+            <div class="tm-how-content">
+              <h2>Collaborative Research</h2>
               <p>
                 TEST shall host a collaborative research program with renowned
                 academic and research institutions to develop the database of
@@ -27,13 +27,13 @@
                 the climate emergency.
               </p>
             </div>
-            <div>
+            <div class="tm-image">
               <img src="../assets/lio2.jpeg" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab2'" class="current-tab-sec">
-            <div>
-              <h2>EDUCATION AND CAPACITY BUILDING</h2>
+            <div class="tm-how-content">
+              <h2>Education and Capacity Building</h2>
               <p>
                 TEST shall facilitate a comprehensive awareness creation program
                 to disseminate and exhibit the findings of the action research.
@@ -45,13 +45,13 @@
                 curricula.
               </p>
             </div>
-            <div>
+            <div class="tm-image">
               <img src="../assets/lio2.jpeg" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab3'" class="current-tab-sec">
-            <div>
-              <h2>CULTURAL EXCHANGE</h2>
+            <div class="tm-how-content">
+              <h2>Cultural Exchange</h2>
               <p>
                 Tanzania has a diversity if indigenous cultures contributing to
                 community and ecological resilience. TEST will facilitate
@@ -60,13 +60,13 @@
                 lessons across diverse communities in Tanzania and beyond.
               </p>
             </div>
-            <div>
+            <div class="tm-image">
               <img src="../assets/lio2.jpeg" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab4'" class="current-tab-sec">
-            <div>
-              <h2>CULTURAL EXCHANGE</h2>
+            <div class="tm-how-content">
+              <h2>Cultural Exchange</h2>
               <p>
                 TEST shall spearhead the development of a
                 participatory-landscape approach to land-use-plans including
@@ -74,14 +74,14 @@
                 resources at the community level and ecosystem-wide levels.
               </p>
             </div>
-            <div>
+            <div class="tm-image">
               <img src="../assets/lio2.jpeg" alt="" />
             </div>
           </div>
         </div>
       </article>
-      <aside></aside>
     </section>
+    <br><br>
   </body>
 </template>
 
@@ -89,19 +89,19 @@
 import Tabs from "vue-tabs-with-active-line";
 const TABS = [
   {
-    title: "RESEARCH",
+    title: "Research",
     value: "tab1",
   },
   {
-    title: "EDUCATION",
+    title: "Education",
     value: "tab2",
   },
   {
-    title: "EXCHANGE",
+    title: "Exchange",
     value: "tab3",
   },
   {
-    title: "GOVERNANCE",
+    title: "Governance",
     value: "tab4",
   },
 ];
@@ -123,16 +123,26 @@ export default {
 
 <style lang="scss">
 body {
+  // padding: 5% 0;
+  // border: 1px solid red;
+  width: 100%;
   .current-tab-sec {
-    // border: 1px solid red;
     display: flex;
+  }
+
+  p {
+    width: 90%;
+  }
+
+  .tm-how-content {
+    width: 70%;
+  }
+
+  .tm-image {
+    width: 30%;
   }
   .activities-sec-cover {
     display: flex;
-
-    article {
-      flex: 1;
-    }
 
     img {
       width: 100%;
@@ -143,6 +153,7 @@ body {
     width: 85%;
     position: relative;
     margin: 0 auto;
+
     &__item {
       display: inline-block;
       margin: 0 5px;
@@ -157,6 +168,7 @@ body {
       border-bottom: 2px solid transparent;
       cursor: pointer;
       transition: all 0.25s;
+
       &_active {
         color: black;
       }
