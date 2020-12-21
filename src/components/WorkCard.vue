@@ -27,7 +27,7 @@
             </div>
 
             <div class="tm-img">
-              <img src="../assets/leo.png" alt="" />
+              <img src="../assets/view.png" alt="" />
             </div>
           </div>
           <div v-if="currentTab === 'tab2'" class="current-tab-sec">
