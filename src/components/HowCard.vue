@@ -4,9 +4,9 @@
       <div class="sec-one-cover">
         <div class="sec-one-inner">
           <div class="image">
-            <img src="../assets/nature.jpg" alt="" />
+            <img src="../assets/research.png" alt="" />
           </div>
-          <h3>COLLABORATIVE RESEARCH</h3>
+          <h3>Collaborative Research</h3>
           <p v-scrollanimation>
             TEST shall host a collaborative research program with renowned
             academic and research institutions to develop the database of the
@@ -24,9 +24,9 @@
       <div class="sec-one-cover">
         <div class="sec-one-inner">
           <div class="image">
-            <img src="../assets/nature.jpg" alt="" />
+            <img src="../assets/edu.png" alt="" />
           </div>
-          <h3>EDUCATION AND CAPACITY BUILDING</h3>
+          <h3>Education and Capacity building</h3>
           <p v-scrollanimation>
             TEST shall facilitate a comprehensive awareness creation program to
             disseminate and exhibit the findings of the action research. The
@@ -44,9 +44,9 @@
       <div class="sec-one-cover">
         <div class="sec-one-inner">
           <div class="image">
-            <img src="../assets/nature.jpg" alt="" />
+            <img src="../assets/culture.png" alt="" />
           </div>
-          <h3>CULTURAL EXCHANGE</h3>
+          <h3>Cultural Exchange</h3>
           <p v-scrollanimation>
             Tanzania has a diversity if indigenous cultures contributing to
             community and ecological resilience. TEST will facilitate targeted
@@ -61,9 +61,9 @@
       <div class="sec-one-cover">
         <div class="sec-one-inner">
           <div class="image">
-            <img src="../assets/nature.jpg" alt="" />
+            <img src="../assets/lions.jpeg" alt="" />
           </div>
-          <h3>ECOSYSTEM GOVERNANCE</h3>
+          <h3>Ecosystem Governance</h3>
           <p v-scrollanimation>
             TEST shall spearhead the development of a participatory-landscape
             approach to land-use-plans including guidelines for governing and
@@ -86,10 +86,9 @@ export default {
 <style lang="scss" scoped>
 body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   width: 100%;
-  padding: 2% 0 10% 0;
-
+  padding: 0 0 10% 0;
   flex: auto;
   flex-direction: row;
 
@@ -104,11 +103,12 @@ body {
       width: 100%;
       h3,
       p {
-        margin: 1.5rem;
+        margin: 0.5rem 1rem;
       }
 
       h3 {
         color: #c98811;
+        font-weight: 500;
       }
 
       img {
