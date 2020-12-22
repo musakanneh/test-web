@@ -1,6 +1,6 @@
 <template>
   <body>
-    <br /><br /><br /><br /><br>
+    <br /><br /><br /><br /><br />
     <h2>Wildlife Conservation</h2>
     <section class="activities-sec-cover">
       <article>
@@ -70,7 +70,6 @@
 </template>
 
 <script>
-// import Button from "@/components/Button.vue";
 import WorkCard from "@/components/WorkCard.vue";
 import Tabs from "vue-tabs-with-active-line";
 const TABS = [
@@ -104,10 +103,18 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
 body {
   width: 100%;
-  // background-color: #c98811;
+  .current-tab-sec {
+    display: flex;
+  }
+
+  .content {
+    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
+    padding: 10px 20px;
+    width: 82%;
+  }
 
   h2 {
     text-align: left;
@@ -120,22 +127,16 @@ body {
     width: 90%;
   }
 
-  .content {
-    box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-    padding: 10px 20px;
-    width: 82%;
+  .tm-how-content {
+    width: 70%;
   }
 
-  .tm-content-work {
-    width: 60%;
+  .tm-image {
+    width: 30%;
   }
-
-  .tm-img {
-    width: 40%;
-    float: right;
-  }
-
   .activities-sec-cover {
+    display: flex;
+
     img {
       width: 100%;
     }
@@ -151,7 +152,7 @@ body {
       margin: 0 5px;
       padding: 10px;
       padding-bottom: 8px;
-      font-size: 14px;
+      font-size: 16px;
       letter-spacing: 0.8px;
       color: #303030;
       text-decoration: none;
@@ -188,6 +189,12 @@ body {
       background-color: black;
       transition: transform 0.4s ease, width 0.4s ease;
     }
+  }
+  .content {
+    margin-top: 30px;
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
   }
 }
 </style>

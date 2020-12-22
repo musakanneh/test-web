@@ -1,36 +1,56 @@
 <template>
   <body>
     <main>
-      <h1>The Team</h1>
-      <hr />
+      <h1>Meet The Team</h1>
       <section>
         <div>
-          <img src="../assets/name.png" alt="" />
+          <img src="../assets/yannick.png" alt="" />
           <h3>
             Yannick Ndoinyo
           </h3>
           <p>
             Executive Director
           </p>
+          <router-link to="/yannick"
+            ><Button
+              :isFullWidth="false"
+              label="Read more"
+              width="150px"
+            ></Button
+          ></router-link>
+        </div>
+        <div>
+          <img src="../assets/evelyn.png" alt="" />
+          <h3>
+            Evelyn Kaney
+          </h3>
+          <p>
+            Financial Manager
+          </p>
+          <router-link to="/evelyn"
+            ><Button
+              :isFullWidth="false"
+              label="Explore more"
+              width="150px"
+            ></Button
+          ></router-link>
         </div>
 
         <div>
-          <img src="../assets/name.png" alt="" />
+          <img src="../assets/marco.png" alt="" />
           <h3>
-            Mark Mathayo
+            Marco Mathayo
           </h3>
           <p>
             Programs Manager
           </p>
-        </div>
-        <div>
-          <img src="../assets/name.png" alt="" />
-          <h3>
-            Isaac Ouma
-          </h3>
-          <p>
-            Conservation Officer
-          </p>
+          <router-link to="/marco"
+            ><Button
+              :isFullWidth="false"
+              label="Explore more"
+              width="150px"
+            ></Button
+          ></router-link>
         </div>
       </section>
     </main>
@@ -38,36 +58,24 @@
 </template>
 
 <script>
+import Button from "@/components/Button.vue";
 export default {
-  components: {},
+  components: {
+    Button,
+  },
 };
 </script>
 
 <style lang="scss" scoped>
 body {
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: auto;
-  position: center;
-  background-size: cover;
-  z-index: 1;
-  text-align: center;
-
-  hr {
-    width: 10%;
-    border: 1px solid #303030;
-  }
-
   main {
     position: relative;
-    top: 10vh;
     width: 90%;
-    border-radius: 10px 10px 0 0;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
 
     img {
       width: 100%;
@@ -75,19 +83,20 @@ body {
     section {
       justify-content: space-between;
       width: 90%;
-      padding-top: 40px;
       display: flex;
       margin: auto;
       h2 {
         font-size: 14px;
-        padding: 10px;
+      }
+      h3 {
+        margin: 0;
       }
       div {
         text-align: center;
         p {
-          font-size: 12px;
+          font-size: 14px;
           width: 80%;
-          line-height: 20px;
+          padding: 0.5rem 0;
           margin: auto;
         }
         a {

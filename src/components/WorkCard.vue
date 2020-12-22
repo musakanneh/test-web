@@ -64,7 +64,6 @@
 </template>
 
 <script>
-// import Button from "@/components/Button.vue";
 import WorkCard from "@/components/WorkCard.vue";
 import WorkCard2 from "@/components/WorkCard2.vue";
 import Tabs from "vue-tabs-with-active-line";

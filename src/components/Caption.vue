@@ -19,13 +19,13 @@ export default {
 
 <style lang="scss" scoped>
 h1 {
-  padding: 35px 0;
-  margin: auto;
+  //padding: 35px 0;
+  //margin: auto;
   font-size: 35px;
   color: #c98811;
   text-align: center;
   font-weight: 600;
   transition: 200ms;
-  white-space: nowrap;
+  //white-space: nowrap;
 }
 </style>

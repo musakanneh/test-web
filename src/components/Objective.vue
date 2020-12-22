@@ -6,21 +6,21 @@
         <hr />
         <br />
         <p>
-          Partnerships are necessary to speed the achievement of our vision and
-          to achieve SDGs and Aichi Targets for Convection on Biological
-          Diversity (CBD). National and global partnerships have to be forged to
-          fasten the inclusion of IPLCs in conservation initiatives to enhance
+          Building partnerships is necessary to combine knowledge, resources,
+          skills and mandates in achieving our vision, SDGs and goals for
+          Convection on Biological Diversity (CBD). Partnerships will enhance
+          the inclusion of IPLCs in conservation initiatives to sipport
           livelihoods, ecosystem resilience, and positive human relations.
         </p>
         <br />
         <p>
-          It is necessary to restore indigenous confidence and knowledge in
-          ecological governance about rangelands’ management. We need all
-          stakeholders on biodiversity conservation to commit positive action
-          through their ecological management capabilities. Through
-          partnerships, we will restore the use of indigenous science and build
-          communities of practice to synergize a positive impact on ecosystems,
-          people and wildlife in Tanzania.
+          Through partnerships we will restore indigenous confidence, the use of
+          indigenous science and knowledge in ecological governance about
+          rangelands’ management. This approach will bring all stakeholders on
+          biodiversity conservation to commit positive action through their
+          ecological management capabilities. Through partnerships, we will
+          build communities of practice to synergize a positive impact on
+          ecosystems, people and wildlife in Tanzania.
         </p>
       </div>
     </section>
@@ -28,7 +28,7 @@
     <main>
       <article>
         <div>
-          <img src="../assets/stats3.png" alt="" />
+          <img src="../assets/focus.png" alt="" />
         </div>
       </article>
       <div class="partnership-sec">
@@ -36,8 +36,8 @@
           <aside>
             <img src="../assets/icon3.png" alt="" />
             <h2>
-              TEST strongly believes that being an indigenous organization,
-              conservation and development have to attained simultaneously
+              TEST strongly believes that being an Indigenous Organization,
+              Conservation and Development have to be attained simultaneously!
             </h2>
           </aside>
         </div>
@@ -70,7 +70,7 @@ body {
 
     p {
       color: #fbfbfbe5;
-      width: 65%;
+      width: 60%;
       font-size: 14px;
       margin: auto;
       font-weight: normal;

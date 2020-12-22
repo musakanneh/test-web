@@ -20,8 +20,7 @@
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
 
   methods: {
     isMobileTitle: false,
@@ -31,9 +30,6 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  main {
-    //border: 1px solid red;
-  }
 }
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
@@ -60,11 +56,11 @@ body {
     button {
       background: transparent;
       border-radius: 5px;
-      font-size: 16px;
-      height: 50px;
+      font-size: 14px;
+      height: 45px;
       letter-spacing: 1px;
       border: 1px solid #c98811;
-      width: 20%;
+      width: 15%;
       margin-top: 2rem;
       color: #fff;
       box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
@@ -82,8 +78,6 @@ body {
     }
 
     article {
-      p {
-      }
       h1 {
         font-size: 2em !important;
       }
@@ -95,9 +89,9 @@ body {
     p {
       margin: auto;
       color: #fbfbfbce;
-      width: 65%;
+      width: 70%;
       padding: 20px 0;
-      font-size: 16px;
+      font-size: 14px;
       letter-spacing: 0.5px;
       font-style: normal;
       font-weight: normal;

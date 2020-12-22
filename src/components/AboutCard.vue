@@ -9,7 +9,7 @@
           </div>
           <div class="sec-one-inner">
             <h1>About TEST</h1>
-            <hr />
+
             <p v-scrollanimation>
               TEST is a non-profit organisation set up by indigenous people to
               find sustainable and practical solutions to manage land in the
@@ -20,7 +20,7 @@
               initiate change for the better.
             </p>
             <br />
-            <router-link to="/about"
+            <router-link to="/work"
               ><Button
                 :isFullWidth="false"
                 label="Explore more"
@@ -33,7 +33,7 @@
     </main>
     <div class="history">
       <h1>Our Motivation</h1>
-      <hr />
+
       <p>
         The indigenous communities live in large and key natural ecosystems with
         critical challenges whilst sharing these landscapes with wildlife and
@@ -53,19 +53,20 @@
         sustainability thus creating a friendly balance of land uses in this
         critical ecosystem.
       </p>
+      <br />
       <Button :isFullWidth="false" label="Explore more" width="150px"></Button>
     </div>
-    <Location />
+    <Team />
   </body>
 </template>
 
 <script>
-import Location from "@/components/Location.vue";
+import Team from '@/components/Team.vue';
 import Button from "@/components/Button.vue";
 export default {
   components: {
     Button,
-    Location,
+    Team,
   },
 };
 </script>
@@ -73,6 +74,7 @@ export default {
 <style lang="scss" scoped>
 body {
   background: #fbfbfb;
+  margin-top: 4%;
 
   .history {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
@@ -86,10 +88,6 @@ body {
     padding: 6% 20%;
     margin: auto;
 
-    hr {
-      width: 10%;
-    }
-
     p {
       width: 100%;
       color: #fff;
@@ -101,10 +99,7 @@ body {
     line-height: 20px;
     margin: auto;
     text-align: left;
-    hr {
-      width: 20%;
-      margin-left: 0;
-    }
+
     .sec-one-cover {
       display: flex;
       flex: auto;
@@ -112,6 +107,10 @@ body {
       .sec-one-inner {
         width: 45%;
         padding: 5%;
+
+        h1 {
+          text-align: left;
+        }
       }
       .image {
         width: 50%;

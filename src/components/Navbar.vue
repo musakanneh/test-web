@@ -9,6 +9,9 @@
           <li>
             <router-link to="/">Home</router-link>
           </li>
+           <li>
+            <router-link to="/about">About Us</router-link>
+          </li>
           <li>
             <router-link to="/work">What We Do</router-link>
           </li>
@@ -91,7 +94,8 @@ nav {
   width: 100%;
   ul {
     list-style: none;
-    width: 40%;
+    width: 45%;
+    //border: 1px solid red;
     margin: auto;
 
     li,

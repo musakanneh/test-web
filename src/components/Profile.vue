@@ -5,33 +5,34 @@
         <h1>General Objectives</h1>
         <div class="partnership-sec">
           <div class="offers-cover-sec-1">
-            <h2>
-              Background
-            </h2>
             <div>
               <p>
                 <span>Natural Ecosystems & Landscapes</span> are important for
-                livelihood management and cultural identify of local communities
-                and indigenous people, including biodiversity sustainability.
+                livelihood support and cultural identify of local communities
+                and indigenous people and biodiversity sustainability.
                 Indigenous communities own and manage vast ecosystems and
                 landscapes using traditional ecological knowledge actions for
                 the benefit of livestock, wildlife, and continued cultural
                 practices.
               </p>
               <p>
-                In recent years, the indigenous and traditional knowledge
-                systems and management practices have, seriously, been
-                undermined by the use of polarised conservation approaches.
+                Most critical and crucial ecosystems that are owned by IPLCs are
+                evidence of a diversity of life on land: people, wildlife,
+                livestock and a clear practice of co-existence. Unfortunately,
+                they fall outside any recognized conservation status, even
+                though they are necessary in regulating climate change, wildlife
+                habitats, rangelands and accumulate immerse biological
+                diversity.
               </p>
               <p>
-                These actions have have excluded the indigenous peoples in the
-                conservation processes, and also threatens peaceful co-existence
-                between people and wildlife, breeding antagonism between
-                indigenous communities and conservation authorities. This is
-                resulting into tremendous habitat deterioration and human rights
-                violations to the extent that co-existence is gradually
-                collapsing and immediate actions are necessary to reverse this
-                negative trend.
+                Mainstream conservation actions have by-passed these ecosystems
+                and indigenous peoples and their conservation methods. It is
+                threatening peaceful co-existence between people and wildlife,
+                breeding antagonism between indigenous communities and
+                conservation authorities. This is resulting into tremendous
+                habitat deterioration and human rights violations to the extent
+                that co-existence is gradually collapsing and immediate actions
+                are necessary to reverse this negative trend.
               </p>
             </div>
           </div>
