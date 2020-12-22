@@ -5,7 +5,7 @@
 
     <main>
       <aside>
-        <img class="logo" src="../assets/marco.png" alt="" />
+        <img class="" src="../assets/marco.png" alt="" />
         <div class="social-medias">
           <a href=""> <i class="fab fa-facebook"></i></a>
           <i class="fab fa-instagram"></i>
@@ -86,7 +86,7 @@ body {
     flex: 2;
     p {
       color: #303030;
-      width: 80%;
+      width: 87%;
       margin: auto;
       font-size: 14px;
       line-height: 24px;
@@ -114,7 +114,7 @@ body {
     border: none;
     padding: 0 25px;
     font-size: 15px;
-    margin-left: 4.6rem;
+    margin-left: 3rem;
     line-height: 18px;
     color: #ffffff;
   }

@@ -92,7 +92,7 @@ body {
     flex: 2;
     p {
       color: #303030;
-      width: 80%;
+      width: 87%;
       margin: auto;
       font-size: 14px;
       line-height: 24px;
@@ -120,7 +120,7 @@ body {
     border: none;
     padding: 0 25px;
     font-size: 15px;
-    margin-left: 4.6rem;
+    margin-left: 3rem;
     line-height: 18px;
     color: #ffffff;
   }
