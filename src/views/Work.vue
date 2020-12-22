@@ -127,6 +127,14 @@ body {
     width: 90%;
   }
 
+  .tm-content-work {
+    width: 60%;
+  }
+
+  .tm-img {
+    width: 40%;
+    float: right;
+  }
   .tm-how-content {
     width: 70%;
   }
