@@ -45,6 +45,7 @@ export default {
 }
 .fullWidth {
   width: 100%;
+  // border: 1px solid red;
 }
 .halfWidth {
   width: 60%;
@@ -53,8 +54,8 @@ export default {
   border: none;
   background: #c98811;
   border-radius: 5px;
-  font-size: 14px;
-  height: 45px;
+  font-size: 13px;
+  height: 40px;
   letter-spacing: 1px;
   color: #000000;
   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),

@@ -1,7 +1,7 @@
 <template>
   <body>
     <br /><br /><br /><br /><br />
-    <h2>Wildlife Conservation</h2>
+    <h2>COMMUNITY WILDLIFE CONSERVATION</h2>
     <section class="activities-sec-cover">
       <article>
         <tabs

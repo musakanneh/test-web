@@ -9,7 +9,7 @@
           <li>
             <router-link to="/">HOME</router-link>
           </li>
-           <li>
+          <li>
             <router-link to="/about">ABOUT US</router-link>
           </li>
           <li>
@@ -25,7 +25,7 @@
       </nav>
       <div class="btn-cover">
         <router-link class="nav-button" to="/contact"
-          ><Button :isFullWidth="false" label="DONATE" width="150px"> </Button
+          ><Button :isFullWidth="false" label="DONATE" width="120px"> </Button
         ></router-link>
       </div>
     </main>
@@ -69,10 +69,7 @@ header {
 
   .nav-cover,
   .btn-cover {
-    padding: 10px 0;
-  }
-  .btn-cover {
-    width: 14%;
+    padding-top: 15px;
   }
 }
 
@@ -92,15 +89,16 @@ main {
 
 nav {
   width: 100%;
+
   ul {
     list-style: none;
     width: 45%;
-    //border: 1px solid red;
+    padding: 0;
     margin: auto;
 
     li,
     li a {
-      font-size: 13px;
+      font-size: 12px;
       z-index: 1;
       color: #c98811;
       cursor: pointer;
@@ -108,6 +106,7 @@ nav {
       letter-spacing: 1px;
       text-decoration: none;
       transition: all 0.25s;
+
       &:hover {
         border-bottom: 1px solid #c98811;
         color: #c98811;
