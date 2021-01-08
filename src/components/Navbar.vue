@@ -7,19 +7,19 @@
       <nav class="nav-cover">
         <ul>
           <li>
-            <router-link to="/">Home</router-link>
+            <router-link to="/">HOME</router-link>
           </li>
            <li>
-            <router-link to="/about">About Us</router-link>
+            <router-link to="/about">ABOUT US</router-link>
           </li>
           <li>
-            <router-link to="/work">What We Do</router-link>
+            <router-link to="/work">OUR WORK</router-link>
           </li>
           <li>
-            <router-link to="/how">How We Do</router-link>
+            <router-link to="/how">HOW WE DO</router-link>
           </li>
           <li>
-            <router-link to="/">News</router-link>
+            <router-link to="/">NEWS</router-link>
           </li>
         </ul>
       </nav>

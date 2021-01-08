@@ -3,14 +3,16 @@
     <main>
       <article>
         <h1 v-if="!isMobile">
-          Traditional Ecosystem Survival Tanzania
+          Conserving Natural and Improving Lives in Tanzania
         </h1>
         <hr />
         <p>
-          Integrating technical expertise with local knowledge to reduce
-          conflict, improve natural resource management and enhance the
-          sustainable well-being of local people, livestock and wildlife in the
-          eastern Serengeti ecosystem.
+          Traditional Ecosystems Survival Tanzania (TEST) is a non-profit
+          organization that facilitates effective collaborations that integrate
+          technical expertise and assistance with local knowledge and skills to
+          reduce conflict, improve natural resource management, and enhance the
+          sustainable well-being of indigenous peoples, livestock and wildlife
+          in the natural ecosystems in Tanzania.
         </p>
       </article>
       <router-link to="/about"><Button>Explore More</Button></router-link>

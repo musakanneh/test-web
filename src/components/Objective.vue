@@ -3,22 +3,21 @@
     <section class="partnership">
       <div>
         <h1>Parternship</h1>
-        <hr />
-        <br />
         <p>
           Building partnerships is necessary to combine knowledge, resources,
-          skills and mandates in achieving our vision, SDGs and goals for
-          Convection on Biological Diversity (CBD). Partnerships will enhance
-          the inclusion of IPLCs in conservation initiatives to sipport
-          livelihoods, ecosystem resilience, and positive human relations.
+          skills and mandates in achieving our vision, Sustainable Development
+          Goals (SDGs) and goals for Convection on Biological Diversity (CBD).
+          Partnerships will enhance the inclusion of IPLCs in conservation
+          initiatives to support livelihoods, ecosystem resilience, and positive
+          human relations.
         </p>
         <br />
         <p>
-          Through partnerships we will restore indigenous confidence, the use of
-          indigenous science and knowledge in ecological governance about
-          rangelands’ management. This approach will bring all stakeholders on
-          biodiversity conservation to commit positive action through their
-          ecological management capabilities. Through partnerships, we will
+          Through partnerships we aim to restore indigenous confidence, the use
+          of indigenous science and knowledge in ecological governance about
+          rangelands’ management. This approach aims to bring all stakeholders
+          on biodiversity conservation to commit positive action through their
+          ecological management capabilities. Through partnerships, we aim to
           build communities of practice to synergize a positive impact on
           ecosystems, people and wildlife in Tanzania.
         </p>

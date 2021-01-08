@@ -19,8 +19,6 @@ export default {
 
 <style lang="scss" scoped>
 h1 {
-  //padding: 35px 0;
-  //margin: auto;
   font-size: 35px;
   color: #c98811;
   text-align: center;
