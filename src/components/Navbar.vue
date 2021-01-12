@@ -100,7 +100,7 @@ nav {
     li a {
       font-size: 12px;
       z-index: 1;
-      color: #c98811;
+      color: #303030;
       cursor: pointer;
       transition: 200ms;
       letter-spacing: 1px;
@@ -108,18 +108,18 @@ nav {
       transition: all 0.25s;
 
       &:hover {
-        border-bottom: 1px solid #c98811;
-        color: #c98811;
+        border-bottom: 1px solid #689d1a;
+        color: #689d1a;
         transition: all 0.25s;
       }
       &:focus {
         outline: none;
-        border-bottom: 1px solid #c98811;
-        color: #c98811;
+        border-bottom: 1px solid #689d1a;
+        color: #689d1a;
       }
       &:hover {
         opacity: 1;
-        color: #303030;
+        color: #689d1a;
       }
       &:first-child {
         margin-left: 0;

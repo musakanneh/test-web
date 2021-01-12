@@ -61,7 +61,7 @@ body {
       font-size: 14px;
       height: 45px;
       letter-spacing: 1px;
-      border: 1px solid #c98811;
+      border: 1px solid #689D1A;
       width: 15%;
       margin-top: 2rem;
       color: #fff;
@@ -75,7 +75,7 @@ body {
         background: #fff;
         border: 1px solid #fff;
         transition: 1s ease;
-        color: #c98811;
+        color: #689D1A;
       }
     }
 

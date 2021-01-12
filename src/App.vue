@@ -41,7 +41,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 h2 {
-  color: #404040;
+  color: #689D1A;
   font-size: 1.3em;
   text-transform: capitalize;
   margin-block-start: 0.83em;
@@ -50,19 +50,18 @@ h2 {
   line-height: 1.4;
   margin-inline-end: 0px;
   font-weight: bold;
-  color: #6a6a6a;
 }
 h3 {
-  color: #6a6a6a;
+  color: #689D1A;
   opacity: 1;
   transition: 200ms;
-  font-weight: 400;
+  font-weight: 600;
 }
 span {
   color: #c98811;
 }
 h1 {
-  color: #c98811;
+  color: #689D1A;
   font-size: 35px;
   text-align: center;
   text-transform: capitalize;

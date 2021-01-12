@@ -56,7 +56,7 @@ export default {
 <style lang="scss" scoped>
 body {
   span {
-    color: #c98811;
+    color: #689D1A;
   }
 
   img:hover {
@@ -172,7 +172,7 @@ body {
           transition: 1s ease;
 
           h2 {
-            color: #303030;
+            color: #689D1A;
             transition: 0.5s ease;
           }
         }

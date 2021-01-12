@@ -88,7 +88,7 @@ footer {
     width: 90%;
 
     h3 {
-      color: #c98811;
+      color: #689D1A;
       font-size: 16px;
       transition: 200ms;
       text-decoration: none;
@@ -104,11 +104,11 @@ footer {
       cursor: pointer;
       font-size: 25px;
       margin-right: 25px;
-      color: #fff;
+      color: #689D1A;
     }
 
     i:hover {
-      color: #c98811;
+      color: #689D1A;
       transition: 0.5s ease;
     }
   }

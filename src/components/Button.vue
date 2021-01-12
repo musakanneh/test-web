@@ -52,12 +52,12 @@ export default {
 }
 .main-button {
   border: none;
-  background: #c98811;
-  border-radius: 5px;
+  background: #689D1A;
+  border-radius: 3px;
   font-size: 13px;
   height: 40px;
   letter-spacing: 1px;
-  color: #000000;
+  color: #fff;
   box-shadow: inset 0 -0.6em 1em -0.35em rgba(0, 0, 0, 0.17),
     inset 0 0.6em 2em -0.3em rgba(255, 255, 255, 0.15),
     inset 0 0 0em 0.05em rgba(255, 255, 255, 0.12);
@@ -65,7 +65,7 @@ export default {
   cursor: pointer;
 }
 .main-button:hover {
-  background: #a97008;
+  background: #5a9108;
   transition: 0.5s ease;
   color: #ffffff;
 }
