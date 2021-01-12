@@ -27,7 +27,7 @@
     <main>
       <article>
         <div>
-          <img src="../assets/focus.png" alt="" />
+          <img src="../assets/sts.png" alt="" />
         </div>
       </article>
       <div class="partnership-sec">

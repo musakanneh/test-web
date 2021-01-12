@@ -20,7 +20,7 @@ export default {
 <style lang="scss" scoped>
 body {
   h3 {
-    color: #c98811;
+    color: #689D1A;
     font-size: 18px;
     padding-bottom: 10px;
     transition: 200ms;

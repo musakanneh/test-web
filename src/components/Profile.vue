@@ -5,38 +5,34 @@
         <h1>General Objectives</h1>
         <div class="partnership-sec">
           <div class="offers-cover-sec-1">
-            <div>
-              <h3>Why Ecosystems?</h3>
-              <p>
-                <span>Natural Ecosystems & Landscapes</span> are important for
-                livelihood support and cultural identify of local communities
-                and indigenous people and biodiversity sustainability.
-                Indigenous communities own and manage vast ecosystems and
-                landscapes using traditional ecological knowledge actions for
-                the benefit of livestock, wildlife, and continued cultural
-                practices.
-              </p>
-              <p>
-                Most critical and crucial ecosystems that are owned by IPLCs are
-                evidence of diversity, interdependency and cultural connectivity
-                of life on land: people, wildlife, livestock and a clear
-                practice of co-existence. Unfortunately, they fall outside of
-                any recognized conservation status, even though they are
-                necessary in regulating climate change, wildlife habitats,
-                rangelands and accumulate immerse biological diversity.
-                diversity.
-              </p>
-              <p>
-                Mainstream conservation actions have by-passed these ecosystems
-                and indigenous peoples and their conservation methods. The
-                action is threatening peaceful co-existence between people and
-                wildlife, breeding antagonism between indigenous communities and
-                conservation authorities. This is contributing to extensive
-                habitat deterioration and human rights violations to the extent
-                that co-existence is gradually collapsing and immediate actions
-                are necessary to reverse this negative trend.
-              </p>
-            </div>
+            <h3>Why Ecosystems?</h3>
+            <p>
+              <span>Natural Ecosystems & Landscapes</span> are important for
+              livelihood support and cultural identify of local communities and
+              indigenous people and biodiversity sustainability. Indigenous
+              communities own and manage vast ecosystems and landscapes using
+              traditional ecological knowledge actions for the benefit of
+              livestock, wildlife, and continued cultural practices.
+            </p>
+            <p>
+              Most critical and crucial ecosystems that are owned by IPLCs are
+              evidence of diversity, interdependency and cultural connectivity
+              of life on land: people, wildlife, livestock and a clear practice
+              of co-existence. Unfortunately, they fall outside of any
+              recognized conservation status, even though they are necessary in
+              regulating climate change, wildlife habitats, rangelands and
+              accumulate immerse biological diversity. diversity.
+            </p>
+            <p>
+              Mainstream conservation actions have by-passed these ecosystems
+              and indigenous peoples and their conservation methods. The action
+              is threatening peaceful co-existence between people and wildlife,
+              breeding antagonism between indigenous communities and
+              conservation authorities. This is contributing to extensive
+              habitat deterioration and human rights violations to the extent
+              that co-existence is gradually collapsing and immediate actions
+              are necessary to reverse this negative trend.
+            </p>
           </div>
           <div class="img-cover">
             <img src="../assets/cros.png" alt="" />
@@ -56,7 +52,7 @@ export default {
 <style lang="scss" scoped>
 body {
   span {
-    color: #689D1A;
+    color: #689d1a;
   }
 
   img:hover {
@@ -102,7 +98,7 @@ body {
         object-fit: contain;
       }
       .offers-cover-sec-1 {
-        width: 60%;
+        width: 55%;
         object-fit: contain;
 
         p {
@@ -172,7 +168,7 @@ body {
           transition: 1s ease;
 
           h2 {
-            color: #689D1A;
+            color: #689d1a;
             transition: 0.5s ease;
           }
         }

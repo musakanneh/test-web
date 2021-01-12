@@ -1,7 +1,7 @@
 <template>
   <body>
     <br />
-    <h1>TO Know Us More</h1>
+    <h1>To Know Us More</h1>
     <section class="activities-sec-cover">
       <article>
         <tabs

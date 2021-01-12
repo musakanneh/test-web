@@ -107,7 +107,7 @@ body {
       }
 
       h3 {
-        color: #c98811;
+        color: #689D1A;
         font-weight: 500;
       }
 

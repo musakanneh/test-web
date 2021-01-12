@@ -16,10 +16,7 @@
             <router-link to="/work">OUR WORK</router-link>
           </li>
           <li>
-            <router-link to="/how">HOW WE DO</router-link>
-          </li>
-          <li>
-            <router-link to="/">NEWS</router-link>
+            <router-link to="/how">OUR APPROACH</router-link>
           </li>
         </ul>
       </nav>
