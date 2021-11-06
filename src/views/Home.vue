@@ -22,6 +22,7 @@ import Partnership from "@/components/Partnership.vue";
 import KnowUsMore from "@/components/KnowUsMore.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
 import GeneralObjective from "@/components/GeneralObjective.vue";
+
 export default {
   components: {
     HeaderCard,

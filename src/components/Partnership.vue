@@ -26,7 +26,7 @@
     <main>
       <article>
         <div>
-          <img src="../assets/sts.png" alt="" />
+          <OurFocus />
         </div>
       </article>
       <div class="partnership-sec">
@@ -45,8 +45,11 @@
 </template>
 
 <script>
+import OurFocus from "@/components/OurFocus.vue";
 export default {
-  components: {},
+  components: {
+    OurFocus,
+  },
 };
 </script>
 

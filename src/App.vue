@@ -86,7 +86,14 @@ h1 {
   min-height: 100%;
 }
 
-p{
+.height_and_weight__global {
+  height: 100%;
+  width: 100%;
+  float: auto;
+  padding: 6rem 0 15rem 0;
+}
+
+p {
   /* line-height: 2rem; */
 }
 
