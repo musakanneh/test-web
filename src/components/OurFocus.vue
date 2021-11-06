@@ -3,45 +3,33 @@
     <h1 class="container">Our Focus</h1>
     <main class="container">
       <div>
-        <p>11 Regions</p>
+        <h3>11 Regions</h3>
         <img src="../assets/banner.jpg" alt="" />
-        <div class="profile__description">
-          <a href="/elaine">
-            <Button label="View Profile" width="50%" />
-          </a>
-        </div>
       </div>
 
       <div>
-        <p>12 Millions IPLCs</p>
+        <h3>12 Millions IPLCs</h3>
         <img src="../assets/sav.jpeg" alt="" />
-        <div class="profile__description">
-          <Team name="Musa Selekie Kanneh" role="Software Developer" />
-          <a href="/musa">
-            <Button label="View Profile" width="50%" />
-          </a>
-        </div>
       </div>
 
       <div>
-        <p>300 Villages</p>
+        <h3>300 Villages</h3>
         <img src="../assets/more-ladies.jpeg" alt="" />
-        <div class="profile__description">
-          <a href="/dorine">
-            <Button label="View Profile" width="50%" />
-          </a>
-        </div>
       </div>
     </main>
+    <div class="stats__descriptions">
+      <p class="container">
+        The above figures includes pastoralists (Maasai & Barbaig (Datooga)),
+        hunters garthereres, (Hadzabe & Akie, Ndorobo), and agro-pastoralists
+        communities (Sukuma and Sonjo/Batemi).
+      </p>
+    </div>
   </body>
 </template>
 
 <script>
-import Button from "@/components/Button.vue";
 export default {
-  components: {
-    Button,
-  },
+  components: {},
 };
 </script>
 
@@ -50,10 +38,25 @@ export default {
 }
 
 body {
+  background: #ddd;
+
+  h3 {
+    text-align: left !important;
+    padding: 0 1rem;
+  }
 
   h1 {
     text-align: center;
     padding-bottom: 1rem;
+  }
+
+  .stats__descriptions {
+    p {
+      text-align: left;
+      font-size: 16px;
+      color: rgb(110, 108, 108);
+      padding: 1rem 0.5rem;
+    }
   }
 
   main {
@@ -63,9 +66,14 @@ body {
 
     img {
       width: 90%;
-      margin-top: 2rem;
-      padding: 0.5rem;
-      border: 1px solid #ddd;
+      padding: 2%;
+      border-radius: 3px;
+
+      &:hover {
+        transform: scale(1.01);
+        cursor: pointer;
+        transition: all 0.5s ease-in-out;
+      }
     }
 
     div {

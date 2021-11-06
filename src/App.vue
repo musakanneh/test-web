@@ -90,7 +90,7 @@ h1 {
   height: 100%;
   width: 100%;
   float: auto;
-  padding: 6rem 0 15rem 0;
+  padding: 6rem 0 10rem 0;
 }
 
 p {
