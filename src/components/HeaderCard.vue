@@ -3,7 +3,7 @@
     <main>
       <article>
         <h1 v-if="!isMobile">
-          CONSERVING NATURE AND IMPROVING LIVES IN TANZANIA
+          Conserving Nature and Improving Lives in Tanzania
         </h1>
         <hr />
         <p>
@@ -43,6 +43,10 @@ body {
   position: center;
   background-size: cover;
   z-index: 1;
+
+  h1{
+    // border: 1px solid red !important;
+  }
 
   hr {
     width: 6%;

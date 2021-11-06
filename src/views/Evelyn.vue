@@ -1,6 +1,5 @@
 <template>
   <body>
-    <br /><br /><br />
     <Caption captions="Evelyn Kaney"></Caption>
 
     <main>
