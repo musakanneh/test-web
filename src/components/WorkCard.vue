@@ -67,6 +67,7 @@
 import WorkCard from "@/components/WorkCard.vue";
 import WorkCard2 from "@/components/WorkCard2.vue";
 import Tabs from "vue-tabs-with-active-line";
+
 const TABS = [
   {
     title: "Why",
@@ -81,6 +82,7 @@ const TABS = [
     value: "tab3",
   },
 ];
+
 export default {
   components: {
     Tabs,

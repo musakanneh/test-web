@@ -1,11 +1,10 @@
 <template>
   <body>
     <main>
-      <article>
+      <article class="container">
         <h1 v-if="!isMobile">
           Conserving Nature and Improving Lives in Tanzania
         </h1>
-        <hr />
         <p>
           Traditional Ecosystems Survival Tanzania (TEST) is a non-profit
           organization that facilitates effective collaborations that integrate
@@ -14,8 +13,8 @@
           sustainable well-being of indigenous peoples, livestock and wildlife
           in the natural ecosystems in Tanzania.
         </p>
+        <router-link to="/about"><Button>Explore More</Button></router-link>
       </article>
-      <router-link to="/about"><Button>Explore More</Button></router-link>
     </main>
   </body>
 </template>
@@ -33,19 +32,25 @@ export default {
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
 }
+
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
     url("../assets/banner6.jpeg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   margin: auto;
   width: 100%;
+  height: 100%;
   position: center;
   background-size: cover;
   z-index: 1;
 
-  h1{
-    // border: 1px solid red !important;
+  h1 {
+    width: 80%;
+    padding-bottom: 1rem;
+    text-align: center;
+    color: #fff;
+    margin: auto;
   }
 
   hr {
@@ -53,15 +58,13 @@ body {
   }
 
   main {
-    justify-content: space-between;
-    flex: auto;
+    padding: 15% 0;
+    height: 100%;
     text-align: center;
-    padding: 15%;
-    margin: auto;
 
     button {
-      background: transparent;
-      border-radius: 5px;
+      background: #689d1a;
+      border-radius: 3px;
       font-size: 14px;
       height: 45px;
       letter-spacing: 1px;
@@ -78,26 +81,22 @@ body {
       &:hover {
         background: #fff;
         border: 1px solid #fff;
-        transition: 1s ease;
+        transition: 0.5s ease;
         color: #689d1a;
       }
     }
 
-    article {
-      h1 {
-        font-size: 2em !important;
-      }
-    }
     aside {
       flex: 1;
     }
 
     p {
-      margin: auto;
       color: #fbfbfbce;
-      width: 70%;
+      width: 75%;
+      margin: auto;
       padding: 20px 0;
-      font-size: 14px;
+      line-height: 1.5rem !important;
+      font-size: 16px;
       letter-spacing: 0.5px;
       font-style: normal;
       font-weight: normal;

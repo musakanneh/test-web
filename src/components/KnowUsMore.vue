@@ -63,6 +63,7 @@ export default {
   components: {
     Tabs,
   },
+  
   data: () => ({
     tabs: TABS,
     currentTab: "tab1",

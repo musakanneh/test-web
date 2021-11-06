@@ -61,7 +61,7 @@
 </template>
 
 <script>
-import Team from '@/components/Team.vue';
+import Team from "@/components/Team.vue";
 import Button from "@/components/Button.vue";
 export default {
   components: {

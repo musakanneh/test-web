@@ -43,18 +43,20 @@ export default {
     font-size: 30px !important;
   }
 }
+
 .fullWidth {
   width: 100%;
-  // border: 1px solid red;
 }
+
 .halfWidth {
   width: 60%;
 }
+
 .main-button {
   border: none;
-  background: #689D1A;
+  background: #689d1a;
   border-radius: 3px;
-  font-size: 13px;
+  font-size: 14px;
   height: 40px;
   letter-spacing: 1px;
   color: #fff;
@@ -64,11 +66,13 @@ export default {
   text-align: center;
   cursor: pointer;
 }
+
 .main-button:hover {
   background: #5a9108;
   transition: 0.5s ease;
   color: #ffffff;
 }
+
 button:focus {
   outline: none;
 }

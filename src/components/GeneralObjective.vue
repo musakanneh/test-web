@@ -1,6 +1,6 @@
 <template>
   <body>
-    <main>
+    <main class="container">
       <section class="partnership-cover">
         <h1>General Objectives</h1>
         <div class="partnership-sec">
@@ -65,21 +65,22 @@ body {
     position: relative;
     top: -6vh;
     background: #fff;
-    border-radius: 10px 10px 0 0;
+    border-radius: 7px 7px 0 0;
     padding: 3px 50px;
-    width: 85%;
+    height: 100%;
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
 
     .partnership-cover {
-      margin-top: 4%;
+      margin-top: 4rem;
     }
 
     .img-cover {
       width: 40%;
     }
+
     img {
       width: 100%;
       margin-top: 12px;
@@ -97,6 +98,7 @@ body {
         width: 20%;
         object-fit: contain;
       }
+
       .offers-cover-sec-1 {
         width: 55%;
         object-fit: contain;
@@ -163,6 +165,7 @@ body {
             transition: 0.5s ease;
           }
         }
+
         &:hover {
           box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
           transition: 1s ease;

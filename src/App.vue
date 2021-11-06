@@ -40,8 +40,17 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+main {
+  height: 100%;
+  width: 100%;
+  flex: auto;
+  top: 0;
+  left: 0;
+}
+
 h2 {
-  color: #689D1A;
+  color: #689d1a;
   font-size: 1.3em;
   text-transform: capitalize;
   margin-block-start: 0.83em;
@@ -51,29 +60,44 @@ h2 {
   margin-inline-end: 0px;
   font-weight: bold;
 }
+
 h3 {
-  color: #689D1A;
+  color: #689d1a;
   opacity: 1;
   transition: 200ms;
   font-weight: 600;
 }
+
 span {
   color: #c98811;
 }
+
 h1 {
-  color: #689D1A;
-  font-size: 35px;
-  text-align: center;
+  color: #689d1a;
+  font-size: 3rem;
+  text-align: left;
   text-transform: capitalize;
 }
-p {
+
+.container {
+  width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+  min-height: 100%;
+}
+
+p{
+  /* line-height: 2rem; */
+}
+
+/* p {
   line-height: 1.5;
   opacity: 1;
   font-size: 14px;
   font-weight: 400;
   transition: 200ms;
   color: #303030;
-}
+} */
 
 img {
   object-fit: contain;

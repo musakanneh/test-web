@@ -1,9 +1,9 @@
 <template>
   <div>
     <HeaderCard />
-    <Profile />
+    <GeneralObjective />
     <Objective />
-    <Partnership />
+    <KnowUsMore />
 
     <!-- <section class="sec">
       <h1>Our Partners</h1>
@@ -19,14 +19,14 @@
 
 <script>
 import Objective from "@/components/Objective.vue";
-import Partnership from "@/components/Partnership.vue";
+import KnowUsMore from "@/components/KnowUsMore.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
-import Profile from "@/components/Profile.vue";
+import GeneralObjective from "@/components/GeneralObjective.vue";
 export default {
   components: {
     HeaderCard,
-    Profile,
-    Partnership,
+    GeneralObjective,
+    KnowUsMore,
     Objective,
   },
 };

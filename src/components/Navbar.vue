@@ -2,13 +2,11 @@
   <header>
     <main>
       <div class="logo">
-        <a href="/"><img src="../assets/logo.jpeg" alt="" /></a>
+        <a href="/"><img src="../assets/logo.jpeg" alt=""/></a>
       </div>
       <nav class="nav-cover">
         <ul>
-          <li>
-            <router-link to="/">HOME</router-link>
-          </li>
+          <li><router-link to="/">HOME</router-link></li>
           <li>
             <router-link to="/about">ABOUT US</router-link>
           </li>
@@ -66,7 +64,7 @@ header {
 
   .nav-cover,
   .btn-cover {
-    padding-top: 15px;
+    padding-top: 18px;
   }
 }
 
@@ -89,7 +87,7 @@ nav {
 
   ul {
     list-style: none;
-    width: 45%;
+    width: 40%;
     padding: 0;
     margin: auto;
 
@@ -114,13 +112,16 @@ nav {
         border-bottom: 1px solid #689d1a;
         color: #689d1a;
       }
+
       &:hover {
         opacity: 1;
         color: #689d1a;
       }
+
       &:first-child {
         margin-left: 0;
       }
+
       &:last-child {
         margin-right: 0;
       }
