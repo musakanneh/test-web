@@ -11,7 +11,6 @@
           initiatives to support livelihoods, ecosystem resilience, and positive
           human relations.
         </p>
-        <br />
         <p>
           Through partnerships we aim to restore indigenous confidence, the use
           of indigenous science and knowledge in ecological governance about
@@ -53,6 +52,9 @@ export default {
 
 <style lang="scss" scoped>
 body {
+  height: 100%;
+  width: 100%;
+
   .partnership {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.712)),
@@ -61,7 +63,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 5% 0;
+    padding: 6% 0 10% 0;
+    height: 100%;
 
     hr {
       width: 5%;
@@ -70,7 +73,8 @@ body {
     p {
       color: #fbfbfbe5;
       width: 60%;
-      font-size: 14px;
+      padding: 0.5rem;
+      font-size: 16px;
       margin: auto;
       font-weight: normal;
       font-style: normal;

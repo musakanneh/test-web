@@ -2,7 +2,7 @@
   <div>
     <HeaderCard />
     <GeneralObjective />
-    <Objective />
+    <Partnership />
     <KnowUsMore />
 
     <!-- <section class="sec">
@@ -18,7 +18,7 @@
 </template>
 
 <script>
-import Objective from "@/components/Objective.vue";
+import Partnership from "@/components/Partnership.vue";
 import KnowUsMore from "@/components/KnowUsMore.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
 import GeneralObjective from "@/components/GeneralObjective.vue";
@@ -27,7 +27,7 @@ export default {
     HeaderCard,
     GeneralObjective,
     KnowUsMore,
-    Objective,
+    Partnership,
   },
 };
 </script>
