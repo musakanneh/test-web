@@ -5,18 +5,15 @@
       <div class="profile-content__cover">
         <img class="" src="../assets/marco.jpeg" alt="" />
         <div class="profile_content__and__media-cover">
-          <h2 class="profile_content">Dr. Lekumok Kironyi - Chairman</h2>
+          <h2 class="profile_content">Jopha Peter Kakanyi - Member</h2>
           <p class="profile_content">
-            Lekumok Kironyi (PhD) is an Assistant Lecturer at the Department of
-            Agricultural Economics and Finance, School of Business and
-            Entrepreneurship Studies, Mwalimu Julius K. Nyerere University of
-            Agriculture and Technology (MJNUAT). He has a PhD in Agricultural
-            Economics and Agribusiness/Rural-Urban Transformation at Sokoine
-            University of Agriculture (SUA), Tanzania, and the University of
-            Copenhagen, Denmark. He has a master’s degree in Public Policy and
-            Administration at the University of Botswana, Botswana and a
-            Bachelor of Arts in Rural Development from Sokoine University of
-            Agriculture (SUA), Tanzania.
+            Jopha hails from Longido district in northern Tanzania. She has been
+            a women’s elected representative for the Longido District Council
+            for 2 terms of five years each. Jopha is an activist and strategist
+            on women rights on land, decision-making at the family to the
+            community level. She has built and continues to nurture community
+            interest groups of savings and credit, women leadership forums and
+            women land rights and resources.
           </p>
           <div class="profile_content profile-social-medias__tags">
             <a href=""> <i class="fab fa-facebook"></i></a>

@@ -8,12 +8,14 @@ import About from '../views/About.vue'
 import Yannick from '../views/Yannick.vue'
 import Evelyn from '../views/Evelyn.vue'
 import Marco from '../views/Marco.vue'
-import Lilian from '../views/Lilian.vue'
 import Isaac from '../views/Isaac.vue'
 import Elias from '../views/Elias.vue'
 
 /** Board members starts */
+import Lilian from '../views/Lilian.vue'
 import Lekumok from '../views/Lekumok.vue'
+import Jopha from '../views/Jopha.vue'
+import Emanuel from '../views/Emanuel.vue'
 
 /** Board members end */
 
@@ -58,11 +60,6 @@ const routes = [{
     component: Marco
 },
 {
-    path: '/lilian',
-    name: 'Lilian',
-    component: Lilian
-},
-{
     path: '/isaac',
     name: 'Isaac',
     component: Isaac
@@ -74,11 +71,25 @@ const routes = [{
 },
 
 /** Board members starts */
-
+{
+    path: '/lilian',
+    name: 'Lilian',
+    component: Lilian
+},
+{
+    path: '/emanuel',
+    name: 'Emanuel',
+    component: Emanuel
+},
 {
     path: '/lekumok',
     name: 'Lekumok',
     component: Lekumok
+},
+{
+    path: '/jopha',
+    name: 'Jopha',
+    component: Jopha
 },
     /** Board members end */
 

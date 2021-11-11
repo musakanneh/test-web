@@ -7,7 +7,7 @@
           <div>
             <img src="../assets/marco.jpeg" alt="" />
             <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-            <router-link to="/evelyn"> <p>Profile</p></router-link>
+            <router-link to="/lekumok"> <p>Profile</p></router-link>
           </div>
           <div>
             <img src="../assets/marco.jpeg" alt="" />
@@ -18,12 +18,12 @@
           <div>
             <img src="../assets/marco.jpeg" alt="" />
             <TeamTag name="Jopha Peter Kakanyio" position="Member" />
-            <router-link to="/evelyn"> <p>Profile</p></router-link>
+            <router-link to="/jopha"> <p>Profile</p></router-link>
           </div>
           <div>
             <img src="../assets/marco.jpeg" alt="" />
             <TeamTag name="Emanuel Melubo" position="Member" />
-            <router-link to="/evelyn"> <p>Profile</p></router-link>
+            <router-link to="/emanuel"> <p>Profile</p></router-link>
           </div>
         </section>
       </div>

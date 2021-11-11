@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ProfileCaption name="Team Mamber" />
+    <ProfileCaption name="Board Mamber" />
     <section class="container">
       <div class="profile-content__cover">
         <img class="" src="../assets/marco.jpeg" alt="" />
@@ -16,9 +16,9 @@
             Services (CORDS), a not-for-profit organization established to
             promote the rights of Maasai pastoralists in Tanzania. A substantial
             proportion of Lilian’s work is focused on projects to help Maasai
-            women secure their land and their rights. "
+            women secure their land and their rights.
           </p>
-         <div class="profile_content profile-social-medias__tags">
+          <div class="profile_content profile-social-medias__tags">
             <a href=""> <i class="fab fa-facebook"></i></a>
             <a href=""> <i class="fab fa-instagram"></i></a>
             <a href=""> <i class="fab fa-linkedin"></i></a>
