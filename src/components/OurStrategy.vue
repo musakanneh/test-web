@@ -1,7 +1,7 @@
 <template>
   <body class="height_and_weight__global">
     <main class="container">
-      <h1>To Know Us More</h1>
+      <h1>Our Strategy</h1>
       <section class="activities-sec-cover">
         <article>
           <tabs
@@ -17,10 +17,10 @@
             <div v-if="currentTab === 'tab1'" class="current-tab-sec">
               <div class="tm-content">
                 <p>
-                  To design appropriate and sustainable ecosystem governance
+                  Design innovative and sustainable ecosystem governance
                   mechanisms and tools by combining scientifically proven
-                  solutions with the indigenous ecological land management
-                  practices
+                  solutions with the indigenous ecological and land management
+                  practices that address poverty reduction.
                 </p>
               </div>
               <div class="tm-img">
@@ -30,10 +30,11 @@
             <div v-if="currentTab === 'tab2'" class="current-tab-sec">
               <div class="tm-content">
                 <p>
-                  To open space for learning, research and to provide an
-                  alternative route to addressing pressing ecosystems governance
-                  challenges such as climate and ecological breakdown, and the
-                  corresponding threats that indigenous people face.
+                  Open an alternative space for learning and research to
+                  addressing pressing ecosystems governance challenges while
+                  simulatneously delivering focused solutions for poverty
+                  reduction and the corresponding threats that indigenous people
+                  face.
                 </p>
               </div>
               <div class="tm-img">
@@ -78,7 +79,6 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  // border: 1px solid red;
   background: #ddd;
 
   .current-tab-sec {

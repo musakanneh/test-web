@@ -56,7 +56,6 @@ export default {
   border: none;
   background: #689d1a;
   border-radius: 3px;
-  font-size: 14px;
   height: 40px;
   letter-spacing: 1px;
   color: #fff;

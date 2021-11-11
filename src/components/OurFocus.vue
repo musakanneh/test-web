@@ -2,28 +2,44 @@
   <body class="height_and_weight__global">
     <h1 class="container">Our Focus</h1>
     <main class="container">
-      <div>
-        <h3>11 Regions</h3>
-        <img src="../assets/banner.jpg" alt="" />
+      <div class="div__content">
+        <div>
+          <p><span>11 regions</span></p>
+          <br /><br /><br />
+          <img src="../assets/banner.jpg" alt="" />
+        </div>
       </div>
 
-      <div>
-        <h3>12 Millions IPLCs</h3>
-        <img src="../assets/sav.jpeg" alt="" />
+      <div class="div__content">
+        <div>
+          <p><span>300 Villages</span></p>
+          <br /><br /><br />
+          <img src="../assets/more-ladies.jpeg" alt="" />
+        </div>
       </div>
 
-      <div>
-        <h3>300 Villages</h3>
-        <img src="../assets/more-ladies.jpeg" alt="" />
+      <div class="div__content">
+        <div>
+          <p>
+            <span>12 Million IPLCs</span>
+            that live and share their lands with wildlife in critical and
+            globally important ecosystem hotspots
+          </p>
+          <img src="../assets/sav.jpeg" alt="" />
+        </div>
+      </div>
+
+      <div class="div__content">
+        <div>
+          <p>
+            <span>Culturally diverse communities:</span>
+            including pastoralists, hunters-gatherers and agro-pastoralist
+            communities in Tanzania.
+          </p>
+          <img src="../assets/sav.jpeg" alt="" />
+        </div>
       </div>
     </main>
-    <div class="stats__descriptions">
-      <p class="container">
-        The above figures includes pastoralists (Maasai & Barbaig (Datooga)),
-        hunters garthereres, (Hadzabe & Akie, Ndorobo), and agro-pastoralists
-        communities (Sukuma and Sonjo/Batemi).
-      </p>
-    </div>
   </body>
 </template>
 
@@ -38,11 +54,23 @@ export default {
 }
 
 body {
-  background: #ddd;
+  .div__content {
+    width: 96%;
+    background: #ddd;
 
-  h3 {
-    text-align: left !important;
-    padding: 0 1rem;
+    div {
+      margin: 1rem;
+    }
+
+    span {
+      font-weight: bolder;
+    }
+
+    p {
+      text-align: left !important;
+      color: #303030;
+      font-size: 14px;
+    }
   }
 
   h1 {
@@ -50,38 +78,19 @@ body {
     padding-bottom: 1rem;
   }
 
-  .stats__descriptions {
-    p {
-      text-align: left;
-      font-size: 16px;
-      color: rgb(110, 108, 108);
-      padding: 1rem 0.5rem;
-    }
-  }
-
   main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     object-fit: contain;
 
     img {
-      width: 90%;
-      padding: 2%;
-      border-radius: 3px;
+      width: 100%;
+      border-radius: 2px;
 
       &:hover {
         transform: scale(1.01);
         cursor: pointer;
         transition: all 0.5s ease-in-out;
-      }
-    }
-
-    div {
-      margin: auto;
-      width: 100%;
-      .profile__description {
-        width: 90%;
-        text-align: center;
       }
     }
   }

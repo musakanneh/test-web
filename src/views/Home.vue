@@ -2,8 +2,9 @@
   <div>
     <HeaderCard />
     <GeneralObjective />
+    
     <Partnership />
-    <KnowUsMore />
+    <!-- <KnowUsMore /> -->
     <!-- <section class="sec">
       <h1>Our Partners</h1>
       <div class="partners-cover">
@@ -18,7 +19,7 @@
 
 <script>
 import Partnership from "@/components/Partnership.vue";
-import KnowUsMore from "@/components/KnowUsMore.vue";
+// import KnowUsMore from "@/components/KnowUsMore.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
 import GeneralObjective from "@/components/GeneralObjective.vue";
 
@@ -26,7 +27,7 @@ export default {
   components: {
     HeaderCard,
     GeneralObjective,
-    KnowUsMore,
+    // KnowUsMore,
     Partnership,
   },
 };

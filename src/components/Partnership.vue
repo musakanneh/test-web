@@ -2,7 +2,7 @@
   <body>
     <section class="partnership">
       <div>
-        <h1>Parternship</h1>
+        <h1>PARTNERSHIPS!</h1>
         <p>
           Building partnerships is necessary to combine knowledge, resources,
           skills and mandates in achieving our vision, Sustainable Development
@@ -13,15 +13,17 @@
         </p>
         <p>
           Through partnerships we aim to restore indigenous confidence, the use
-          of indigenous science and knowledge in ecological governance about
-          rangelands’ management. This approach aims to bring all stakeholders
-          on biodiversity conservation to commit positive action through their
-          ecological management capabilities. Through partnerships, we aim to
-          build communities of practice to synergize a positive impact on
-          ecosystems, people and wildlife in Tanzania.
+          of science and knowledge in ecological governance and management. This
+          approach aims to bring all stakeholders on biodiversity conservation
+          to commit to positive action through their ecological management
+          capabilities. Through partnerships, we aim to build communities of
+          practice to synergize a positive impact on ecosystems, people and
+          wildlife in Tanzania.
         </p>
       </div>
     </section>
+
+<OurStrategy/>
 
     <main>
       <article>
@@ -45,10 +47,13 @@
 </template>
 
 <script>
+import OurStrategy from '@/components/OurStrategy.vue';
 import OurFocus from "@/components/OurFocus.vue";
+
 export default {
   components: {
     OurFocus,
+    OurStrategy,
   },
 };
 </script>

@@ -16,6 +16,9 @@
           <li>
             <router-link to="/how">OUR APPROACH</router-link>
           </li>
+          <li>
+            <router-link to="/">NEWS</router-link>
+          </li>
         </ul>
       </nav>
       <div class="btn-cover">

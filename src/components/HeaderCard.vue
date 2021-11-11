@@ -3,15 +3,15 @@
     <main>
       <article class="container">
         <h1 v-if="!isMobile">
-          Conserving Nature and Improving Lives in Tanzania
+          Conserving Natural Ecosystems, and Improving Lives in Tanzania
         </h1>
         <p>
           Traditional Ecosystems Survival Tanzania (TEST) is a non-profit
           organization that facilitates effective collaborations that integrate
           technical expertise and assistance with local knowledge and skills to
           reduce conflict, improve natural resource management, and enhance the
-          sustainable well-being of indigenous peoples, livestock and wildlife
-          in the natural ecosystems in Tanzania.
+          sustainable well-being of indigenous peoples and wildlife in the
+          natural ecosystems in Tanzania.
         </p>
         <router-link to="/about"><Button>Explore More</Button></router-link>
       </article>
@@ -96,11 +96,6 @@ body {
       margin: auto;
       padding: 20px 0;
       line-height: 1.5rem !important;
-      font-size: 16px;
-      letter-spacing: 0.5px;
-      font-style: normal;
-      font-weight: normal;
-      line-height: 20px;
     }
   }
 }

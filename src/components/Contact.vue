@@ -28,6 +28,7 @@ body {
     white-space: nowrap;
     font-weight: 600;
   }
+  
   main {
     display: flex;
     justify-content: space-between;

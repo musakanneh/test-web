@@ -106,7 +106,6 @@ footer {
     color: #fff;
     text-align: center;
     margin-top: 4rem;
-    font-size: 12px;
   }
 
   a {

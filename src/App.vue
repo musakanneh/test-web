@@ -31,7 +31,7 @@ export default {
   display: flex;
   flex: auto;
   width: 100%;
-  font-family: "Poppins", sans-serif;
+  font-family: "Quattrocento Sans", sans-serif;
   flex-direction: column;
   object-fit: contain;
   padding: 0;
@@ -94,17 +94,11 @@ h1 {
 }
 
 p {
-  /* line-height: 2rem; */
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.25rem;
+  font-size: 16px !important;
 }
-
-/* p {
-  line-height: 1.5;
-  opacity: 1;
-  font-size: 14px;
-  font-weight: 400;
-  transition: 200ms;
-  color: #303030;
-} */
 
 img {
   object-fit: contain;

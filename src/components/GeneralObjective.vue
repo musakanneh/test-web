@@ -5,27 +5,28 @@
         <h1>General Objectives</h1>
         <div class="partnership-sec">
           <div class="offers-cover-sec-1">
-            <h3>Why Ecosystems?</h3>
+            <h3>WHY ECOSYSTEMS?</h3>
             <p>
               <span>Natural Ecosystems & Landscapes</span> are important for
-              livelihood support and cultural identify of local communities and
-              indigenous people and biodiversity sustainability. Indigenous
-              communities own and manage vast ecosystems and landscapes using
-              traditional ecological knowledge actions for the benefit of
-              livestock, wildlife, and continued cultural practices.
+              livelihood support and cultural identity of Indigenous People and
+              Local Communities (IPLCs) and biodiversity sustainability.
+              Indigenous communities own and manage vast ecosystems and
+              landscapes through traditional ecological knowledge actions for
+              the benefit of livestock, wildlife, and continued cultural
+              practices.
             </p>
             <p>
               Most critical and crucial ecosystems that are owned by IPLCs are
-              evidence of diversity, interdependency and cultural connectivity
-              of life on land: people, wildlife, livestock and a clear practice
-              of co-existence. Unfortunately, they fall outside of any
-              recognized conservation status, even though they are necessary in
-              regulating climate change, wildlife habitats, rangelands and
-              accumulate immerse biological diversity. diversity.
+              evidence of diversity, interdependency, and cultural connectivity
+              of life on land: people and wildlife, and a clear practice of
+              co-existence. Unfortunately, they fall outside of any recognized
+              conservation status, even though they are necessary in regulating
+              climate change, providing wildlife habitats, and accumulate
+              immense biological diversity.
             </p>
             <p>
               Mainstream conservation actions have by-passed these ecosystems
-              and indigenous peoples and their conservation methods. The action
+              and indigenous peoples and their conservation methods. This action
               is threatening peaceful co-existence between people and wildlife,
               breeding antagonism between indigenous communities and
               conservation authorities. This is contributing to extensive
@@ -104,9 +105,6 @@ body {
         object-fit: contain;
 
         p {
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
           color: #6a6a6a;
         }
       }
