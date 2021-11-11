@@ -4,6 +4,7 @@
       <div class="footer-nav-items">
         <h3>Quick Links</h3>
         <hr />
+        <br />
         <a href="/" class="tba">Our Services</a><br />
         <a href="/" class="tba">Our Work</a><br />
       </div>
@@ -11,6 +12,7 @@
       <div class="footer-nav-items">
         <h3>Contact Us</h3>
         <hr />
+        <br />
         <a href="/">
           <img class="img-icon" src="../assets/msg.png" alt="" />
           IGTS@demosite.com</a
@@ -24,14 +26,17 @@
       <div class="footer-nav-items">
         <h3>Support our Projects</h3>
         <hr />
-        <img src="../assets/momo.png" alt="" />
-        <img src="../assets/tigo.png" alt="" />
-        <img src="../assets/visa.png" alt="" /><br />
-        <img src="../assets/master-card.png" alt="" />
+        <br />
+        <img class="payment" src="../assets/momo.png" alt="" />
+        <img class="payment" src="../assets/tigo.png" alt="" />
+        <img class="payment" src="../assets/visa.png" alt="" /><br />
+        <img class="payment" src="../assets/master-card.png" alt="" />
       </div>
 
       <div class="contact-sec">
-        <h3>Follow Us:</h3>
+        <h3>Follow Us</h3>
+        <hr />
+        <br />
         <div class="social-medias">
           <a href="#"> <i class="fab fa-facebook"></i></a>
           <a href=""> <i class="fab fa-instagram"></i></a>
@@ -40,27 +45,20 @@
         </div>
       </div>
     </main>
-    <p>TEST © 2020 | All Rights Reserved.</p>
+    <p>TEST © 2021 | All Rights Reserved.</p>
   </footer>
 </template>
 
 <script>
-// import Contact from "@/components/Contact.vue";
 export default {
-  components: {
-    // Contact,
-  },
+  components: {},
 };
 </script>
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  main {
-    border: 1px solid #c98811;
-    display: flex;
-    flex-direction: column !important;
-  }
 }
+
 footer {
   bottom: 0;
   width: 100%;
@@ -79,6 +77,10 @@ footer {
       white-space: nowrap;
       font-weight: 600;
     }
+  }
+
+  .payment {
+    width: 25%;
   }
 
   hr {
@@ -103,7 +105,7 @@ footer {
   p {
     color: #fff;
     text-align: center;
-    margin-top: 2%;
+    margin-top: 4rem;
     font-size: 12px;
   }
 
