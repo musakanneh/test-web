@@ -1,132 +1,42 @@
 <template>
-  <body>
-    <br /><br /><br />
-    <!-- <Caption captions="Yannick Ndoinyo"></Caption> -->
-
-    <main>
-      <aside>
-        <img class="logo" src="../assets/yannick.png" alt="" />
-        <div class="social-medias">
-          <a href=""> <i class="fab fa-facebook"></i></a>
-          <i class="fab fa-instagram"></i>
-          <a href=""> <i class="fab fa-linkedin"></i></a>
-          <a href=""> <i class="fab fa-twitter"></i></a>
+  <div>
+    <ProfileCaption name="Team Mamber" />
+    <section class="container">
+      <div class="profile-content__cover">
+        <img class="" src="../assets/marco.jpeg" alt="" />
+        <div class="profile_content__and__media-cover">
+          <h2 class="profile_content">Yannick Ndoinyo - Executive Director</h2>
+          <p class="profile_content">
+            Yannick is the co-founder and Executive Director of TEST. He has
+            over 20 years’ experience in natural resources management, land
+            management and defending human rights. He is passionate about nature
+            and livelihoods of local peoples. Yannick is trained in natural
+            resources management and has for over 20 years been facilitating
+            community-based conservation initiatives in and around Serengeti
+            ecosystem. He has a bachelor degree from the University of
+            Dar-es-Salaam in land use planning and natural resources management,
+            and currently studying MSc in Biodiversity, Conservation and
+            Management at the University of Oxford, UK.
+          </p>
+          <div class="profile_content profile-social-medias__tags">
+            <a href=""> <i class="fab fa-facebook"></i></a>
+            <a href=""> <i class="fab fa-instagram"></i></a>
+            <a href=""> <i class="fab fa-linkedin"></i></a>
+            <a href=""> <i class="fab fa-twitter"></i></a>
+          </div>
         </div>
-      </aside>
-
-      <article>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          gravida tempus porttitor. Aenean eu sapien neque. Curabitur facilisis
-          suscipit tortor, vel commodo augue iaculis nec. Nunc porttitor in nisi
-          venenatis tempor. Phasellus imperdiet aliquet purus, quis maximus quam
-          rutrum eu. Quisque lorem mi, gravida egestas elementum volutpat,
-          posuere in leo. Praesent porttitor nulla lacus, sed feugiat tellus
-          accumsan et. Morbi non pretium diam. Proin vel felis maximus, interdum
-          neque ac, ornare odio. Morbi et enim vitae est accumsan ornare eu
-          ornare sapien.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
-          gravida tempus porttitor. Aenean eu sapien neque. Curabitur facilisis
-          suscipit tortor, vel commodo augue iaculis nec. Nunc porttitor in nisi
-          venenatis tempor. Phasellus imperdiet aliquet purus, quis maximus quam
-          rutrum eu. Quisque lorem mi, gravida egestas elementum volutpat,
-          posuere in leo. Praesent porttitor nulla lacus, sed feugiat tellus
-          accumsan et. Morbi non pretium diam. Proin vel felis maximus, interdum
-          neque ac, ornare odio. Morbi et enim vitae est accumsan ornare eu
-          ornare sapien.
-        </p>
-
-        <br />
-
-        <button>Download Full CV <i class="fa fa-download"> </i></button>
-      </article>
-    </main>
-  </body>
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-// import Caption from "../components/Caption";
+import ProfileCaption from "@/components/ProfileCaption.vue";
 export default {
   components: {
-    // Caption,
+    ProfileCaption,
   },
 };
 </script>
 
-<style lang="scss" scoped>
-@media only screen and (max-width: 600px) {
-  * {
-    display: flex;
-    margin: auto !important;
-    flex-direction: column !important;
-  }
-}
-img {
-  width: 100%;
-  border-radius: 5px;
-}
-body {
-  width: 100%;
-  padding-bottom: 5%;
-  background-color: #fbfbfb;
-  a {
-    text-decoration: none;
-    color: #c98811;
-    &:hover {
-      text-decoration: underline;
-    }
-  }
-  main {
-    width: 90%;
-    margin: auto;
-    display: flex;
-    flex-direction: row;
-    flex: auto;
-  }
-  aside {
-    flex: 1;
-  }
-  article {
-    flex: 2;
-    p {
-      color: #303030;
-      width: 87%;
-      margin: auto;
-      font-size: 14px;
-      line-height: 24px;
-    }
-  }
-  .social-medias {
-    display: flex;
-    justify-content: space-between;
-    width: 40%;
-    margin: auto;
-    i {
-      cursor: pointer;
-      font-size: 24px;
-      color: #c98811;
-    }
-    i:hover {
-      color: #c98811;
-    }
-  }
-  button {
-    cursor: pointer;
-    height: 40px;
-    background: #c98811;
-    border-radius: 3px;
-    border: none;
-    padding: 0 25px;
-    font-size: 15px;
-    margin-left: 3rem;
-    line-height: 18px;
-    color: #ffffff;
-  }
-  button:hover {
-    background: #c98811;
-    transition: 0.5s ease;
-  }
-}
-</style>
+<style lang="scss" scoped></style>

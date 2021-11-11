@@ -50,7 +50,7 @@ main {
 }
 
 h2 {
-  color: #689d1a;
+  color: #c98811;
   font-size: 1.3em;
   text-transform: capitalize;
   margin-block-start: 0.83em;
@@ -62,7 +62,7 @@ h2 {
 }
 
 h3 {
-  color: #689d1a;
+  color: #c98811;
   opacity: 1;
   transition: 200ms;
   font-weight: 600;
@@ -73,11 +73,9 @@ span {
 }
 
 h1 {
-  /* color: #689d1a; */
-  color: #bf8f00;
+  color: #d4d1c6;
   font-size: 3rem;
   text-align: left;
-  /* text-transform: capitalize; */
 }
 
 .container {
@@ -104,4 +102,32 @@ p {
 img {
   object-fit: contain;
 }
+
+/*** Team members profile starts */
+.profile-content__cover {
+  display: grid;
+  padding: 2rem 0;
+  grid-template-columns: 1fr 2fr;
+}
+
+.profile_content {
+  padding: 1rem 2rem;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.profile-social-medias__tags {
+  display: flex;
+  justify-content: space-around;
+  width: 18%;
+}
+.profile-social-medias__tags i {
+  color: #c989117e;
+  font-size: 1.2rem;
+}
+.profile-social-medias__tags i:hover {
+  color: #c98811;
+  transform: 0.5 ease;
+}
+/*** Team members profile ends */
 </style>

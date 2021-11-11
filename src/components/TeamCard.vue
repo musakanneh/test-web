@@ -12,7 +12,7 @@
           <div>
             <img src="../assets/marco.jpeg" alt="" />
             <TeamTag name="Lilian Looloitai" position="Treasurer" />
-            <router-link to="/evelyn"> <p>Profile</p></router-link>
+            <router-link to="/lilian"> <p>Profile</p></router-link>
           </div>
 
           <div>
@@ -34,12 +34,12 @@
         <div>
           <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-          <router-link to="/evelyn"> <p>Profile</p></router-link>
+          <router-link to="/yannick"> <p>Profile</p></router-link>
         </div>
         <div>
           <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Elias Nagol" position="Technical Advisor" />
-          <router-link to="/evelyn"> <p>Profile</p></router-link>
+          <router-link to="/elias"> <p>Profile</p></router-link>
         </div>
         <div>
           <img src="../assets/marco.jpeg" alt="" />
@@ -53,12 +53,12 @@
             name="Isaac Ouma"
             position="Conservation Enterprise Manager"
           />
-          <router-link to="/evelyn"> <p>Profile</p></router-link>
+          <router-link to="/isaac"> <p>Profile</p></router-link>
         </div>
         <div>
           <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Marco Mathayo" position="Programs Manager" />
-          <router-link to="/evelyn"> <p>Profile</p></router-link>
+          <router-link to="/marco"> <p>Profile</p></router-link>
         </div>
       </section>
 
@@ -115,7 +115,6 @@ body {
       justify-content: space-between;
       width: 100%;
       display: grid;
-      // border: 1px solid rgba(221, 221, 221, 0.226);
       grid-template-columns: 1fr 1fr 1fr 1fr;
 
       h3 {
