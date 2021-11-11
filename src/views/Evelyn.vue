@@ -1,6 +1,6 @@
 <template>
   <body>
-    <Caption captions="Evelyn Kaney"></Caption>
+    <!-- <Caption captions="Evelyn Kaney"></Caption> -->
 
     <main>
       <aside>
@@ -45,10 +45,10 @@
 </template>
 
 <script>
-import Caption from "../components/Caption";
+// import Caption from "../components/Caption";
 export default {
   components: {
-    Caption,
+    // Caption,
   },
 };
 </script>

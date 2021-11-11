@@ -1,15 +1,22 @@
 <template>
   <div>
-    <h1 :style="style">
-      {{ captions }}
-    </h1>
+    <h4 :style="style">
+      {{ name }}
+    </h4>
+    <p :style="style">
+      {{ position }}
+    </p>
   </div>
 </template>
 
 <script>
 export default {
   props: {
-    captions: {
+    name: {
+      type: String,
+      required: true,
+    },
+    position: {
       type: String,
       required: true,
     },
@@ -18,12 +25,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-h1 {
-  font-size: 35px;
+h4 {
   color: #c98811;
   text-align: center;
-  font-weight: 600;
-  transition: 200ms;
-  //white-space: nowrap;
+  margin: 0;
+}
+
+p {
+  margin: 0;
 }
 </style>

@@ -70,7 +70,6 @@ footer {
     justify-content: space-between;
 
     h3 {
-      // color: #689d1a;
       color: #bf8f00;
       font-weight: 600;
     }

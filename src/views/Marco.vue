@@ -1,7 +1,6 @@
 <template>
   <body>
     <br /><br /><br />
-    <Caption captions="Marco Mathayo"></Caption>
 
     <main>
       <aside>
@@ -41,10 +40,10 @@
 </template>
 
 <script>
-import Caption from "../components/Caption";
+// import Caption from "../components/Caption";
 export default {
   components: {
-    Caption,
+    // Caption,
   },
 };
 </script>

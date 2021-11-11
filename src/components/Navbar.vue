@@ -8,7 +8,7 @@
         <ul>
           <li><router-link to="/">HOME</router-link></li>
           <li>
-            <router-link to="/about">ABOUT US</router-link>
+            <router-link to="/about">ABOUT TEST</router-link>
           </li>
           <li>
             <router-link to="/work">OUR WORK</router-link>
@@ -96,7 +96,8 @@ nav {
 
     li,
     li a {
-      font-size: 12px;
+      font-size: 13px;
+      font-weight: bold;
       z-index: 1;
       color: #303030;
       cursor: pointer;
