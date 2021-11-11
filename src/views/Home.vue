@@ -4,7 +4,6 @@
     <GeneralObjective />
     <Partnership />
     <KnowUsMore />
-
     <!-- <section class="sec">
       <h1>Our Partners</h1>
       <div class="partners-cover">

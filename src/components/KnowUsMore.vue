@@ -1,49 +1,49 @@
 <template>
-  <body>
-    <br />
-    <h1>To Know Us More</h1>
-    <section class="activities-sec-cover">
-      <article>
-        <tabs
-          :tabs="tabs"
-          :currentTab="currentTab"
-          :wrapper-class="'default-tabs'"
-          :tab-class="'default-tabs__item'"
-          :tab-active-class="'default-tabs__item_active'"
-          :line-class="'default-tabs__active-line'"
-          @onClick="handleClick"
-        />
-        <div class="content">
-          <div v-if="currentTab === 'tab1'" class="current-tab-sec">
-            <div class="tm-content">
-              <p>
-                To design appropriate and sustainable ecosystem governance
-                mechanisms and tools by combining scientifically proven
-                solutions with the indigenous ecological land management
-                practices
-              </p>
+  <body class="height_and_weight__global">
+    <main class="container">
+      <h1>To Know Us More</h1>
+      <section class="activities-sec-cover">
+        <article>
+          <tabs
+            :tabs="tabs"
+            :currentTab="currentTab"
+            :wrapper-class="'default-tabs'"
+            :tab-class="'default-tabs__item'"
+            :tab-active-class="'default-tabs__item_active'"
+            :line-class="'default-tabs__active-line'"
+            @onClick="handleClick"
+          />
+          <div class="content">
+            <div v-if="currentTab === 'tab1'" class="current-tab-sec">
+              <div class="tm-content">
+                <p>
+                  To design appropriate and sustainable ecosystem governance
+                  mechanisms and tools by combining scientifically proven
+                  solutions with the indigenous ecological land management
+                  practices
+                </p>
+              </div>
+              <div class="tm-img">
+                <img src="../assets/dogs1.jpeg" alt="" />
+              </div>
             </div>
-            <div class="tm-img">
-              <img src="../assets/dogs1.jpeg" alt="" />
+            <div v-if="currentTab === 'tab2'" class="current-tab-sec">
+              <div class="tm-content">
+                <p>
+                  To open space for learning, research and to provide an
+                  alternative route to addressing pressing ecosystems governance
+                  challenges such as climate and ecological breakdown, and the
+                  corresponding threats that indigenous people face.
+                </p>
+              </div>
+              <div class="tm-img">
+                <img src="../assets/dogs1.jpeg" alt="" />
+              </div>
             </div>
           </div>
-          <div v-if="currentTab === 'tab2'" class="current-tab-sec">
-            <div class="tm-content">
-              <p>
-                To open space for learning, research and to provide an
-                alternative route to addressing pressing ecosystems governance
-                challenges such as climate and ecological breakdown, and the
-                corresponding threats that indigenous people face.
-              </p>
-            </div>
-            <div class="tm-img">
-              <img src="../assets/dogs1.jpeg" alt="" />
-            </div>
-          </div>
-        </div>
-      </article>
-    </section>
-    <br /><br /><br />
+        </article>
+      </section>
+    </main>
   </body>
 </template>
 
@@ -78,6 +78,9 @@ export default {
 
 <style lang="scss" scoped>
 body {
+  // border: 1px solid red;
+  background: #ddd;
+
   .current-tab-sec {
     display: flex;
     width: 100%;
@@ -85,10 +88,13 @@ body {
   }
 
   .activities-sec-cover {
-    width: 100%;
-
     .tm-content {
-      width: 45%;
+      width: 40%;
+      padding: 3rem 0;
+
+      p {
+        color: #303030;
+      }
     }
 
     .tm-img {
@@ -101,7 +107,6 @@ body {
   }
 
   .default-tabs {
-    width: 85%;
     position: relative;
     margin: 0 auto;
     &__item {
@@ -132,12 +137,6 @@ body {
       background-color: black;
       transition: transform 0.4s ease, width 0.4s ease;
     }
-  }
-  .content {
-    margin-top: 30px;
-    font-size: 20px;
-    width: 85%;
-    margin: auto;
   }
 }
 </style>

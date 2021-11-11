@@ -1,10 +1,9 @@
 <template>
   <footer>
-    <main>
+    <main class="container">
       <div class="footer-nav-items">
         <h3>Quick Links</h3>
         <hr />
-        <a href="/" class="tba">Back to Top</a><br />
         <a href="/" class="tba">Our Services</a><br />
         <a href="/" class="tba">Our Work</a><br />
       </div>
@@ -12,7 +11,6 @@
       <div class="footer-nav-items">
         <h3>Contact Us</h3>
         <hr />
-
         <a href="/">
           <img class="img-icon" src="../assets/msg.png" alt="" />
           IGTS@demosite.com</a
@@ -20,8 +18,7 @@
         <a href="/"
           ><img src="../assets/location.png" alt="" /> Arusha, Nothern
           Tanzania</a
-        ><br />
-        <br /><br /><br />
+        >
       </div>
 
       <div class="footer-nav-items">
@@ -34,11 +31,8 @@
       </div>
 
       <div class="contact-sec">
-        <Contact />
-        <br />
-
+        <h3>Follow Us:</h3>
         <div class="social-medias">
-          <h3>Follow Us:</h3>
           <a href="#"> <i class="fab fa-facebook"></i></a>
           <a href=""> <i class="fab fa-instagram"></i></a>
           <a href="#"> <i class="fab fa-linkedin"></i></a>
@@ -47,15 +41,14 @@
       </div>
     </main>
     <p>TEST © 2020 | All Rights Reserved.</p>
-    <br /><br />
   </footer>
 </template>
 
 <script>
-import Contact from "@/components/Contact.vue";
+// import Contact from "@/components/Contact.vue";
 export default {
   components: {
-    Contact,
+    // Contact,
   },
 };
 </script>
@@ -71,24 +64,15 @@ export default {
 footer {
   bottom: 0;
   width: 100%;
-  padding-top: 4%;
-  background-color: #000000;
-  width: 100%;
-
-  .contact-sec {
-    width: 35%;
-  }
+  padding: 4% 0;
+  background-color: #303030;
 
   main {
     display: flex;
     justify-content: space-between;
-    flex: auto;
-    flex-direction: row;
-    margin: auto;
-    width: 90%;
 
     h3 {
-      color: #689D1A;
+      color: #689d1a;
       font-size: 16px;
       transition: 200ms;
       text-decoration: none;
@@ -96,30 +80,34 @@ footer {
       font-weight: 600;
     }
   }
-  .social-medias {
-    width: 70%;
-    float: left;
 
+  hr {
+    width: 40%;
+    margin: 0;
+  }
+
+  .social-medias {
     i {
       cursor: pointer;
       font-size: 25px;
       margin-right: 25px;
-      color: #689D1A;
+      color: #ddd;
     }
 
     i:hover {
-      color: #689D1A;
+      color: #689d1a;
       transition: 0.5s ease;
     }
   }
+
   p {
     color: #fff;
     text-align: center;
     margin-top: 2%;
     font-size: 12px;
   }
+
   a {
-    text-align: center;
     line-height: 2;
     text-decoration: none;
     font-size: 13px;

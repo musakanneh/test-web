@@ -33,10 +33,10 @@
         <div class="offers-cover-sec-1">
           <aside>
             <img src="../assets/icon3.png" alt="" />
-            <h2>
+            <h5>
               TEST strongly believes that being an Indigenous Organization,
               Conservation and Development have to be attained simultaneously!
-            </h2>
+            </h5>
           </aside>
         </div>
       </div>
@@ -107,7 +107,6 @@ body {
       justify-content: space-between;
       flex: auto;
       display: flex;
-      margin-top: -7px;
       width: 100%;
       display: flex !important;
       background-image: linear-gradient(
@@ -125,9 +124,10 @@ body {
         text-align: center;
         padding: 10% 0;
 
-        h2 {
+        h5 {
           color: #fff;
-          padding: 5% 0;
+          padding: 10% 0;
+          font-size: 1.75rem;
           margin: auto;
           line-height: 2;
           text-align: center;
