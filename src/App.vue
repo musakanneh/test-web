@@ -117,8 +117,8 @@ img {
 }
 
 .profile-social-medias__tags {
-  display: flex;
   justify-content: space-around;
+  display: flex;
   width: 18%;
 }
 .profile-social-medias__tags i {

@@ -65,16 +65,19 @@
       <h1>PARTNERS</h1>
       <section>
         <div>
-          <img src="../assets/marco.jpeg" alt="" />
+          <a href="https://www.nunamaisha.org/nunamaisha-is/"
+            ><img src="../assets/partner-logo__nuna.png" alt=""
+          /></a>
         </div>
         <div>
-          <img src="../assets/marco.jpeg" alt="" />
+          <a href="https://not1more.org"
+            ><img src="../assets/partner-logo__n1.png" alt=""
+          /></a>
         </div>
         <div>
-          <img src="../assets/marco.jpeg" alt="" />
-        </div>
-        <div>
-          <img src="../assets/marco.jpeg" alt="" />
+          <a href="https://cicada.world"
+            ><img src="../assets/cicada.png" alt=""
+          /></a>
         </div>
       </section>
     </main>
