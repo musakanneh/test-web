@@ -1,33 +1,20 @@
 <template>
   <div>
     <HeaderCard />
-    <GeneralObjective />
-    
+    <Objective />
     <Partnership />
-    <!-- <KnowUsMore /> -->
-    <!-- <section class="sec">
-      <h1>Our Partners</h1>
-      <div class="partners-cover">
-        <img src="../assets/loliondo.png" alt="" />
-        <img src="../assets/idingo.png" alt="" />
-        <img src="../assets/ecft.png" alt="" />
-        <img src="../assets/olmaa.png" alt="" />
-      </div>
-    </section> -->
   </div>
 </template>
 
 <script>
 import Partnership from "@/components/Partnership.vue";
-// import KnowUsMore from "@/components/KnowUsMore.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
-import GeneralObjective from "@/components/GeneralObjective.vue";
+import Objective from "@/components/Objective.vue";
 
 export default {
   components: {
     HeaderCard,
-    GeneralObjective,
-    // KnowUsMore,
+    Objective,
     Partnership,
   },
 };

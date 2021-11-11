@@ -66,7 +66,7 @@
         </div>
       </article>
     </section>
-    <WorkCard />
+    <!-- <WorkCard /> -->
     <br /><br /><br />
   </body>
 </template>

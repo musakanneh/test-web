@@ -80,6 +80,16 @@
           /></a>
         </div>
       </section>
+
+      <h1>INTERNATIONAL MEMBERSHIP</h1>
+      <section>
+        <div>
+          <a
+            href="https://www.iccaconsortium.org/index.php/members/the-eastern-serengeti-test/"
+            ><img src="../assets/icca.jpg" alt=""
+          /></a>
+        </div>
+      </section>
     </main>
   </body>
 </template>
