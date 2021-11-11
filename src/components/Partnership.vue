@@ -23,7 +23,7 @@
       </div>
     </section>
 
-<OurStrategy/>
+    <OurStrategy />
 
     <main>
       <article>
@@ -34,10 +34,9 @@
       <div class="partnership-sec">
         <div class="offers-cover-sec-1">
           <aside>
-            <img src="../assets/icon3.png" alt="" />
             <h5>
-              TEST strongly believes that being an Indigenous Organization,
-              Conservation and Development have to be attained simultaneously!
+              TEST strongly believes in poverty reduction as a solution in
+              addressing conservation challenges
             </h5>
           </aside>
         </div>
@@ -47,7 +46,7 @@
 </template>
 
 <script>
-import OurStrategy from '@/components/OurStrategy.vue';
+import OurStrategy from "@/components/OurStrategy.vue";
 import OurFocus from "@/components/OurFocus.vue";
 
 export default {
@@ -114,13 +113,13 @@ body {
       display: flex;
       width: 100%;
       display: flex !important;
+      background: #303030;
       background-image: linear-gradient(
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.712)
         ),
         url("../assets/cow2.jpeg");
       opacity: 1;
-      background-attachment: fixed;
       background-repeat: no-repeat;
       background-size: cover;
 

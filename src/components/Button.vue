@@ -54,7 +54,8 @@ export default {
 
 .main-button {
   border: none;
-  background: #689d1a;
+  // background: #689d1a;
+  background: #bf8f00;
   border-radius: 3px;
   height: 40px;
   letter-spacing: 1px;
@@ -67,7 +68,7 @@ export default {
 }
 
 .main-button:hover {
-  background: #5a9108;
+  background: #a77e03;
   transition: 0.5s ease;
   color: #ffffff;
 }

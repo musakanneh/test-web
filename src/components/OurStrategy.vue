@@ -1,7 +1,7 @@
 <template>
   <body class="height_and_weight__global">
     <main class="container">
-      <h1>Our Strategy</h1>
+      <h1>OUR STRATEGY</h1>
       <section class="activities-sec-cover">
         <article>
           <tabs

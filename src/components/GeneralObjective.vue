@@ -2,7 +2,7 @@
   <body>
     <main class="container">
       <section class="partnership-cover">
-        <h1>General Objectives</h1>
+        <h1>OBJECTIVES</h1>
         <div class="partnership-sec">
           <div class="offers-cover-sec-1">
             <h3>WHY ECOSYSTEMS?</h3>

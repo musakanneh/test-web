@@ -63,12 +63,12 @@ body {
     text-align: center;
 
     button {
-      background: #689d1a;
+      background: #bf8f00;
       border-radius: 3px;
       font-size: 14px;
       height: 45px;
       letter-spacing: 1px;
-      border: 1px solid #689d1a;
+      border: none;
       width: 15%;
       margin-top: 2rem;
       color: #fff;
@@ -79,10 +79,9 @@ body {
       cursor: pointer;
 
       &:hover {
-        background: #fff;
-        border: 1px solid #fff;
+        background: #a77e03;
         transition: 0.5s ease;
-        color: #689d1a;
+        color: #ffffff;
       }
     }
 
@@ -91,8 +90,10 @@ body {
     }
 
     p {
-      color: #fbfbfbce;
+      // color: #fbfbfbce;
+      color: #bf8f00;
       width: 75%;
+      font-weight: bolder;
       margin: auto;
       padding: 20px 0;
       line-height: 1.5rem !important;

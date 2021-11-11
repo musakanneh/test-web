@@ -1,6 +1,6 @@
 <template>
   <body class="height_and_weight__global">
-    <h1 class="container">Our Focus</h1>
+    <h1>OUR FOCUS</h1>
     <main class="container">
       <div class="div__content">
         <div>
@@ -57,9 +57,10 @@ body {
   .div__content {
     width: 96%;
     background: #ddd;
+    border-radius: 3px;
 
     div {
-      margin: 1rem;
+      margin: 1.5rem;
     }
 
     span {

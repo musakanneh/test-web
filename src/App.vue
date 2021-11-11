@@ -73,10 +73,11 @@ span {
 }
 
 h1 {
-  color: #689d1a;
+  /* color: #689d1a; */
+  color: #bf8f00;
   font-size: 3rem;
   text-align: left;
-  text-transform: capitalize;
+  /* text-transform: capitalize; */
 }
 
 .container {

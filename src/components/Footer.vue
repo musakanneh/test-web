@@ -63,18 +63,15 @@ footer {
   bottom: 0;
   width: 100%;
   padding: 4% 0;
-  background-color: #303030;
+  background-color: #1d1b1bf3;
 
   main {
     display: flex;
     justify-content: space-between;
 
     h3 {
-      color: #689d1a;
-      font-size: 16px;
-      transition: 200ms;
-      text-decoration: none;
-      white-space: nowrap;
+      // color: #689d1a;
+      color: #bf8f00;
       font-weight: 600;
     }
   }
@@ -109,14 +106,9 @@ footer {
   }
 
   a {
-    line-height: 2;
     text-decoration: none;
-    font-size: 13px;
-    z-index: 1;
     color: #fff;
     cursor: pointer;
-    transition: 200ms;
-    text-decoration: none;
   }
 }
 </style>
