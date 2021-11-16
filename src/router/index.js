@@ -2,7 +2,7 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home";
 import Work from "../views/Work";
-import WorkProcedures from '../views/WorkProcedures.vue'
+import Approach from '../views/Approach.vue'
 import Contact from '../views/Contact.vue'
 import About from '../views/About.vue'
 import Yannick from '../views/Yannick.vue'
@@ -18,7 +18,6 @@ import Jopha from '../views/Jopha.vue'
 import Emanuel from '../views/Emanuel.vue'
 
 /** Board members end */
-
 
 Vue.use(VueRouter);
 
@@ -38,9 +37,9 @@ const routes = [{
     component: Work,
 },
 {
-    path: '/how',
-    name: 'WorkProcedures',
-    component: WorkProcedures
+    path: '/approach',
+    name: 'Approach',
+    component: Approach
 },
 {
     path: '/contact',

@@ -14,7 +14,7 @@
             <router-link to="/work">OUR WORK</router-link>
           </li>
           <li>
-            <router-link to="/how">OUR APPROACH</router-link>
+            <router-link to="/approach">OUR APPROACH</router-link>
           </li>
         </ul>
       </nav>
