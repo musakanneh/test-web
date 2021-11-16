@@ -65,44 +65,46 @@
     </main>
 
     <div class="mid-container">
-      <h1>SUPPORT SUSTAINABLE LIVELIHOODS</h1>
-      <div class="inner-sec our-work__cover2">
-        <div>
-          <p>
-            <strong>Why:</strong>
-            Indigenous peoples and local communities in Tanzania are communities
-            in transition. They desire improved and reliable livelihoods
-            options. But they continue to experience abject poverty and
-            deteriorating livelihoods. They do not have access to reliable safe
-            and clean water services, quality education, health services or
-            sustainable livelihoods options. The provision and the design of
-            public services for indigenous peoples and local communities need to
-            be sustainable and in line with biodiversity conservation approaches
-            and interests.
-          </p>
-          <img src="../assets/leo.png" alt="" />
-        </div>
+      <div class="container">
+        <h1 class="">SUPPORT SUSTAINABLE LIVELIHOODS</h1>
+        <div class="inner-sec our-work__cover2">
+          <div>
+            <p>
+              <strong>Why:</strong>
+              Indigenous peoples and local communities in Tanzania are
+              communities in transition. They desire improved and reliable
+              livelihoods options. But they continue to experience abject
+              poverty and deteriorating livelihoods. They do not have access to
+              reliable safe and clean water services, quality education, health
+              services or sustainable livelihoods options. The provision and the
+              design of public services for indigenous peoples and local
+              communities need to be sustainable and in line with biodiversity
+              conservation approaches and interests.
+            </p>
+            <img src="../assets/leo.png" alt="" />
+          </div>
 
-        <div>
-          <p>
-            <strong>Objective</strong>
-            To design social services (education, energy, health and water) and
-            livelihood options through innovative financial models for ensuring
-            sustainability, growth and compatibility with biodiversity
-            approaches.
-          </p>
-          <img src="../assets/cros.png" alt="" />
-        </div>
+          <div>
+            <p>
+              <strong>Objective</strong>
+              To design social services (education, energy, health and water)
+              and livelihood options through innovative financial models for
+              ensuring sustainability, growth and compatibility with
+              biodiversity approaches.
+            </p>
+            <img src="../assets/cros.png" alt="" />
+          </div>
 
-        <div>
-          <p>
-            <strong>Plan:</strong>
-            TEST will, in collaboration with its partners, embark in innovation
-            in designing and delivering livelihoods options to address poverty
-            and increase access to fundamental social services such as
-            education, health and water.
-          </p>
-          <img src="../assets/cros.png" alt="" />
+          <div>
+            <p>
+              <strong>Plan:</strong>
+              TEST will, in collaboration with its partners, embark in
+              innovation in designing and delivering livelihoods options to
+              address poverty and increase access to fundamental social services
+              such as education, health and water.
+            </p>
+            <img src="../assets/cros.png" alt="" />
+          </div>
         </div>
       </div>
     </div>
@@ -268,7 +270,6 @@ body {
   }
 
   main {
-    // border: 1px solid red;
     padding: 1rem 0 4rem 0;
   }
 

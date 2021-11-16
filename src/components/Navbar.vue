@@ -19,7 +19,7 @@
         </ul>
       </nav>
       <div class="btn-cover">
-        <router-link class="nav-button" to="/contact"
+        <router-link class="nav-button" to="/news"
           ><Button :isFullWidth="false" label="NEWS" width="120px"> </Button
         ></router-link>
       </div>

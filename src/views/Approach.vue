@@ -111,14 +111,14 @@ body {
 
       .sec-one-inner {
         width: 100%;
-        
+
         h3,
         p {
-          margin: 0.5rem 1rem;
+          margin: 1.5rem;
         }
 
         h3 {
-          color: #689d1a;
+          color: #a77e03;
           font-weight: 500;
         }
 
