@@ -66,7 +66,7 @@
 
     <div class="mid-container">
       <h1>SUPPORT SUSTAINABLE LIVELIHOODS</h1>
-      <div class="inner-sec our-work__cover">
+      <div class="inner-sec our-work__cover2">
         <div>
           <p>
             <strong>Why:</strong>
@@ -80,7 +80,7 @@
             be sustainable and in line with biodiversity conservation approaches
             and interests.
           </p>
-          <img src="../assets/eco.png" alt="" />
+          <img src="../assets/leo.png" alt="" />
         </div>
 
         <div>
@@ -91,7 +91,7 @@
             sustainability, growth and compatibility with biodiversity
             approaches.
           </p>
-          <img src="../assets/eco.png" alt="" />
+          <img src="../assets/cros.png" alt="" />
         </div>
 
         <div>
@@ -102,7 +102,7 @@
             and increase access to fundamental social services such as
             education, health and water.
           </p>
-          <img src="../assets/eco.png" alt="" />
+          <img src="../assets/cros.png" alt="" />
         </div>
       </div>
     </div>
@@ -110,7 +110,7 @@
     <main class="container">
       <h1>SUSTAINABLE ECOSYSTEMS</h1>
       <div class="community-wildlife-coservation">
-        <div class="our-work__cover">
+        <div class="our-work__cover3">
           <div>
             <p>
               <strong>Why:</strong>
@@ -120,10 +120,12 @@
               various uses. The land governance system was confined to small
               villages. This cultural practice allowed the lands to recover
               between seasons and pasture to be available throughout the year.
-              But the pastoralists in Tanzania can hardly do this. Population
-              growth, coupled with land defragmentation and climate change have
-              reduced the extent of their pasturelands and resulted into
-              deterioration in quality and regular land use conflicts. As a
+              But the pastoralists in Tanzania can hardly do this.
+            </p>
+            <p>
+              Population growth, coupled with land defragmentation and climate
+              change have reduced the extent of their pasturelands and resulted
+              into deterioration in quality and regular land use conflicts. As a
               result, livestock and wildlife often die in the dry season or in
               droughts from lack of grass and lack of water. This is
               devastating.
@@ -137,12 +139,15 @@
               TEST is committed to introduce an innovative ecosystem governance
               approach that will transcend boundaries of village systems in
               Tanzania to encompass connected cultural and geographical
-              ecosystems and landscapes. The Sustainable Ecosystems Approach
-              will re-design land use and governing models to allow integrated
-              landscape approach to improve the livelihoods of the local
-              communities as well as enhance the conservation of biodiversity.
+              ecosystems and landscapes.
             </p>
-            <img src="../assets/eco.png" alt="" />
+            <p>
+              The Sustainable Ecosystems Approach will re-design land use and
+              governing models to allow integrated landscape approach to improve
+              the livelihoods of the local communities as well as enhance the
+              conservation of biodiversity.
+            </p>
+            <img src="../assets/lady.jpeg" alt="" />
           </div>
 
           <div>
@@ -152,14 +157,17 @@
               Tanzania will introduce an innovative approach to govern and
               manage ecosystems and landscapes to ensure sustainability of
               ecosystems availability of pasture and to address the effects of
-              climate and cultural change. Together with partners, TEST will
-              facilitate for the design of livestock to markets programme as
-              incentives for regulating the number of livestock on the land. The
-              programme will control and maintain the carrying capacity of the
-              land and loss of biodiversity. This will ensure that livestock are
-              kept at certain numbers at different seasons (dry and wet) and
-              according to land use zones. The livestock will be sold at certain
-              intervals during the year.
+              climate and cultural change.
+            </p>
+            <p>
+              Together with partners, TEST will facilitate for the design of
+              livestock to markets programme as incentives for regulating the
+              number of livestock on the land. The programme will control and
+              maintain the carrying capacity of the land and loss of
+              biodiversity. This will ensure that livestock are kept at certain
+              numbers at different seasons (dry and wet) and according to land
+              use zones. The livestock will be sold at certain intervals during
+              the year.
             </p>
             <img src="../assets/eco.png" alt="" />
           </div>
@@ -182,12 +190,43 @@ export default {
 body {
   .our-work__cover {
     display: grid;
-    grid-template-columns: 1.5fr 1.2fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 
     div {
       margin: 0.4rem;
       padding: 0.5rem 1rem;
       background: #ddd;
+    }
+  }
+
+  .our-work__cover2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+
+    div {
+      margin: 0.4rem;
+      padding: 0.5rem 1rem;
+
+      p {
+        text-align: left;
+        padding-bottom: 1rem;
+      }
+    }
+  }
+
+  .our-work__cover3 {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr 2fr;
+
+    div {
+      margin: 0.4rem;
+      padding: 0.5rem 1rem;
+      background: #ddd;
+
+      p {
+        text-align: left;
+        padding-bottom: 1rem;
+      }
     }
   }
 
@@ -220,32 +259,17 @@ body {
 
     .inner-sec {
       padding: 5%;
-      background-color: #699d1af0;
+      background-color: #a77e03;
 
       p {
         margin: auto;
-      }
-
-      strong {
-        color: goldenrod;
       }
     }
   }
 
   main {
-    margin: auto;
-
-    h1 {
-      text-align: left;
-    }
-
-    .community-wildlife-coservation {
-      margin-bottom: 2px;
-      object-fit: contain;
-      width: 100%;
-      display: flex;
-      justify-content: space-between;
-    }
+    // border: 1px solid red;
+    padding: 1rem 0 4rem 0;
   }
 
   h2,
