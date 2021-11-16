@@ -1,156 +1,204 @@
 <template>
   <body>
-    <aside >
-      <h1>OUR WORK</h1>
-    </aside>
-    <main>
-      <h1 class="comm-conservation">COMMUNITY WILDLIFE CONSERVATION</h1>
+    <CaptionDescription title="WOUR WORK" />
+    <main class="container">
+      <h1>PEOPLE SAVE WILDLIFE</h1>
       <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Why?</strong>
-          <p>
-            The wildlife in natural ecosystems share their habitats with
-            indigenous peoples and their livelihoods mostly grazing rangelands
-            and farms. Wildlife within these ecosystems have been and continue
-            to experience challenges of movement, habitat management and are a
-            source of rampant human-wildlife conflicts through predation of
-            livestock, marauding farms and loss of life for humans. Just having
-            wildlife on these ecosystems, people and wildlife face challenges of
-            co-habiting. The future of wildlife in Tanzania depends on positive
-            understanding of indigenous communities and the acceptance of their
-            role.
-          </p>
-        </div>
-        <img src="../assets/eco.png" alt="" />
-      </div>
+        <div class="our-work__cover">
+          <div>
+            <p>
+              <strong>Why?</strong>
+              The wildlife in natural ecosystems share their habitats with
+              indigenous peoples and their livelihoods mostly pastureland and
+              farms. However, indigenous peoples and local communities have been
+              side-lined in mainstream wildlife conservation initiatives
+              completely jeopardizing the peaceful co-existence witnessed for
+              many centuries. Wildlife within these ecosystems have been and
+              continue to experience challenges of movement, habitat management
+              and are a source of rampant human-wildlife conflicts.
+            </p>
+            <p>
+              Human-wildlife conflicts have intensified in the last decade
+              through predation of livestock, marauding farms and loss of life
+              for humans. Tensions continue to grow between wildlife and people
+              in our ecosystems/landscapes. The future of wildlife in Tanzania
+              depends on positive conservation contribution of indigenous
+              communities.
+            </p>
+            <img src="../assets/leo.png" alt="" />
+          </div>
+          <div>
+            <p>
+              <strong>Objective</strong>
+              o re-activate the role and support of indigenous communities for
+              wildlife protection within community lands. The indigenous
+              traditional knowledge systems and their territories are vital in
+              continuing the peaceful co-existence to ensure wildlife
+              conservation in community lands.
+            </p>
+            <p>
+              The restoration of community roles in wildlife conservation will
+              strengthen and enhance meaningful collaboration of indigenous
+              communities and government agencies. Through this achievement,
+              TEST will increase the quality and quantity of wildlife habitats.
+            </p>
+            <img src="../assets/leo.png" alt="" />
+          </div>
 
-      <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Objective</strong>
-          <p>
-            To re-activate the support of indigenous communities in wildlife
-            conservation whose indigenous traditional knowledge systems and
-            their territories are vital in wildlife conservation and enhance
-            meaningful collaboration of indigenous communities and government
-            agencies. Through this achievement, we will be able to enhance the
-            quality of wildlife habitats.
-          </p>
+          <div>
+            <p>
+              <strong>Plan</strong>
+              TEST is committed to work with indigenous peoples and local
+              communities to provide wildlife conservation support, services and
+              campaigns within their territories and ecosystems.
+            </p>
+            <p>
+              Further to this, TEST will assist in obtaining formal recognition
+              of the indigenous community conserved areas (ICCAs) for wildlife
+              in the natural ecosystems in Tanzania.
+            </p>
+            <br />
+            <img src="../assets/people4.jpeg" alt="" />
+          </div>
         </div>
-        <img src="../assets/ind.png" alt="" />
-      </div>
-
-      <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Plan</strong>
-          <p>
-            TEST is committed to facilitate the provision of wildlife
-            conservation support, services and campaigns for indigenous
-            communities within their territories and ecosystems. Further to
-            this, TEST will assist in obtaining formal recognition of the
-            indigenous community conserved areas (ICCAs) for wildlife in the
-            natural ecosystems in Tanzania.
-          </p>
-        </div>
-        <img src="../assets/work1.png" alt="" />
       </div>
     </main>
 
     <div class="mid-container">
-      <div class="inner-sec">
-        <h1>SUSTAINABLE COMMUNITY DEVELOPMENT</h1>
-        <p>
-          <strong>Why:</strong>
-          Indigenous peoples and local communities in Tanzania continue to
-          experience abject poverty and deteriorating livelihoods. They do not
-          have access to reliable safe and clean water services, quality
-          education, health services or sustainable livelihoods options. The
-          provision and the design of public services for indigenous peoples and
-          local communities continue to perpetuate huge dependency of the donors
-          of such projects.
-        </p>
-        <br />
-        <p>
-          <strong>Objective</strong>
-          To design social services (education, energy, health and water) and
-          livelihood options with indigenous communities in a participatory
-          process through enterprise-based models for ensuring sustainability
-          and growth. TEST will adopt an approach to build the capacity of IPLCs
-          and create sustainability of service delivery.
-        </p>
-        <br />
-        <p>
-          <strong>Plan:</strong>
-          TEST will, in collaboration with its partners, assist indigenous
-          communities to adopt enterprise-based solutions in designing social
-          and basic services to address poverty and increase access to
-          fundamental social services such as education, health and water.
-        </p>
+      <h1>SUPPORT SUSTAINABLE LIVELIHOODS</h1>
+      <div class="inner-sec our-work__cover">
+        <div>
+          <p>
+            <strong>Why:</strong>
+            Indigenous peoples and local communities in Tanzania are communities
+            in transition. They desire improved and reliable livelihoods
+            options. But they continue to experience abject poverty and
+            deteriorating livelihoods. They do not have access to reliable safe
+            and clean water services, quality education, health services or
+            sustainable livelihoods options. The provision and the design of
+            public services for indigenous peoples and local communities need to
+            be sustainable and in line with biodiversity conservation approaches
+            and interests.
+          </p>
+          <img src="../assets/eco.png" alt="" />
+        </div>
+
+        <div>
+          <p>
+            <strong>Objective</strong>
+            To design social services (education, energy, health and water) and
+            livelihood options through innovative financial models for ensuring
+            sustainability, growth and compatibility with biodiversity
+            approaches.
+          </p>
+          <img src="../assets/eco.png" alt="" />
+        </div>
+
+        <div>
+          <p>
+            <strong>Plan:</strong>
+            TEST will, in collaboration with its partners, embark in innovation
+            in designing and delivering livelihoods options to address poverty
+            and increase access to fundamental social services such as
+            education, health and water.
+          </p>
+          <img src="../assets/eco.png" alt="" />
+        </div>
       </div>
     </div>
 
-    <main>
-      <h1>INDIGENOUS RANGELANDS MANAGEMENT</h1>
+    <main class="container">
+      <h1>SUSTAINABLE ECOSYSTEMS</h1>
       <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Why:</strong>
-          <p>
-            Traditionally indigenous peoples have their own ways of land
-            governance and use for all seasons and for various uses. This
-            cultural practice allowed the lands to recover between seasons and
-            pasture to be available throughout the year. But the pastoralists in
-            Tanzania can hardly do this. Population growth, coupled with land
-            defragmentation and climate change have reduced the extent of their
-            pasturelands and resulted into deterioration in quality. As a
-            result, livestock often die in the dry season or in droughts from
-            lack of grass and lack of water. This is devastating.
-          </p>
-        </div>
-        <img src="../assets/work1.png" alt="" />
-      </div>
+        <div class="our-work__cover">
+          <div>
+            <p>
+              <strong>Why:</strong>
+              Natural ecosystems are shrinking, deteriorating with no clear
+              governance mechanisms. Traditionally indigenous peoples have their
+              own ways of land governance and use for all seasons and for
+              various uses. The land governance system was confined to small
+              villages. This cultural practice allowed the lands to recover
+              between seasons and pasture to be available throughout the year.
+              But the pastoralists in Tanzania can hardly do this. Population
+              growth, coupled with land defragmentation and climate change have
+              reduced the extent of their pasturelands and resulted into
+              deterioration in quality and regular land use conflicts. As a
+              result, livestock and wildlife often die in the dry season or in
+              droughts from lack of grass and lack of water. This is
+              devastating.
+            </p>
+            <img src="../assets/eco.png" alt="" />
+          </div>
 
-      <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Objective:</strong>
-          <p>
-            TEST is committed to introduce an innovative rangeland governance
-            system that will re-design grazing patterns through the combination
-            of scientific options with traditional practices for the livestock
-            to improve the livelihoods of the local communities as well as
-            enhance the conservation of biodiversity.
-          </p>
-        </div>
-        <img src="../assets/work1.png" alt="" />
-      </div>
+          <div>
+            <p>
+              <strong>Objective:</strong>
+              TEST is committed to introduce an innovative ecosystem governance
+              approach that will transcend boundaries of village systems in
+              Tanzania to encompass connected cultural and geographical
+              ecosystems and landscapes. The Sustainable Ecosystems Approach
+              will re-design land use and governing models to allow integrated
+              landscape approach to improve the livelihoods of the local
+              communities as well as enhance the conservation of biodiversity.
+            </p>
+            <img src="../assets/eco.png" alt="" />
+          </div>
 
-      <div class="community-wildlife-coservation">
-        <div class="inner">
-          <strong>Outcome:</strong>
-          <p>
-            TEST, in collaboration with the pastoralists in Tanzania will
-            restore indigenous land use practices and coping mechanisms to
-            ensure availability of pasture and to address the effects of climate
-            and cultural change. Together with partners, TEST will facilitate
-            for the design of livestock to markets programme as incentives for
-            regulating the number of livestock on the land. The programme will
-            control and maintain the carrying capacity of the land and loss of
-            biodiversity. This will ensure that livestock are kept at certain
-            numbers at different seasons (dry and wet) and according to land use
-            zones. The livestock will be sold at certain intervals during the
-            year.
-          </p>
+          <div>
+            <p>
+              <strong>Outcome:</strong>
+              TEST, in collaboration with indigenous peoples and partners in
+              Tanzania will introduce an innovative approach to govern and
+              manage ecosystems and landscapes to ensure sustainability of
+              ecosystems availability of pasture and to address the effects of
+              climate and cultural change. Together with partners, TEST will
+              facilitate for the design of livestock to markets programme as
+              incentives for regulating the number of livestock on the land. The
+              programme will control and maintain the carrying capacity of the
+              land and loss of biodiversity. This will ensure that livestock are
+              kept at certain numbers at different seasons (dry and wet) and
+              according to land use zones. The livestock will be sold at certain
+              intervals during the year.
+            </p>
+            <img src="../assets/eco.png" alt="" />
+          </div>
         </div>
-        <img src="../assets/edu.png" alt="" />
       </div>
     </main>
   </body>
 </template>
 
 <script>
-export default {};
+import CaptionDescription from "@/components/CaptionDescription.vue";
+export default {
+  components: {
+    CaptionDescription,
+  },
+};
 </script>
 
 <style lang="scss" scoped>
 body {
+  .our-work__cover {
+    display: grid;
+    grid-template-columns: 1.5fr 1.2fr 1fr;
+
+    div {
+      margin: 0.4rem;
+      padding: 0.5rem 1rem;
+      background: #ddd;
+    }
+  }
+
+  p {
+    font-size: 15px !important;
+  }
+
+  img {
+    width: 100%;
+  }
+
   .mid-container {
     background-image: url("../assets/work.jpeg");
     background-repeat: no-repeat;
@@ -159,80 +207,52 @@ body {
     background-size: cover;
     z-index: 1;
     padding: 5% 5%;
+    text-align: center;
 
     p {
       color: #fff;
     }
+
+    strong,
+    h1 {
+      color: #fff;
+    }
+
+    .inner-sec {
+      padding: 5%;
+      background-color: #699d1af0;
+
+      p {
+        margin: auto;
+      }
+
+      strong {
+        color: goldenrod;
+      }
+    }
   }
-}
 
-.mid-container {
-  text-align: center;
+  main {
+    margin: auto;
 
+    h1 {
+      text-align: left;
+    }
+
+    .community-wildlife-coservation {
+      margin-bottom: 2px;
+      object-fit: contain;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  h2,
   strong,
-  h1 {
-    color: #fff;
-  }
-
-  .inner-sec {
-    padding: 5%;
-    background-color: #699d1af0;
-
-    p {
-      width: 80%;
-      margin: auto;
-    }
-
-    strong {
-      color: goldenrod;
-    }
-  }
-}
-aside {
-  background-image: url("../assets/back-img.jpeg");
-  background-repeat: no-repeat;
-  position: center;
-  background-size: cover;
-  z-index: 1;
-  padding: 5%;
-  margin: auto;
-
-  h1 {
+  h3 {
     color: #689d1a;
-    margin-bottom: -3%;
+    margin: 0;
   }
-}
-
-main {
-  width: 90%;
-  margin: auto;
-  padding: 5% 0;
-
-  h1 {
-    text-align: left;
-  }
-
-  .inner {
-    width: 55%;
-  }
-
-  img {
-    width: 40%;
-  }
-
-  .community-wildlife-coservation {
-    margin-bottom: 2px;
-    object-fit: contain;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-h2,
-strong,
-h3 {
-  color: #689d1a;
-  margin: 0;
 }
 </style>

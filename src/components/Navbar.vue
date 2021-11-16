@@ -16,14 +16,11 @@
           <li>
             <router-link to="/how">OUR APPROACH</router-link>
           </li>
-          <li>
-            <router-link to="/">NEWS</router-link>
-          </li>
         </ul>
       </nav>
       <div class="btn-cover">
         <router-link class="nav-button" to="/contact"
-          ><Button :isFullWidth="false" label="DONATE" width="120px"> </Button
+          ><Button :isFullWidth="false" label="NEWS" width="120px"> </Button
         ></router-link>
       </div>
     </main>

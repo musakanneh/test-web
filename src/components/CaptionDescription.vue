@@ -29,6 +29,7 @@ export default {
 
 <style lang="scss" scoped>
 main {
+  width: 100%;
   background: #ddd;
   padding: 6rem 0 6rem 0;
   text-align: center;
@@ -42,7 +43,7 @@ main {
   p {
     font-size: 35px;
     color: #bf8f00;
-    padding: 1rem 0;
+    // padding: 1rem 0;
     text-align: center;
     margin: auto;
     width: 70%;
