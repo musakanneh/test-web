@@ -9,29 +9,33 @@
     />
     <section class="container">
       <div class="container_content">
-        <div>
+        <div class="cover">
+          <span>Vision</span>
           <p>
-            Vision: A world in which people, livestock, wildlife and nature
-            co-exist in peace, health and harmony.
+            A world in which people, livestock, wildlife and nature co-exist in
+            peace, health and harmony.
           </p>
         </div>
-        <div>
+        <div class="cover">
+          <span>Purpose</span>
           <p>
-            Purpose: To facilitate effective collaborations that integrate
-            technical expertise and assistance with indigenous knowledge and
-            skills to reduce conflict, improve natural resource management, and
-            enhance the sustainable well-being of local people, livestock and
-            wildlife in the natural ecosystems in Tanzania.
+            To facilitate effective collaborations that integrate technical
+            expertise and assistance with indigenous knowledge and skills to
+            reduce conflict, improve natural resource management, and enhance
+            the sustainable well-being of local people, livestock and wildlife
+            in the natural ecosystems in Tanzania.
           </p>
         </div>
-        <div>
-          <p>Mission:</p>
+        <div class="cover">
+          <span>Mission</span>
           <ul>
             <li>
               To facilitate conflict resolution, collaboration and information
               sharing
             </li>
-            <li>To improve community development through capacity building</li>
+            <li>
+              To improve community development through capacity building
+            </li>
             <li>
               To improve wildlife conservation within Indigenous Community
               Conversed Areas (ICCAs)
@@ -39,9 +43,8 @@
             <li>To improve traditional rangelands management</li>
           </ul>
         </div>
-
-        <div>
-          <p>Values:</p>
+        <div class="cover">
+          <span>Values</span>
           <ul>
             <li>We value and respect our indigenous community</li>
             <li>We value and respect our natural ecosystems</li>
@@ -77,6 +80,8 @@ body {
   margin-top: 4%;
 
   .container_content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     position: relative;
     top: -6vh;
     background: #fff;
@@ -87,6 +92,16 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     object-fit: cover;
+
+    .cover {
+      padding: 1rem;
+      background: #ddd;
+      margin: 1rem;
+
+      span {
+        font-weight: bold;
+      }
+    }
   }
 
   .history {

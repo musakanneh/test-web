@@ -52,7 +52,12 @@ body {
 
     img {
       width: 70%;
-      border: 0.5px solid #909090;
+      box-shadow: 1px 1px 5px rgba(150, 147, 147, 0.185);
+
+      &:hover {
+        box-shadow: 1px 1px 5px rgba(150, 147, 147, 0.57);
+        transition: 0.5s ease;
+      }
     }
 
     h1 {

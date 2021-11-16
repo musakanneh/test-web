@@ -83,7 +83,7 @@ body {
   padding: 1rem 0 0 0;
 
   .team-and-boardmembers__cover {
-    background: #a77e03;
+    background: #b38703;
     width: 100%;
     height: 100%;
     padding: 2rem 0 4rem 0;
