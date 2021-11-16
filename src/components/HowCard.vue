@@ -20,6 +20,7 @@
         </div>
       </div>
     </section>
+
     <section class="about">
       <div class="sec-one-cover">
         <div class="sec-one-inner">
@@ -57,6 +58,7 @@
         </div>
       </div>
     </section>
+
     <section class="about">
       <div class="sec-one-cover">
         <div class="sec-one-inner">
@@ -97,7 +99,7 @@ body {
     background: #ffffff;
     margin: auto;
     box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-
+    
     .sec-one-inner {
       width: 100%;
       h3,
@@ -106,7 +108,7 @@ body {
       }
 
       h3 {
-        color: #689D1A;
+        color: #689d1a;
         font-weight: 500;
       }
 

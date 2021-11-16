@@ -18,6 +18,7 @@ export default {
       style: "width:" + this.width,
     };
   },
+  
   props: {
     label: {
       type: String,
@@ -54,7 +55,6 @@ export default {
 
 .main-button {
   border: none;
-  // background: #689d1a;
   background: #bf8f00;
   border-radius: 3px;
   height: 40px;

@@ -34,5 +34,6 @@ h4 {
 p {
   margin: 0;
   color: #303030;
+  text-align: center;
 }
 </style>

@@ -1,8 +1,10 @@
 <template>
   <body>
     <main class="container">
-      <h1>PARTNERS</h1>
       <section>
+        <div>
+          <h1>PARTNERS:</h1>
+        </div>
         <div>
           <a href="https://www.nunamaisha.org/nunamaisha-is/"
             ><img src="../assets/partner-logo__nuna.png" alt=""
@@ -20,8 +22,8 @@
         </div>
       </section>
 
-      <h1>INTERNATIONAL MEMBERSHIP</h1>
       <section>
+        <div><h1>INTERNATIONAL MEMBERSHIP:</h1></div>
         <div>
           <a
             href="https://www.iccaconsortium.org/index.php/members/the-eastern-serengeti-test/"
@@ -34,28 +36,23 @@
 </template>
 
 <script>
-// import TeamTag from "@/components/TeamTag.vue";
 export default {
-  components: {
-    // TeamTag,
-  },
+  components: {},
 };
 </script>
 
 <style lang="scss" scoped>
 body {
-  //   padding: 1rem 0 5rem 0;
-  //   border: 1px solid red;
   background: #ddd;
+  padding: 8rem 0 !important;
 
   main {
-    position: relative;
     padding: 3px 50px;
     height: 100%;
 
     img {
       width: 70%;
-      border-radius: 50rem;
+      border: 0.5px solid #909090;
     }
 
     h1 {

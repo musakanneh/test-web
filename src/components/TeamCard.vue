@@ -83,10 +83,10 @@ body {
   padding: 1rem 0 0 0;
 
   .team-and-boardmembers__cover {
-    background: #c98811;
+    background: #a77e03;
     width: 100%;
     height: 100%;
-    padding: 3rem 0 6rem 0;
+    padding: 2rem 0 4rem 0;
 
     h1 {
       font-size: 1.5rem;
@@ -100,9 +100,17 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
+    div {
+      p {
+        text-align: center;
+      }
+    }
+
     img {
-      width: 70%;
+      width: 80%;
+      margin: 0 1.25rem;
       border-radius: 50rem;
+      border: 1px solid #707070;
     }
   }
 
@@ -114,12 +122,11 @@ body {
     img {
       width: 70%;
       border-radius: 50rem;
-      // border: 1px solid #c98811;
+      border: 1px solid #707070;
     }
 
     h1 {
       font-size: 1.5rem;
-      // color: #303030 !important;
       padding: 2rem 0;
       text-align: center;
     }
@@ -136,20 +143,17 @@ body {
 
       div {
         text-align: center;
-        // border: 1px solid rgba(221, 221, 221, 0.13);
 
         p {
           font-size: 14px;
           width: 80%;
           padding: 0.5rem 0;
-          color: #c98811;
           margin: auto;
         }
 
         a {
           text-decoration: none;
           font-size: 12px;
-          // color: #303030;
         }
       }
     }
