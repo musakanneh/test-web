@@ -26,12 +26,13 @@ export default {
 
 <style lang="scss" scoped>
 h4 {
-  color: #c98811;
+  color: #303030;
   text-align: center;
   margin: 0;
 }
 
 p {
   margin: 0;
+  color: #303030;
 }
 </style>

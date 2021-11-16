@@ -73,7 +73,7 @@ span {
 }
 
 h1 {
-  color: #d4d1c6;
+  color: #c98811;
   font-size: 3rem;
   text-align: left;
 }

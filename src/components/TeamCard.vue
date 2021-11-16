@@ -1,36 +1,37 @@
 <template>
   <body>
-    <main class="container">
-      <div>
-        <h1>BOARD</h1>
-        <section>
-          <div>
-            <img src="../assets/marco.jpeg" alt="" />
-            <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-            <router-link to="/lekumok"> <p>Profile</p></router-link>
-          </div>
-          <div>
-            <img src="../assets/marco.jpeg" alt="" />
-            <TeamTag name="Lilian Looloitai" position="Treasurer" />
-            <router-link to="/lilian"> <p>Profile</p></router-link>
-          </div>
+    <div class="team-and-boardmembers__cover">
+      <main class="container">
+        <div>
+          <h1>BOARD</h1>
+          <section>
+            <div>
+              <img src="../assets/marco.jpeg" alt="" />
+              <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
+              <router-link to="/lekumok"> <p>Profile</p></router-link>
+            </div>
+            <div>
+              <img src="../assets/marco.jpeg" alt="" />
+              <TeamTag name="Lilian Looloitai" position="Treasurer" />
+              <router-link to="/lilian"> <p>Profile</p></router-link>
+            </div>
 
-          <div>
-            <img src="../assets/marco.jpeg" alt="" />
-            <TeamTag name="Jopha Peter Kakanyio" position="Member" />
-            <router-link to="/jopha"> <p>Profile</p></router-link>
-          </div>
-          <div>
-            <img src="../assets/marco.jpeg" alt="" />
-            <TeamTag name="Emanuel Melubo" position="Member" />
-            <router-link to="/emanuel"> <p>Profile</p></router-link>
-          </div>
-        </section>
-      </div>
-      <br />
+            <div>
+              <img src="../assets/marco.jpeg" alt="" />
+              <TeamTag name="Jopha Peter Kakanyio" position="Member" />
+              <router-link to="/jopha"> <p>Profile</p></router-link>
+            </div>
+            <div>
+              <img src="../assets/marco.jpeg" alt="" />
+              <TeamTag name="Emanuel Melubo" position="Member" />
+              <router-link to="/emanuel"> <p>Profile</p></router-link>
+            </div>
+          </section>
+        </div>
+      </main>
 
       <h1>OUR TEAM</h1>
-      <section>
+      <section class="team-member_section container">
         <div>
           <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
@@ -61,51 +62,49 @@
           <router-link to="/marco"> <p>Profile</p></router-link>
         </div>
       </section>
-
-      <h1>PARTNERS</h1>
-      <section>
-        <div>
-          <a href="https://www.nunamaisha.org/nunamaisha-is/"
-            ><img src="../assets/partner-logo__nuna.png" alt=""
-          /></a>
-        </div>
-        <div>
-          <a href="https://not1more.org"
-            ><img src="../assets/partner-logo__n1.png" alt=""
-          /></a>
-        </div>
-        <div>
-          <a href="https://cicada.world"
-            ><img src="../assets/cicada.png" alt=""
-          /></a>
-        </div>
-      </section>
-
-      <h1>INTERNATIONAL MEMBERSHIP</h1>
-      <section>
-        <div>
-          <a
-            href="https://www.iccaconsortium.org/index.php/members/the-eastern-serengeti-test/"
-            ><img src="../assets/icca.jpg" alt=""
-          /></a>
-        </div>
-      </section>
-    </main>
+    </div>
+    <PartnerCard />
   </body>
 </template>
 
 <script>
+import PartnerCard from "@/components/PartnerCard.vue";
 import TeamTag from "@/components/TeamTag.vue";
 export default {
   components: {
     TeamTag,
+    PartnerCard,
   },
 };
 </script>
 
 <style lang="scss" scoped>
 body {
-  padding: 1rem 0 5rem 0;
+  padding: 1rem 0 0 0;
+
+  .team-and-boardmembers__cover {
+    background: #c98811;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 0 6rem 0;
+
+    h1 {
+      font-size: 1.5rem;
+      color: #303030 !important;
+      padding: 2rem 0;
+      text-align: center;
+    }
+  }
+
+  .team-member_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+    img {
+      width: 70%;
+      border-radius: 50rem;
+    }
+  }
 
   main {
     position: relative;
@@ -115,11 +114,12 @@ body {
     img {
       width: 70%;
       border-radius: 50rem;
+      // border: 1px solid #c98811;
     }
 
     h1 {
       font-size: 1.5rem;
-      color: #303030;
+      // color: #303030 !important;
       padding: 2rem 0;
       text-align: center;
     }
@@ -136,17 +136,20 @@ body {
 
       div {
         text-align: center;
+        // border: 1px solid rgba(221, 221, 221, 0.13);
 
         p {
           font-size: 14px;
           width: 80%;
           padding: 0.5rem 0;
+          color: #c98811;
           margin: auto;
         }
 
         a {
           text-decoration: none;
           font-size: 12px;
+          // color: #303030;
         }
       }
     }

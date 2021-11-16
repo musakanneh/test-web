@@ -90,7 +90,7 @@ nav {
 
   ul {
     list-style: none;
-    width: 40%;
+    width: 50%;
     padding: 0;
     margin: auto;
 
