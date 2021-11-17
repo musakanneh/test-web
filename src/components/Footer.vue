@@ -23,7 +23,7 @@
         >
       </div>
 
-      <div class="footer-nav-items mobile">
+      <div class="footer-nav-items">
         <h3>Support our Projects</h3>
         <hr />
         <br />
@@ -61,22 +61,39 @@ export default {
     width: 100% !important;
   }
 
-  h3{
-    padding: 1.5rem 0 .5rem 0;
+  h3 {
+    padding: 1.5rem 0 0.8rem 0;
   }
 
   hr {
-    width: 10% !important;
+    width: 15% !important;
     align-items: center !important;
   }
+
   main {
-    width: 80% !important;
+    width: 85% !important;
     margin: auto !important;
     display: block !important;
-    
+
     .social-medias {
       display: flex !important;
-      padding-bottom: 2rem;
+      padding: 1rem 0 2rem 0;
+    }
+
+    .footer-nav-items img {
+      width: 12px !important;
+    }
+
+    .footer-nav-items br {
+      display: block !important;
+    }
+
+    br {
+      display: none !important;
+    }
+
+    .footer-nav-items .payment {
+      width: 20% !important;
     }
 
     img {
