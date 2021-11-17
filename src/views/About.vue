@@ -75,6 +75,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+  @media only screen and (max-width: 900px) {
+    * {
+      // border: 1px solid red;
+    }
+  }
+
 body {
   background: #fbfbfb;
   margin-top: 4%;

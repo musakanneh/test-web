@@ -51,6 +51,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  body {
+    .partnership-sec {
+      display: block !important;
+
+      p{
+        // width: 100% !important;
+      }
+    }
+  }
+}
 body {
   span {
     color: #689d1a;

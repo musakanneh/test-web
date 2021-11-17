@@ -23,7 +23,7 @@
         >
       </div>
 
-      <div class="footer-nav-items">
+      <div class="footer-nav-items mobile">
         <h3>Support our Projects</h3>
         <hr />
         <br />
@@ -57,7 +57,32 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  
+  * {
+    width: 100% !important;
+  }
+
+  h3{
+    padding: 1.5rem 0 .5rem 0;
+  }
+
+  hr {
+    width: 10% !important;
+    align-items: center !important;
+  }
+  main {
+    width: 80% !important;
+    margin: auto !important;
+    display: block !important;
+    
+    .social-medias {
+      display: flex !important;
+      padding-bottom: 2rem;
+    }
+
+    img {
+      width: 10% !important;
+    }
+  }
 }
 
 footer {

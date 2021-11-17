@@ -130,4 +130,12 @@ img {
   transform: 0.5 ease;
 }
 /*** Team members profile ends */
+
+ @media only screen and (max-width: 900px) {
+   * {
+     /* border: 1px solid red; */
+     width: 100% !important;
+     margin: 0 !important;
+   }
+ }
 </style>
