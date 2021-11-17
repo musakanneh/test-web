@@ -133,9 +133,13 @@ img {
 
  @media only screen and (max-width: 900px) {
    * {
-     /* border: 1px solid red; */
      width: 100% !important;
      margin: 0 !important;
+   }
+   
+   p{
+     width: 90% !important;
+     margin: auto !important;
    }
  }
 </style>
