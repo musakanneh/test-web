@@ -31,6 +31,11 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
+  h1{
+    width: 90% !important;
+    margin: auto !important;
+    font-size: 1.6rem !important;
+  }
 }
 
 body {

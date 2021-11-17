@@ -131,15 +131,15 @@ img {
 }
 /*** Team members profile ends */
 
- @media only screen and (max-width: 900px) {
-   * {
-     width: 100% !important;
-     margin: 0 !important;
-   }
-   
-   p{
-     width: 90% !important;
-     margin: auto !important;
-   }
- }
+@media only screen and (max-width: 900px) {
+  * {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+
+  p {
+    width: 90% !important;
+    margin: auto !important;
+  }
+}
 </style>
