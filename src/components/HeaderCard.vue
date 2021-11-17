@@ -36,6 +36,10 @@ export default {
     margin: auto !important;
     font-size: 1.6rem !important;
   }
+
+  Button{
+    width: 50% !important;
+  }
 }
 
 body {
