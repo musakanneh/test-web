@@ -18,7 +18,6 @@
     <main class="container">
       <h1>SUSTAINABLE ECOSYSTEMS</h1>
       <SustainableEcosystems />
-      <div class="our-work__cover3"></div>
     </main>
   </body>
 </template>
@@ -52,12 +51,8 @@ body {
     position: center;
     background-size: cover;
     z-index: 1;
-    padding: 5% 5%;
+    padding: 5rem;
     text-align: center;
-
-    p {
-      color: #fff;
-    }
 
     strong,
     h1 {
@@ -65,24 +60,13 @@ body {
     }
 
     .inner-sec {
-      padding: 5%;
-      background-color: #a77e03;
-
-      p {
-        margin: auto;
-      }
+      padding: 5rem;
+      background-color: #fff;
     }
   }
 
   main {
     padding: 1rem 0 4rem 0;
   }
-
-  // h2,
-  // strong,
-  // h3 {
-  //   color: #689d1a;
-  //   margin: 0;
-  // }
 }
 </style>
