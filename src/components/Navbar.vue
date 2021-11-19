@@ -14,7 +14,7 @@
             <a href="/work">OUR WORK</a>
           </li>
           <li>
-            <a href="">OUR APPROACH</a>
+            <a href="/approach">OUR APPROACH</a>
           </li>
         </ul>
       </nav>

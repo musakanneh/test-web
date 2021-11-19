@@ -2,21 +2,28 @@
   <div id="app">
     <Tabs>
       <Tab name="Our Aim" selected="true">
-        <p>
-          design innovative and sustainable ecosystem governance mechanisms and
-          tools by combining scientifically proven solutions with the indigenous
-          ecological and land management practices that address poverty
-          reduction.
-        </p>
+        <div class="content">
+          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div>
+            <p>
+              design innovative and sustainable ecosystem governance mechanisms
+              and tools by combining scientifically proven solutions with the
+              indigenous ecological and land management practices that address
+              poverty reduction.
+            </p>
+          </div>
+        </div>
       </Tab>
       <Tab name="Outcome">
-        <div class="outcome">
-          <img src="../../assets/ba.jpg" alt="" />
-          <p>
-            open an alternative space for learning and research to addressing
-            pressing ecosystems governance challenges while simulatneously
-            delivering focused solutions for poverty reduction
-          </p>
+        <div class="content">
+          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div class="outcome">
+            <p>
+              open an alternative space for learning and research to addressing
+              pressing ecosystems governance challenges while simulatneously
+              delivering focused solutions for poverty reduction
+            </p>
+          </div>
         </div>
       </Tab>
     </Tabs>
@@ -35,10 +42,23 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-body {
-  background-color: #45443f;
-  color: #fefefe;
+.content {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+
+  img {
+    width: 100%;
+  }
+
+  p {
+    width: 85%;
+    margin: auto;
+    font-size: 1.4rem !important;
+    padding: 3rem 0;
+    line-height: 1.5;
+  }
 }
+
 th,
 td {
   padding: 5px;

@@ -13,9 +13,12 @@
               farms. However, indigenous peoples and local communities have been
               side-lined in mainstream wildlife conservation initiatives
               completely jeopardizing the peaceful co-existence witnessed for
-              many centuries. Wildlife within these ecosystems have been and
-              continue to experience challenges of movement, habitat management
-              and are a source of rampant human-wildlife conflicts.
+              many centuries.
+            </p>
+            <p>
+              Wildlife within these ecosystems have been and continue to
+              experience challenges of movement, habitat management and are a
+              source of rampant human-wildlife conflicts.
             </p>
             <p>
               Human-wildlife conflicts have intensified in the last decade
