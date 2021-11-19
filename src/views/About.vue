@@ -1,7 +1,6 @@
 <template>
   <body>
     <CaptionDescription
-      title="Welcome to TEST"
       describe_caption="Traditional Ecosystems Survival Tanzania (TEST) is a 
       non-profit organization that builds and nurtures connections between traditional 
       indigenous knowledge systems, proven scientific approaches and enterprise-based 
@@ -75,12 +74,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-  @media only screen and (max-width: 900px) {
-    * {
-      // border: 1px solid red;
-    }
-  }
+@media only screen and (max-width: 900px) {
+}
 
 body {
   background: #fbfbfb;
@@ -90,9 +85,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     position: relative;
-    top: -6vh;
-    background: #fff;
-    border-radius: 7px 7px 0 0;
     padding: 3rem 50px;
     height: 100%;
     margin: auto;
@@ -102,11 +94,11 @@ body {
 
     .cover {
       padding: 1rem;
-      background: #ddd;
       margin: 1rem;
 
       span {
         font-weight: bold;
+        font-size: 2rem;
       }
     }
   }

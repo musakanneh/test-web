@@ -43,7 +43,6 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  background: #ddd;
   padding: 8rem 0 !important;
 
   main {

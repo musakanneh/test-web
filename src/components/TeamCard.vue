@@ -6,23 +6,22 @@
           <h1>BOARD</h1>
           <section>
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
+              <img src="../assets/leb.png" alt="" />
               <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
               <router-link to="/lekumok"> <p>Profile</p></router-link>
             </div>
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
+              <img src="../assets/lilian.png" alt="" />
               <TeamTag name="Lilian Looloitai" position="Treasurer" />
               <router-link to="/lilian"> <p>Profile</p></router-link>
             </div>
-
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
+              <img src="../assets/jop.png" alt="" />
               <TeamTag name="Jopha Peter Kakanyi" position="Member" />
               <router-link to="/jopha"> <p>Profile</p></router-link>
             </div>
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
+              <img src="../assets/melubo.png" alt="" />
               <TeamTag name="Emanuel Melubo" position="Member" />
               <router-link to="/emanuel"> <p>Profile</p></router-link>
             </div>
@@ -34,16 +33,11 @@
       <section class="team-member_section container">
         <div>
           <img src="../assets/marco.jpeg" alt="" />
-          <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-          <router-link to="/yannick"> <p>Profile</p></router-link>
-        </div>
-        <div>
-          <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Elias Nagol" position="Technical Advisor" />
           <router-link to="/elias"> <p>Profile</p></router-link>
         </div>
         <div>
-          <img src="../assets/marco.jpeg" alt="" />
+          <img src="../assets/evel.png" alt="" />
           <TeamTag name="Evelyn Kaney" position="Financial Manager" />
           <router-link to="/evelyn"> <p>Profile</p></router-link>
         </div>
@@ -60,6 +54,11 @@
           <img src="../assets/marco.jpeg" alt="" />
           <TeamTag name="Marco Mathayo" position="Programs Manager" />
           <router-link to="/marco"> <p>Profile</p></router-link>
+        </div>
+        <div>
+          <img src="../assets/yannick.png" alt="" />
+          <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
+          <router-link to="/yannick"> <p>Profile</p></router-link>
         </div>
       </section>
     </div>
@@ -83,7 +82,7 @@ body {
   padding: 1rem 0 0 0;
 
   .team-and-boardmembers__cover {
-    background: #b38703;
+    background: #ddd;
     width: 100%;
     height: 100%;
     padding: 2rem 0 4rem 0;

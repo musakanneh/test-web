@@ -33,6 +33,16 @@ main {
   padding: 6rem 0 6rem 0;
   text-align: center;
 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
+      url("../assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: center;
+    background-size: cover;
+    z-index: 1;
+    text-align: center;
+    padding: 5rem 0;
+
   h2 {
     color: #303030;
     font-size: 2.5rem;
@@ -40,11 +50,12 @@ main {
   }
 
   p {
-    font-size: 35px;
+    font-size: 1.2rem !important;
     color: #bf8f00;
     text-align: center;
     margin: auto;
-    width: 70%;
+    line-height: 1.5;
+    width: 75%;
     font-weight: bold;
     transition: 20ms;
   }
