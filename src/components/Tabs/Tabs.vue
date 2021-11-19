@@ -44,23 +44,27 @@ export default {
   border-bottom: 1px solid #fefefe;
   margin: 0 10px;
 }
+
 .tabs-details {
   padding: 10px;
 }
+
 ul {
   display: flex;
   padding: 0;
   list-style: none;
+
   li {
     margin-right: 40px;
   }
   .nav-item {
+    font-size: 2rem;
     cursor: pointer;
     &:hover {
-      color: #fb130a;
+      color: #c98811;
     }
     &.is-active {
-      color: #fb130a;
+      color: #c98811;
     }
   }
 }

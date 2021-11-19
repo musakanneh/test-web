@@ -1,85 +1,19 @@
 <template>
   <body class="height_and_weight__global">
     <main class="container">
-      
       <h1>OUR STRATEGY</h1>
       <TabBtn />
-      <!-- <section class="activities-sec-cover">
-        <article>
-          <tabs
-            :tabs="tabs"
-            :currentTab="currentTab"
-            :wrapper-class="'default-tabs'"
-            :tab-class="'default-tabs__item'"
-            :tab-active-class="'default-tabs__item_active'"
-            :line-class="'default-tabs__active-line'"
-            @onClick="handleClick"
-          />
-          <div class="content">
-            <div v-if="currentTab === 'tab1'" class="current-tab-sec">
-              <div class="tm-content">
-                <p>
-                  Design innovative and sustainable ecosystem governance
-                  mechanisms and tools by combining scientifically proven
-                  solutions with the indigenous ecological and land management
-                  practices that address poverty reduction.
-                </p>
-              </div>
-              <div class="tm-img">
-                <img src="../assets/dogs1.jpeg" alt="" />
-              </div>
-            </div>
-            <div v-if="currentTab === 'tab2'" class="current-tab-sec">
-              <div class="tm-content">
-                <p>
-                  Open an alternative space for learning and research to
-                  addressing pressing ecosystems governance challenges while
-                  simulatneously delivering focused solutions for poverty
-                  reduction and the corresponding threats that indigenous people
-                  face.
-                </p>
-              </div>
-              <div class="tm-img">
-                <img src="../assets/dogs1.jpeg" alt="" />
-              </div>
-            </div>
-          </div>
-        </article>
-      </section> -->
     </main>
   </body>
 </template>
 
 <script>
-import TabBtn from '@/components/Tabs/TabBtn.vue';
-// import Tab from '@/components/Tab.vue';
-// import Tabs from "vue-tabs-with-active-line";
-// const TABS = [
-//   {
-//     title: "Our Aim",
-//     value: "tab1",
-//   },
-//   {
-//     title: "Outcome",
-//     value: "tab2",
-//   },
-// ];
+import TabBtn from "@/components/Tabs/TabBtn.vue";
+
 export default {
   components: {
-    // Tabs,
-    // Tab,
     TabBtn,
   },
-
-  // data: () => ({
-  //   tabs: TABS,
-  //   currentTab: "tab1",
-  // }),
-  // methods: {
-  //   handleClick(newTab) {
-  //     this.currentTab = newTab;
-  //   },
-  // },
 };
 </script>
 
