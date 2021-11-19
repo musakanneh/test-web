@@ -6,15 +6,15 @@
       </div>
       <nav class="nav-cover">
         <ul>
-          <li><router-link to="/">HOME</router-link></li>
+          <li><a href="/">HOME</a></li>
           <li>
-            <router-link to="/about">ABOUT TEST</router-link>
+            <a href="/about">ABOUT TEST</a>
           </li>
           <li>
-            <router-link to="/work">OUR WORK</router-link>
+            <a href="/work">OUR WORK</a>
           </li>
           <li>
-            <router-link to="/approach">OUR APPROACH</router-link>
+            <a href="">OUR APPROACH</a>
           </li>
         </ul>
       </nav>

@@ -41,54 +41,8 @@ export default {
 
 <style lang="scss" scoped>
 body {
-  .our-work__cover {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-
-    div {
-      margin: 0.4rem;
-      padding: 0.5rem 1rem;
-      background: #ddd;
-    }
-  }
-
-  .our-work__cover2 {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-
-    div {
-      margin: 0.4rem;
-      padding: 0.5rem 1rem;
-
-      p {
-        text-align: left;
-        padding-bottom: 1rem;
-      }
-    }
-  }
-
-  .our-work__cover3 {
-    display: grid;
-    grid-template-columns: 2fr 1.5fr 2fr;
-
-    div {
-      margin: 0.4rem;
-      padding: 0.5rem 1rem;
-      background: #ddd;
-
-      p {
-        text-align: left;
-        padding-bottom: 1rem;
-      }
-    }
-  }
-
   p {
     font-size: 15px !important;
-  }
-
-  img {
-    width: 100%;
   }
 
   .mid-container {
@@ -124,11 +78,11 @@ body {
     padding: 1rem 0 4rem 0;
   }
 
-  h2,
-  strong,
-  h3 {
-    color: #689d1a;
-    margin: 0;
-  }
+  // h2,
+  // strong,
+  // h3 {
+  //   color: #689d1a;
+  //   margin: 0;
+  // }
 }
 </style>

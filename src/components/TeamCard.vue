@@ -18,7 +18,7 @@
 
             <div>
               <img src="../assets/marco.jpeg" alt="" />
-              <TeamTag name="Jopha Peter Kakanyio" position="Member" />
+              <TeamTag name="Jopha Peter Kakanyi" position="Member" />
               <router-link to="/jopha"> <p>Profile</p></router-link>
             </div>
             <div>

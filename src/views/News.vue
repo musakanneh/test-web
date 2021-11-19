@@ -1,6 +1,6 @@
 <template>
   <body>
-    <Caption title="NEWS" />
+    <Caption title="" />
     <main class="container">
       <div>
         <p>

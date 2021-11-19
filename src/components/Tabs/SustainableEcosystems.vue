@@ -67,6 +67,24 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+#app {
+  background: rgba(221, 221, 221, 0.555);
+
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    p {
+      width: 90%;
+      margin: auto;
+      line-height: 1.5;
+    }
+  }
+
+  img {
+    width: 100%;
+  }
+}
 body {
   background-color: #45443f;
   color: #fefefe;

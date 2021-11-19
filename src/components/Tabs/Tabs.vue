@@ -41,7 +41,7 @@ export default {
 
 <style lang="scss" scoped>
 .tabs {
-  border-bottom: 1px solid #fefefe;
+  border-bottom: 1px solid #bf8f00;
   margin: 0 10px;
 }
 
@@ -53,16 +53,21 @@ ul {
   display: flex;
   padding: 0;
   list-style: none;
-
+  
   li {
     margin-right: 40px;
   }
+
   .nav-item {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    font-weight: bolder;
     cursor: pointer;
+
     &:hover {
       color: #c98811;
+      transition: .5s ease;
     }
+
     &.is-active {
       color: #c98811;
     }

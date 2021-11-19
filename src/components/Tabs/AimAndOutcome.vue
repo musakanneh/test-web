@@ -10,11 +10,14 @@
         </p>
       </Tab>
       <Tab name="Outcome">
-        <p>
-          open an alternative space for learning and research to addressing
-          pressing ecosystems governance challenges while simulatneously
-          delivering focused solutions for poverty reduction
-        </p>
+        <div class="outcome">
+          <img src="../../assets/ba.jpg" alt="" />
+          <p>
+            open an alternative space for learning and research to addressing
+            pressing ecosystems governance challenges while simulatneously
+            delivering focused solutions for poverty reduction
+          </p>
+        </div>
       </Tab>
     </Tabs>
   </div>

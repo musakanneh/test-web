@@ -44,6 +44,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
 body {
   background-color: #45443f;
   color: #fefefe;
