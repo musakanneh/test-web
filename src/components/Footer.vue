@@ -5,8 +5,9 @@
         <h3>Quick Links</h3>
         <hr />
         <br />
-        <a href="/" class="tba">Our Services</a><br />
-        <a href="/" class="tba">Our Work</a><br />
+        <a href="/about" class="tba">About Us</a><br />
+        <a href="/work" class="tba">Our Work</a><br />
+        <a href="/about" class="tba">Our Team</a><br />
       </div>
 
       <div class="footer-nav-items">

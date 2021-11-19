@@ -1,13 +1,13 @@
 <template>
   <body>
     <div class="container">
-      <CaptionDescription title="OUR APPROACH" />
+      <CaptionDescription title="" />
       <main class="">
         <section class="about">
           <div class="sec-one-cover">
             <div class="sec-one-inner">
               <div class="image">
-                <img src="../assets/research.png" alt="" />
+                <img src="../assets/res.png" alt="" />
               </div>
               <h3>Collaborative Research</h3>
               <p v-scrollanimation>
@@ -29,7 +29,7 @@
           <div class="sec-one-cover">
             <div class="sec-one-inner">
               <div class="image">
-                <img src="../assets/edu.png" alt="" />
+                <img src="../assets/ed.png" alt="" />
               </div>
               <h3>Education and Capacity building</h3>
               <p v-scrollanimation>
@@ -50,7 +50,7 @@
           <div class="sec-one-cover">
             <div class="sec-one-inner">
               <div class="image">
-                <img src="../assets/culture.png" alt="" />
+                <img src="../assets/cult.png" alt="" />
               </div>
               <h3>Cultural Exchange</h3>
               <p v-scrollanimation>
@@ -68,7 +68,7 @@
           <div class="sec-one-cover">
             <div class="sec-one-inner">
               <div class="image">
-                <img src="../assets/lions.jpeg" alt="" />
+                <img src="../assets/eco.png" alt="" />
               </div>
               <h3>Ecosystem Governance</h3>
               <p v-scrollanimation>
@@ -98,6 +98,7 @@ export default {
 body {
   background: #ddd;
   padding: 0 0 4rem 0;
+
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -114,7 +115,7 @@ body {
 
         h3,
         p {
-          margin: 1.5rem;
+          margin: 1rem 1.5rem;
         }
 
         h3 {
