@@ -31,22 +31,22 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  h1{
+  h1 {
     width: 90% !important;
     margin: auto !important;
     font-size: 1.6rem !important;
   }
 
-  Button{
+  button {
     width: 50% !important;
   }
 }
 
 body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-    url("../assets/banner6.jpeg");
+    url("../assets/ba.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed !important;
+  background-attachment: fixed;
   margin: auto;
   width: 100%;
   height: 100%;
@@ -67,8 +67,9 @@ body {
   }
 
   main {
-    padding: 15% 0;
+    padding: 16rem 0;
     height: 100%;
+    width: 100%;
     text-align: center;
 
     button {

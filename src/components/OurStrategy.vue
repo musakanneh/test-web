@@ -1,8 +1,10 @@
 <template>
   <body class="height_and_weight__global">
     <main class="container">
+      
       <h1>OUR STRATEGY</h1>
-      <section class="activities-sec-cover">
+      <TabBtn />
+      <!-- <section class="activities-sec-cover">
         <article>
           <tabs
             :tabs="tabs"
@@ -43,43 +45,52 @@
             </div>
           </div>
         </article>
-      </section>
+      </section> -->
     </main>
   </body>
 </template>
 
 <script>
-import Tabs from "vue-tabs-with-active-line";
-const TABS = [
-  {
-    title: "Our Aim",
-    value: "tab1",
-  },
-  {
-    title: "Outcome",
-    value: "tab2",
-  },
-];
+import TabBtn from '@/components/Tabs/TabBtn.vue';
+// import Tab from '@/components/Tab.vue';
+// import Tabs from "vue-tabs-with-active-line";
+// const TABS = [
+//   {
+//     title: "Our Aim",
+//     value: "tab1",
+//   },
+//   {
+//     title: "Outcome",
+//     value: "tab2",
+//   },
+// ];
 export default {
   components: {
-    Tabs,
+    // Tabs,
+    // Tab,
+    TabBtn,
   },
 
-  data: () => ({
-    tabs: TABS,
-    currentTab: "tab1",
-  }),
-  methods: {
-    handleClick(newTab) {
-      this.currentTab = newTab;
-    },
-  },
+  // data: () => ({
+  //   tabs: TABS,
+  //   currentTab: "tab1",
+  // }),
+  // methods: {
+  //   handleClick(newTab) {
+  //     this.currentTab = newTab;
+  //   },
+  // },
 };
 </script>
 
 <style lang="scss" scoped>
 body {
   background: #ddd;
+
+  h1 {
+    text-align: center;
+    padding-bottom: 2rem;
+  }
 
   .current-tab-sec {
     display: flex;

@@ -65,12 +65,12 @@ body {
   .partnership {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.712)),
-      url("../assets/ladies.jpeg");
+      url("../assets/partn.jpg");
     opacity: 1;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 6% 0 10% 0;
+    padding: 8rem 0;
     height: 100%;
 
     hr {
@@ -81,7 +81,8 @@ body {
       color: #fbfbfbe5;
       width: 60%;
       padding: 0.5rem;
-      font-size: 16px;
+      line-height: 1.5 !important;
+      font-size: 17px !important;
       margin: auto;
       font-weight: normal;
       font-style: normal;
@@ -130,8 +131,8 @@ body {
 
         h5 {
           color: #fff;
-          padding: 10% 0;
-          font-size: 1.75rem;
+          padding: 8rem 0;
+          font-size: 2.3rem;
           margin: auto;
           line-height: 2;
           text-align: center;

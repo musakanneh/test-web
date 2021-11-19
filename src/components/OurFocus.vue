@@ -3,41 +3,47 @@
     <h1>OUR FOCUS</h1>
     <main class="container">
       <div class="div__content">
-        <div>
-          <p><span>11 regions</span></p>
-          <br /><br /><br />
-          <img src="../assets/banner.jpg" alt="" />
+        <div class="inner">
+          <p><span>11</span></p>
+          <p>regions</p>
+          <br /><br />
         </div>
+        <img src="../assets/iplc.png" alt="" />
       </div>
 
       <div class="div__content">
-        <div>
-          <p><span>300 Villages</span></p>
-          <br /><br /><br />
-          <img src="../assets/more-ladies.jpeg" alt="" />
+        <div class="inner">
+          <p><span>300 </span></p>
+          <p>villages</p>
+          <br /><br />
         </div>
+        <img src="../assets/iplc.png" alt="" />
       </div>
 
       <div class="div__content">
-        <div>
+        <div class="inner">
           <p>
             <span>12 Million IPLCs</span>
+          </p>
+          <p>
             that live and share their lands with wildlife in critical and
             globally important ecosystem hotspots
           </p>
-          <img src="../assets/sav.jpeg" alt="" />
         </div>
+        <img src="../assets/iplc.png" alt="" />
       </div>
 
       <div class="div__content">
-        <div>
+        <div class="inner">
           <p>
             <span>Culturally diverse communities:</span>
+          </p>
+          <p>
             including pastoralists, hunters-gatherers and agro-pastoralist
             communities in Tanzania.
           </p>
-          <img src="../assets/sav.jpeg" alt="" />
         </div>
+        <img src="../assets/test.png" alt="" />
       </div>
     </main>
   </body>
@@ -45,7 +51,8 @@
 
 <script>
 export default {
-  components: {},
+  components: {
+  },
 };
 </script>
 
@@ -56,15 +63,15 @@ export default {
 body {
   .div__content {
     width: 96%;
-    background: #ddd;
-    border-radius: 3px;
 
-    div {
-      margin: 1.5rem;
+    .inner {
+      padding: 0.5rem 1rem;
+      background: #ddd;
     }
 
     span {
       font-weight: bolder;
+      font-size: 1.2rem;
     }
 
     p {
@@ -86,7 +93,6 @@ body {
 
     img {
       width: 100%;
-      border-radius: 2px;
 
       &:hover {
         transform: scale(1.01);
