@@ -9,14 +9,21 @@
     <section class="container">
       <div class="container_content">
         <div class="cover">
-          <span>Vision</span>
+          <div class="about__content">
+            <div><img src="../assets/vision.png" alt="" /></div>
+            <div><span>Vision</span></div>
+          </div>
           <p>
             A world in which people, livestock, wildlife and nature co-exist in
             peace, health and harmony.
           </p>
         </div>
         <div class="cover">
-          <span>Purpose</span>
+          <div class="about__content">
+            <div><img src="../assets/pass.png" alt="" /></div>
+            <div><span>Purpose</span></div>
+          </div>
+
           <p>
             To facilitate effective collaborations that integrate technical
             expertise and assistance with indigenous knowledge and skills to
@@ -26,7 +33,10 @@
           </p>
         </div>
         <div class="cover">
-          <span>Mission</span>
+          <div class="about__content">
+            <div><img src="../assets/outcome.png" alt="" /></div>
+            <div><span>Mission</span></div>
+          </div>
           <ul>
             <li>
               To facilitate conflict resolution, collaboration and information
@@ -43,7 +53,11 @@
           </ul>
         </div>
         <div class="cover">
-          <span>Values</span>
+          <div class="about__content">
+            <div><img src="../assets/mission.png" alt="" /></div>
+            <div><span>Values</span></div>
+          </div>
+
           <ul>
             <li>We value and respect our indigenous community</li>
             <li>We value and respect our natural ecosystems</li>
@@ -80,6 +94,16 @@ export default {
 body {
   background: #fbfbfb;
   margin-top: 4%;
+
+  .about__content {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+
+    img {
+      width: 80%;
+    }
+  }
 
   .container_content {
     display: grid;
