@@ -10,8 +10,10 @@
       <div class="container_content">
         <div class="cover">
           <div class="about__content">
-            <div><img src="../assets/vision.png" alt="" /></div>
-            <div><span>Vision</span></div>
+            <div class="img__class">
+              <img src="../assets/vision.png" alt="" />
+            </div>
+            <div class="content__title"><span>Vision</span></div>
           </div>
           <p>
             A world in which people, livestock, wildlife and nature co-exist in
@@ -20,10 +22,11 @@
         </div>
         <div class="cover">
           <div class="about__content">
-            <div><img src="../assets/pass.png" alt="" /></div>
-            <div><span>Purpose</span></div>
+            <div class="img__class">
+              <img src="../assets/pass.png" alt="" />
+            </div>
+            <div class="content__title"><span>Purpose</span></div>
           </div>
-
           <p>
             To facilitate effective collaborations that integrate technical
             expertise and assistance with indigenous knowledge and skills to
@@ -34,8 +37,10 @@
         </div>
         <div class="cover">
           <div class="about__content">
-            <div><img src="../assets/outcome.png" alt="" /></div>
-            <div><span>Mission</span></div>
+            <div class="img__class">
+              <img src="../assets/outcome.png" alt="" />
+            </div>
+            <div class="content__title"><span>Mission</span></div>
           </div>
           <ul>
             <li>
@@ -54,8 +59,10 @@
         </div>
         <div class="cover">
           <div class="about__content">
-            <div><img src="../assets/mission.png" alt="" /></div>
-            <div><span>Values</span></div>
+            <div class="img__class">
+              <img src="../assets/mission.png" alt="" />
+            </div>
+            <div class="content__title"><span>Values</span></div>
           </div>
 
           <ul>
@@ -97,24 +104,30 @@ body {
 
   .about__content {
     display: flex;
-    width: 30%;
+    width: 40%;
     justify-content: space-between;
 
+    .content__title {
+      width: 70%;
+      padding-top: 0.75rem;
+    }
+
+    .img__class {
+      width: 25%;
+      margin: 0;
+    }
+
     img {
-      width: 80%;
+      width: 100%;
     }
   }
 
   .container_content {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    position: relative;
-    padding: 3rem 50px;
+    padding: 4rem 0;
     height: 100%;
     margin: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
 
     .cover {
       padding: 1rem;
