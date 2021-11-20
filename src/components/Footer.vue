@@ -28,10 +28,8 @@
         <h3>Support our Projects</h3>
         <hr />
         <br />
-        <img class="payment" src="../assets/momo.png" alt="" />
-        <img class="payment" src="../assets/tigo.png" alt="" />
-        <img class="payment" src="../assets/visa.png" alt="" /><br />
-        <img class="payment" src="../assets/master-card.png" alt="" />
+        <a href="/" class="tba">Donete</a><br />
+        <a href="/" class="tba">Volunteer With Us</a><br />
       </div>
 
       <div class="contact-sec">
