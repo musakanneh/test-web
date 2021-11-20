@@ -1,16 +1,16 @@
 <template>
   <body>
+    <CaptionDescription title="" />
     <div class="container">
-      <CaptionDescription title="" />
-      <main class="">
+      <main>
         <section class="about">
-          <div class="sec-one-cover">
-            <div class="sec-one-inner">
-              <div class="image">
-                <img src="../assets/res.png" alt="" />
-              </div>
+          <div class="sec-one-inner">
+            <div class="image">
+              <img src="../assets/div.png" alt="" />
+            </div>
+            <div class="content__text">
               <h3>Collaborative Research</h3>
-              <p v-scrollanimation>
+              <p>
                 TEST shall host a collaborative research program with renowned
                 academic and research institutions to develop the database of
                 the indigenous ecological knowledge practices that enhance
@@ -26,13 +26,13 @@
         </section>
 
         <section class="about">
-          <div class="sec-one-cover">
-            <div class="sec-one-inner">
-              <div class="image">
-                <img src="../assets/ed.png" alt="" />
-              </div>
+          <div class="sec-one-inner">
+            <div class="image">
+              <img src="../assets/edu1.png" alt="" />
+            </div>
+            <div class="content__text">
               <h3>Education and Capacity building</h3>
-              <p v-scrollanimation>
+              <p>
                 TEST shall facilitate a comprehensive awareness creation program
                 to disseminate and exhibit the findings of the action research.
                 The action will employ such media as film, radio, and other
@@ -47,13 +47,13 @@
         </section>
 
         <section class="about">
-          <div class="sec-one-cover">
-            <div class="sec-one-inner">
-              <div class="image">
-                <img src="../assets/cult.png" alt="" />
-              </div>
+          <div class="sec-one-inner">
+            <div class="image">
+              <img src="../assets/cultural-e.png" alt="" />
+            </div>
+            <div class="content__text">
               <h3>Cultural Exchange</h3>
-              <p v-scrollanimation>
+              <p>
                 Tanzania has a diversity if indigenous cultures contributing to
                 community and ecological resilience. TEST will facilitate
                 targeted cultural exchange visits with and among diverse
@@ -65,13 +65,13 @@
         </section>
 
         <section class="about">
-          <div class="sec-one-cover">
-            <div class="sec-one-inner">
-              <div class="image">
-                <img src="../assets/eco.png" alt="" />
-              </div>
+          <div class="sec-one-inner">
+            <div class="image">
+              <img src="../assets/eco-s.png" alt="" />
+            </div>
+            <div class="content__text">
               <h3>Ecosystem Governance</h3>
-              <p v-scrollanimation>
+              <p>
                 TEST shall spearhead the development of a
                 participatory-landscape approach to land-use-plans including
                 guidelines for governing and controlling the use of the land
@@ -97,20 +97,30 @@ export default {
 <style lang="scss" scoped>
 body {
   background: #ddd;
-  padding: 0 0 4rem 0;
+  padding: 2rem 0 4rem 0;
 
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
     width: 100%;
+
+    padding: 4rem 0;
+
+    .content__text {
+      width: 70%;
+    }
 
     .about {
       width: 95%;
       background: #ffffff;
+      border: 1px solid #ddd;
+
       margin: auto;
       box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
 
       .sec-one-inner {
+        display: flex;
         width: 100%;
 
         h3,
@@ -123,8 +133,12 @@ body {
           font-weight: 500;
         }
 
-        img {
-          width: 100%;
+        .image {
+          width: 40%;
+
+          img {
+            width: 100%;
+          }
         }
       }
     }
