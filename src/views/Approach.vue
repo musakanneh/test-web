@@ -24,7 +24,6 @@
             </div>
           </div>
         </section>
-
         <section class="about">
           <div class="sec-one-inner">
             <div class="image">
@@ -45,7 +44,6 @@
             </div>
           </div>
         </section>
-
         <section class="about">
           <div class="sec-one-inner">
             <div class="image">
@@ -63,7 +61,6 @@
             </div>
           </div>
         </section>
-
         <section class="about">
           <div class="sec-one-inner">
             <div class="image">
@@ -104,7 +101,6 @@ body {
     grid-template-columns: 1fr 1fr;
     grid-row-gap: 30px;
     width: 100%;
-
     padding: 4rem 0;
 
     .content__text {
@@ -115,7 +111,6 @@ body {
       width: 95%;
       background: #ffffff;
       border: 1px solid #ddd;
-
       margin: auto;
       box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
 

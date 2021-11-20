@@ -4,7 +4,7 @@
       <Tab name="Why?" selected="true">
         <div class="content">
           <div>
-            <img src="../../assets/ba.jpg" alt="" />
+            <img src="../../assets/ind-people.png" alt="" />
           </div>
           <div>
             <p>
@@ -24,7 +24,7 @@
       <Tab name="Objective">
         <div class="content">
           <div>
-            <img src="../../assets/ba.jpg" alt="" />
+            <img src="../../assets/design.png" alt="" />
           </div>
           <div>
             <p>
@@ -39,7 +39,7 @@
       <Tab name="Plan">
         <div class="content">
           <div>
-            <img src="../../assets/ba.jpg" alt="" />
+            <img src="../../assets/learning.png" alt="" />
           </div>
           <div>
             <p>

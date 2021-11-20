@@ -64,7 +64,6 @@
             </div>
             <div class="content__title"><span>Values</span></div>
           </div>
-
           <ul>
             <li>We value and respect our indigenous community</li>
             <li>We value and respect our natural ecosystems</li>

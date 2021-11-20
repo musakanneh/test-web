@@ -4,7 +4,7 @@
       <Tab name="Why?" selected="true">
         <div class="content">
           <div>
-            <img src="../../assets/ba.jpg" alt="" />
+            <img src="../../assets/governance.png" alt="" />
           </div>
           <div>
             <p>
@@ -53,7 +53,7 @@
       </Tab>
       <Tab name="Plan">
         <div class="content">
-          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div><img src="../../assets/learning.png" alt="" /></div>
           <div>
             <p>
               TEST is committed to work with indigenous peoples and local
