@@ -3,7 +3,7 @@
     <Tabs>
       <Tab name="Our Aim" selected="true">
         <div class="content">
-          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div><img src="../../assets/governance.png" alt="" /></div>
           <div>
             <p>
               design innovative and sustainable ecosystem governance mechanisms
@@ -16,7 +16,7 @@
       </Tab>
       <Tab name="Outcome">
         <div class="content">
-          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div><img src="../../assets/learning.png" alt="" /></div>
           <div class="outcome">
             <p>
               open an alternative space for learning and research to addressing
