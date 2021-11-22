@@ -68,6 +68,8 @@ export default {
 
 <style lang="scss" scoped>
 #app {
+  padding: 2.5rem;
+
   .content {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -76,22 +78,20 @@ export default {
       width: 90%;
       margin: auto;
       text-align: left;
+      padding: 0.6rem 0;
       line-height: 1.5;
+      font-size: 1.8rem;
     }
   }
 
   img {
     width: 100%;
+    padding: 0.7rem 0;
   }
-}
-body {
-  background-color: #45443f;
-  color: #fefefe;
 }
 th,
 td {
   padding: 5px;
   border: 1px solid #fefefe;
-  text-align: center;
 }
 </style>

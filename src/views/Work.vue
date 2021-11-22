@@ -40,6 +40,8 @@ export default {
 
 <style lang="scss" scoped>
 body {
+  padding: 8rem 0 4rem 0;
+  
   p {
     font-size: 15px !important;
   }
@@ -51,22 +53,26 @@ body {
     position: center;
     background-size: cover;
     z-index: 1;
-    padding: 5rem;
-    text-align: center;
+    padding: 8rem 0;
 
     strong,
     h1 {
       color: #fff;
+      padding: 1rem 0 2.5rem 0;
     }
 
     .inner-sec {
       padding: 5rem;
-      background-color: #fff;
+        background: rgba(221, 221, 221, 0.849);
     }
   }
 
   main {
-    padding: 1rem 0 4rem 0;
+    padding: 2rem 0 6rem 0;
+
+    h1 {
+      padding: 1rem 0;
+    }
   }
 }
 </style>

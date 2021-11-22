@@ -4,7 +4,7 @@
       <Tab name="Why?" selected="true">
         <div class="content">
           <div>
-            <img src="../../assets/governance.png" alt="" />
+            <img src="../../assets/wild.jpeg" alt="" />
           </div>
           <div>
             <p>
@@ -33,10 +33,10 @@
       </Tab>
       <Tab name="Objective">
         <div class="content">
-          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div><img src="../../assets/wilddogs.jpeg" alt="" /></div>
           <div>
             <p>
-              to re-activate the role and support of indigenous communities for
+              To re-activate the role and support of indigenous communities for
               wildlife protection within community lands. The indigenous
               traditional knowledge systems and their territories are vital in
               continuing the peaceful co-existence to ensure wildlife
@@ -53,7 +53,7 @@
       </Tab>
       <Tab name="Plan">
         <div class="content">
-          <div><img src="../../assets/learning.png" alt="" /></div>
+          <div><img src="../../assets/wild.jpeg" alt="" /></div>
           <div>
             <p>
               TEST is committed to work with indigenous peoples and local
@@ -86,6 +86,7 @@ export default {
 <style lang="scss" scoped>
 #app {
   background: rgba(221, 221, 221, 0.555);
+  padding: 2.5rem;
 
   .content {
     display: grid;
@@ -94,12 +95,15 @@ export default {
     p {
       width: 90%;
       margin: auto;
+      padding: 0.6rem 0;
       line-height: 1.5;
+      font-size: 1.8rem;
     }
   }
 
   img {
     width: 100%;
+    padding: 0.7rem 0;
   }
 }
 body {

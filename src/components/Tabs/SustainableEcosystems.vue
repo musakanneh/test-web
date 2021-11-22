@@ -46,7 +46,7 @@
       </Tab>
       <Tab name="Plan">
         <div class="content">
-          <div><img src="../../assets/ba.jpg" alt="" /></div>
+          <div><img src="../../assets/cattles.jpeg" alt="" /></div>
           <div>
             <p>
               TEST, in collaboration with indigenous peoples and partners in
@@ -86,6 +86,7 @@ export default {
 <style lang="scss" scoped>
 #app {
   background: rgba(221, 221, 221, 0.555);
+  padding: 2.5rem;
 
   .content {
     display: grid;
@@ -94,12 +95,16 @@ export default {
     p {
       width: 90%;
       margin: auto;
+      text-align: left;
+      padding: 0.6rem 0;
       line-height: 1.5;
+      font-size: 1.8rem;
     }
   }
 
   img {
     width: 100%;
+    padding: 0.7rem 0;
   }
 }
 body {
@@ -110,6 +115,5 @@ th,
 td {
   padding: 5px;
   border: 1px solid #fefefe;
-  text-align: center;
 }
 </style>
