@@ -33,9 +33,8 @@
         <div class="offers-cover-sec-1">
           <aside>
             <h4>
-              TEST strongly believes in poverty reduction <br />
-              as a solution in addressing conservation <br />
-              challenges
+              TEST strongly believes in poverty reduction as a solution in
+              addressing conservation challenges
             </h4>
           </aside>
         </div>
