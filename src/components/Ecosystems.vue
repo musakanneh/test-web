@@ -59,7 +59,6 @@ export default {
 }
 
 body {
-  // background: #ddd;
   height: 100%;
   width: 100%;
   padding: 4rem 0 2rem 0;
@@ -75,8 +74,7 @@ body {
 
   main {
     position: relative;
-    // border: 1px solid red;
-    top: -16vh;
+    top: -12vh;
     background: #fff;
     border-radius: 7px 7px 0 0;
     padding: 3px 50px;
@@ -88,8 +86,10 @@ body {
 
     .partnership-cover {
       margin-top: 4rem;
+
       h1 {
         text-align: center;
+        padding-top: 1rem;
       }
     }
 
@@ -99,20 +99,15 @@ body {
 
     img {
       width: 100%;
-      margin-top: 12px;
     }
+
     .partnership-sec {
       justify-content: space-between;
       width: 100%;
-      margin-top: 4%;
+      margin-top: 4rem;
       display: flex;
       flex: auto;
       height: auto;
-
-      .offers-cover-sec-2 {
-        width: 20%;
-        object-fit: contain;
-      }
 
       .offers-cover-sec-1 {
         width: 55%;
@@ -120,72 +115,8 @@ body {
 
         p {
           color: #6a6a6a;
-        }
-      }
-
-      h3 {
-        margin: 0;
-      }
-
-      .offers-cover {
-        width: 30%;
-        object-fit: contain;
-
-        p {
-          // font-style: normal;
-          // margin-top: 20px;
-          // font-weight: normal;
-          // font-size: 14px;
-          // line-height: 20px;
-          // color: #6a6a6a;
-          // text-align: justify;
-          // border: 1px solid red;
-        }
-      }
-
-      .offers {
-        text-align: center;
-        padding: 6px 0;
-        display: flex;
-        justify-content: space-evenly;
-        width: 100%;
-        background: #ffffff;
-        box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-        border-radius: 10px;
-        cursor: pointer;
-
-        img {
-          width: 65px;
-        }
-
-        a {
-          text-decoration: none;
-          font-size: 14px;
-          padding: 5px 10px;
-          cursor: pointer;
-          background-color: #404040;
-          box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
-          border-radius: 3px;
-          font-style: normal;
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 18px;
-          color: #fff;
-
-          &:hover {
-            background-color: #303030;
-            transition: 0.5s ease;
-          }
-        }
-
-        &:hover {
-          box-shadow: 0px 6px 20px rgba(107, 117, 201, 0.342);
-          transition: 1s ease;
-
-          h2 {
-            color: #689d1a;
-            transition: 0.5s ease;
-          }
+          padding: 0.5rem 0;
+          font-size: 1.54rem;
         }
       }
     }

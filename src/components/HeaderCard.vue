@@ -53,10 +53,11 @@ body {
   background-size: cover;
 
   h1 {
-    width: 80%;
+    width: 70%;
     padding-bottom: 1rem;
     text-align: center;
     color: #fff;
+    line-height: 1.5;
     margin: auto;
   }
 
@@ -65,7 +66,7 @@ body {
   }
 
   main {
-    padding: 16rem 0;
+    padding: 18rem 0;
     height: 100%;
     width: 100%;
     text-align: center;
