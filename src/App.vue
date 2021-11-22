@@ -6,9 +6,9 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <div id="nav">
+    <!-- <div id="nav"> -->
       <Navbar />
-    </div>
+    <!-- </div> -->
     <router-view />
     <Footer />
   </div>
@@ -39,6 +39,11 @@ export default {
   font-weight: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100% !important;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
 
 main {

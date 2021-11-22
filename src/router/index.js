@@ -11,14 +11,11 @@ import Marco from '../views/Marco.vue'
 import Isaac from '../views/Isaac.vue'
 import Elias from '../views/Elias.vue'
 import News from '../views/News.vue'
-
-/** Board members starts */
 import Lilian from '../views/Lilian.vue'
 import Lekumok from '../views/Lekumok.vue'
 import Jopha from '../views/Jopha.vue'
 import Emanuel from '../views/Emanuel.vue'
 
-/** Board members end */
 
 Vue.use(VueRouter);
 
@@ -74,8 +71,6 @@ const routes = [{
     name: 'News',
     component: News
 },
-
-/** Board members starts */
 {
     path: '/lilian',
     name: 'Lilian',
@@ -96,7 +91,6 @@ const routes = [{
     name: 'Jopha',
     component: Jopha
 },
-    /** Board members end */
 
 ];
 

@@ -20,8 +20,10 @@
 </template>
 
 <script>
+
 export default {
-  components: {},
+  components: {
+  },
 
   methods: {
     isMobileTitle: false,
@@ -46,13 +48,13 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
     url("../assets/ba.jpg");
   background-repeat: no-repeat;
-  background-attachment: fixed;
-  margin: auto;
+  // background-attachment: fixed;
+  // margin: auto;
   width: 100%;
   height: 100%;
   position: center;
   background-size: cover;
-  z-index: 1;
+  // z-index: 1;
 
   h1 {
     width: 80%;

@@ -7,74 +7,74 @@
       solutions to protect, restore and manage natural ecosystems and landscapes in Tanzania."
     />
     <section class="container">
-      <div class="container_content">
-        <div class="cover">
-          <div class="about__content">
-            <div class="img__class">
-              <img src="../assets/vision.png" alt="" />
-            </div>
-            <div class="content__title"><span>Vision</span></div>
+      <div class="cover">
+        <div class="about__content">
+          <div class="img__class">
+            <img src="../assets/vision.png" alt="" />
           </div>
+          <div class="content__title"><span>Vision</span></div>
+        </div>
+        <p>
+          A world in which people, livestock, wildlife and nature co-exist in
+          peace, health and harmony.
+        </p>
+      </div>
+      <div class="cover">
+        <div class="about__content">
+          <div class="img__class">
+            <img src="../assets/pass.png" alt="" />
+          </div>
+          <div class="content__title"><span>Purpose</span></div>
+        </div>
+        <p>
+          To facilitate effective collaborations that integrate technical
+          expertise and assistance with indigenous knowledge and skills to
+          reduce conflict, improve natural resource management, and enhance the
+          sustainable well-being of local people, livestock and wildlife in the
+          natural ecosystems in Tanzania.
+        </p>
+      </div>
+      <div class="cover">
+        <div class="about__content">
+          <div class="img__class">
+            <img src="../assets/outcome.png" alt="" />
+          </div>
+          <div class="content__title"><span>Mission</span></div>
+        </div>
+        <div>
           <p>
-            A world in which people, livestock, wildlife and nature co-exist in
-            peace, health and harmony.
+            To facilitate conflict resolution, collaboration and information
+            sharing
+          </p>
+
+          <p>To improve community development through capacity building</p>
+          <p>
+            To improve wildlife conservation within Indigenous Community
+            Conversed Areas (ICCAs)
+          </p>
+          <p>
+            To improve traditional rangelands management
           </p>
         </div>
-        <div class="cover">
-          <div class="about__content">
-            <div class="img__class">
-              <img src="../assets/pass.png" alt="" />
-            </div>
-            <div class="content__title"><span>Purpose</span></div>
+      </div>
+
+      <div class="cover">
+        <div class="about__content">
+          <div class="img__class">
+            <img src="../assets/mission.png" alt="" />
           </div>
+          <div class="content__title"><span>Values</span></div>
+        </div>
+        <div>
+          <p>We value and respect our indigenous community</p>
+          <p>We value and respect our natural ecosystems</p>
           <p>
-            To facilitate effective collaborations that integrate technical
-            expertise and assistance with indigenous knowledge and skills to
-            reduce conflict, improve natural resource management, and enhance
-            the sustainable well-being of local people, livestock and wildlife
-            in the natural ecosystems in Tanzania.
+            We value accountability and aim to be honest and transparent in all
+            we do
           </p>
-        </div>
-        <div class="cover">
-          <div class="about__content">
-            <div class="img__class">
-              <img src="../assets/outcome.png" alt="" />
-            </div>
-            <div class="content__title"><span>Mission</span></div>
-          </div>
-          <ul>
-            <li>
-              To facilitate conflict resolution, collaboration and information
-              sharing
-            </li>
-            <li>
-              To improve community development through capacity building
-            </li>
-            <li>
-              To improve wildlife conservation within Indigenous Community
-              Conversed Areas (ICCAs)
-            </li>
-            <li>To improve traditional rangelands management</li>
-          </ul>
-        </div>
-        <div class="cover">
-          <div class="about__content">
-            <div class="img__class">
-              <img src="../assets/mission.png" alt="" />
-            </div>
-            <div class="content__title"><span>Values</span></div>
-          </div>
-          <ul>
-            <li>We value and respect our indigenous community</li>
-            <li>We value and respect our natural ecosystems</li>
-            <li>
-              We value accountability and aim to be honest and transparent in
-              all we do
-            </li>
-            <li>
-              We value creativity and aim for constant improvement in our work
-            </li>
-          </ul>
+          <p>
+            We value creativity and aim for constant improvement in our work
+          </p>
         </div>
       </div>
     </section>
@@ -99,42 +99,45 @@ export default {
 
 body {
   background: #fbfbfb;
-  margin-top: 4%;
 
   .about__content {
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
 
+    align-items: center;
+    text-align: center;
     .content__title {
-      width: 70%;
-      padding-top: 0.75rem;
+      width: 100%;
     }
 
     .img__class {
-      width: 25%;
-      margin: 0;
-    }
+      width: 2.5rem;
+      margin: auto;
 
-    img {
-      width: 100%;
+      img {
+        width: 100%;
+      }
     }
   }
 
-  .container_content {
+  .container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 4rem 0;
-    height: 100%;
-    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 3rem 0;
 
     .cover {
-      padding: 1rem;
-      margin: 1rem;
+      align-items: left;
+      border: 1px solid #ddd;
+      margin: 0 0.5rem;
+      padding: 0.5rem 1rem;
+
+      p {
+        font-weight: 600;
+        color: #262626;
+        font-size: 14px !important;
+      }
 
       span {
-        font-weight: bold;
-        font-size: 2rem;
+        font-weight: 900;
+        font-size: 1.5rem;
       }
     }
   }
