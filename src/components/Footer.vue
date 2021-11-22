@@ -103,7 +103,7 @@ export default {
 
 footer {
   bottom: 0;
-  width: 100%;
+  // width: 100%;
   padding: 4% 0;
   background-color: #1d1b1bf3;
 
@@ -117,9 +117,10 @@ footer {
     }
   }
 
-  .payment {
-    width: 25%;
-  }
+  // .payment {
+  //   width: 25%;
+  //   border: 1px solid red !important;
+  // }
 
   hr {
     width: 40%;

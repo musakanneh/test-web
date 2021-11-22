@@ -56,21 +56,21 @@ main {
 
 h2 {
   color: #c98811;
-  font-size: 1.3em;
+  /* font-size: 1.3em;
   text-transform: capitalize;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
   margin-inline-start: 0px;
   line-height: 1.4;
   margin-inline-end: 0px;
-  font-weight: bold;
+  font-weight: bold; */
 }
 
 h3 {
   color: #c98811;
-  opacity: 1;
+  /* opacity: 1;
   transition: 200ms;
-  font-weight: 600;
+  font-weight: 600; */
 }
 
 span {
@@ -79,15 +79,15 @@ span {
 
 h1 {
   color: #c98811;
-  font-size: 3rem;
-  text-align: left;
+  /* font-size: 3rem;
+  text-align: left; */
 }
 
 .container {
-  width: 1200px;
+  /* width: 1200px;
   margin: auto;
   box-sizing: border-box;
-  min-height: 100%;
+  min-height: 100%; */
 }
 
 .height_and_weight__global {
@@ -98,10 +98,10 @@ h1 {
 }
 
 p {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: normal;
   line-height: 1.25rem;
-  font-size: 16px !important;
+  font-size: 16px !important; */
 }
 
 img {

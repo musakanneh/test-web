@@ -2,9 +2,12 @@
   <body>
     <main class="container">
       <section class="partnership-cover">
+        <h1>WHY ECOSYSTEMS?</h1>
         <div class="partnership-sec">
+          <div class="img-cover">
+            <img src="../assets/cros.png" alt="" />
+          </div>
           <div class="offers-cover-sec-1">
-            <h1>WHY ECOSYSTEMS?</h1>
             <p>
               <span>Natural Ecosystems & Landscapes</span> are important for
               livelihood support and cultural identity of Indigenous People and
@@ -33,9 +36,6 @@
               that co-existence is gradually collapsing and immediate actions
               are necessary to reverse this negative trend.
             </p>
-          </div>
-          <div class="img-cover">
-            <img src="../assets/cros.png" alt="" />
           </div>
         </div>
       </section>
@@ -88,6 +88,9 @@ body {
 
     .partnership-cover {
       margin-top: 4rem;
+      h1 {
+        text-align: center;
+      }
     }
 
     .img-cover {
@@ -105,10 +108,6 @@ body {
       display: flex;
       flex: auto;
       height: auto;
-
-      img{
-        padding: 2rem 0 0 0;
-      }
 
       .offers-cover-sec-2 {
         width: 20%;
@@ -133,14 +132,14 @@ body {
         object-fit: contain;
 
         p {
-          font-style: normal;
-          margin-top: 20px;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 20px;
-          color: #6a6a6a;
-          text-align: justify;
-          border: 1px solid red;
+          // font-style: normal;
+          // margin-top: 20px;
+          // font-weight: normal;
+          // font-size: 14px;
+          // line-height: 20px;
+          // color: #6a6a6a;
+          // text-align: justify;
+          // border: 1px solid red;
         }
       }
 

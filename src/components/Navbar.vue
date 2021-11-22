@@ -2,19 +2,22 @@
   <header>
     <aside>
       <div class="container">
-        <div class="contact__info">
-          <p>Call Us: +255-786-744-668</p>
-          <p>|</p>
-          <p>Email Us: info@test.org</p>
-        </div>
-        <div class="social-medias">
-          <a href="#"> <i class="fab fa-facebook"></i></a>
-          <a href=""> <i class="fab fa-instagram"></i></a>
-          <a href="#"> <i class="fab fa-linkedin"></i></a>
-          <a href="#"> <i class="fab fa-twitter"></i></a>
+        <div class="container__">
+          <div class="contact__info">
+            <p>Call Us: +255-786-744-668</p>
+            <p>|</p>
+            <p>Email Us: info@test.org</p>
+          </div>
+          <div class="social-medias">
+            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href=""> <i class="fab fa-instagram"></i></a>
+            <a href="#"> <i class="fab fa-linkedin"></i></a>
+            <a href="#"> <i class="fab fa-twitter"></i></a>
+          </div>
         </div>
       </div>
     </aside>
+
     <main class="container">
       <div class="logo">
         <a href="/"><img src="../assets/logo.jpeg" alt=""/></a>
@@ -70,7 +73,7 @@ header {
   background-color: #f9f9f9;
   position: fixed;
   width: 100%;
-  height: auto;
+  height: 11.75rem;
   z-index: 1;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -79,7 +82,7 @@ header {
   aside {
     background: #bf8f00;
 
-    .container {
+    .container__ {
       display: flex;
       justify-content: space-between;
     }
@@ -89,14 +92,11 @@ header {
 
       p {
         color: #fff;
-        position: relative;
-        display: inline-block;
-        vertical-align: top;
         padding-right: 17px;
-        font-weight: 400;
+        font-weight: 500;
         font-size: 13px;
         color: #fff;
-        line-height: 25px;
+        margin: 1rem 0;
       }
     }
     .social-medias {
@@ -104,7 +104,6 @@ header {
       i {
         padding: 0 1rem;
         color: #fff;
-        line-height: 25px;
       }
     }
   }
@@ -112,8 +111,8 @@ header {
   .logo {
     width: 13%;
     img {
-      width: 95%;
-      margin-top: 5px;
+      width: 80%;
+      margin: 1.5rem 0;
     }
   }
   .nav-cover,
@@ -133,9 +132,10 @@ main {
 }
 nav {
   width: 100%;
+
   ul {
     list-style: none;
-    width: 60%;
+    width: 80%;
     padding: 0;
     margin: auto;
 
@@ -150,32 +150,12 @@ nav {
       letter-spacing: 1px;
       text-decoration: none;
       transition: all 0.25s;
-      &:hover {
-        border-bottom: 1px solid #689d1a;
-        color: #689d1a;
-        transition: all 0.25s;
-      }
-      &:focus {
-        outline: none;
-        border-bottom: 1px solid #689d1a;
-        color: #689d1a;
-      }
-      &:hover {
-        opacity: 1;
-        color: #689d1a;
-      }
-      &:first-child {
-        margin-left: 0;
-      }
-      &:last-child {
-        margin-right: 0;
-      }
-    }
-    .link {
-      &::before {
-        padding-right: 0;
-        display: none;
-      }
+
+      // &:hover {
+      //   border-bottom: 1px solid #689d1a;
+      //   color: #689d1a;
+      //   transition: all 0.25s;
+      // }
     }
   }
 }
