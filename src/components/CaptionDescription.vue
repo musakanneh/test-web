@@ -34,14 +34,14 @@ main {
   text-align: center;
 
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-      url("../assets/banner.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    position: center;
-    background-size: cover;
-    z-index: 1;
-    text-align: center;
-    padding: 5rem 0;
+    url("../assets/banner.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: center;
+  background-size: cover;
+  z-index: 1;
+  text-align: center;
+  padding: 5rem 0;
 
   h2 {
     color: #303030;

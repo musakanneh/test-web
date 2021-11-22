@@ -1,46 +1,53 @@
 <template>
   <footer>
     <main class="container">
-      <div class="footer-nav-items">
-        <h3>Quick Links</h3>
-        <hr />
-        <br />
-        <a href="/about" class="tba">About Us</a><br />
-        <a href="/work" class="tba">Our Work</a><br />
-        <a href="/about" class="tba">Our Team</a><br />
-      </div>
-
-      <div class="footer-nav-items">
-        <h3>Contact Us</h3>
-        <hr />
-        <br />
-        <a href="/">
-          <img class="img-icon" src="../assets/msg.png" alt="" />
-          IGTS@demosite.com</a
-        ><br />
-        <a href="/"
-          ><img src="../assets/location.png" alt="" /> Arusha, Nothern
-          Tanzania</a
-        >
-      </div>
-
-      <div class="footer-nav-items">
-        <h3>Support our Projects</h3>
-        <hr />
-        <br />
-        <a href="/" class="tba">Donete</a><br />
-        <a href="/" class="tba">Volunteer With Us</a><br />
-      </div>
-
-      <div class="contact-sec">
-        <h3>Follow Us</h3>
-        <hr />
-        <br />
-        <div class="social-medias">
-          <a href="#"> <i class="fab fa-facebook"></i></a>
-          <a href=""> <i class="fab fa-instagram"></i></a>
-          <a href="#"> <i class="fab fa-linkedin"></i></a>
-          <a href="#"> <i class="fab fa-twitter"></i></a>
+      <div class="row row-no-gutters">
+        <div class="col-xs-6 col-md-3">
+          <div class="footer-nav-items">
+            <h3>Quick Links</h3>
+            <hr />
+            <br />
+            <a href="/about" class="tba">About Us</a><br />
+            <a href="/work" class="tba">Our Work</a><br />
+            <a href="/about" class="tba">Our Team</a><br />
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="footer-nav-items">
+            <h3>Contact Us</h3>
+            <hr />
+            <br />
+            <a href="/">
+              <img class="img-icon" src="../assets/msg.png" alt="" />
+              IGTS@demosite.com</a
+            ><br />
+            <a href="/"
+              ><img src="../assets/location.png" alt="" /> Arusha, Nothern
+              Tanzania</a
+            >
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="footer-nav-items">
+            <h3>Support our Projects</h3>
+            <hr />
+            <br />
+            <a href="/" class="tba">Donete</a><br />
+            <a href="/" class="tba">Volunteer With Us</a><br />
+          </div>
+        </div>
+        <div class="col-xs-6 col-md-3">
+          <div class="contact-sec">
+            <h3>Follow Us</h3>
+            <hr />
+            <br />
+            <div class="social-medias">
+              <a href="#"> <i class="fab fa-facebook"></i></a>
+              <a href=""> <i class="fab fa-instagram"></i></a>
+              <a href="#"> <i class="fab fa-linkedin"></i></a>
+              <a href="#"> <i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -103,27 +110,18 @@ export default {
 
 footer {
   bottom: 0;
-  // width: 100%;
   padding: 4% 0;
   background-color: #1d1b1bf3;
 
   main {
-    display: flex;
-    justify-content: space-between;
-
     h3 {
       color: #bf8f00;
       font-weight: 600;
     }
   }
 
-  // .payment {
-  //   width: 25%;
-  //   border: 1px solid red !important;
-  // }
-
   hr {
-    width: 40%;
+    width: 25%;
     margin: 0;
   }
 
