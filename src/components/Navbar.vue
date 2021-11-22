@@ -4,9 +4,9 @@
       <div class="container">
         <div class="container__">
           <div class="contact__info">
-            <p>Call Us: +255-786-744-668</p>
+            <p>Tel: +255 786 744 663</p>
             <p>|</p>
-            <p>Email Us: info@test.org</p>
+            <p>Email: info@test.or.tz</p>
           </div>
           <div class="social-medias">
             <a href="#"> <i class="fab fa-facebook"></i></a>
@@ -41,7 +41,7 @@
             <a href="/approach">MEDIA ITEMS</a>
           </li>
           <li>
-            <a href="/approach">CONTACT US</a>
+            <a href="/contact">CONTACT US</a>
           </li>
         </ul>
       </nav>

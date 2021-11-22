@@ -1,7 +1,7 @@
 <template>
   <footer>
     <main class="container">
-      <div class="row row-no-gutters">
+      <div class="row">
         <div class="col-xs-6 col-md-3">
           <div class="footer-nav-items">
             <h3>Quick Links</h3>
@@ -17,14 +17,10 @@
             <h3>Contact Us</h3>
             <hr />
             <br />
-            <a href="/">
-              <img class="img-icon" src="../assets/msg.png" alt="" />
-              IGTS@demosite.com</a
-            ><br />
-            <a href="/"
-              ><img src="../assets/location.png" alt="" /> Arusha, Nothern
-              Tanzania</a
-            >
+            <p>PO Box 2268, Arusha</p>
+            <p>Tanzania</p>
+            <p>Tel: +255 786 744 663</p>
+            <p>Email: info@test.or.tz</p>
           </div>
         </div>
         <div class="col-xs-6 col-md-3">
@@ -42,16 +38,26 @@
             <hr />
             <br />
             <div class="social-medias">
-              <a href="#"> <i class="fab fa-facebook"></i></a>
-              <a href=""> <i class="fab fa-instagram"></i></a>
-              <a href="#"> <i class="fab fa-linkedin"></i></a>
-              <a href="#"> <i class="fab fa-twitter"></i></a>
+              <a href="www.facebook.com/ecosystemssurvival">
+                <i class="fab fa-facebook"></i
+              ></a>
+              <a href="www.instagram.com/ecosystemssurvival">
+                <i class="fab fa-instagram"></i
+              ></a>
+              <a href="https://www.linkedin.com/ecosystemssurvival ">
+                <i class="fab fa-linkedin"></i
+              ></a>
+              <a href="www.twitter.com/testecosystems">
+                <i class="fab fa-twitter"></i
+              ></a>
             </div>
           </div>
         </div>
       </div>
     </main>
-    <p>TEST © 2021 | All Rights Reserved.</p>
+    <section class="trademark container">
+      <p>TEST © 2021 | All Rights Reserved.</p>
+    </section>
   </footer>
 </template>
 
@@ -141,14 +147,19 @@ footer {
 
   p {
     color: #fff;
-    text-align: center;
-    margin-top: 4rem;
   }
 
   a {
     text-decoration: none;
     color: #fff;
     cursor: pointer;
+  }
+
+  .trademark {
+    p {
+      text-align: center;
+      padding-top: 4rem;
+    }
   }
 }
 </style>

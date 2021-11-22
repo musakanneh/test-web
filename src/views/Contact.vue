@@ -34,13 +34,13 @@
         <textarea type="text" placeholder="" label="Message" />
         <br />
         <br />
-        <router-link to="/"
-          ><Button
+        <a href="#">
+          <Button
             :isFullWidth="false"
-            label="Explore more"
+            label="Submut Message"
             width="150px"
           ></Button
-        ></router-link>
+        ></a>
       </div>
       <br />
       <br />
@@ -60,10 +60,11 @@ export default {
 body {
   background: #fbfbfb;
   width: 100%;
-  padding: 10% 0;
+  padding: 18rem 0 5rem 0;
 
   h1 {
     text-align: center;
+    padding: 1rem 0 3rem 0;
   }
 }
 .input-cover {
@@ -72,7 +73,7 @@ body {
 }
 
 input {
-  width: 93%;
+  width: 100%;
   height: 40px;
   border: 1px solid #c98811;
   border-radius: 5px;
@@ -85,24 +86,28 @@ input:focus {
 }
 textarea {
   font-family: "Raleway", sans-serif;
-  width: 98%;
+  width: 100%;
   height: 100px;
   border: 1px solid #c98811;
   border-radius: 5px;
   color: rgb(106, 106, 106);
   font-size: 13px;
 }
+
 textarea:focus {
   outline: none;
 }
+
 .main-button:hover {
   background: #c98811;
   transition: 1s ease;
   color: #ffffff;
 }
+
 button:focus {
   outline: none;
 }
+
 main {
   width: 60%;
   background-color: #fff;
@@ -110,6 +115,7 @@ main {
   box-shadow: 0px 6px 20px rgba(0, 0, 0, 0.06);
   position: relative;
   border-radius: 10px 10px;
+
   .inner {
     img {
       width: 100%;
@@ -117,6 +123,7 @@ main {
     width: 50%;
   }
 }
+
 .contact-cover {
   width: 90%;
   margin: auto;
