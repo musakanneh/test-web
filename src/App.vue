@@ -6,9 +6,7 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <!-- <div id="nav"> -->
     <Navbar />
-    <!-- </div> -->
     <router-view />
     <Footer />
   </div>

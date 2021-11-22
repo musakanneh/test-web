@@ -38,11 +38,8 @@
             <a href="/approach">OUR APPROACH</a>
           </li>
           <li>
-            <a href="/approach">MEDIA ITEMS</a>
+            <a href="/media">MEDIA ITEMS</a>
           </li>
-          <!-- <li>
-            <a href="/volunteer">CONTACT US</a>
-          </li> -->
         </ul>
       </nav>
       <div class="btn-cover">

@@ -28,7 +28,7 @@
             <h3>Support our Projects</h3>
             <hr />
             <br />
-            <a href="/" class="tba">Donete</a><br />
+            <a href="/" class="tba">Donate</a><br />
             <a href="/volunteer" class="tba">Volunteer With Us</a><br />
           </div>
         </div>

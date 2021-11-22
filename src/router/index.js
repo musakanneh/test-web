@@ -15,6 +15,7 @@ import Lilian from '../views/Lilian.vue'
 import Lekumok from '../views/Lekumok.vue'
 import Jopha from '../views/Jopha.vue'
 import Emanuel from '../views/Emanuel.vue'
+import Media from '../views/Media.vue'
 
 
 Vue.use(VueRouter);
@@ -90,6 +91,11 @@ const routes = [{
     path: '/jopha',
     name: 'Jopha',
     component: Jopha
+},
+{
+    path: '/media',
+    name: 'Media',
+    component: Media
 },
 
 ];
