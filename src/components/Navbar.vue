@@ -46,9 +46,9 @@
         </ul>
       </nav>
       <div class="btn-cover">
-        <router-link class="nav-button" to="/news"
+        <a href="/news"
           ><Button :isFullWidth="false" label="NEWS" width="120px"> </Button
-        ></router-link>
+        ></a>
       </div>
     </main>
   </header>
@@ -151,11 +151,10 @@ nav {
       text-decoration: none;
       transition: all 0.25s;
 
-      // &:hover {
-      //   border-bottom: 1px solid #689d1a;
-      //   color: #689d1a;
-      //   transition: all 0.25s;
-      // }
+      &:hover {
+        color: #bf8f00;
+        transition: all 0.25s;
+      }
     }
   }
 }
