@@ -2,48 +2,52 @@
   <body class="height_and_weight__global">
     <h1>OUR FOCUS</h1>
     <main class="container">
-      <div class="div__content">
-        <div class="inner">
-          <p><span>11</span></p>
-          <p>regions</p>
-          <br /><br />
+      <div class="row">
+        <div class="col-xs-6 col-md-3">
+          <div class="inner">
+            <h3>
+              <span><i class="fas fa-home"></i></span>11
+            </h3>
+            <p>regions</p>
+            <br /><br />
+          </div>
+          <img src="../assets/iplc.png" alt="" />
         </div>
-        <img src="../assets/iplc.png" alt="" />
-      </div>
-
-      <div class="div__content">
-        <div class="inner">
-          <p><span>300 </span></p>
-          <p>villages</p>
-          <br /><br />
+        <div class="col-xs-6 col-md-3">
+          <div class="inner">
+            <h3>
+              <span><i class="fas fa-list-ol"></i></span>300
+            </h3>
+            <p>villages</p>
+            <br /><br />
+          </div>
+          <img src="../assets/iplc.png" alt="" />
         </div>
-        <img src="../assets/iplc.png" alt="" />
-      </div>
-
-      <div class="div__content">
-        <div class="inner">
-          <p>
-            <span>12 Million IPLCs</span>
-          </p>
-          <p>
-            that live and share their lands with wildlife in critical and
-            globally important ecosystem hotspots
-          </p>
+        <div class="col-xs-6 col-md-3">
+          <div class="inner">
+            <h3>
+              <span><i class="fas fa-home"></i></span>12 Million IPLCs
+            </h3>
+            <p>
+              that live and share their lands with wildlife in critical and
+              globally important ecosystem hotspots
+            </p>
+          </div>
+          <img src="../assets/iplc.png" alt="" />
         </div>
-        <img src="../assets/iplc.png" alt="" />
-      </div>
-
-      <div class="div__content">
-        <div class="inner">
-          <p>
-            <span>Culturally diverse communities:</span>
-          </p>
-          <p>
-            including pastoralists, hunters-gatherers and agro-pastoralist
-            communities in Tanzania.
-          </p>
+        <div class="col-xs-6 col-md-3">
+          <div class="inner">
+            <h3>
+              <span><i class="fas fa-home"></i></span> Culturally diverse
+              communities
+            </h3>
+            <p>
+              including pastoralists, hunters-gatherers and agro-pastoralist
+              communities in Tanzania.
+            </p>
+          </div>
+          <img src="../assets/test.png" alt="" />
         </div>
-        <img src="../assets/test.png" alt="" />
       </div>
     </main>
   </body>
@@ -51,8 +55,7 @@
 
 <script>
 export default {
-  components: {
-  },
+  components: {},
 };
 </script>
 
@@ -61,36 +64,23 @@ export default {
 }
 
 body {
-  .div__content {
-    width: 96%;
-
-    .inner {
-      padding: 0.5rem 1rem;
-      background: #ddd;
-    }
+  .inner {
+    background: #ddd;
+    padding: 1.5rem 0.8rem;
+    text-align: left;
 
     span {
-      font-weight: bolder;
-      font-size: 1.2rem;
-    }
-
-    p {
-      text-align: left !important;
-      color: #303030;
-      font-size: 14px;
+      color: #90909090;
+      padding-right: 0.5rem;
     }
   }
 
   h1 {
     text-align: center;
-    padding-bottom: 1rem;
+    padding: 4rem 0;
   }
 
   main {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    object-fit: contain;
-
     img {
       width: 100%;
 

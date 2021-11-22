@@ -22,9 +22,7 @@
         </p>
       </div>
     </section>
-
     <OurStrategy />
-
     <main>
       <article>
         <div>
@@ -34,10 +32,11 @@
       <div class="partnership-sec">
         <div class="offers-cover-sec-1">
           <aside>
-            <h5>
-              TEST strongly believes in poverty reduction as a solution in
-              addressing conservation challenges
-            </h5>
+            <h4>
+              TEST strongly believes in poverty reduction <br />
+              as a solution in addressing conservation <br />
+              challenges
+            </h4>
           </aside>
         </div>
       </div>
@@ -70,19 +69,15 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    padding: 8rem 0;
+    padding: 10rem 0;
     height: 100%;
-
-    hr {
-      width: 5%;
-    }
 
     p {
       color: #fbfbfbe5;
       width: 60%;
-      padding: 0.5rem;
+      padding: 1rem;
       line-height: 1.5 !important;
-      font-size: 17px !important;
+      font-size: 18px !important;
       margin: auto;
       font-weight: normal;
       font-style: normal;
@@ -119,7 +114,7 @@ body {
           rgba(0, 0, 0, 0.7),
           rgba(0, 0, 0, 0.712)
         ),
-        url("../assets/cow2.jpeg");
+        url("../assets/cros.png");
       opacity: 1;
       background-repeat: no-repeat;
       background-size: cover;
@@ -129,10 +124,10 @@ body {
         text-align: center;
         padding: 10% 0;
 
-        h5 {
+        h4 {
           color: #fff;
           padding: 8rem 0;
-          font-size: 2.3rem;
+          font-size: 3rem;
           margin: auto;
           line-height: 2;
           text-align: center;
