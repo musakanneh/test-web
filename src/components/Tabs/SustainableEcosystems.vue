@@ -3,7 +3,7 @@
     <Tabs>
       <Tab name="Why?" selected="true">
         <div class="content">
-          <div><img src="../../assets/land0.png" alt="" /></div>
+          <div><img src="../../assets/surface.jpeg" alt="" /></div>
           <div>
             <p>
               Natural ecosystems are shrinking, deteriorating with no clear

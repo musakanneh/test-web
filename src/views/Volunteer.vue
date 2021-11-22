@@ -2,7 +2,7 @@
   <body>
     <main>
       <br />
-      <h1>Contact Us</h1>
+      <h1>Sign Up to Volunteer With Us</h1>
       <div class="contact-cover">
         <div class="input-cover">
           <input

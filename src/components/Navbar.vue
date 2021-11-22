@@ -40,9 +40,9 @@
           <li>
             <a href="/approach">MEDIA ITEMS</a>
           </li>
-          <li>
-            <a href="/contact">CONTACT US</a>
-          </li>
+          <!-- <li>
+            <a href="/volunteer">CONTACT US</a>
+          </li> -->
         </ul>
       </nav>
       <div class="btn-cover">
@@ -135,7 +135,7 @@ nav {
 
   ul {
     list-style: none;
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: auto;
 

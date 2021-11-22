@@ -3,7 +3,7 @@ import VueRouter from "vue-router";
 import Home from "../views/Home";
 import Work from "../views/Work";
 import Approach from '../views/Approach.vue'
-import Contact from '../views/Contact.vue'
+import Volunteer from '../views/Volunteer.vue'
 import About from '../views/About.vue'
 import Yannick from '../views/Yannick.vue'
 import Evelyn from '../views/Evelyn.vue'
@@ -40,9 +40,9 @@ const routes = [{
     component: Approach
 },
 {
-    path: '/contact',
-    name: 'Contact',
-    component: Contact
+    path: '/volunteer',
+    name: 'Volunteer',
+    component: Volunteer
 }, {
     path: '/yannick',
     name: 'Yannick',

@@ -29,7 +29,7 @@
             <hr />
             <br />
             <a href="/" class="tba">Donete</a><br />
-            <a href="/" class="tba">Volunteer With Us</a><br />
+            <a href="/volunteer" class="tba">Volunteer With Us</a><br />
           </div>
         </div>
         <div class="col-xs-6 col-md-3">
