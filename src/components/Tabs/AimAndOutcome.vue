@@ -6,7 +6,7 @@
           <div><img src="../../assets/governance.png" alt="" /></div>
           <div>
             <p>
-              design innovative and sustainable ecosystem governance mechanisms
+              Design innovative and sustainable ecosystem governance mechanisms
               and tools by combining scientifically proven solutions with the
               indigenous ecological and land management practices that address
               poverty reduction.
@@ -19,7 +19,7 @@
           <div><img src="../../assets/learning.png" alt="" /></div>
           <div class="outcome">
             <p>
-              open an alternative space for learning and research to addressing
+              Open an alternative space for learning and research to addressing
               pressing ecosystems governance challenges while simulatneously
               delivering focused solutions for poverty reduction
             </p>
@@ -45,6 +45,7 @@ export default {
 .content {
   display: grid;
   grid-template-columns: 1fr 2fr;
+  background: #fff;
 
   img {
     width: 100%;
@@ -53,7 +54,7 @@ export default {
   p {
     width: 85%;
     margin: auto;
-    font-size: 1.4rem !important;
+    font-size: 2rem !important;
     padding: 3rem 0;
     line-height: 1.5;
   }

@@ -13,17 +13,15 @@
           sustainable well-being of indigenous peoples and wildlife in the
           natural ecosystems in Tanzania.
         </p>
-        <router-link to="/about"><Button>Explore More</Button></router-link>
+        <a href="/about"><Button>Explore More</Button></a>
       </article>
     </main>
   </body>
 </template>
 
 <script>
-
 export default {
-  components: {
-  },
+  components: {},
 
   methods: {
     isMobileTitle: false,
@@ -48,13 +46,11 @@ body {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
     url("../assets/ba.jpg");
   background-repeat: no-repeat;
-  // background-attachment: fixed;
-  // margin: auto;
+  background-attachment: fixed;
   width: 100%;
   height: 100%;
   position: center;
   background-size: cover;
-  // z-index: 1;
 
   h1 {
     width: 80%;
@@ -102,13 +98,12 @@ body {
     }
 
     p {
-      // color: #fbfbfbce;
       color: #bf8f00;
-      width: 75%;
-      font-weight: bolder;
+      width: 70%;
+      font-weight: 500;
       margin: auto;
       padding: 20px 0;
-      line-height: 1.5rem !important;
+      font-size: 2rem;
     }
   }
 }
