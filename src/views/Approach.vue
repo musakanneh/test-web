@@ -2,10 +2,14 @@
   <body>
     <CaptionDescription title="" />
     <div class="container">
-      <div class="row">
+      <div class="row height_and_weight__global">
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
-            <img src="../assets/banner4.jpeg" alt="..." class="img-rounded" />
+            <img
+              src="../assets/banner4.jpeg"
+              class="img-responsive"
+              alt="Responsive image"
+            />
           </div>
           <div class="content__text">
             <h3>Collaborative Research</h3>
@@ -23,7 +27,11 @@
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
-            <img src="../assets/banner4.jpeg" alt="..." class="img-rounded" />
+            <img
+              src="../assets/banner4.jpeg"
+              class="img-responsive"
+              alt="Responsive image"
+            />
           </div>
           <div class="content__text">
             <h3>Education and Capacity building</h3>
@@ -41,7 +49,11 @@
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
-            <img src="../assets/banner4.jpeg" alt="..." class="img-rounded" />
+            <img
+              src="../assets/banner4.jpeg"
+              class="img-responsive"
+              alt="Responsive image"
+            />
           </div>
           <div class="content__text">
             <h3>Cultural Exchange</h3>
@@ -56,7 +68,11 @@
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
-            <img src="../assets/banner4.jpeg" alt="..." class="img-rounded" />
+            <img
+              src="../assets/banner4.jpeg"
+              class="img-responsive"
+              alt="Responsive image"
+            />
           </div>
           <div class="content__text">
             <h3>Ecosystem Governance</h3>
@@ -90,13 +106,12 @@ body {
   .border__ {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    grid-template-rows: 80px auto 80px;
     column-gap: 50px;
-    row-gap: 15px;
-    padding: 4rem 0;
+    padding: 3rem 0;
 
     p {
-      font-size: 1.8rem;
+      font-size: 1.6rem;
+      color: #303030 !important;
     }
 
     img {
