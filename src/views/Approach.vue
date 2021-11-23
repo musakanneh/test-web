@@ -99,6 +99,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  .border__ {
+    display: block !important;
+    
+    h3 {
+      padding: 2rem 0 1rem 0;
+    }
+    p {
+      margin: 0 !important;
+      padding: 0.5rem 0;
+    }
+  }
+}
 body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
