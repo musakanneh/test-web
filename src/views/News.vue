@@ -2,8 +2,10 @@
   <body>
     <div class="global__height"></div>
     <div class="container">
-      <div class="row height_and_weight__global">
-        <div class="col-xs-6 col-md-12 border__">
+      <br /><br />
+      <h4>Current Projects</h4>
+      <div class="row">
+        <div class="col-xs-6 col-md-11 border__">
           <div class="image">
             <img
               src="../assets/banner4.jpeg"
@@ -28,7 +30,7 @@
             </p>
           </div>
         </div>
-        <div class="col-xs-6 col-md-12 border__">
+        <div class="col-xs-6 col-md-11 border__">
           <div class="image">
             <img
               src="../assets/banner4.jpeg"
@@ -37,16 +39,20 @@
             />
           </div>
           <div class="content__text">
-            <h3>Education and Capacity building</h3>
+            <h3>
+              Twiga Wetu: Masai Giraffe Conservation Outside Protected Areas –
+              the Role of Indigenous Knowledge and Traditional Systems.
+            </h3>
             <p>
-              TEST shall facilitate a comprehensive awareness creation program
-              to disseminate and exhibit the findings of the action research.
-              The action will employ such media as film, radio, and other
-              storytelling tools. The purpose is to enable the scientific forum
-              to recognize and adopt indigenous communities’ best land
-              management practices for sustainable ecosystems management and
-              integrate such suitable indigenous cultures into official school
-              curricula.
+              This project is a 1-year project (Oct. 2020 – Sept. 2021) funded
+              by Giraffe Conservation Foundation
+              <a href="www.giraffeconservation.org"
+                >(www.giraffeconservation.org)</a
+              >. The aim of this project is to revitalize indigenous
+              conservation of Masai giraffe in the eastern Serengeti Ecosystem.
+              This will serve the interests of the local communities to be
+              involved in the conservation and monitoring of giraffe linked with
+              livestock grazing strategies outside protected areas.
             </p>
           </div>
         </div>
@@ -75,9 +81,14 @@ export default {
     }
   }
 }
+
 body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
+
+  .row {
+    margin: auto;
+  }
 
   .border__ {
     display: grid;
@@ -95,11 +106,17 @@ body {
     }
   }
 
-  main {
-    display: flex !important;
-    .content__text {
-      width: 70%;
-    }
+  h3 {
+    margin: 0;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+
+  h4 {
+    color: #505050;
+    margin: 0;
+    padding: 0;
   }
 }
 </style>
