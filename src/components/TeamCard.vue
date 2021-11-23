@@ -5,54 +5,57 @@
         <h1>BOARD</h1>
         <div class="row">
           <div class="col-xs-6 col-md-3">
-            <div>
+            <div class="thumbnail">
               <img
                 src="../assets/leb.png"
-                class="img-responsive img-circle"
+                class="img-responsive"
                 alt="Responsive image"
               />
               <div class="team__details">
                 <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-                <a href="/lekumok"><p>Profile</p></a>
+                <a href="/lekumok"><p>View Profile</p></a>
               </div>
             </div>
           </div>
+
           <div class="col-xs-6 col-md-3">
-            <div>
+            <div class="thumbnail">
               <img
                 src="../assets/lilian.png"
-                class="img-responsive img-circle"
+                class="img-responsive"
                 alt="Responsive image"
               />
               <div class="team__details">
                 <TeamTag name="Lilian Looloitai" position="Treasurer" />
-                <a href="/lilian"><p>Profile</p></a>
+                <a href="/lilian"><p>View Profile</p></a>
               </div>
             </div>
           </div>
+
           <div class="col-xs-6 col-md-3">
-            <div>
+            <div class="thumbnail">
               <img
                 src="../assets/jop.png"
-                class="img-responsive img-circle"
+                class="img-responsive"
                 alt="Responsive image"
               />
               <div class="team__details">
                 <TeamTag name="Jopha Peter Kakanyi" position="Member" />
-                <a href="/jopha"><p>Profile</p></a>
+                <a href="/jopha"><p>View Profile</p></a>
               </div>
             </div>
           </div>
+
           <div class="col-xs-6 col-md-3">
-            <div>
+            <div class="thumbnail">
               <img
                 src="../assets/melubo.png"
-                class="img-responsive img-circle"
+                class="img-responsive"
                 alt="Responsive image"
               />
               <div class="team__details">
                 <TeamTag name="Emanuel Melubo" position="Member" />
-                <a href="/emanuel"><p>Profile</p></a>
+                <a href="/emanuel"><p>View Profile</p></a>
               </div>
             </div>
           </div>
@@ -71,7 +74,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Elias Nagol" position="Technical Advisor" />
-                <a href="/elias"><p>Profile</p></a>
+                <a href="/elias"><p>View Profile</p></a>
               </div>
             </div>
           </div>
@@ -84,7 +87,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Evelyn Kaney" position="Financial Manager" />
-                <a href="/evelyn"><p>Profile</p></a>
+                <a href="/evelyn"><p>View Profile</p></a>
               </div>
             </div>
           </div>
@@ -100,7 +103,7 @@
                   name="Isaac Ouma"
                   position="Conservation Enterprise Manager"
                 />
-                <a href="/isaac"><p>Profile</p></a>
+                <a href="/isaac"><p>View Profile</p></a>
               </div>
             </div>
           </div>
@@ -113,7 +116,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Marco Mathayo" position="Programs Manager" />
-                <a href="/marco"><p>Profile</p></a>
+                <a href="/marco"><p>View Profile</p></a>
               </div>
             </div>
           </div>
@@ -125,7 +128,7 @@
             />
             <div class="team__details">
               <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-              <a href="/yannick"><p>Profile</p></a>
+              <a href="/yannick"><p>View Profile</p></a>
             </div>
           </div>
         </div>
@@ -161,8 +164,7 @@ body {
   }
 
   img {
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 
   h1 {
