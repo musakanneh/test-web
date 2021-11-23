@@ -6,30 +6,54 @@
         <div class="row">
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/leb.png" alt="" />
-              <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-              <router-link to="/lekumok"> <p>Profile</p></router-link>
+              <img
+                src="../assets/leb.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
+                <a href="/lekumo"><p>Profile</p></a>
+              </div>
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/lilian.png" alt="" />
-              <TeamTag name="Lilian Looloitai" position="Treasurer" />
-              <router-link to="/lilian"> <p>Profile</p></router-link>
+              <img
+                src="../assets/lilian.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Lilian Looloitai" position="Treasurer" />
+                <a href="/lilian"><p>Profile</p></a>
+              </div>
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/jop.png" alt="" />
-              <TeamTag name="Jopha Peter Kakanyi" position="Member" />
-              <router-link to="/jopha"> <p>Profile</p></router-link>
+              <img
+                src="../assets/jop.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Jopha Peter Kakanyi" position="Member" />
+                <a href="/jopha"><p>Profile</p></a>
+              </div>
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/melubo.png" alt="" />
-              <TeamTag name="Emanuel Melubo" position="Member" />
-              <router-link to="/emanuel"> <p>Profile</p></router-link>
+              <img
+                src="../assets/melubo.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Emanuel Melubo" position="Member" />
+                <a href="/emanuel"><p>Profile</p></a>
+              </div>
             </div>
           </div>
         </div>
@@ -40,40 +64,68 @@
         <div class="row">
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
-              <TeamTag name="Elias Nagol" position="Technical Advisor" />
-              <router-link to="/elias"> <p>Profile</p></router-link>
-            </div>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <div>
-              <img src="../assets/evel.png" alt="" />
-              <TeamTag name="Evelyn Kaney" position="Financial Manager" />
-              <router-link to="/evelyn"> <p>Profile</p></router-link>
-            </div>
-          </div>
-          <div class="col-xs-6 col-md-3">
-            <div>
-              <img src="../assets/marco.jpeg" alt="" />
-              <TeamTag
-                name="Isaac Ouma"
-                position="Conservation Enterprise Manager"
+              <img
+                src="../assets/bnr.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
               />
-              <router-link to="/isaac"> <p>Profile</p></router-link>
+              <div class="team__details">
+                <TeamTag name="Elias Nagol" position="Technical Advisor" />
+                <a href="/elias"><p>Profile</p></a>
+              </div>
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
             <div>
-              <img src="../assets/marco.jpeg" alt="" />
-              <TeamTag name="Marco Mathayo" position="Programs Manager" />
-              <router-link to="/marco"> <p>Profile</p></router-link>
+              <img
+                src="../assets/evel.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Evelyn Kaney" position="Financial Manager" />
+                <a href="/evelyn"><p>Profile</p></a>
+              </div>
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
-            <img src="../assets/yannick.png" alt="" />
             <div>
+              <img
+                src="../assets/bnr.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag
+                  name="Isaac Ouma"
+                  position="Conservation Enterprise Manager"
+                />
+                <a href="/isaac"><p>Profile</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <div>
+              <img
+                src="../assets/marco.jpeg"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Marco Mathayo" position="Programs Manager" />
+                <a href="/marco"><p>Profile</p></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <img
+              src="../assets/yannick.png"
+              class="img-responsive img-circle"
+              alt="Responsive image"
+            />
+            <div class="team__details">
               <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-              <router-link to="/yannick"> <p>Profile</p></router-link>
+              <a href="/yannick"><p>Profile</p></a>
             </div>
           </div>
         </div>
@@ -103,28 +155,22 @@ body {
     padding: 2rem 0 4rem 0;
   }
 
+  .team__details {
+    text-align: center;
+    padding-top: 1rem;
+  }
+
+  img {
+    width: 90%;
+    margin: auto;
+  }
+
   h1 {
     font-size: 3rem !important;
     padding: 6rem 0 4rem 0;
     width: 100%;
     margin: 0;
     text-align: center;
-  }
-
-  .team-member_section {
-    img {
-      width: 70%;
-      margin-left: 15%;
-      border-radius: 50rem;
-    }
-  }
-
-  main {
-    img {
-      width: 70%;
-      border-radius: 50rem;
-      margin-left: 15%;
-    }
   }
 }
 </style>

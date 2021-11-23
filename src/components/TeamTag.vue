@@ -29,11 +29,13 @@ h4 {
   color: #303030;
   text-align: center;
   margin: 0;
+  padding: 0.75rem 0;
 }
 
 p {
   margin: 0;
   color: #303030;
   text-align: center;
+  padding-bottom: 0.4rem;
 }
 </style>

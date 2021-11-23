@@ -1,9 +1,14 @@
 <template>
-  <div>
+  <div class="height_and_weight__global">
     <ProfileCaption name="Board Mamber" />
+
     <section class="container">
       <div class="profile-content__cover">
-        <img class="" src="../assets/marco.jpeg" alt="" />
+        <img
+          src="../assets/leb.png"
+          class="img-responsive img-circle"
+          alt="Responsive image"
+        />
         <div class="profile_content__and__media-cover">
           <h2 class="profile_content">Dr. Lekumok Kironyi - Chairman</h2>
           <p class="profile_content">

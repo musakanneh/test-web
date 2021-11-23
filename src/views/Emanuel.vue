@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div class="height_and_weight__global">
     <ProfileCaption name="Board Mamber" />
     <section class="container">
       <div class="profile-content__cover">
-        <img class="" src="../assets/marco.jpeg" alt="" />
+         <img
+          src="../assets/marco.jpeg"
+          class="img-responsive img-circle"
+          alt="Responsive image"
+        />
         <div class="profile_content__and__media-cover">
           <h2 class="profile_content">Emanuel Melubo - Member</h2>
           <p class="profile_content">

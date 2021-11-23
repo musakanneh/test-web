@@ -1,9 +1,13 @@
 <template>
-  <div>
+  <div class="height_and_weight__global">
     <ProfileCaption name="Team Mamber" />
     <section class="container">
       <div class="profile-content__cover">
-        <img class="" src="../assets/marco.jpeg" alt="" />
+        <img
+          src="../assets/marco.jpeg"
+          class="img-responsive img-circle"
+          alt="Responsive image"
+        />
         <div class="profile_content__and__media-cover">
           <h2 class="profile_content">Marco Mathayo - Programs Manager</h2>
           <p class="profile_content">
@@ -21,7 +25,7 @@
             to be a proactive, self-motivated, multi-skilled, flexible and
             results-oriented person.
           </p>
-         <div class="profile_content profile-social-medias__tags">
+          <div class="profile_content profile-social-medias__tags">
             <a href=""> <i class="fab fa-facebook"></i></a>
             <a href=""> <i class="fab fa-instagram"></i></a>
             <a href=""> <i class="fab fa-linkedin"></i></a>

@@ -82,24 +82,28 @@ img {
 /*** Team members profile starts */
 .profile-content__cover {
   display: grid;
-  padding: 2rem 0;
+  padding: 4rem 0;
   grid-template-columns: 1fr 2fr;
+  column-gap: 50px;
+  row-gap: 15px;
 }
 
 .profile_content {
   padding: 1rem 2rem;
   margin: 0;
   line-height: 1.5;
+  font-size: 2rem;
 }
 
 .profile-social-medias__tags {
   justify-content: space-around;
   display: flex;
-  width: 18%;
+  justify-content: space-between;
+  width: 30%;
 }
 .profile-social-medias__tags i {
   color: #c989117e;
-  font-size: 1.2rem;
+  font-size: 2.5rem;
 }
 .profile-social-medias__tags i:hover {
   color: #c98811;

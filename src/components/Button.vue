@@ -18,7 +18,7 @@ export default {
       style: "width:" + this.width,
     };
   },
-  
+
   props: {
     label: {
       type: String,
@@ -38,12 +38,7 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  // .main-button {
-  //   height: 80px !important;
-  //   width: 30% !important;
-  //   font-size: 30px !important;
-  // }
-  *{
+  * {
     border: 1px solid red;
   }
 }
