@@ -6,7 +6,12 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-    <Navbar />
+    <div v-if="!isMobile()">
+      <Navbar />
+    </div>
+    <div v-else>
+      <MobileView />
+    </div>
     <router-view />
     <Footer />
   </div>
@@ -15,11 +20,27 @@
 <script>
 import Navbar from "@/components/Navbar.vue";
 import Footer from "@/components/Footer.vue";
+import MobileView from "@/components/MobileView/MobileView.vue";
 export default {
   name: "App",
   components: {
     Navbar,
     Footer,
+    MobileView,
+  },
+
+  methods: {
+    isMobile() {
+      if (
+        /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(
+          navigator.userAgent
+        )
+      ) {
+        return true;
+      } else {
+        return false;
+      }
+    },
   },
 };
 </script>
@@ -38,6 +59,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100% !important;
+}
+
+.selector-for-some-widget {
+  box-sizing: content-box;
 }
 
 .selector-for-some-widget {
