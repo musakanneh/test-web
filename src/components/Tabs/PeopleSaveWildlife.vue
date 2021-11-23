@@ -84,6 +84,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  * {
+    padding: 0 !important;
+    margin: auto !important;
+    width: 98% !important;
+  }
+
+  .content {
+    display: block !important;
+  }
+
+  img {
+    padding: 1rem 0 !important;
+  }
+
+  p {
+    margin-left: 0 !important;
+    width: 100% !important;
+    padding: 1rem 0 !important;
+  }
+}
 #app {
   background: rgba(221, 221, 221, 0.555);
   padding: 2.5rem;

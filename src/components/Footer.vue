@@ -87,7 +87,7 @@ export default {
   }
 
   main {
-    width: 85% !important;
+    width: 100% !important;
     margin: auto !important;
     display: block !important;
 

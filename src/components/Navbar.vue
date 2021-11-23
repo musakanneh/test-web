@@ -90,11 +90,14 @@ header {
 
   // Navbar dropdown menus
   .dropbtn {
-    // background-color: #04aa6d;
     color: #262626;
     padding: 16px;
     font-size: 16px;
     border: none;
+
+    i {
+      color: #bf8f00;
+    }
   }
 
   .dropdown {

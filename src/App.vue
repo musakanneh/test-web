@@ -100,6 +100,10 @@ h1 {
   padding: 6rem 0 8rem 0;
 }
 
+.global__height {
+  padding: 5rem 0;
+}
+
 img {
   object-fit: contain;
 }

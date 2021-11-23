@@ -1,14 +1,101 @@
 <template>
-  <div class="height_and_weight__global">
+  <body>
+    <div class="global__height"></div>
     <main class="container">
-      <br /><br /><br />
-      <h3>REPORTS</h3>
+      <dl class="dl-horizontal">
+        <dt><h1>Annual Report 2019</h1></dt>
+        <dd>
+          <div class="col-xs-6 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
+              quo placeat, aut molestiae animi minima blanditiis laboriosam
+            </p>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <img
+              src="../../assets/cult.png"
+              class="img-responsive"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <h2>Download Report</h2>
+          </div>
+        </dd>
+      </dl>
+      <dl class="dl-horizontal">
+        <dt><h1>Annual Report 2020</h1></dt>
+        <dd>
+          <div class="col-xs-6 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
+              quo placeat, aut molestiae animi minima blanditiis laboriosam
+            </p>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <img
+              src="../../assets/cult.png"
+              class="img-responsive"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <h2>Download Report</h2>
+          </div>
+        </dd>
+      </dl>
+         <dl class="dl-horizontal">
+        <dt><h1>Annual Report 2021</h1></dt>
+        <dd>
+          <div class="col-xs-6 col-md-4">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
+              quo placeat, aut molestiae animi minima blanditiis laboriosam
+            </p>
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <img
+              src="../../assets/cult.png"
+              class="img-responsive"
+              alt="Responsive image"
+            />
+          </div>
+          <div class="col-xs-6 col-md-4">
+            <h2>Download Report</h2>
+          </div>
+        </dd>
+      </dl>
     </main>
-  </div>
+  </body>
 </template>
 
 <script>
-export default {};
+export default {
+  components: {},
+};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+body {
+  padding: 8rem 0 !important;
+
+  main {
+    img {
+      width: 60%;
+      border: 1px solid #ddd;
+
+      &:hover {
+        box-shadow: 1px 1px 5px rgba(150, 147, 147, 0.57);
+        transition: 0.5s ease;
+      }
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      color: #303030;
+      padding: 2rem 0;
+      text-align: center;
+    }
+  }
+}
+</style>

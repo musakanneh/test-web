@@ -27,6 +27,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  main {
+    display: none;
+  }
+}
+
 main {
   width: 100%;
   background: #ddd;

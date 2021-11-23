@@ -40,6 +40,22 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  * {
+    padding: 0 !important;
+
+    width: 100% !important;
+  }
+
+  ul {
+    padding: 1rem 1.5rem !important;
+  }
+
+  .tabs {
+    background: rgba(0, 128, 0, 0.397);
+  }
+
+}
 .tabs {
   border-bottom: 1px solid #bf8f00;
   margin: 0 10px;
@@ -53,7 +69,7 @@ ul {
   display: flex;
   padding: 0;
   list-style: none;
-  
+
   li {
     margin-right: 40px;
   }
@@ -65,7 +81,7 @@ ul {
 
     &:hover {
       color: #c98811;
-      transition: .5s ease;
+      transition: 0.5s ease;
     }
 
     &.is-active {

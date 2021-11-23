@@ -41,7 +41,7 @@ export default {
 <style lang="scss" scoped>
 body {
   padding: 8rem 0 4rem 0;
-  
+
   p {
     font-size: 15px !important;
   }
@@ -63,7 +63,7 @@ body {
 
     .inner-sec {
       padding: 5rem;
-        background: rgba(221, 221, 221, 0.849);
+      background: rgba(221, 221, 221, 0.849);
     }
   }
 

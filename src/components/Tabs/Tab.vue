@@ -1,6 +1,6 @@
 <template>
   <div v-show="isActive">
-    <slot></slot>
+    <slot class="__slot"></slot>
   </div>
 </template>
 
@@ -20,3 +20,4 @@ export default {
   },
 };
 </script>
+<style lang="scss" scoped></style>
