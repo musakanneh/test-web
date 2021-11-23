@@ -1,6 +1,5 @@
 <template>
   <header>
-    
     <aside>
       <div class="container">
         <div class="container__">
@@ -42,9 +41,17 @@
           <li>
             <a href="/approach">OUR APPROACH</a>
           </li>
-          <li>
-            <a href="/media">MEDIA ITEMS</a>
-          </li>
+          <div class="dropdown">
+            <button class="dropbtn">
+              MEDIA ITEMS <i class="fas fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="/reports">REPORTS</a>
+              <a href="/gallery">GALLERY</a>
+              <a href="/videos">VIDEOS</a>
+              <a href="/blog">BLOG</a>
+            </div>
+          </div>
         </ul>
       </nav>
       <div class="btn-cover">
@@ -80,6 +87,50 @@ header {
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
+
+  // Navbar dropdown menus
+  .dropbtn {
+    // background-color: #04aa6d;
+    color: #262626;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 140px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  .dropdown:hover .dropbtn {
+    // background-color: #3e8e41;
+  }
+
+  // Navbar dropdown menus
 
   aside {
     background: #bf8f00;

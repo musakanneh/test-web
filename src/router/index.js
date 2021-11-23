@@ -15,7 +15,10 @@ import Lilian from '../views/Lilian.vue'
 import Lekumok from '../views/Lekumok.vue'
 import Jopha from '../views/Jopha.vue'
 import Emanuel from '../views/Emanuel.vue'
-import Media from '../views/Media.vue'
+import Reports from '../views/Media/Reports.vue'
+import Gallery from '../views/Media/Gallery.vue'
+import Videos from '../views/Media/Videos.vue'
+import Blog from '../views/Media/Blog.vue'
 
 
 Vue.use(VueRouter);
@@ -93,9 +96,24 @@ const routes = [{
     component: Jopha
 },
 {
-    path: '/media',
-    name: 'Media',
-    component: Media
+    path: '/reports',
+    name: 'Reports',
+    component: Reports
+},
+{
+    path: '/gallery',
+    name: 'Gallery',
+    component: Gallery
+},
+{
+    path: '/videos',
+    name: 'Videos',
+    component: Videos
+},
+{
+    path: '/blog',
+    name: 'Blog',
+    component: Blog
 },
 
 ];
