@@ -1,6 +1,6 @@
 <template>
   <body>
-    <!-- <CaptionDescription title="" /> -->
+    <div class="global__height"></div>
     <div class="container">
       <div class="row height_and_weight__global">
         <div class="col-xs-6 col-md-12 border__">
@@ -90,11 +90,8 @@
 </template>
 
 <script>
-// import CaptionDescription from "@/components/CaptionDescription.vue";
 export default {
-  components: {
-    // CaptionDescription,
-  },
+  components: {},
 };
 </script>
 

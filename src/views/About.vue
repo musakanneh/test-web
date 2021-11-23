@@ -1,5 +1,8 @@
 <template>
   <body>
+    <div class="global__height"></div>
+    <br />
+    <br />
     <CaptionDescription
       describe_caption="Traditional Ecosystems Survival Tanzania (TEST) is a 
       non-profit organization that builds and nurtures connections between traditional 

@@ -56,7 +56,7 @@ main {
   }
 
   p {
-    font-size: 1.2rem !important;
+    font-size: 2rem !important;
     color: #bf8f00;
     text-align: center;
     margin: auto;

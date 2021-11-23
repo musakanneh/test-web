@@ -1,5 +1,6 @@
 <template>
   <body>
+    <div class="global__height"></div>
     <main class="container">
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
@@ -13,6 +14,7 @@
       </div>
     </div>
     <main class="container">
+      <br />
       <h1>SUSTAINABLE ECOSYSTEMS</h1>
       <SustainableEcosystems />
     </main>

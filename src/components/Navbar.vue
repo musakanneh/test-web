@@ -29,8 +29,7 @@
       <nav class="nav-cover">
         <ul>
           <li>
-            <i class="fas fa-home"></i>
-            <a href="/">HOME</a>
+            <a href="/"><i class="fas fa-home"></i></a>
           </li>
           <li>
             <a href="/about">ABOUT TEST</a>
@@ -42,9 +41,9 @@
             <a href="/approach">OUR APPROACH</a>
           </li>
           <div class="dropdown">
-            <button class="dropbtn">
-              MEDIA ITEMS <i class="fas fa-caret-down"></i>
-            </button>
+            <li class="dropbtn">
+              MEDIA CENTER <i class="fas fa-caret-down"></i>
+            </li>
             <div class="dropdown-content">
               <a href="/reports">REPORTS</a>
               <a href="/gallery">GALLERY</a>
@@ -81,8 +80,7 @@ export default {
 
 header {
   background-color: #f9f9f9;
-  // position: fixed;
-  position: sticky;
+  position: fixed;
   width: 100%;
   height: 11.75rem;
   z-index: 1;
@@ -104,12 +102,24 @@ header {
   .dropdown {
     position: relative;
     display: inline-block;
+
+    li {
+      font-size: 13px;
+      font-weight: bold;
+      z-index: 1;
+      color: #262626;
+      cursor: pointer;
+      transition: 200ms;
+      letter-spacing: 1px;
+      text-decoration: none;
+      transition: all 0.25s;
+    }
   }
 
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    background-color: #bf8f00;
     min-width: 140px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;

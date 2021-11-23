@@ -19,7 +19,7 @@
             />
           </div>
           <div class="col-xs-6 col-md-4">
-            <h2>Download Report</h2>
+            <h3><i class="fas fa-download"></i> Download Report</h3>
           </div>
         </dd>
       </dl>
@@ -40,11 +40,11 @@
             />
           </div>
           <div class="col-xs-6 col-md-4">
-            <h2>Download Report</h2>
+            <h3><i class="fas fa-download"></i> Download Report</h3>
           </div>
         </dd>
       </dl>
-         <dl class="dl-horizontal">
+      <dl class="dl-horizontal">
         <dt><h1>Annual Report 2021</h1></dt>
         <dd>
           <div class="col-xs-6 col-md-4">
@@ -61,7 +61,7 @@
             />
           </div>
           <div class="col-xs-6 col-md-4">
-            <h2>Download Report</h2>
+            <h3><i class="fas fa-download"></i> Download Report</h3>
           </div>
         </dd>
       </dl>
@@ -79,14 +79,25 @@ export default {
 body {
   padding: 8rem 0 !important;
 
+  .dl-horizontal {
+    border: 1px solid #ddd;
+    padding: 4rem 0;
+  }
+
   main {
     img {
-      width: 60%;
+      width: 100%;
       border: 1px solid #ddd;
 
       &:hover {
         box-shadow: 1px 1px 5px rgba(150, 147, 147, 0.57);
         transition: 0.5s ease;
+      }
+    }
+
+    h3 {
+      i {
+        color: #ddd;
       }
     }
 
