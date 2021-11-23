@@ -13,7 +13,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-                <a href="/lekumo"><p>Profile</p></a>
+                <a href="/lekumok"><p>Profile</p></a>
               </div>
             </div>
           </div>

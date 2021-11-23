@@ -14,13 +14,17 @@
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="footer-nav-items">
-            <h3>Contact Us</h3>
-            <hr />
-            <br />
-            <p>PO Box 2268, Arusha</p>
-            <p>Tanzania</p>
-            <p>Tel: +255 786 744 663</p>
-            <p>Email: info@test.or.tz</p>
+            <address>
+              <h3>Contact Us</h3>
+              <hr />
+              <br />
+              PO Box 2268, Arusha<br />
+              Tanzania<br />
+              <abbr title="Phone">Tel:</abbr> (255) 786 744 663<br />
+              <a href="mailto:#">
+                <abbr title="Phone">Email:</abbr>info@test.or.tz</a
+              >
+            </address>
           </div>
         </div>
         <div class="col-xs-6 col-md-3">
@@ -118,6 +122,10 @@ footer {
   bottom: 0;
   padding: 4% 0;
   background-color: #1d1b1bf3;
+
+  address {
+    color: #fff;
+  }
 
   main {
     h3 {
