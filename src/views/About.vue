@@ -8,27 +8,35 @@
     />
     <section class="container">
       <div class="row">
-        <div class="col-xs-5 col-md-3">
+        <div class="col-xs-4 col-md-3">
           <div class="cover">
             <div>
-              <img src="../assets/vision.png" alt="" />
+              <img
+                src="../assets/vision.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
             </div>
-            <div><h2>Vision</h2></div>
+            <div><h3>Vision</h3></div>
             <div>
               <p>
                 A world in which people, livestock, wildlife and nature co-exist
                 in peace, health and harmony.
               </p>
-              <p><br /><br /><br /><br /><br /><br /><br /><br /><br /></p>
+              <p><br /><br /><br /><br /><br /><br /><br /></p>
             </div>
           </div>
         </div>
-        <div class="col-xs-5 col-md-3">
+        <div class="col-xs-4 col-md-3">
           <div class="cover">
             <div>
-              <img src="../assets/outcome.png" alt="" />
+               <img
+                src="../assets/outcome.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
             </div>
-            <div><h2>Purpose</h2></div>
+            <div><h3>Purpose</h3></div>
             <p>
               To facilitate effective collaborations that integrate technical
               expertise and assistance with indigenous knowledge and skills to
@@ -36,15 +44,19 @@
               the sustainable well-being of local people, livestock and wildlife
               in the natural ecosystems in Tanzania.
             </p>
-            <p><br /><br /><br /></p>
+            <p><br /></p>
           </div>
         </div>
-        <div class="col-xs-5 col-md-3">
+        <div class="col-xs-4 col-md-3">
           <div class="cover">
             <div>
-              <img src="../assets/outcome.png" alt="" />
+               <img
+                src="../assets/outcome.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
             </div>
-            <div><h2>Mission</h2></div>
+            <div><h3>Mission</h3></div>
             <div>
               <p>
                 To facilitate conflict resolution, collaboration and information
@@ -61,12 +73,16 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-5 col-md-3">
+        <div class="col-xs-4 col-md-3">
           <div class="cover">
             <div>
-              <img src="../assets/mission.png" alt="" />
+              <img
+                src="../assets/mission.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
             </div>
-            <div><h2>Values</h2></div>
+            <div><h3>Values</h3></div>
             <div>
               <p>We value and respect our indigenous community</p>
               <p>We value and respect our natural ecosystems</p>
@@ -77,7 +93,6 @@
               <p>
                 We value creativity and aim for constant improvement in our work
               </p>
-              <p><br /></p>
             </div>
           </div>
         </div>
@@ -107,8 +122,12 @@ body {
 
   .cover {
     border: 1px solid #ddd;
-    padding: 2rem;
+    padding: 2rem 1rem;
     text-align: center;
+
+    p {
+      text-align: left;
+    }
   }
 
   img {
