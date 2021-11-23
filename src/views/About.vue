@@ -8,56 +8,61 @@
     />
     <section class="container">
       <div class="row">
-        <div class="col-xs-4 col-md-3">
-          <div class="cover">
-            <div>
-              <img
-                src="../assets/vision.png"
-                class="img-responsive img-circle"
-                alt="Responsive image"
-              />
-            </div>
-            <div><h3>Vision</h3></div>
-            <div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <div class="caption">
+              <div class="caption__title">
+                <img
+                  src="../assets/vision.png"
+                  class="img-responsive img-circle"
+                  alt="Responsive image"
+                />
+                <h3>Vision</h3>
+              </div>
+
               <p>
                 A world in which people, livestock, wildlife and nature co-exist
                 in peace, health and harmony.
               </p>
-              <p><br /><br /><br /><br /><br /><br /><br /></p>
+              <p class="spacing"></p>
             </div>
           </div>
         </div>
-        <div class="col-xs-4 col-md-3">
-          <div class="cover">
-            <div>
-               <img
-                src="../assets/outcome.png"
-                class="img-responsive img-circle"
-                alt="Responsive image"
-              />
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <div class="caption">
+              <div class="caption__title">
+                <img
+                  src="../assets/outcome.png"
+                  class="img-responsive img-circle"
+                  alt="Responsive image"
+                />
+                <h3>Purpose</h3>
+              </div>
+
+              <p>
+                To facilitate effective collaborations that integrate technical
+                expertise and assistance with indigenous knowledge and skills to
+                reduce conflict, improve natural resource management, and
+                enhance the sustainable well-being of local people, livestock
+                and wildlife in the natural ecosystems in Tanzania.
+              </p>
+              <br />
             </div>
-            <div><h3>Purpose</h3></div>
-            <p>
-              To facilitate effective collaborations that integrate technical
-              expertise and assistance with indigenous knowledge and skills to
-              reduce conflict, improve natural resource management, and enhance
-              the sustainable well-being of local people, livestock and wildlife
-              in the natural ecosystems in Tanzania.
-            </p>
-            <p><br /></p>
           </div>
         </div>
-        <div class="col-xs-4 col-md-3">
-          <div class="cover">
-            <div>
-               <img
-                src="../assets/outcome.png"
-                class="img-responsive img-circle"
-                alt="Responsive image"
-              />
-            </div>
-            <div><h3>Mission</h3></div>
-            <div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <div class="caption">
+              <div class="caption__title">
+                <img
+                  src="../assets/outcome.png"
+                  class="img-responsive img-circle"
+                  alt="Responsive image"
+                />
+                <h3>Mission</h3>
+              </div>
+
               <p>
                 To facilitate conflict resolution, collaboration and information
                 sharing
@@ -73,17 +78,18 @@
             </div>
           </div>
         </div>
-        <div class="col-xs-4 col-md-3">
-          <div class="cover">
-            <div>
-              <img
-                src="../assets/mission.png"
-                class="img-responsive img-circle"
-                alt="Responsive image"
-              />
-            </div>
-            <div><h3>Values</h3></div>
-            <div>
+        <div class="col-sm-6 col-md-3">
+          <div class="thumbnail">
+            <div class="caption">
+              <div class="caption__title">
+                <img
+                  src="../assets/mission.png"
+                  class="img-responsive img-circle"
+                  alt="Responsive image"
+                />
+                <h3>Values</h3>
+              </div>
+
               <p>We value and respect our indigenous community</p>
               <p>We value and respect our natural ecosystems</p>
               <p>
@@ -120,6 +126,18 @@ export default {
 body {
   background: #fbfbfb;
 
+  .caption__title {
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    justify-content: space-between;
+  }
+
+  .spacing {
+    padding-top: 13rem;
+  }
+
   .cover {
     border: 1px solid #ddd;
     padding: 2rem 1rem;
@@ -131,7 +149,7 @@ body {
   }
 
   img {
-    width: 50px;
+    width: 40px;
     margin: auto;
   }
 

@@ -4,9 +4,13 @@
       <div class="container">
         <div class="container__">
           <div class="contact__info">
-            <p>Tel: +255 786 744 663</p>
+            <p><abbr title="Phone">Tel:</abbr> (255) 786 744 663<br /></p>
             <p>|</p>
-            <p>Email: info@test.or.tz</p>
+            <p>
+              <a href="mailto:#">
+                <abbr title="Phone">Email:</abbr> info@test.or.tz</a
+              >
+            </p>
           </div>
           <div class="social-medias">
             <a href="#"> <i class="fab fa-facebook"></i></a>
@@ -87,12 +91,14 @@ header {
     .contact__info {
       display: flex;
 
-      p {
+      p,
+      a {
         color: #fff;
         padding-right: 17px;
         font-weight: 500;
         font-size: 13px;
         color: #fff;
+        font-weight: bold;
         margin: 1rem 0;
       }
     }
