@@ -1,6 +1,6 @@
 <template>
   <body>
-    <CaptionDescription title="" />
+    <!-- <CaptionDescription title="" /> -->
     <div class="container">
       <div class="row height_and_weight__global">
         <div class="col-xs-6 col-md-12 border__">
@@ -90,10 +90,10 @@
 </template>
 
 <script>
-import CaptionDescription from "@/components/CaptionDescription.vue";
+// import CaptionDescription from "@/components/CaptionDescription.vue";
 export default {
   components: {
-    CaptionDescription,
+    // CaptionDescription,
   },
 };
 </script>
@@ -102,7 +102,7 @@ export default {
 @media only screen and (max-width: 900px) {
   .border__ {
     display: block !important;
-    
+
     h3 {
       padding: 2rem 0 1rem 0;
     }

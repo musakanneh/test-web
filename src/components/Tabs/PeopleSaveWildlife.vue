@@ -127,10 +127,7 @@ export default {
     padding: 0.7rem 0;
   }
 }
-body {
-  background-color: #45443f;
-  color: #fefefe;
-}
+
 th,
 td {
   padding: 5px;

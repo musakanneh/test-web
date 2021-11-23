@@ -78,9 +78,11 @@ export default {
     display: none;
   }
 }
+
 header {
   background-color: #f9f9f9;
-  position: fixed;
+  // position: fixed;
+  position: sticky;
   width: 100%;
   height: 11.75rem;
   z-index: 1;
@@ -88,7 +90,6 @@ header {
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
 
-  // Navbar dropdown menus
   .dropbtn {
     color: #262626;
     padding: 16px;
@@ -132,8 +133,6 @@ header {
   .dropdown:hover .dropbtn {
     // background-color: #3e8e41;
   }
-
-  // Navbar dropdown menus
 
   aside {
     background: #bf8f00;

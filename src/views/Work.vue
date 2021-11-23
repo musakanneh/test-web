@@ -1,11 +1,9 @@
 <template>
   <body>
-    <CaptionDescription title="WOUR WORK" />
     <main class="container">
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>
-
     <div class="mid-container">
       <div class="container">
         <h1 class="">SUPPORT SUSTAINABLE LIVELIHOODS</h1>
@@ -14,7 +12,6 @@
         </div>
       </div>
     </div>
-
     <main class="container">
       <h1>SUSTAINABLE ECOSYSTEMS</h1>
       <SustainableEcosystems />
@@ -26,11 +23,9 @@
 import PeopleSaveWildlife from "@/components/Tabs/PeopleSaveWildlife.vue";
 import SupportSustainableLivelihood from "@/components/Tabs/SupportSustainableLivelihood.vue";
 import SustainableEcosystems from "@/components/Tabs/SustainableEcosystems.vue";
-import CaptionDescription from "@/components/CaptionDescription.vue";
 
 export default {
   components: {
-    CaptionDescription,
     PeopleSaveWildlife,
     SustainableEcosystems,
     SupportSustainableLivelihood,
@@ -68,10 +63,10 @@ body {
   }
 
   main {
-    padding: 2rem 0 6rem 0;
+    padding: 0 0 6rem 0;
 
     h1 {
-      padding: 1rem 0;
+      padding: 0 0 1rem 0;
     }
   }
 }

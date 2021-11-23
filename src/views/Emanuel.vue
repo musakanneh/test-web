@@ -1,5 +1,5 @@
 <template>
-  <div class="height_and_weight__global">
+  <div class="">
     <ProfileCaption name="Board Mamber" />
     <section class="container">
       <div class="profile-content__cover">
