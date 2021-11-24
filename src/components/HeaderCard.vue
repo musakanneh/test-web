@@ -3,7 +3,7 @@
     <main>
       <article class="container">
         <h1 v-if="!isMobile">
-          Conserving Natural Ecosystems, and Improving Lives in Tanzania
+          Conserving Natural Ecosystems and Improving Lives in Tanzania
         </h1>
         <p>
           Traditional Ecosystems Survival Tanzania (TEST) is a non-profit
@@ -72,7 +72,7 @@ body {
     text-align: center;
 
     button {
-      background: #bf8f00;
+      background: var(--primary-color);
       border-radius: 3px;
       font-size: 14px;
       height: 45px;
@@ -99,7 +99,7 @@ body {
     }
 
     p {
-      color: #bf8f00;
+      color: var(--primary-color);
       width: 70%;
       font-weight: 500;
       margin: auto;

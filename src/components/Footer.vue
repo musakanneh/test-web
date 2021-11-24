@@ -60,6 +60,7 @@
       </div>
     </main>
     <section class="trademark container">
+      <hr />
       <p>TEST © 2021 | All Rights Reserved.</p>
     </section>
   </footer>
@@ -119,7 +120,7 @@ export default {
 }
 
 footer {
-  bottom: 0;
+  padding: 1rem 0;
   background-color: #1e2022;
 
   address {
@@ -128,7 +129,7 @@ footer {
 
   main {
     h3 {
-      color: #bf8f00;
+      color: var(--primary-color);
       font-weight: 600;
     }
   }
@@ -147,7 +148,7 @@ footer {
     }
 
     i:hover {
-      color: #689d1a;
+      color: var(--primary-color);
       transition: 0.5s ease;
     }
   }
@@ -163,9 +164,15 @@ footer {
   }
 
   .trademark {
+    hr {
+      border: 0.5px solid #262626;
+      margin: 1rem 0;
+      width: 100% !important;
+    }
     p {
       text-align: center;
-      padding: 2rem 0 3rem 0;
+      font-size: 12px;
+      padding: 1rem 0 1rem 0;
     }
   }
 }

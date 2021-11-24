@@ -61,10 +61,8 @@ export default {
   -webkit-text-size-adjust: 100% !important;
 }
 
-
-
 /*** Variables */
-:root{
+:root {
   --primary-color: #be9e44;
 }
 /**---- */
@@ -85,20 +83,10 @@ main {
   left: 0;
 }
 
-h2 {
-  color: #c98811;
-}
-
-h3 {
-  color: #c98811;
-}
-
+h1,
+h2,
+h3,
 span {
-  color: #c98811;
-}
-
-h1 {
-  /* color: #c98811; */
   color: var(--primary-color);
 }
 
