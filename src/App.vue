@@ -65,7 +65,7 @@ export default {
 
 /*** Variables */
 :root{
-  --primary-color: red;
+  --primary-color: #be9e44;
 }
 /**---- */
 
