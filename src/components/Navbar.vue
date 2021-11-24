@@ -4,11 +4,11 @@
       <div class="container">
         <div class="container__">
           <div class="contact__info">
-            <p><abbr title="Phone">Tel:</abbr> (255) 786 744 663<br /></p>
+            <p><span title="Phone">Tel:</span> (255) 786 744 663<br /></p>
             <p>|</p>
             <p>
               <a href="mailto:#">
-                <abbr title="Phone">Email:</abbr> info@test.or.tz</a
+                <span title="Phone">Email:</span> info@test.or.tz</a
               >
             </p>
           </div>
@@ -24,12 +24,12 @@
 
     <main class="container">
       <div class="logo">
-        <a href="/"><img src="../assets/logo.jpeg" alt=""/></a>
+        <a href="/"><img src="../assets/new_logo.png" alt=""/></a>
       </div>
       <nav class="nav-cover">
         <ul>
           <li>
-            <a href="/"><i class="fas fa-home"></i></a>
+             <a href="/">HOME</a>
           </li>
           <li>
             <a href="/about">ABOUT TEST</a>
@@ -39,6 +39,9 @@
           </li>
           <li>
             <a href="/approach">OUR APPROACH</a>
+          </li>
+          <li>
+            <a href="/approach">PROJECTS</a>
           </li>
           <div class="dropdown">
             <li class="dropbtn">
@@ -145,7 +148,12 @@ header {
   }
 
   aside {
-    background: #bf8f00;
+    // background: #d8c690;
+    // background: #be9e44;
+    background: #1e2022;
+    padding: .3rem 0;
+    // background: #CBB26A;
+
 
     .container__ {
       display: flex;
@@ -160,26 +168,29 @@ header {
         color: #fff;
         padding-right: 17px;
         font-weight: 500;
+        letter-spacing: 1px;
         font-size: 13px;
+        // border: 1px solid red;
         color: #fff;
-        font-weight: bold;
+        // font-weight: bold;
         margin: 1rem 0;
       }
     }
+
     .social-medias {
       margin: 1rem 0;
       i {
         padding: 0 1rem;
-        color: #fff;
+        color: #be9e44;
       }
     }
   }
 
   .logo {
-    width: 13%;
+    width: 9%;
     img {
       width: 80%;
-      margin: 1.5rem 0;
+      // margin: 1.5rem 0;
     }
   }
   .nav-cover,

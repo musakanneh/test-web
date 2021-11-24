@@ -53,7 +53,7 @@ export default {
 
 .main-button {
   border: none;
-  background: #bf8f00;
+  background: #be9e44;
   border-radius: 3px;
   height: 40px;
   letter-spacing: 1px;
@@ -66,7 +66,7 @@ export default {
 }
 
 .main-button:hover {
-  background: #a77e03;
+  background: #be9e44;
   transition: 0.5s ease;
   color: #ffffff;
 }

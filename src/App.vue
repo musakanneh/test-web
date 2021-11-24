@@ -61,6 +61,14 @@ export default {
   -webkit-text-size-adjust: 100% !important;
 }
 
+
+
+/*** Variables */
+:root{
+  --primary-color: red;
+}
+/**---- */
+
 .selector-for-some-widget {
   box-sizing: content-box;
 }
@@ -90,7 +98,8 @@ span {
 }
 
 h1 {
-  color: #c98811;
+  /* color: #c98811; */
+  color: var(--primary-color);
 }
 
 .height_and_weight__global {

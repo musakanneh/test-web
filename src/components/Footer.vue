@@ -120,8 +120,7 @@ export default {
 
 footer {
   bottom: 0;
-  padding: 4% 0;
-  background-color: #1d1b1bf3;
+  background-color: #1e2022;
 
   address {
     color: #fff;
@@ -166,7 +165,7 @@ footer {
   .trademark {
     p {
       text-align: center;
-      padding-top: 4rem;
+      padding: 2rem 0 3rem 0;
     }
   }
 }
