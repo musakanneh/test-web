@@ -6,7 +6,6 @@
           <div class="footer-nav-items">
             <h3>Quick Links</h3>
             <hr />
-            <br />
             <a href="/about" class="tba">About Us</a><br />
             <a href="/work" class="tba">Our Work</a><br />
             <a href="/about" class="tba">Our Team</a><br />
@@ -17,7 +16,6 @@
             <address>
               <h3>Contact Us</h3>
               <hr />
-              <br />
               PO Box 2268, Arusha<br />
               Tanzania<br />
               <abbr title="Phone">Tel:</abbr> (255) 786 744 663<br />
@@ -31,7 +29,6 @@
           <div class="footer-nav-items">
             <h3>Support our Projects</h3>
             <hr />
-            <br />
             <a href="/" class="tba">Donate</a><br />
             <a href="/volunteer" class="tba">Volunteer With Us</a><br />
           </div>
@@ -40,7 +37,6 @@
           <div class="contact-sec">
             <h3>Follow Us</h3>
             <hr />
-            <br />
             <div class="social-medias">
               <a href="www.facebook.com/ecosystemssurvival">
                 <i class="fab fa-facebook"></i
@@ -128,9 +124,14 @@ footer {
   }
 
   main {
+    hr {
+      margin: 1rem 0;
+    }
     h3 {
       color: var(--primary-color);
       font-weight: 600;
+      margin: 0;
+      padding-top: 2rem;
     }
   }
 

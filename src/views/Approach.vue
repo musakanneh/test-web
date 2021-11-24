@@ -6,82 +6,164 @@
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/colab-res1.png"
               class="img-responsive"
               alt="Responsive image"
             />
           </div>
           <div class="content__text">
-            <h3>Collaborative Research</h3>
+            <h3>COLLABORATIVE RESEARCH</h3>
             <p>
-              TEST shall host a collaborative research program with renowned
-              academic and research institutions to develop the database of the
-              indigenous ecological knowledge practices that enhance
-              environmental and cultural sustainability. Furthermore, explore
-              best options to merge scientific conservation approaches with
-              indigenous traditional knowledge towards sustainable conservation
-              actions that address resource tenure and governance, environmental
-              hazards, illegal wildlife trade, and the climate emergency.
+              Combining indigenous cultural practices and proven scientific
+              solutions on ecological sustainability are useful to enhance
+              knowledge and an opportunity for learning. Through collaborative
+              research that brings together indigenous groups and renowned
+              global researchers, we hope to create common ground and forge
+              partnerships between indigenous science and academic and policy
+              institutions. One of TEST’s aims is to combine indigenous
+              practices with scientific solutions in the management of cultural
+              and natural ecosystems.
             </p>
+            <p>
+              <strong
+                >TEST will host a collaborative research program with renowned
+                academic and research institutions to:</strong
+              >
+            </p>
+            <ul>
+              <li>
+                <strong
+                  >develop a database of ecological knowledge and practices that
+                  enhance biodiversity and cultural sustainability.</strong
+                >
+              </li>
+              <li>
+                <strong>
+                  explore best options to merge scientific conservation
+                  approaches with indigenous traditional knowledge
+                </strong>
+              </li>
+              <li>
+                <strong
+                  >produce sustainable conservation solutions that address
+                  resource tenure and governance.</strong
+                >
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/surface.jpeg"
               class="img-responsive"
               alt="Responsive image"
             />
           </div>
           <div class="content__text">
-            <h3>Education and Capacity building</h3>
+            <h3>EMPOWERMENT AND CAPACITY BUILDING</h3>
             <p>
-              TEST shall facilitate a comprehensive awareness creation program
-              to disseminate and exhibit the findings of the action research.
-              The action will employ such media as film, radio, and other
-              storytelling tools. The purpose is to enable the scientific forum
-              to recognize and adopt indigenous communities’ best land
-              management practices for sustainable ecosystems management and
-              integrate such suitable indigenous cultures into official school
-              curricula.
+              Indigenous Peoples and Local Communities (IPLCs) are natural
+              conservators of nature. Their passion and skill in landscape
+              conservation must be appreciated and recognized. TEST will
+              facilitate a comprehensive awareness creation program to nurture
+              active and joyful involvement of IPLCs in conservation and create
+              appreciation from conservation and government authorities.
             </p>
+            <strong
+              >TEST will disseminate, exhibit, campaign and promote best
+              practices through medium such as symposia, workshops, meetings and
+              mainstream media (film, radio), and indigenous storytelling
+              platforms.
+            </strong>
+            <ul>
+              <li>
+                <strong>
+                  The purpose is to: enable the scientific community to
+                  recognize and adopt best practices of indigenous peoples and
+                  local communities in land management
+                </strong>
+              </li>
+              <li>
+                <strong
+                  >for sustainable ecosystems conservation and integrate such
+                  suitable indigenous cultures into official policy and school
+                  curricula.</strong
+                >
+              </li>
+            </ul>
           </div>
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/culture.png"
               class="img-responsive"
               alt="Responsive image"
             />
           </div>
           <div class="content__text">
-            <h3>Cultural Exchange</h3>
+            <h3>INDIGENOUS CULTURAL EXCHANGE</h3>
             <p>
-              Tanzania has a diversity if indigenous cultures contributing to
-              community and ecological resilience. TEST will facilitate targeted
-              cultural exchange visits with and among diverse cultural groups to
-              enhance learning, sharing culturally valued lessons across diverse
-              communities in Tanzania and beyond.
+              Tanzania has an ecosystem of indigenous cultures contributing to
+              community as well as ecological resilience. These indigenous
+              cultures have to connect and learn from each other to create
+              mutually connected cultural and natural ecosystems for people and
+              wildlife.
             </p>
+            <strong
+              >TEST will:
+              <ul>
+                <li>
+                  <strong
+                    >facilitate targeted cultural exchange programmes with and
+                    among diverse cultural groups in Tanzania</strong
+                  >
+                </li>
+                <li>
+                  <strong
+                    >enhance learning across diverse communities in Tanzania and
+                    beyond.</strong
+                  >
+                </li>
+              </ul>
+            </strong>
           </div>
         </div>
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/landscape1.jpeg"
               class="img-responsive"
               alt="Responsive image"
             />
           </div>
           <div class="content__text">
-            <h3>Ecosystem Governance</h3>
+            <h3>ECOSYSTEM GOVERNANCE</h3>
             <p>
-              TEST shall spearhead the development of a participatory-landscape
-              approach to land-use-plans including guidelines for governing and
-              controlling the use of the land resources at the community level
-              and ecosystem-wide levels.
+              Appropriate and acceptable ecosystems governance is key to
+              ensuring ecological sustainability, building positive and lasting
+              relationships between cultures and systems and improving
+              livelihoods of indigenous peoples and local communities.
             </p>
+            <strong
+              >TEST will:
+              <ul>
+                <li>
+                  <strong
+                    >spearhead the development of a participatory landscape
+                    approach to land-use-plans</strong
+                  >
+                </li>
+                <li>
+                  <strong>
+                    design and develop guidelines for governing and controlling
+                    the use of the land resources at the community and
+                    ecosystem-wide levels.</strong
+                  >
+                </li>
+              </ul>
+            </strong>
           </div>
         </div>
       </div>
@@ -109,15 +191,27 @@ export default {
     }
   }
 }
+
 body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
+
+  strong{
+    line-height: 1.5;
+  }
+
+  h3 {
+    margin: 0;
+    padding-bottom: 1rem;
+  }
 
   .border__ {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 50px;
-    padding: 3rem 0;
+    padding: 1rem;
+    border: 1px solid #30303017;
+    margin: 2rem 0;
 
     p {
       font-size: 1.6rem;
@@ -126,13 +220,6 @@ body {
 
     img {
       width: 100%;
-    }
-  }
-
-  main {
-    display: flex !important;
-    .content__text {
-      width: 70%;
     }
   }
 }

@@ -170,9 +170,7 @@ header {
         font-weight: 500;
         letter-spacing: 1px;
         font-size: 13px;
-        // border: 1px solid red;
         color: #fff;
-        // font-weight: bold;
         margin: 1rem 0;
       }
     }

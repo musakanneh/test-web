@@ -86,7 +86,8 @@ main {
 h1,
 h2,
 h3,
-span {
+span,
+strong {
   color: var(--primary-color);
 }
 
