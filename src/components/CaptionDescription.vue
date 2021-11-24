@@ -57,7 +57,7 @@ main {
 
   p {
     font-size: 2rem !important;
-    color: #bf8f00;
+    color: var(--primary-color);
     text-align: center;
     margin: auto;
     line-height: 1.5;

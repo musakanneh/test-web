@@ -3,8 +3,9 @@
     <div class="team-and-boardmembers__cover">
       <main class="container">
         <h1>BOARD</h1>
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
+        <div class="row row-cols-4 __mi">
+          <div class="col"></div>
+          <div class="col">
             <div class="thumbnail">
               <img
                 src="../assets/leb.png"
@@ -17,7 +18,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
+          <div class="col">
             <div class="thumbnail">
               <img
                 src="../assets/lilian.png"
@@ -30,7 +31,7 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
+          <div class="col">
             <div class="thumbnail">
               <img
                 src="../assets/jop.png"
@@ -44,7 +45,7 @@
             </div>
           </div>
 
-          <div class="col-xs-6 col-md-3">
+          <div class="col">
             <div class="thumbnail">
               <img
                 src="../assets/melubo.png"
@@ -58,13 +59,11 @@
             </div>
           </div>
         </div>
-      </main>
 
-      <h1>OUR TEAM</h1>
-      <section class="team-member_section container">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <div>
+        <h1>OUR TEAM</h1>
+        <div class="row row-cols-4 __mi">
+          <div class="col-xs-8">
+            <div class="">
               <img
                 src="../assets/bnr.png"
                 class="img-responsive img-circle"
@@ -76,8 +75,8 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
-            <div>
+          <div class="col-xs-8">
+            <div class="">
               <img
                 src="../assets/evel.png"
                 class="img-responsive img-circle"
@@ -89,8 +88,8 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
-            <div>
+          <div class="col-xs-8">
+            <div class="">
               <img
                 src="../assets/bnr.png"
                 class="img-responsive img-circle"
@@ -105,8 +104,9 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
-            <div>
+
+          <div class="col-xs-8">
+            <div class="">
               <img
                 src="../assets/marco.jpeg"
                 class="img-responsive img-circle"
@@ -118,19 +118,39 @@
               </div>
             </div>
           </div>
-          <div class="col-xs-6 col-md-3">
-            <img
-              src="../assets/yannick.png"
-              class="img-responsive img-circle"
-              alt="Responsive image"
-            />
-            <div class="team__details">
-              <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-              <a href="/yannick"><p>View Profile</p></a>
+          <div class="col-xs-8">
+            <div class="">
+              <img
+                src="../assets/yannick.png"
+                class="img-responsive img-circle"
+                alt="Responsive image"
+              />
+              <div class="team__details">
+                <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
+                <a href="/yannick"><p>View Profile</p></a>
+              </div>
             </div>
           </div>
         </div>
-      </section>
+
+        <section class="team-member_section container">
+          <div class="row">
+            <!-- <div class="col-xs-6 col-md-2">
+              <div></div>
+            </div> -->
+            <!-- <div class="col-xs-6 col-md-2">
+              <div></div>
+            </div> -->
+            <!-- <div class="col-xs-6 col-md-2">
+              <div></div>
+            </div> -->
+            <!-- <div class="col-xs-6 col-md-2">
+              <div></div>
+            </div> -->
+            <div class="col-xs-6 col-md-2"></div>
+          </div>
+        </section>
+      </main>
     </div>
     <PartnerCard />
   </body>
@@ -148,12 +168,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+// .element {
+//   // Three columns to start
+//   @include row-cols(3);
+
+//   // Five columns from medium breakpoint up
+//   @include media-breakpoint-up(md) {
+//     @include row-cols(5);
+//   }
+// }
+
 body {
   .team-and-boardmembers__cover {
     background: #ddd;
     width: 100%;
     height: 100%;
     padding: 2rem 0 4rem 0;
+  }
+
+  .__border_img {
+    border: 1px solid #303030;
+    padding: 0.5rem;
   }
 
   .team__details {
@@ -163,6 +198,13 @@ body {
 
   img {
     width: 100%;
+  }
+
+  .__mi {
+    display: flex;
+    width: 98%;
+    margin: auto;
+    justify-content: space-evenly;
   }
 
   h1 {

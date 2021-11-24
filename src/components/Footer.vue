@@ -18,9 +18,9 @@
               <hr />
               PO Box 2268, Arusha<br />
               Tanzania<br />
-              <abbr title="Phone">Tel:</abbr> (255) 786 744 663<br />
+              <span title="Phone">Tel:</span> (255) 786 744 663<br />
               <a href="mailto:#">
-                <abbr title="Phone">Email:</abbr>info@test.or.tz</a
+                <span title="Phone">Email:</span> info@test.or.tz</a
               >
             </address>
           </div>
