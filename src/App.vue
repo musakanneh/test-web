@@ -61,11 +61,10 @@ export default {
   -webkit-text-size-adjust: 100% !important;
 }
 
-/*** Variables */
 :root {
   --primary-color: #be9e44;
+  --black: #262626;
 }
-/**---- */
 
 .selector-for-some-widget {
   box-sizing: content-box;
@@ -83,12 +82,17 @@ main {
   left: 0;
 }
 
+p {
+  color: var(--black);
+}
+
 h1,
 h2,
 h3,
 span,
 strong {
   color: var(--primary-color);
+  /* font-family: 'Charmonman', cursive; */
 }
 
 .height_and_weight__global {

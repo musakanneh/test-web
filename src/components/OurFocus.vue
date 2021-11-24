@@ -5,9 +5,9 @@
       <div class="row">
         <div class="col-xs-6 col-md-3">
           <div class="inner">
-            <h3>
-              <span><i class="fas fa-home"></i></span>11
-            </h3>
+            <h2>
+              11
+            </h2>
             <p>regions</p>
             <br /><br />
           </div>
@@ -15,9 +15,9 @@
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="inner">
-            <h3>
-              <span><i class="fas fa-list-ol"></i></span>300
-            </h3>
+            <h2>
+              300
+            </h2>
             <p>villages</p>
             <br /><br />
           </div>
@@ -26,7 +26,7 @@
         <div class="col-xs-6 col-md-3">
           <div class="inner">
             <h3>
-              <span><i class="fas fa-home"></i></span>12 Million IPLCs
+              12 Million IPLCs
             </h3>
             <p>
               that live and share their lands with wildlife in critical and
@@ -38,8 +38,7 @@
         <div class="col-xs-6 col-md-3">
           <div class="inner">
             <h3>
-              <span><i class="fas fa-home"></i></span> Culturally diverse
-              communities
+              Culturally diverse communities
             </h3>
             <p>
               including pastoralists, hunters-gatherers and agro-pastoralist
@@ -73,6 +72,15 @@ body {
       color: #90909090;
       padding-right: 0.5rem;
     }
+  }
+  h2,
+  h3 {
+    font-weight: bolder;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
   }
 
   h1 {

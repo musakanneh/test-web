@@ -29,7 +29,7 @@
       <nav class="nav-cover">
         <ul>
           <li>
-             <a href="/">HOME</a>
+            <a href="/">HOME</a>
           </li>
           <li>
             <a href="/about">ABOUT TEST</a>
@@ -41,7 +41,7 @@
             <a href="/approach">OUR APPROACH</a>
           </li>
           <li>
-            <a href="/approach">PROJECTS</a>
+            <a href="/projects">PROJECTS</a>
           </li>
           <div class="dropdown">
             <li class="dropbtn">
@@ -143,17 +143,9 @@ header {
     display: block;
   }
 
-  .dropdown:hover .dropbtn {
-    // background-color: #3e8e41;
-  }
-
   aside {
-    // background: #d8c690;
-    // background: #be9e44;
     background: #1e2022;
-    padding: .3rem 0;
-    // background: #CBB26A;
-
+    padding: 0.3rem 0;
 
     .container__ {
       display: flex;
@@ -179,7 +171,7 @@ header {
       margin: 1rem 0;
       i {
         padding: 0 1rem;
-        color: #be9e44;
+        color: var(--primary-color);
       }
     }
   }
@@ -188,7 +180,6 @@ header {
     width: 9%;
     img {
       width: 80%;
-      // margin: 1.5rem 0;
     }
   }
   .nav-cover,
@@ -220,7 +211,7 @@ nav {
       font-size: 13px;
       font-weight: bold;
       z-index: 1;
-      color: #262626;
+      color: var(--black);
       cursor: pointer;
       transition: 200ms;
       letter-spacing: 1px;
@@ -228,7 +219,7 @@ nav {
       transition: all 0.25s;
 
       &:hover {
-        color: #bf8f00;
+        color: var(--primary-color);
         transition: all 0.25s;
       }
     }

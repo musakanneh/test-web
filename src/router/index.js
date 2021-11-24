@@ -19,6 +19,7 @@ import Reports from '../views/Media/Reports.vue'
 import Gallery from '../views/Media/Gallery.vue'
 import Videos from '../views/Media/Videos.vue'
 import Blog from '../views/Media/Blog.vue'
+import Projects from '../views/Projects.vue'
 
 
 Vue.use(VueRouter);
@@ -114,6 +115,11 @@ const routes = [{
     path: '/blog',
     name: 'Blog',
     component: Blog
+},
+{
+    path: '/projects',
+    name: 'Projects',
+    component: Projects
 },
 
 ];
