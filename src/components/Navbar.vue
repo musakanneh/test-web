@@ -48,7 +48,7 @@
               MEDIA CENTER <i class="fas fa-caret-down"></i>
             </li>
             <div class="dropdown-content">
-              <a href="/reports">REPORTS</a>
+              <a href="/documents">DOCUMENTS</a>
               <a href="/gallery">GALLERY</a>
               <a href="/videos">VIDEOS</a>
               <a href="/blog">BLOG</a>

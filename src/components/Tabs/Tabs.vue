@@ -57,7 +57,7 @@ export default {
 
 }
 .tabs {
-  border-bottom: 1px solid #bf8f00;
+  border-bottom: var(--primary-color);
   margin: 0 10px;
 }
 
@@ -80,12 +80,12 @@ ul {
     cursor: pointer;
 
     &:hover {
-      color: #c98811;
+      color: var(--primary-color);
       transition: 0.5s ease;
     }
 
     &.is-active {
-      color: #c98811;
+      color: var(--primary-color);
     }
   }
 }
