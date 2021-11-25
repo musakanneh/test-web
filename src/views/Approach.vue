@@ -217,7 +217,6 @@ body {
 
     p {
       font-size: 1.6rem;
-      color: #303030 !important;
     }
 
     img {

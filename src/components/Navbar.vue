@@ -24,7 +24,7 @@
 
     <main class="container">
       <div class="logo">
-        <a href="/"><img src="../assets/new_logo.png" alt=""/></a>
+        <a href="/"><img src="../assets/new_logo.png" alt="" /></a>
       </div>
       <nav class="nav-cover">
         <ul>
@@ -85,7 +85,7 @@ header {
   background-color: #f9f9f9;
   position: fixed;
   width: 100%;
-  height: 11.75rem;
+  // height: 11.75rem;
   z-index: 1;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -178,33 +178,41 @@ header {
 
   .logo {
     width: 9%;
+    object-fit: contain;
+    box-sizing: border-box;
+    padding: 0 !important;
+
     img {
       width: 80%;
     }
   }
-  .nav-cover,
+
   .btn-cover {
-    padding-top: 18px;
+    padding-top: 1.6rem;
   }
 }
+
 main {
   display: flex;
   flex: auto;
+  padding: 0;
 }
+
 .link {
   &::before {
     padding-right: 0;
     display: none;
   }
 }
+
 nav {
   width: 100%;
 
   ul {
     list-style: none;
-    width: 70%;
-    padding: 0;
-    margin: auto;
+    width: auto;
+    padding: 0 8rem;
+    margin: 1rem 0;
 
     li,
     li a {
@@ -225,14 +233,15 @@ nav {
     }
   }
 }
+
 nav {
-  --menu-height: 40px;
   opacity: 0.8;
+
   > ul {
     display: flex;
-    height: var(--menu-height);
     align-items: center;
     justify-content: space-between;
+    
     li {
       position: relative;
       &:hover {
