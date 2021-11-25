@@ -3,7 +3,7 @@
     <ProfileCaption name="Board Mamber" />
     <section class="container">
       <div class="profile-content__cover">
-         <img
+        <img
           src="../assets/melubo.png"
           class="img-responsive img-circle"
           alt="Responsive image"

@@ -196,7 +196,7 @@ body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
 
-  strong{
+  strong {
     line-height: 1.5;
   }
 
@@ -212,6 +212,8 @@ body {
     padding: 1rem;
     border: 1px solid #30303017;
     margin: 2rem 0;
+    background: #e6e6e6;
+    box-shadow: 2px 5px #d8c690;
 
     p {
       font-size: 1.6rem;
