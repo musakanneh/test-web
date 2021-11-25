@@ -4,7 +4,7 @@
     <section class="container">
       <div class="profile-content__cover">
          <img
-          src="../assets/marco.jpeg"
+          src="../assets/melubo.png"
           class="img-responsive img-circle"
           alt="Responsive image"
         />
