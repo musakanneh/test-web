@@ -1,6 +1,5 @@
 <template>
   <body>
-    <VectorImg />
     <div class="global__height"></div>
     <main class="container">
       <dl class="dl-horizontal">
@@ -71,10 +70,10 @@
 </template>
 
 <script>
-import VectorImg from "@/components/VectorImg.vue";
+// import VectorImg from "@/components/VectorImg.vue";
 export default {
   components: {
-    VectorImg,
+    // VectorImg,
   },
 };
 </script>
@@ -83,12 +82,6 @@ export default {
 body {
   padding: 8rem 0 !important;
 
-  // .img___ {
-  //   border: 1px solid red;
-  //   img {
-  //     width: 100%;
-  //   }
-  // }
 
   .dl-horizontal {
     border: 1px solid #ddd;

@@ -104,7 +104,7 @@ strong {
 }
 
 .global__height {
-  padding: 2rem 0;
+  padding: 4rem 0;
 }
 
 img {
