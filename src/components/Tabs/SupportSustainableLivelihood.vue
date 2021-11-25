@@ -90,6 +90,7 @@ export default {
 
 #app {
   padding: 2.5rem;
+  
 
   .content {
     display: grid;

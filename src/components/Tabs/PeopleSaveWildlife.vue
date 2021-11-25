@@ -108,10 +108,12 @@ export default {
 #app {
   background: rgba(221, 221, 221, 0.555);
   padding: 2.5rem;
+  box-shadow: 2px 5px #d8c690;
 
   .content {
     display: grid;
     grid-template-columns: 1fr 2fr;
+
 
     p {
       width: 90%;

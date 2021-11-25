@@ -107,6 +107,7 @@ export default {
 }
 #app {
   background: rgba(221, 221, 221, 0.555);
+  box-shadow: 2px 5px #d8c690;
   padding: 2.5rem;
 
   .content {
