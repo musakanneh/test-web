@@ -85,7 +85,6 @@ header {
   background-color: #f9f9f9;
   position: fixed;
   width: 100%;
-  // height: 11.75rem;
   z-index: 1;
   -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
   -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
@@ -181,6 +180,7 @@ header {
     object-fit: contain;
     box-sizing: border-box;
     padding: 0 !important;
+    margin: 0rem 0 .3rem 0;
 
     img {
       width: 80%;
