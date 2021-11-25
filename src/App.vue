@@ -64,6 +64,7 @@ export default {
 :root {
   --primary-color: #be9e44;
   --black: #262626;
+  --border: 1px solid #ddd;
 }
 
 .selector-for-some-widget {
