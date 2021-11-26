@@ -34,7 +34,7 @@
         <textarea type="text" placeholder="" label="Message" />
         <br />
         <br />
-        <a href="#">
+        <a href="/">
           <Button
             :isFullWidth="false"
             label="Submut Message"

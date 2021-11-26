@@ -2,13 +2,13 @@
   <body>
     <div class="global__height"></div>
     <div class="container">
-      <br /><br />
+      <br /><br /><br />
       <h4>Current Projects</h4>
       <div class="row">
-        <div class="col-xs-6 col-md-11 border__">
+        <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/cicada.png"
               class="img-responsive"
               alt="Responsive image"
             />
@@ -30,10 +30,10 @@
             </p>
           </div>
         </div>
-        <div class="col-xs-6 col-md-11 border__">
+        <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/banner4.jpeg"
+              src="../assets/gcf.png"
               class="img-responsive"
               alt="Responsive image"
             />
@@ -90,6 +90,10 @@ body {
     margin: auto;
   }
 
+  .image {
+    border: 1px solid #30303011;
+  }
+
   .border__ {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -103,6 +107,7 @@ body {
 
     img {
       width: 100%;
+      padding: 2rem;
     }
   }
 

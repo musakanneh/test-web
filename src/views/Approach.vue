@@ -213,7 +213,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 2fr;
     column-gap: 50px;
-    padding: 1rem;
+    padding: 2rem;
     border: 1px solid #30303017;
     margin: 2rem 0;
     background: #e6e6e6;

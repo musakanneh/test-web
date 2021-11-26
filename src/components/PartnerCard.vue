@@ -31,7 +31,7 @@
           </a>
         </div>
         <div class="col-xs-6 col-md-3">
-          <a href="https://cicada.world">
+          <a href="www.giraffeconservation.org">
             <img
               src="../assets/gcf.png"
               class="img-responsive"
