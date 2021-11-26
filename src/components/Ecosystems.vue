@@ -5,7 +5,11 @@
         <h1>WHY ECOSYSTEMS?</h1>
         <div class="partnership-sec">
           <div class="img-cover">
-            <img src="../assets/cros.png" alt="" />
+             <img
+                src="../assets/cros1.png"
+                class="img-responsive"
+                alt="Responsive image"
+              />
           </div>
           <div class="offers-cover-sec-1">
             <p>

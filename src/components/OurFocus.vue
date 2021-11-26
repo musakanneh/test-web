@@ -56,9 +56,17 @@ export default {
 
 body {
   .inner {
-    background: #ddd;
     padding: 1.5rem 0.8rem;
-    text-align: left;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px;
+    border: 1px solid rgb(241, 240, 240);
+    &:hover {
+      box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 50px -10px;
+
+      transition-delay: 0.01s;
+      transition: 0.5s ease;
+    }
 
     span {
       color: #90909090;
@@ -84,6 +92,7 @@ body {
 
   main {
     padding: 0;
+
     img {
       width: 100%;
 

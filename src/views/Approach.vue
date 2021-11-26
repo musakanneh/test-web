@@ -216,8 +216,9 @@ body {
     padding: 2rem;
     border: 1px solid #30303017;
     margin: 2rem 0;
-    background: #e6e6e6;
-    box-shadow: 2px 5px #d8c690;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px;
 
     img {
       width: 100%;
