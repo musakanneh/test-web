@@ -5,7 +5,7 @@
       <div class="profile-content__cover">
         <img
           src="../assets/marco.jpeg"
-          class="img-responsive img-circle"
+          class="img-responsive img-circle image__style"
           alt="Responsive image"
         />
         <div class="profile_content__and__media-cover">
@@ -46,10 +46,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-img {
-  width: 85%;
-  margin: auto;
-  border: 15px solid #ddd;
-}
-</style>
+<style lang="scss" scoped></style>
