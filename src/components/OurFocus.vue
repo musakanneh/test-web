@@ -7,9 +7,9 @@
           <div class="inner">
             <h2>11</h2>
             <p>regions</p>
-            <br /><br />
+            <br />
           </div>
-          <img src="../assets/iplc.png" alt="" />
+          <img src="../assets/regions.jpg" alt="" />
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="inner">
@@ -17,7 +17,7 @@
             <p>villages</p>
             <br /><br />
           </div>
-          <img src="../assets/iplc.png" alt="" />
+          <img src="../assets/village.jpg" alt="" />
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="inner">
@@ -37,7 +37,7 @@
               communities in Tanzania.
             </p>
           </div>
-          <img src="../assets/test.png" alt="" />
+          <img src="../assets/diversity.jpg" alt="" />
         </div>
       </div>
     </main>
@@ -69,6 +69,8 @@ body {
   h3 {
     font-weight: bolder;
     text-align: center;
+    margin: 0;
+    padding: 1rem 0;
   }
 
   p {
@@ -81,6 +83,7 @@ body {
   }
 
   main {
+    padding: 0;
     img {
       width: 100%;
 

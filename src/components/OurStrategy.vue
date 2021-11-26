@@ -20,7 +20,11 @@ export default {
 <style lang="scss" scoped>
 body {
   background: #ddd;
-  
+
+  main {
+    background: #dad7d7;
+    padding: 0;
+  }
 
   h1 {
     text-align: center;
