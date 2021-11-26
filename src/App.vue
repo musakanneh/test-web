@@ -61,6 +61,15 @@ export default {
   -webkit-text-size-adjust: 100% !important;
 }
 
+.team__background {
+  /* border: 1px solid red !important; */
+  padding: 5rem 2rem;
+  box-sizing: border-box;
+  /* background-color: rgb(223, 222, 222); */
+  background: #fff;
+  /* box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px; */
+}
+
 :root {
   --primary-color: #be9e44;
   --black: #1e2022;
@@ -87,7 +96,7 @@ p {
   color: var(--black);
   font-size: 16px !important;
   line-height: 1.5;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 h1,
@@ -96,7 +105,7 @@ h3,
 span,
 strong {
   color: var(--primary-color);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .height_and_weight__global {
@@ -117,10 +126,17 @@ img {
 /*** Team members profile starts */
 .profile-content__cover {
   display: grid;
-  padding: 4rem 0;
+  /* padding: 4rem 0; */
   grid-template-columns: 1fr 2fr;
   column-gap: 50px;
   row-gap: 15px;
+  margin-top: 5rem;
+}
+
+.image__style {
+  width: 85%;
+  margin: auto;
+  border: 15px solid #ddd;
 }
 
 .profile_content {

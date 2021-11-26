@@ -5,7 +5,7 @@
       <div class="profile-content__cover">
         <img
           src="../assets/jop.png"
-          class="img-responsive img-circle"
+          class="img-responsive img-circle image__style"
           alt="Responsive image"
         />
         <div class="profile_content__and__media-cover">

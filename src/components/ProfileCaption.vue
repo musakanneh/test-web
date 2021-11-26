@@ -26,10 +26,16 @@ export default {
 <style lang="scss" scoped>
 main {
   background: #ddd;
-  padding: 5rem 0 0 0;
+  padding: 7rem 0 1rem 0;
+  background-image: url("../assets/vector1.png");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: center;
+  background-size: cover;
 
   h2 {
-    color: #303030;
+    color: #505050;
     font-size: 2.5rem;
   }
 }

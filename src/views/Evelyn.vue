@@ -1,11 +1,11 @@
 <template>
-  <div class="">
+  <div class="height_and_weight__global">
     <ProfileCaption name="Team Mamber" />
-    <section class="container">
+    <section class="container team__background">
       <div class="profile-content__cover">
         <img
           src="../assets/evel.png"
-          class="img-responsive img-circle"
+          class="img-responsive img-circle image__style"
           alt="Responsive image"
         />
         <div class="profile_content__and__media-cover">

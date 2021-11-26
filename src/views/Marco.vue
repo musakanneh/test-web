@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="height_and_weight__global">
     <ProfileCaption name="Team Mamber" />
     <section class="container">
       <div class="profile-content__cover">
@@ -46,4 +46,10 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+img {
+  width: 85%;
+  margin: auto;
+  border: 15px solid #ddd;
+}
+</style>

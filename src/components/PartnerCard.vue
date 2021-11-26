@@ -72,6 +72,7 @@ body {
   main {
     .our__partners {
       padding: 3rem 0;
+      border: 1px solid red;
     }
 
     img {
@@ -87,6 +88,7 @@ body {
     h2 {
       padding-bottom: 3rem;
       text-align: center;
+      
     }
   }
 }
