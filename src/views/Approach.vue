@@ -205,6 +205,10 @@ body {
     padding-bottom: 1rem;
   }
 
+  strong {
+    font-weight: 500;
+  }
+
   .border__ {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -214,10 +218,6 @@ body {
     margin: 2rem 0;
     background: #e6e6e6;
     box-shadow: 2px 5px #d8c690;
-
-    p {
-      font-size: 1.6rem;
-    }
 
     img {
       width: 100%;

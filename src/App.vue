@@ -50,7 +50,7 @@ export default {
   display: flex;
   flex: auto;
   width: 100%;
-  font-family: "Quattrocento Sans", sans-serif;
+  /* font-family: "Quattrocento Sans", sans-serif; */
   flex-direction: column;
   object-fit: contain;
   padding: 0;
@@ -63,7 +63,7 @@ export default {
 
 :root {
   --primary-color: #be9e44;
-  --black: #262626;
+  --black: #1e2022;
   --border: 1px solid #ddd;
 }
 
@@ -85,6 +85,9 @@ main {
 
 p {
   color: var(--black);
+  font-size: 16px !important;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1,
@@ -93,7 +96,7 @@ h3,
 span,
 strong {
   color: var(--primary-color);
-  /* font-family: 'Charmonman', cursive; */
+  font-family: 'Roboto', sans-serif;
 }
 
 .height_and_weight__global {

@@ -160,7 +160,7 @@ header {
         padding-right: 17px;
         font-weight: 500;
         letter-spacing: 1px;
-        font-size: 13px;
+        font-size: 13px !important;
         color: #fff;
         margin: 1rem 0;
       }
