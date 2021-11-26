@@ -14,7 +14,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Dr. Lekumok Kironyi" position="Chairman" />
-                <a href="/lekumok"><p>View Profile</p></a>
+                <a href="/lekumok">View Profile</a>
               </div>
             </div>
           </div>
@@ -27,7 +27,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Lilian Looloitai" position="Treasurer" />
-                <a href="/lilian"><p>View Profile</p></a>
+                <a href="/lilian">View Profile</a>
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Jopha Peter Kakanyi" position="Member" />
-                <a href="/jopha"><p>View Profile</p></a>
+                <a href="/jopha">View Profile</a>
               </div>
             </div>
           </div>
@@ -54,7 +54,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Emanuel Melubo" position="Member" />
-                <a href="/emanuel"><p>View Profile</p></a>
+                <a href="/emanuel">View Profile</a>
               </div>
             </div>
           </div>
@@ -71,7 +71,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Elias Nagol" position="Technical Advisor" />
-                <a href="/elias"><p>View Profile</p></a>
+                <a href="/elias">View Profile</a>
               </div>
             </div>
           </div>
@@ -84,14 +84,14 @@
               />
               <div class="team__details">
                 <TeamTag name="Evelyn Kaney" position="Financial Manager" />
-                <a href="/evelyn"><p>View Profile</p></a>
+                <a href="/evelyn">View Profile</a>
               </div>
             </div>
           </div>
           <div class="col-xs-8">
             <div class="">
               <img
-                src="../assets/bnr.png"
+                src="../assets/ouma.png"
                 class="img-responsive img-circle"
                 alt="Responsive image"
               />
@@ -100,7 +100,7 @@
                   name="Isaac Ouma"
                   position="Conservation Enterprise Manager"
                 />
-                <a href="/isaac"><p>View Profile</p></a>
+                <a href="/isaac">View Profile</a>
               </div>
             </div>
           </div>
@@ -114,7 +114,7 @@
               />
               <div class="team__details">
                 <TeamTag name="Marco Mathayo" position="Programs Manager" />
-                <a href="/marco"><p>View Profile</p></a>
+                <a href="/marco">View Profile</a>
               </div>
             </div>
           </div>
@@ -127,29 +127,11 @@
               />
               <div class="team__details">
                 <TeamTag name="Yannick Ndoinyo" position="Executive Director" />
-                <a href="/yannick"><p>View Profile</p></a>
+                <a href="/yannick">View Profile</a>
               </div>
             </div>
           </div>
         </div>
-
-        <section class="team-member_section container">
-          <div class="row">
-            <!-- <div class="col-xs-6 col-md-2">
-              <div></div>
-            </div> -->
-            <!-- <div class="col-xs-6 col-md-2">
-              <div></div>
-            </div> -->
-            <!-- <div class="col-xs-6 col-md-2">
-              <div></div>
-            </div> -->
-            <!-- <div class="col-xs-6 col-md-2">
-              <div></div>
-            </div> -->
-            <div class="col-xs-6 col-md-2"></div>
-          </div>
-        </section>
       </main>
     </div>
     <PartnerCard />
@@ -168,22 +150,17 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-// .element {
-//   // Three columns to start
-//   @include row-cols(3);
-
-//   // Five columns from medium breakpoint up
-//   @include media-breakpoint-up(md) {
-//     @include row-cols(5);
-//   }
-// }
-
 body {
   .team-and-boardmembers__cover {
     background: #ddd;
     width: 100%;
     height: 100%;
     padding: 2rem 0 4rem 0;
+  }
+
+  .thumbnail {
+    padding-bottom: 1.5rem;
+    background: #fbfbfb;
   }
 
   .__border_img {
@@ -194,6 +171,20 @@ body {
   .team__details {
     text-align: center;
     padding-top: 1rem;
+
+    a {
+      text-decoration: none;
+      padding: 0.3rem 1rem;
+      background: #d8c690;
+      border-radius: 5px;
+      color: var(--black);
+      outline: none;
+
+      &:hover {
+        background: #be9e44;
+        transition: 0.5s ease;
+      }
+    }
   }
 
   img {
