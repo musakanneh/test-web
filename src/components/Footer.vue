@@ -131,6 +131,7 @@ footer {
       color: var(--primary-color);
       font-weight: 600;
       margin: 0;
+      font-size: 18px;
       padding-top: 2rem;
     }
   }

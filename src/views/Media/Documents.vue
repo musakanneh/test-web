@@ -1,6 +1,8 @@
 <template>
   <body>
-    <div class="global__height"></div>
+    <ProfileCaption name="Annual Reoports" />
+    <!-- <div class="global__height"></div> -->
+    <br />
     <main class="container">
       <dl class="dl-horizontal">
         <dt><h1>Annual Report 2019</h1></dt>
@@ -70,10 +72,11 @@
 </template>
 
 <script>
-// import VectorImg from "@/components/VectorImg.vue";
+import ProfileCaption from "@/components/ProfileCaption.vue";
 export default {
   components: {
     // VectorImg,
+    ProfileCaption,
   },
 };
 </script>
@@ -81,7 +84,6 @@ export default {
 <style lang="scss" scoped>
 body {
   padding: 8rem 0 !important;
-
 
   .dl-horizontal {
     border: 1px solid #ddd;
