@@ -22,7 +22,6 @@
                 />
                 <h3>Vision</h3>
               </div>
-
               <p>
                 A world in which people, livestock, wildlife and nature co-exist
                 in peace, health and harmony.
@@ -42,7 +41,6 @@
                 />
                 <h3>Purpose</h3>
               </div>
-
               <p>
                 To facilitate effective collaborations that integrate technical
                 expertise and assistance with indigenous knowledge and skills to
@@ -65,7 +63,6 @@
                 />
                 <h3>Mission</h3>
               </div>
-
               <p>
                 To facilitate conflict resolution, collaboration and information
                 sharing
@@ -75,9 +72,7 @@
                 To improve wildlife conservation within Indigenous Community
                 Conversed Areas (ICCAs)
               </p>
-              <p>
-                To improve traditional rangelands management
-              </p>
+              <p>To improve traditional rangelands management</p>
             </div>
           </div>
         </div>
@@ -92,7 +87,6 @@
                 />
                 <h3>Values</h3>
               </div>
-
               <p>We value and respect our indigenous community</p>
               <p>We value and respect our natural ecosystems</p>
               <p>

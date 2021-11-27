@@ -61,6 +61,7 @@ body {
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px;
     border: 1px solid rgb(241, 240, 240);
+
     &:hover {
       box-shadow: rgba(0, 0, 0, 0.205) 0px 0px 50px -10px;
 

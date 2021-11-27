@@ -44,7 +44,6 @@
               </div>
             </div>
           </div>
-
           <div class="col">
             <div class="thumbnail">
               <img
@@ -59,7 +58,6 @@
             </div>
           </div>
         </div>
-
         <h1>OUR TEAM</h1>
         <div class="row row-cols-4 __mi">
           <div class="col-xs-8">

@@ -7,9 +7,9 @@
           Building partnerships is necessary to combine knowledge, resources,
           skills and mandates in achieving our vision, Sustainable Development
           Goals (SDGs) and goals for Convection on Biological Diversity (CBD).
-          Partnerships will enhance the inclusion of IPLCs in conservation
-          initiatives to support livelihoods, ecosystem resilience, and positive
-          human relations.
+          Partnerships will enhance the inclusion of indigenous people in
+          conservation initiatives to support livelihoods, ecosystem resilience,
+          and positive human relations.
         </p>
         <p>
           Through partnerships we aim to restore indigenous confidence, the use

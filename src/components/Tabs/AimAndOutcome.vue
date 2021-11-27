@@ -8,8 +8,7 @@
             <p>
               Design innovative and sustainable ecosystem governance mechanisms
               and tools by combining scientifically proven solutions with the
-              indigenous ecological and land management practices that address
-              poverty reduction.
+              indigenous ecological and land management practices.
             </p>
           </div>
         </div>

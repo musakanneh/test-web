@@ -23,14 +23,9 @@
             placeholder="Enter your email addres  / other preferred contact"
             label="Phone number"
           /><br /><br />
-          <input
-            type="text"
-            placeholder="Enter your email address"
-            label="Email address"
-          />
+          <input type="text" placeholder="Description" label="Description" />
         </div>
         <br /><br />
-
         <textarea type="text" placeholder="" label="Message" />
         <br />
         <br />

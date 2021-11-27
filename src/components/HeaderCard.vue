@@ -6,12 +6,11 @@
           Conserving Natural Ecosystems and Improving Lives in Tanzania
         </h1>
         <p>
-          Traditional Ecosystems Survival Tanzania (TEST) is a non-profit
-          organization that facilitates effective collaborations that integrate
-          technical expertise and assistance with local knowledge and skills to
-          reduce conflict, improve natural resource management, and enhance the
-          sustainable well-being of indigenous peoples and wildlife in the
-          natural ecosystems in Tanzania.
+          Traditional Ecosystems Survival Tanzania (TEST) facilitates effective
+          collaborations that integrate technical expertise and assistance with
+          local knowledge and skills to reduce conflict, improve natural
+          resource management, and enhance the sustainable well-being of
+          indigenous peoples and wildlife in the natural ecosystems in Tanzania.
         </p>
         <a href="/about"><Button>Explore More</Button></a>
       </article>

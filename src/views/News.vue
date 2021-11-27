@@ -6,18 +6,11 @@
       <h4>Current Projects</h4>
       <div class="row">
         <div class="col-xs-6 col-md-12 border__">
-          <div class="image">
-            <img
-              src="../assets/cicada.png"
-              class="img-responsive"
-              alt="Responsive image"
-            />
-          </div>
+          <h3>
+            Co-developing Data Technology for Inclusive Conservation in the
+            Eastern Serengeti.
+          </h3>
           <div class="content__text">
-            <h3>
-              Co-developing Data Technology for Inclusive Conservation in the
-              Eastern Serengeti.
-            </h3>
             <p>
               This is a 1-year project with the aim of co-developing together
               with the local communities, a mobile app and data collection and
@@ -31,18 +24,11 @@
           </div>
         </div>
         <div class="col-xs-6 col-md-12 border__">
-          <div class="image">
-            <img
-              src="../assets/gcf.png"
-              class="img-responsive"
-              alt="Responsive image"
-            />
-          </div>
+          <h3>
+            Twiga Wetu: Masai Giraffe Conservation Outside Protected Areas – the
+            Role of Indigenous Knowledge and Traditional Systems.
+          </h3>
           <div class="content__text">
-            <h3>
-              Twiga Wetu: Masai Giraffe Conservation Outside Protected Areas –
-              the Role of Indigenous Knowledge and Traditional Systems.
-            </h3>
             <p>
               This project is a 1-year project (Oct. 2020 – Sept. 2021) funded
               by Giraffe Conservation Foundation
