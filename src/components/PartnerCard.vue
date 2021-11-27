@@ -40,7 +40,6 @@
           </a>
         </div>
       </div>
-
       <div class="global__height">
         <h2>INTERNATIONAL MEMBERSHIP</h2>
         <div class="col-xs-6 col-md-12">

@@ -14,8 +14,7 @@
             Emanuel has education credentials from Mweka Wildlife College - one
             of the most prestigious wildlife management schools in Africa - and
             has completed advanced-level courses in wildlife and guiding. Since
-            then (since when? Maybe try ‘Since completing his studies’ or
-            similar), he has worked with some of the best tour companies in
+            then he has worked with some of the best tour companies in
             Tanzania and he is currently the owner and director of Sidai Africa
             Safaris. He is a certified wilderness first aid responder, and a
             member of the Interpretive Guides Society, a voluntary society for
