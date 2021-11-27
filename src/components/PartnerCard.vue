@@ -31,7 +31,7 @@
           </a>
         </div>
         <div class="col-xs-6 col-md-3">
-          <a href="www.giraffeconservation.org">
+          <a href="https://giraffeconservation.org">
             <img
               src="../assets/gcf.png"
               class="img-responsive"
@@ -43,7 +43,7 @@
 
       <div class="global__height">
         <h2>INTERNATIONAL MEMBERSHIP</h2>
-        <div class="col-xs-6 col-md-4">
+        <div class="col-xs-6 col-md-12">
           <a
             href="https://www.iccaconsortium.org/index.php/members/the-eastern-serengeti-test/"
           >
@@ -74,6 +74,13 @@ body {
       padding: 3rem 0;
     }
 
+    .global__height {
+      img {
+        width: 15%;
+        margin: auto;
+      }
+    }
+
     img {
       width: 70%;
       margin: auto;
@@ -87,7 +94,6 @@ body {
     h2 {
       padding-bottom: 3rem;
       text-align: center;
-      
     }
   }
 }
