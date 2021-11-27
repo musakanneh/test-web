@@ -23,7 +23,7 @@
             placeholder="Enter your email addres  / other preferred contact"
             label="Phone number"
           /><br /><br />
-          <input type="text" placeholder="Description" label="Description" />
+          <input type="text" placeholder="Subject" label="Subject" />
         </div>
         <br /><br />
         <textarea type="text" placeholder="" label="Message" />
