@@ -15,7 +15,7 @@
     </div>
     <main class="container">
       <br />
-      <h1>SUSTAINABLE ECOSYSTEMS</h1>
+      <h1>LIVING ECOSYSTEMS</h1>
       <SustainableEcosystems />
     </main>
   </body>
