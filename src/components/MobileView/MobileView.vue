@@ -1,36 +1,13 @@
 <template>
   <div>
-    <aside>
-      <div class="container">
-        <div class="container__">
-          <div class="contact__info">
-            <p title="Phone">Tel: (255) 786 744 663</p>
-            <p>
-              <a href="mailto:#">
-                <abbr title="Phone">Email:</abbr> info@test.or.tz</a
-              >
-            </p>
-          </div>
-          <div class="social-medias">
-            <a href="#"> <i class="fab fa-facebook"></i></a>
-            <a href=""> <i class="fab fa-instagram"></i></a>
-            <a href="#"> <i class="fab fa-linkedin"></i></a>
-            <a href="#"> <i class="fab fa-twitter"></i></a>
-          </div>
-        </div>
-      </div>
-    </aside>
-
-    <nav class="mobile_nav__container">
+    <nav>
       <div class="logo__cover">
-        <div class="logo__content">
-          <a href="/">
-            <img
-              src="../../assets/logo.jpeg"
-              class="img-responsive"
-              alt="Responsive image"
-          /></a>
-        </div>
+        <a href="/">
+          <img
+            src="../../assets/new_logo.png"
+            class="img-responsive"
+            alt="Responsive image"
+        /></a>
         <div class="drop_down__content">
           <label for="drop" class="toggle">
             <i class="fas fa-bars"></i>
@@ -58,43 +35,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-aside {
-  background: #bf8f00;
-  padding: 1rem 0;
+.drop_down__content {
+  // width: 100% !important;
+  border: 1px solid red;
 
-  .container__ {
-    display: flex;
-  }
-
-  .contact__info {
-    p,
-    a {
-      color: #fff;
-      padding-right: 17px;
-      font-weight: 500;
-      font-size: 13px;
-      color: #fff;
-      display: flex;
-      font-weight: bold;
-    }
-  }
-  .social-medias {
-    margin: 1rem 0;
-    display: flex;
+  .toggle {
+    width: 30% !important;
+    margin: auto !important;
+    float: right;
 
     i {
-      padding: 0 1rem;
-      color: #fff;
+      color: var(--primary-color);
+      font-size: 2.5rem;
+      margin: 0.5rem 0 !important;
     }
-  }
-}
-
-.drop_down__content {
-  width: 25% !important;
-
-  .toggle i {
-    font-size: 4rem;
-    margin: auto;
   }
 }
 
@@ -103,9 +57,8 @@ nav {
   -moz-box-shadow: 0px 2px 15px -12px rgb(85, 85, 85);
   box-shadow: 1px 1px 5px rgb(32, 32, 32);
   width: 100%;
-
-  // border: 1px solid red;
-  padding: 0.5rem 0;
+  height: 100%;
+  padding: 0.4rem 0;
 
   .img-responsive {
     width: 40% !important;
@@ -121,10 +74,13 @@ nav {
   }
 
   .logo__cover {
-    // border: 1px solid red;
-    // background: #ddd;
     display: flex;
     justify-content: space-between;
+
+    img {
+      width: 20% !important;
+      padding: 0 !important;
+    }
 
     p {
       a {
@@ -132,10 +88,6 @@ nav {
         font-size: 20px;
       }
     }
-  }
-
-  i {
-    color: #6ca714;
   }
 
   #label__title {
@@ -201,9 +153,10 @@ nav ul ul li {
 
 .toggle {
   display: block;
-  color: #a77e03;
-  font-size: 1.24rem;
-  padding: 0.8rem 0;
+  // color: #a77e03;
+  // font-size: 1.24rem;
+  // padding: 0.8rem 0;
+  //  border: 1px solid red;
 }
 
 [id^="drop"]:checked + ul {
@@ -218,6 +171,7 @@ nav ul li {
 nav ul ul .toggle,
 nav ul ul a {
   padding: 0 40px;
+  //  border: 1px solid red;
 }
 
 nav ul ul a,
@@ -230,6 +184,7 @@ nav ul ul ul a {
 nav ul li ul li .toggle,
 nav ul ul a {
   background-color: #212121;
+  //  border: 1px solid red;
 }
 
 nav ul ul {
