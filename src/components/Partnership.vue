@@ -71,6 +71,12 @@ body {
     padding: 10rem 0;
     height: 100%;
 
+    // animation: fadeInUp .1s 1s;
+
+    // animation: fadeIn 1.5s;
+    // data-wow-delay=".1s"
+    // data-wow-duration="1s"
+
     p {
       color: #fbfbfbe5;
       width: 60%;

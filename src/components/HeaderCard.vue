@@ -65,7 +65,7 @@ body {
   }
 
   article {
-    animation: fadeIn 1s;
+    animation: fadeInUp 2s;
   }
 
   main {

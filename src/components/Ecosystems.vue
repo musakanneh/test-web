@@ -66,6 +66,7 @@ body {
   height: 100%;
   width: 100%;
   padding: 4rem 0 2rem 0;
+
   span {
     color: #689d1a;
   }
