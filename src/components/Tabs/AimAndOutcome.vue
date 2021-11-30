@@ -5,7 +5,7 @@
         <div class="content">
           <div><img src="../../assets/governance.png" alt="" /></div>
           <div>
-            <p>
+            <p class="mobile__text">
               Design innovative and sustainable ecosystem governance mechanisms
               and tools by combining scientifically proven solutions with the
               indigenous ecological and land management practices.
@@ -41,6 +41,15 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  .content {
+    display: block !important;
+  }
+  .mobile__text{
+    border: 1px solid red;
+    font-size: 14px !important;
+  }
+}
 .content {
   display: grid;
   grid-template-columns: 1fr 2fr;
