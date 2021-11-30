@@ -3,7 +3,7 @@
     <Tabs>
       <Tab name="Why?" selected="true">
         <div class="content">
-          <div><img src="../../assets/surface.jpeg" alt="" /></div>
+          <div><img src="../../assets/natural-ecosystem.jpg" alt="" /></div>
           <div>
             <p>
               Natural ecosystems are shrinking, deteriorating with no clear
@@ -27,7 +27,7 @@
       </Tab>
       <Tab name="Objective">
         <div class="content">
-          <div><img src="../../assets/people0.png" alt="" /></div>
+          <div><img src="../../assets/ecosystem-governance.jpg" alt="" /></div>
           <div>
             <p>
               TEST is committed to introduce an innovative ecosystem governance
