@@ -36,9 +36,6 @@ export default {
 
 <style lang="scss" scoped>
 .drop_down__content {
-  // width: 100% !important;
-  border: 1px solid red;
-
   .toggle {
     width: 30% !important;
     margin: auto !important;
@@ -47,7 +44,7 @@ export default {
     i {
       color: var(--primary-color);
       font-size: 2.5rem;
-      margin: 0.5rem 0 !important;
+      margin: 1.2rem 0 !important;
     }
   }
 }
@@ -78,8 +75,9 @@ nav {
     justify-content: space-between;
 
     img {
-      width: 20% !important;
+      width: 25% !important;
       padding: 0 !important;
+      margin-left: 2.3rem !important;
     }
 
     p {
@@ -117,15 +115,15 @@ nav ul {
 
 nav ul li {
   display: inline-block;
-  float: left;
-  border: 1px solid rgba(221, 221, 221, 0.158);
+  border: 1px solid rgba(221, 221, 221, 0.062);
   background-color: #303030;
+  padding-left: 2.3rem;
 }
 
 nav a {
   display: block;
   color: #fff;
-  font-size: 17px;
+  font-size: 13px;
   text-decoration: none;
 }
 
@@ -153,10 +151,6 @@ nav ul ul li {
 
 .toggle {
   display: block;
-  // color: #a77e03;
-  // font-size: 1.24rem;
-  // padding: 0.8rem 0;
-  //  border: 1px solid red;
 }
 
 [id^="drop"]:checked + ul {
@@ -171,7 +165,6 @@ nav ul li {
 nav ul ul .toggle,
 nav ul ul a {
   padding: 0 40px;
-  //  border: 1px solid red;
 }
 
 nav ul ul a,
@@ -184,7 +177,6 @@ nav ul ul ul a {
 nav ul li ul li .toggle,
 nav ul ul a {
   background-color: #212121;
-  //  border: 1px solid red;
 }
 
 nav ul ul {
