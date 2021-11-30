@@ -64,6 +64,10 @@ body {
     width: 6%;
   }
 
+  article {
+    animation: fadeIn 1s;
+  }
+
   main {
     padding: 18rem 0;
     height: 100%;
