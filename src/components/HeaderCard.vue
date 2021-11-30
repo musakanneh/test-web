@@ -66,10 +66,11 @@ body {
 
   article {
     animation: fadeInUp 2s;
+    padding: 4rem 0;
   }
 
   main {
-    padding: 18rem 0;
+    padding: 20rem 0;
     height: 100%;
     width: 100%;
     text-align: center;
