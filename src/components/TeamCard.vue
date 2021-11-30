@@ -63,7 +63,7 @@
           <div class="col-xs-8">
             <div class="">
               <img
-                src="../assets/bnr.png"
+                src="../assets/nagol.png"
                 class="img-responsive img-circle"
                 alt="Responsive image"
               />
