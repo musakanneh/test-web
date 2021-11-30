@@ -13,7 +13,9 @@
             </p>
           </div>
           <div class="social-medias">
-            <a href="#"> <i class="fab fa-facebook"></i></a>
+            <a href="https://facebook.com/ecosystemssurvival" target='"_blank"'>
+              <i class="fab fa-facebook"></i
+            ></a>
             <a href=""> <i class="fab fa-instagram"></i></a>
             <a href="#"> <i class="fab fa-linkedin"></i></a>
             <a href="#"> <i class="fab fa-twitter"></i></a>

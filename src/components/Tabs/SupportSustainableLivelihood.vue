@@ -24,7 +24,7 @@
       <Tab name="Objective">
         <div class="content">
           <div>
-            <img src="../../assets/design.png" alt="" />
+            <img src="../../assets/innovate.jpg" alt="" />
           </div>
           <div>
             <p>

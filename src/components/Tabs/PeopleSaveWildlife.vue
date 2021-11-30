@@ -33,7 +33,7 @@
       </Tab>
       <Tab name="Objective">
         <div class="content">
-          <div><img src="../../assets/wilddogs.jpeg" alt="" /></div>
+          <div><img src="../../assets/water.jpg" alt="" /></div>
           <div>
             <p>
               To re-activate the role and support of indigenous communities for
@@ -53,7 +53,7 @@
       </Tab>
       <Tab name="Plan">
         <div class="content">
-          <div><img src="../../assets/wild.jpeg" alt="" /></div>
+          <div><img src="../../assets/indPeople.jpg" alt="" /></div>
           <div>
             <p>
               TEST is committed to work with indigenous peoples and local
