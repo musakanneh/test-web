@@ -21,7 +21,7 @@
         <li class="nav-styling__contact">
           <a href="/approach">OUR APPROACH</a>
         </li>
-         <li class="nav-styling__contact">
+        <li class="nav-styling__contact">
           <a href="/projects">PROJECTS</a>
         </li>
         <li>

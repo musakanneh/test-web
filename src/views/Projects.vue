@@ -55,6 +55,15 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
+  .global__height {
+    display: none;
+  }
+  .container {
+    h4 {
+      padding-top: 3rem;
+      margin-bottom: -2rem !important;
+    }
+  }
   .border__ {
     display: block !important;
 

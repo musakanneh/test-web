@@ -8,7 +8,7 @@
       indigenous knowledge systems, proven scientific approaches and enterprise-based 
       solutions to protect, restore and manage natural ecosystems and landscapes in Tanzania."
     />
-    <section class="container">
+    <section class="container mobile_top_margin">
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">
@@ -117,6 +117,27 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
+  .global__height,
+  br {
+    display: none;
+  }
+
+  .caption__title {
+    img {
+      width: 25% !important;
+      margin: auto !important;
+      padding: 0.5rem 0 1rem 0;
+    }
+  }
+
+  h3 {
+    padding: 0.8rem 0;
+  }
+
+  p {
+    width: 100% !important;
+    padding: 0 !important;
+  }
 }
 
 body {

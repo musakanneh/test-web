@@ -104,7 +104,7 @@ strong {
   font-family: "Roboto", sans-serif;
 }
 
-.mobile_top_margin{
+.mobile_top_margin {
   margin-top: -3rem !important;
 }
 

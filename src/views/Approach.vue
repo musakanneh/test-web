@@ -187,11 +187,10 @@ export default {
       margin: 0 !important;
       padding: 0.5rem 0;
       width: 100% !important;
-      font-size: 13px !important;
     }
 
     strong {
-      font-size: 13px !important;
+      font-weight: bold;
     }
   }
   .border__ {
@@ -199,6 +198,7 @@ export default {
 
     h3 {
       padding: 2rem 0 1rem 0;
+      font-size: 2rem;
     }
   }
 }

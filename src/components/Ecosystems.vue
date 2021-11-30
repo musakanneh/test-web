@@ -2,14 +2,14 @@
   <body>
     <main class="container">
       <section class="partnership-cover">
-        <h1>WHY ECOSYSTEMS?</h1>
+        <h1>WHY ECOSYSTEMS</h1>
         <div class="partnership-sec">
           <div class="img-cover animate_left">
-             <img
-                src="../assets/cros1.png"
-                class="img-responsive"
-                alt="Responsive image"
-              />
+            <img
+              src="../assets/cros1.png"
+              class="img-responsive"
+              alt="Responsive image"
+            />
           </div>
           <div class="offers-cover-sec-1 animate_right">
             <p>
@@ -56,6 +56,27 @@ export default {
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
   body {
+    .partnership-sec {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    .partnership-cover {
+      width: 100% !important;
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+
+    p {
+      width: 100% !important;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      padding: 4rem 0 2.5rem 0 !important;
+    }
+
     .partnership-sec {
       display: block !important;
     }
