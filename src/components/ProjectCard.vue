@@ -43,13 +43,19 @@
           </div>
         </div>
       </div>
+      <a href="/projects">
+        <Button class="btn__explore" label="Expolre News"
+      /></a>
     </div>
   </body>
 </template>
 
 <script>
+import Button from "@/components/Button.vue";
 export default {
-  components: {},
+  components: {
+    Button,
+  },
 };
 </script>
 
@@ -71,6 +77,12 @@ export default {
 body {
   background: #ddd;
   padding: 2rem 0 6rem 0;
+
+  .btn__explore {
+    margin: auto;
+    width: 20%;
+    text-align: center;
+  }
 
   .row {
     margin: auto;
