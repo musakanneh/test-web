@@ -51,25 +51,24 @@
               <a href="/documents">DOCUMENTS</a>
               <a href="/gallery">GALLERY</a>
               <a href="/videos">VIDEOS</a>
-              <a href="/blog">BLOG</a>
             </div>
           </div>
         </ul>
       </nav>
-      <div class="btn-cover">
+      <!-- <div class="btn-cover">
         <a href="/news"
           ><Button :isFullWidth="false" label="NEWS" width="120px"> </Button
         ></a>
-      </div>
+      </div> -->
     </main>
   </header>
 </template>
 
 <script>
-import Button from "@/components/Button.vue";
+// import Button from "@/components/Button.vue";
 export default {
   components: {
-    Button,
+    // Button,
   },
 };
 </script>
@@ -180,7 +179,7 @@ header {
     object-fit: contain;
     box-sizing: border-box;
     padding: 0 !important;
-    margin: 0rem 0 .3rem 0;
+    margin: 0rem 0 0.3rem 0;
 
     img {
       width: 80%;
@@ -241,7 +240,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+
     li {
       position: relative;
       &:hover {

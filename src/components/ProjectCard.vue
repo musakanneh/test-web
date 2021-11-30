@@ -1,8 +1,8 @@
 <template>
   <body>
-    <div class="global__height"></div>
     <div class="container">
       <br /><br /><br />
+      <h1>NEWS</h1>
       <h4>Current Projects</h4>
       <div class="row">
         <div class="col-xs-6 col-md-12 border__">
@@ -70,7 +70,7 @@ export default {
 
 body {
   background: #ddd;
-  padding: 2rem 0 4rem 0;
+  padding: 2rem 0 6rem 0;
 
   .row {
     margin: auto;
@@ -95,6 +95,10 @@ body {
       width: 100%;
       padding: 2rem;
     }
+  }
+
+  h1 {
+    text-align: center;
   }
 
   h3 {

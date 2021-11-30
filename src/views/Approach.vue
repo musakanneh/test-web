@@ -196,6 +196,14 @@ body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
 
+  .content__text {
+    strong {
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-family: "Raleway Dots", cursive;
+    }
+  }
+
   strong {
     line-height: 1.5;
   }

@@ -1,53 +1,10 @@
 <template>
   <body>
     <ProfileCaption name="Annual Reoports" />
-    <!-- <div class="global__height"></div> -->
-    <br />
+    <div class="global__height"></div>
     <main class="container">
       <dl class="dl-horizontal">
         <dt><h1>Annual Report 2019</h1></dt>
-        <dd>
-          <div class="col-xs-6 col-md-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
-              quo placeat, aut molestiae animi minima blanditiis laboriosam
-            </p>
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <img
-              src="../../assets/cult.png"
-              class="img-responsive"
-              alt="Responsive image"
-            />
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <h3><i class="fas fa-download"></i> Download Report</h3>
-          </div>
-        </dd>
-      </dl>
-      <dl class="dl-horizontal">
-        <dt><h1>Annual Report 2020</h1></dt>
-        <dd>
-          <div class="col-xs-6 col-md-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
-              quo placeat, aut molestiae animi minima blanditiis laboriosam
-            </p>
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <img
-              src="../../assets/cult.png"
-              class="img-responsive"
-              alt="Responsive image"
-            />
-          </div>
-          <div class="col-xs-6 col-md-4">
-            <h3><i class="fas fa-download"></i> Download Report</h3>
-          </div>
-        </dd>
-      </dl>
-      <dl class="dl-horizontal">
-        <dt><h1>Annual Report 2021</h1></dt>
         <dd>
           <div class="col-xs-6 col-md-4">
             <p>
@@ -75,7 +32,6 @@
 import ProfileCaption from "@/components/ProfileCaption.vue";
 export default {
   components: {
-    // VectorImg,
     ProfileCaption,
   },
 };

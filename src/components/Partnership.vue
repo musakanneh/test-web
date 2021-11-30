@@ -63,7 +63,7 @@ body {
   .partnership {
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.96), rgba(0, 0, 0, 0.712)),
-      url("../assets/partn.jpg");
+      url("../assets/bel.jpeg");
     opacity: 1;
     background-repeat: no-repeat;
     background-attachment: fixed;

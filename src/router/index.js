@@ -10,7 +10,6 @@ import Evelyn from '../views/Evelyn.vue'
 import Marco from '../views/Marco.vue'
 import Isaac from '../views/Isaac.vue'
 import Elias from '../views/Elias.vue'
-import News from '../views/News.vue'
 import Lilian from '../views/Lilian.vue'
 import Lekumok from '../views/Lekumok.vue'
 import Jopha from '../views/Jopha.vue'
@@ -71,11 +70,7 @@ const routes = [{
     name: 'Elias',
     component: Elias
 },
-{
-    path: '/news',
-    name: 'News',
-    component: News
-},
+
 {
     path: '/lilian',
     name: 'Lilian',
