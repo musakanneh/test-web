@@ -104,6 +104,10 @@ strong {
   font-family: "Roboto", sans-serif;
 }
 
+.mobile_top_margin{
+  margin-top: -3rem !important;
+}
+
 /** Animation starts */
 .animate_1 {
   animation: fadeIn 1.5s;

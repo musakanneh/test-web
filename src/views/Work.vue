@@ -1,7 +1,7 @@
 <template>
   <body>
     <div class="global__height"></div>
-    <main class="container animate_2">
+    <main class="container animate_2 mobile_top_margin">
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>
@@ -37,8 +37,21 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  .global__height {
-    display: none;
+  body {
+    .mobile_top_margin {
+      margin-top: -4rem !important;
+    }
+
+    .global__height {
+      display: none;
+    }
+    main {
+      h1 {
+        font-size: 2.5rem;
+        padding: 1rem 0 2.5rem 0 !important;
+        text-align: center;
+      }
+    }
   }
 }
 body {
@@ -64,7 +77,7 @@ body {
     }
 
     .inner-sec {
-      padding: 5rem;
+      padding: 1rem;
       background: rgba(221, 221, 221, 0.849);
     }
   }

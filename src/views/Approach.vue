@@ -1,7 +1,7 @@
 <template>
   <body>
     <div class="global__height"></div>
-    <div class="container">
+    <div class="container mobile_top_margin">
       <div class="row height_and_weight__global">
         <div class="col-xs-6 col-md-12 border__ animate_1">
           <div class="image">
@@ -179,15 +179,26 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
+  .global__height {
+    display: none;
+  }
+  .content__text {
+    p {
+      margin: 0 !important;
+      padding: 0.5rem 0;
+      width: 100% !important;
+      font-size: 13px !important;
+    }
+
+    strong {
+      font-size: 13px !important;
+    }
+  }
   .border__ {
     display: block !important;
 
     h3 {
       padding: 2rem 0 1rem 0;
-    }
-    p {
-      margin: 0 !important;
-      padding: 0.5rem 0;
     }
   }
 }

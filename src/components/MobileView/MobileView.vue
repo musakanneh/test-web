@@ -21,8 +21,19 @@
         <li class="nav-styling__contact">
           <a href="/approach">OUR APPROACH</a>
         </li>
-        <li class="nav-styling__contact"><a href="/media">OMEDIA</a></li>
-        <li class="nav-styling__contact"><a href="/media">NEWS</a></li>
+         <li class="nav-styling__contact">
+          <a href="/projects">PROJECTS</a>
+        </li>
+        <li>
+          <label for="drop-2" id="label__title" class="toggle">MEDIA +</label>
+          <a href="#"></a>
+          <input type="checkbox" id="drop-2" />
+          <ul>
+            <li><a href="/documents">DOCUMENTS</a></li>
+            <li><a href="/gallery">GALLERY</a></li>
+            <li><a href="/videos">VIDEOS</a></li>
+          </ul>
+        </li>
       </ul>
     </nav>
   </div>
@@ -50,11 +61,15 @@ export default {
 }
 
 nav {
-  -webkit-box-shadow: 0px 2px 15px -12px rgb(102, 102, 102);
-  -moz-box-shadow: 0px 2px 15px -12px rgb(85, 85, 85);
-  box-shadow: 1px 1px 5px rgb(32, 32, 32);
+  z-index: 1;
+  background-color: #1817172d;
+  -webkit-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.618);
+  -moz-box-shadow: 0px 2px 15px -12px rgba(0, 0, 0, 0.57);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.57);
   width: 100%;
-  height: 100%;
+  position: -webkit-sticky !important;
+  position: sticky !important;
+  top: 0 !important;
   padding: 0.4rem 0;
 
   .img-responsive {
@@ -91,6 +106,7 @@ nav {
   #label__title {
     width: 87%;
     margin: auto;
+    color: #fff;
   }
 }
 
