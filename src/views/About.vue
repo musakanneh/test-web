@@ -4,8 +4,7 @@
     <br />
     <br />
     <CaptionDescription
-      describe_caption="Traditional Ecosystems Survival Tanzania (TEST) is a 
-      non-profit organization that builds and nurtures connections between traditional 
+      describe_caption="Traditional Ecosystems Survival Tanzania (TEST) builds and nurtures connections between traditional 
       indigenous knowledge systems, proven scientific approaches and enterprise-based 
       solutions to protect, restore and manage natural ecosystems and landscapes in Tanzania."
     />

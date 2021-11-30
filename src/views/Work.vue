@@ -36,6 +36,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  .global__height {
+    display: none;
+  }
+}
 body {
   padding: 8rem 0 4rem 0;
 
