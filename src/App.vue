@@ -50,7 +50,6 @@ export default {
   display: flex;
   flex: auto;
   width: 100%;
-  /* font-family: "Quattrocento Sans", sans-serif; */
   flex-direction: column;
   object-fit: contain;
   padding: 0;
@@ -62,12 +61,9 @@ export default {
 }
 
 .team__background {
-  /* border: 1px solid red !important; */
   padding: 5rem 2rem;
   box-sizing: border-box;
-  /* background-color: rgb(223, 222, 222); */
   background: #fff;
-  /* box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px; */
 }
 
 :root {
@@ -107,6 +103,21 @@ strong {
   color: var(--primary-color);
   font-family: "Roboto", sans-serif;
 }
+
+/** Animation starts */
+.animate_1 {
+  animation: fadeIn 1.5s;
+}
+.animate_2 {
+  animation: fadeInUp 1.5s;
+}
+.animate_3 {
+  animation: fadeInUp 4s;
+}
+.animate_4 {
+  animation: fadeInUp 4.5s;
+}
+/** Animation ends  */
 
 .height_and_weight__global {
   height: 100%;

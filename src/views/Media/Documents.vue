@@ -2,7 +2,7 @@
   <body>
     <ProfileCaption name="Annual Reoports" />
     <div class="global__height"></div>
-    <main class="container">
+    <main class="container animate_1">
       <dl class="dl-horizontal">
         <dt><h1>Annual Report 2019</h1></dt>
         <dd>

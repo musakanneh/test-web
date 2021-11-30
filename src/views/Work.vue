@@ -1,39 +1,33 @@
 <template>
   <body>
     <div class="global__height"></div>
-    <main class="container">
+    <main class="container animate_2">
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>
     <div class="mid-container">
-      <div class="container">
+      <div class="container animate_3">
         <h1 class="">SUPPORT SUSTAINABLE LIVELIHOODS</h1>
         <div class="inner-sec our-work__cover2">
           <SupportSustainableLivelihood />
         </div>
       </div>
     </div>
-    <main class="container">
+    <main class="container animate_4">
       <br />
       <h1>LIVING ECOSYSTEMS</h1>
       <SustainableEcosystems />
     </main>
-
-    <!-- <div class="container"> -->
-      <TextTrans />
-    <!-- </div> -->
   </body>
 </template>
 
 <script>
-import TextTrans from "@/components/TextTrans.vue";
 import PeopleSaveWildlife from "@/components/Tabs/PeopleSaveWildlife.vue";
 import SupportSustainableLivelihood from "@/components/Tabs/SupportSustainableLivelihood.vue";
 import SustainableEcosystems from "@/components/Tabs/SustainableEcosystems.vue";
 
 export default {
   components: {
-    TextTrans,
     PeopleSaveWildlife,
     SustainableEcosystems,
     SupportSustainableLivelihood,
