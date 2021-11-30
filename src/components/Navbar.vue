@@ -209,9 +209,9 @@ nav {
 
   ul {
     list-style: none;
-    width: auto;
-    padding: 0 8rem;
-    margin: 1rem 0;
+    width: 90%;
+    margin: 1.5rem 0;
+    float: right;
 
     li,
     li a {
@@ -238,8 +238,8 @@ nav {
 
   > ul {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 
     li {
       position: relative;

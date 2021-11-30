@@ -1,7 +1,7 @@
 <template>
   <body>
     <div class="container">
-      <br /><br /><br />
+      <div class="global__height"></div>
       <h1>NEWS</h1>
       <h4>Current Projects</h4>
       <div class="row">
