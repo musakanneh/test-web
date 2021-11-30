@@ -4,14 +4,14 @@
       <section class="partnership-cover">
         <h1>WHY ECOSYSTEMS?</h1>
         <div class="partnership-sec">
-          <div class="img-cover">
+          <div class="img-cover animate_left">
              <img
                 src="../assets/cros1.png"
                 class="img-responsive"
                 alt="Responsive image"
               />
           </div>
-          <div class="offers-cover-sec-1">
+          <div class="offers-cover-sec-1 animate_right">
             <p>
               <span>Natural Ecosystems & Landscapes</span> are important for
               livelihood support and cultural identity of Indigenous People and

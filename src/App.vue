@@ -117,6 +117,12 @@ strong {
 .animate_4 {
   animation: fadeInUp 4.5s;
 }
+.animate_left {
+  animation: fadeInLeft 2.2s;
+}
+.animate_right {
+  animation: fadeInRight 2.5s;
+}
 /** Animation ends  */
 
 .height_and_weight__global {
