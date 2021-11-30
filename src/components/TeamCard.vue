@@ -61,7 +61,7 @@
         <h1>OUR TEAM</h1>
         <div class="row row-cols-4 __mi">
           <div class="col-xs-8">
-            <div class="">
+            <div class="__mobile__styles">
               <img
                 src="../assets/nagol.png"
                 class="img-responsive img-circle"
@@ -74,7 +74,7 @@
             </div>
           </div>
           <div class="col-xs-8">
-            <div class="">
+              <div class="__mobile__styles">
               <img
                 src="../assets/evel.png"
                 class="img-responsive img-circle"
@@ -87,7 +87,7 @@
             </div>
           </div>
           <div class="col-xs-8">
-            <div class="">
+              <div class="__mobile__styles">
               <img
                 src="../assets/ouma.png"
                 class="img-responsive img-circle"
@@ -104,7 +104,7 @@
           </div>
 
           <div class="col-xs-8">
-            <div class="">
+              <div class="__mobile__styles">
               <img
                 src="../assets/marco.jpeg"
                 class="img-responsive img-circle"
@@ -148,6 +148,14 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  .__mi {
+    display: block !important;
+  }
+  .__mobile__styles {
+    margin-bottom: 1.5rem !important;
+  }
+}
 body {
   .team-and-boardmembers__cover {
     background: #ddd;

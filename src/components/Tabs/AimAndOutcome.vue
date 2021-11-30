@@ -45,8 +45,7 @@ export default {
   .content {
     display: block !important;
   }
-  .mobile__text{
-    border: 1px solid red;
+  .mobile__text {
     font-size: 14px !important;
   }
 }

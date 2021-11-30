@@ -1,5 +1,5 @@
 <template>
-  <div class="height_and_weight__global">
+  <div class="height_and_weight__global mobile_top_margin_profile_content">
     <ProfileCaption name="Team Mamber" />
     <section class="container team__background">
       <div class="profile-content__cover">

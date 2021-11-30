@@ -45,7 +45,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss">
 #app {
   display: flex;
   flex: auto;
@@ -145,6 +145,19 @@ img {
 }
 
 /*** Team members profile starts */
+@media only screen and (max-width: 900px) {
+  .profile-content__cover {
+    margin-top: 2rem !important;
+    display: block !important;
+
+    p {
+      width: 100% !important;
+    }
+  }
+  .mobile_top_margin_profile_content{
+    padding: 0 0 2rem 0;
+  }
+}
 .profile-content__cover {
   display: grid;
   /* padding: 4rem 0; */
