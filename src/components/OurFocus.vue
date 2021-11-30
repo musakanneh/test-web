@@ -7,9 +7,8 @@
           <div class="inner">
             <h2>11</h2>
             <p>regions</p>
-            <br />
           </div>
-          <img src="../assets/regions.jpg" alt="" />
+          <img src="../assets/map-region.jpeg" alt="" />
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="inner">

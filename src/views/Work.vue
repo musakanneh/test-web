@@ -18,16 +18,22 @@
       <h1>LIVING ECOSYSTEMS</h1>
       <SustainableEcosystems />
     </main>
+
+    <!-- <div class="container"> -->
+      <TextTrans />
+    <!-- </div> -->
   </body>
 </template>
 
 <script>
+import TextTrans from "@/components/TextTrans.vue";
 import PeopleSaveWildlife from "@/components/Tabs/PeopleSaveWildlife.vue";
 import SupportSustainableLivelihood from "@/components/Tabs/SupportSustainableLivelihood.vue";
 import SustainableEcosystems from "@/components/Tabs/SustainableEcosystems.vue";
 
 export default {
   components: {
+    TextTrans,
     PeopleSaveWildlife,
     SustainableEcosystems,
     SupportSustainableLivelihood,
