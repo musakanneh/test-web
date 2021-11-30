@@ -3,7 +3,7 @@
     <div class="global__height"></div>
     <div class="container">
       <div class="row height_and_weight__global">
-        <div class="col-xs-6 col-md-12 border__">
+        <div class="col-xs-6 col-md-12 border__ transition_1">
           <div class="image">
             <img
               src="../assets/colab-res1.png"
@@ -52,7 +52,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-xs-6 col-md-12 border__">
+        <div class="col-xs-6 col-md-12 border__ transition_2">
           <div class="image">
             <img
               src="../assets/surface.jpeg"
@@ -195,6 +195,13 @@ export default {
 body {
   background: #ddd;
   padding: 2rem 0 4rem 0;
+
+  .transition_1 {
+    animation: fadeIn 1.5s;
+  }
+  .transition_2 {
+    animation: fadeInUp 1.5s;
+  }
 
   .content__text {
     strong {
