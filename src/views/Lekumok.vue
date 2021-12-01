@@ -4,7 +4,7 @@
     <section class="container">
       <div class="profile-content__cover">
         <img
-          src="../assets/leb.png"
+          src="../assets/lekumok.png"
           class="img-responsive img-circle image__style"
           alt="Responsive image"
         />

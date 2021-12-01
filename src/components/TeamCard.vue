@@ -8,7 +8,7 @@
           <div class="col">
             <div class="thumbnail">
               <img
-                src="../assets/leb.png"
+                src="../assets/lekumok.png"
                 class="img-responsive"
                 alt="Responsive image"
               />
