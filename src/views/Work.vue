@@ -1,13 +1,13 @@
 <template>
   <body>
     <div class="global__height"></div>
-    <main class="container animate_2 mobile_top_margin">
+    <main class="container animate_1 mobile_top_margin">
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>
     <div class="mid-container">
-      <div class="container animate_3">
-        <h1 class="">SUPPORT SUSTAINABLE LIVELIHOODS</h1>
+      <div class="container animate_2">
+        <h1 class="">LIVELIHOODS ACCELERATOR FELLOWSHIP</h1>
         <div class="inner-sec our-work__cover2">
           <SupportSustainableLivelihood />
         </div>
@@ -78,7 +78,7 @@ body {
 
     .inner-sec {
       padding: 1rem;
-      background: rgba(221, 221, 221, 0.849);
+      background: rgb(230, 230, 230);
     }
   }
 
