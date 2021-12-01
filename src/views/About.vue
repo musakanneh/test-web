@@ -8,7 +8,7 @@
       indigenous knowledge systems, proven scientific approaches and enterprise-based 
       solutions to protect, restore and manage natural ecosystems and landscapes in Tanzania."
     />
-    <section class="container mobile_top_margin">
+    <section class="container mobile_top_margin animate_1">
       <div class="row">
         <div class="col-sm-6 col-md-3">
           <div class="thumbnail">

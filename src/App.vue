@@ -12,7 +12,13 @@
     <div v-else>
       <MobileView />
     </div>
-    <router-view />
+    <transition
+      mode="out-in"
+      enter-active-class="animate__animated animate__fadeIn"
+      leave-active-class="animate__animated animate__fadeOut"
+    >
+      <router-view />
+    </transition>
     <Footer />
   </div>
 </template>
@@ -154,7 +160,7 @@ img {
       width: 100% !important;
     }
   }
-  .mobile_top_margin_profile_content{
+  .mobile_top_margin_profile_content {
     padding: 0 0 2rem 0;
   }
 }
