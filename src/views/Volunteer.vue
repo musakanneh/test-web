@@ -29,13 +29,15 @@
         <textarea type="text" placeholder="" label="Message" />
         <br />
         <br />
-        <a href="/">
-          <Button
-            :isFullWidth="false"
-            label="Submut Message"
-            width="150px"
-          ></Button
-        ></a>
+        <div class="btn__submit">
+          <a href="/">
+            <Button
+              :isFullWidth="false"
+              label="Submut Message"
+              width="150px"
+            ></Button
+          ></a>
+        </div>
       </div>
       <br />
       <br />
@@ -56,6 +58,15 @@ export default {
   body {
     padding: 13rem 1.5rem 2rem 1.5rem !important;
     background: #b1b0b0 !important;
+
+    .btn__submit {
+      padding-left: 5.5rem !important;
+      width: 100%;
+
+      a {
+        width: 100% !important;
+      }
+    }
 
     input,
     textarea {
