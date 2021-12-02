@@ -61,6 +61,10 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
+  h4 {
+    padding-top: 2rem !important;
+    margin-bottom: -3.5rem !important;
+  }
   .border__ {
     display: block !important;
 

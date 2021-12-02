@@ -38,8 +38,9 @@ export default {
 
 <style lang="scss" scoped>
 @media only screen and (max-width: 900px) {
-  * {
-    border: 1px solid red;
+  *{
+    width: 70% !important;
+    margin: auto !important;
   }
 }
 

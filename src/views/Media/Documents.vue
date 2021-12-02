@@ -38,6 +38,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  body {
+    main {
+      margin-top: -8rem !important;
+    }
+  }
+}
 body {
   padding: 8rem 0 !important;
 

@@ -11,4 +11,12 @@
 export default {};
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  body {
+    main {
+      margin-top: -8rem !important;
+    }
+  }
+}
+</style>
