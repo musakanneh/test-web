@@ -52,6 +52,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  body {
+    padding: 13rem 1.5rem 2rem 1.5rem !important;
+    background: #b1b0b0 !important;
+
+    input,
+    textarea {
+      width: 90% !important;
+      margin-left: 5% !important;
+    }
+
+    h1 {
+      font-size: 2.4rem;
+    }
+
+    main {
+      margin-top: -8rem !important;
+      background-color: #fff !important;
+    }
+  }
+}
 body {
   background: #fbfbfb;
   width: 100%;
