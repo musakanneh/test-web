@@ -11,7 +11,7 @@
         <div class="profile_content__and__media-cover">
           <h2 class="profile_content">Dr. Lekumok Kironyi - Chairman</h2>
           <p class="profile_content">
-            Lekumok Kironyi (PhD) is an Assistant Lecturer at the Department of
+            Lekumok Kironyi (PhD) is a Lecturer at the Department of
             Agricultural Economics and Finance, School of Business and
             Entrepreneurship Studies, Mwalimu Julius K. Nyerere University of
             Agriculture and Technology (MJNUAT). He has a PhD in Agricultural
