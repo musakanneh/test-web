@@ -2,27 +2,29 @@
   <footer>
     <main class="container">
       <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="footer-nav-items">
-            <h3>Quick Links</h3>
-            <hr />
-            <a href="/about" class="tba">About Us</a><br />
-            <a href="/work" class="tba">Our Work</a><br />
-            <a href="/about" class="tba">Our Team</a><br />
-          </div>
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="footer-nav-items">
-            <address>
-              <h3>Contact Us</h3>
+        <div class="mobile__padding">
+          <div class="col-xs-6 col-md-3">
+            <div class="footer-nav-items">
+              <h3>Quick Links</h3>
               <hr />
-              PO Box 2268, Arusha<br />
-              Tanzania<br />
-              <span title="Phone">Tel:</span> (255) 786 744 663<br />
-              <a href="mailto:#">
-                <span title="Phone">Email:</span> info@test.or.tz</a
-              >
-            </address>
+              <a href="/about" class="tba">About Us</a><br />
+              <a href="/work" class="tba">Our Work</a><br />
+              <a href="/about" class="tba">Our Team</a><br />
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-3">
+            <div class="footer-nav-items">
+              <address>
+                <h3>Contact Us</h3>
+                <hr />
+                PO Box 2268, Arusha<br />
+                Tanzania<br />
+                <span title="Phone">Tel:</span> (255) 786 744 663<br />
+                <a href="mailto:#">
+                  <span title="Phone">Email:</span> info@test.or.tz</a
+                >
+              </address>
+            </div>
           </div>
         </div>
         <div class="col-xs-6 col-md-3">
@@ -38,16 +40,25 @@
             <h3>Follow Us</h3>
             <hr />
             <div class="social-medias">
-              <a href="www.facebook.com/ecosystemssurvival">
+              <a
+                href="https://facebook.com/ecosystemssurvival"
+                target='"_blank"'
+              >
                 <i class="fab fa-facebook"></i
               ></a>
-              <a href="www.instagram.com/ecosystemssurvival">
+              <a
+                href="http://www.instagram.com/ecosystemssurvival"
+                target='"_blank"'
+              >
                 <i class="fab fa-instagram"></i
               ></a>
-              <a href="https://www.linkedin.com/ecosystemssurvival ">
+              <a
+                href="https://www.linkedin.com/company/ecosystemssurvival/"
+                target='"_blank"'
+              >
                 <i class="fab fa-linkedin"></i
               ></a>
-              <a href="www.twitter.com/testecosystems">
+              <a href="http://www.twitter.com/testecosystems" target='"_blank"'>
                 <i class="fab fa-twitter"></i
               ></a>
             </div>
@@ -73,14 +84,21 @@ export default {
   * {
     width: 100% !important;
   }
-
+  .mobile__padding {
+    display: flex;
+  }
   h3 {
     padding: 1.5rem 0 0.8rem 0;
+  }
+
+  a {
+    line-height: 22px;
   }
 
   hr {
     width: 15% !important;
     align-items: center !important;
+    margin: 0.5rem 0 !important;
   }
 
   main {

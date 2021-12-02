@@ -18,9 +18,21 @@
             <a href="https://facebook.com/ecosystemssurvival" target='"_blank"'>
               <i class="fab fa-facebook"></i
             ></a>
-            <a href=""> <i class="fab fa-instagram"></i></a>
-            <a href="#"> <i class="fab fa-linkedin"></i></a>
-            <a href="#"> <i class="fab fa-twitter"></i></a>
+            <a
+              href="http://www.instagram.com/ecosystemssurvival"
+              target='"_blank"'
+            >
+              <i class="fab fa-instagram"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/company/ecosystemssurvival/"
+              target='"_blank"'
+            >
+              <i class="fab fa-linkedin"></i
+            ></a>
+            <a href="http://www.twitter.com/testecosystems" target='"_blank"'>
+              <i class="fab fa-twitter"></i
+            ></a>
           </div>
         </div>
       </div>

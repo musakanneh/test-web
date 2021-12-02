@@ -65,6 +65,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@media only screen and (max-width: 900px) {
+  .our__partners,
+  .global__height {
+    img {
+      border: 1px solid #ddd;
+      margin-top: 1rem !important;
+      padding: 1rem !important;
+    }
+  }
+}
 body {
   padding: 8rem 0 !important;
 
