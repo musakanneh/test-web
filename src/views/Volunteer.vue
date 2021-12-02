@@ -5,22 +5,18 @@
       <h1>Sign Up to Volunteer With Us</h1>
       <div class="contact-cover">
         <div class="input-cover">
-          <input
-            type="text"
-            placeholder="Enter your  first name"
-            label="First name"
-          />
+          <input type="text" placeholder="First name" label="First name" />
           <br /><br />
           <input
             type="text"
-            placeholder="Enter your last name"
+            placeholder="Last name"
             label="Last name"
           /><br /><br />
         </div>
         <div class="input-cover">
           <input
             type="text"
-            placeholder="Enter your email addres  / other preferred contact"
+            placeholder="Email addres"
             label="Phone number"
           /><br /><br />
           <input type="text" placeholder="Subject" label="Subject" />
@@ -31,11 +27,7 @@
         <br />
         <div class="btn__submit">
           <a href="/">
-            <Button
-              :isFullWidth="false"
-              label="Submit"
-              width="150px"
-            ></Button
+            <Button :isFullWidth="false" label="Submit" width="150px"></Button
           ></a>
         </div>
       </div>
@@ -65,6 +57,82 @@ export default {
 
       a {
         width: 100% !important;
+      }
+    }
+
+    br {
+      border: 1px solid red;
+    }
+
+    input {
+      appearance: none;
+      border: none;
+      outline: none;
+      background: none;
+      display: block;
+      margin: -1.2rem 0 !important;
+      width: 90%;
+      padding: 20px 15px 3rem 15px;
+      border-radius: 5px;
+      color: #333;
+      font-size: 14px;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+      background-color: #f3f3f3;
+      transition: 0.4s;
+
+      &::placeholder {
+        color: #888;
+        transition: 0.4s;
+      }
+    }
+
+    &:focus-within {
+      label {
+        color: #ea526f;
+      }
+
+      textarea[type="text"] {
+        background-color: #fff;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+
+        &::placeholder {
+          color: #666;
+        }
+      }
+    }
+
+    textarea {
+      appearance: none;
+      border: none;
+      outline: none;
+      background: none;
+      display: block;
+      width: 90%;
+      padding: 20px 15px 10rem 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 14px;
+      box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+      background-color: #f3f3f3;
+      transition: 0.4s;
+
+      &::placeholder {
+        color: #888;
+        transition: 0.4s;
+      }
+    }
+
+    &:focus-within {
+      label {
+        color: #ea526f;
+      }
+      textarea[type="text"] {
+        background-color: #fff;
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+        &::placeholder {
+          color: #666;
+        }
       }
     }
 
