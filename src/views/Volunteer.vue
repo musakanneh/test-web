@@ -33,7 +33,7 @@
           <a href="/">
             <Button
               :isFullWidth="false"
-              label="Submut Message"
+              label="Submit"
               width="150px"
             ></Button
           ></a>
