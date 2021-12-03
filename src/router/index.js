@@ -17,9 +17,7 @@ import Emanuel from '../views/Emanuel.vue'
 import Documents from '../views/Media/Documents.vue'
 import Gallery from '../views/Media/Gallery.vue'
 import Videos from '../views/Media/Videos.vue'
-import Blog from '../views/Media/Blog.vue'
 import Projects from '../views/Projects.vue'
-
 
 Vue.use(VueRouter);
 
@@ -105,11 +103,6 @@ const routes = [{
     path: '/videos',
     name: 'Videos',
     component: Videos
-},
-{
-    path: '/blog',
-    name: 'Blog',
-    component: Blog
 },
 {
     path: '/projects',

@@ -3,7 +3,7 @@
     <HeaderCard />
     <Ecosystems />
     <Partnership />
-    <ProjectCard />
+    <!-- <ProjectCard /> -->
   </div>
 </template>
 
@@ -11,14 +11,14 @@
 import Partnership from "@/components/Partnership.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
 import Ecosystems from "@/components/Ecosystems.vue";
-import ProjectCard from "@/components/ProjectCard.vue";
+// import ProjectCard from "@/components/ProjectCard.vue";
 
 export default {
   components: {
     HeaderCard,
     Ecosystems,
     Partnership,
-    ProjectCard,
+    // ProjectCard,
   },
 };
 </script>
