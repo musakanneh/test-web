@@ -21,7 +21,7 @@
                 Tanzania<br />
                 <span title="Phone">Tel:</span> (255) 752 773 890<br />
                 <a href="mailto:#">
-                  <span title="Phone">Email:</span> info@test.or.tz</a
+                  <span title="Phone">Email:</span> info@nyanda.org</a
                 >
               </address>
             </div>

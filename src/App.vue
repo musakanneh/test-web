@@ -86,6 +86,17 @@ export default {
   box-sizing: content-box;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+strong,
+span {
+  font-family: "Raleway", sans-serif !important;
+}
+
 main {
   height: 100%;
   width: 100%;
@@ -98,7 +109,13 @@ p {
   color: var(--black);
   font-size: 16px !important;
   line-height: 1.5;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 900;
 }
 
 h1,

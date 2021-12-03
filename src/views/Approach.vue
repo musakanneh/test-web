@@ -210,13 +210,13 @@ body {
   .content__text {
     strong {
       font-size: 1.5rem;
-      font-weight: 600;
-      font-family: "Raleway Dots", cursive;
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
     }
-  }
 
-  strong {
-    line-height: 1.5;
+    li {
+      margin-top: 0.5rem;
+    }
   }
 
   h3 {
@@ -225,7 +225,7 @@ body {
   }
 
   strong {
-    font-weight: 500;
+    font-weight: 400;
   }
 
   .border__ {
