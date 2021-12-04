@@ -98,10 +98,17 @@ span {
 }
 
 h1 {
-  font-family: Baskerville, Times, "Times New Roman", serif;
+  font-family: Baskerville, Times, "Times New Roman", serif !important;
   font-size: 50px;
   font-variant: small-caps;
   text-align: center;
+  font-weight: bold;
+}
+
+h2 {
+  font-family: Baskerville, Times, "Times New Roman", serif !important;
+  font-size: 35px;
+  font-variant: small-caps;
   font-weight: bold;
 }
 
