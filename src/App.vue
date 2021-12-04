@@ -109,9 +109,9 @@ h2 {
   font-family: georgia, serif;
   font-family: Baskerville, Times, "Times New Roman", serif !important;
   font-size: 33px;
+  margin: 0;
   letter-spacing: 0;
   font-variant: small-caps !important;
-  // font-style: italic;
   padding: 0;
 }
 
