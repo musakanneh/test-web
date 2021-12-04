@@ -12,6 +12,8 @@ import HeaderCard from "@/components/HeaderCard.vue";
 import Ecosystems from "@/components/Ecosystems.vue";
 
 export default {
+  name: "Home",
+
   components: {
     HeaderCard,
     Ecosystems,

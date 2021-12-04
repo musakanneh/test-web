@@ -34,8 +34,9 @@ export default {
     Footer,
     MobileView,
   },
+
   metaInfo: {
-    title: 'Goodbye 2020'
+    title: "nyanda tz",
   },
 
   methods: {
