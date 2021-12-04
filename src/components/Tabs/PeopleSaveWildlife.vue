@@ -4,7 +4,7 @@
       <Tab name="Why?" selected="true">
         <div class="content">
           <div>
-            <img src="../../assets/la.jpeg" alt="" />
+            <img src="../../assets/ecowild1.png" alt="" />
           </div>
           <div>
             <p>
@@ -13,20 +13,23 @@
               farms. However, indigenous peoples and local communities have been
               side-lined in mainstream wildlife conservation initiatives
               completely jeopardizing the peaceful co-existence witnessed for
-              many centuries.
+              many centuries. Wildlife within these ecosystems continue to
+              experience challenges related to movement, habitat management and
+              consequently are a source of numerous human-wildlife conflicts.
             </p>
+
             <p>
-              Wildlife within these ecosystems have been and continue to
-              experience challenges of movement, habitat management and are a
-              source of rampant human-wildlife conflicts.
+              The wildlife in natural ecosystems share their habitats with
+              indigenous peoples and their livelihoods mostly pastureland and
+              farms. However, indigenous peoples and local communities have been
+              side-lined in mainstream wildlife conservation initiatives
+              completely jeopardizing the peaceful co-existence witnessed for
+              many centuries. Wildlife within these ecosystems continue to
+              experience challenges related to movement, habitat management and
+              consequently are a source of numerous human-wildlife conflicts.
             </p>
-            <p>
-              Human-wildlife conflicts have intensified in the last decade
-              through predation of livestock, marauding farms and loss of life
-              for humans. Tensions continue to grow between wildlife and people
-              in our ecosystems/landscapes. The future of wildlife in Tanzania
-              depends on positive conservation contribution of indigenous
-              communities.
+            <p class="appromixation">
+              Approx. 1,000 human cases – 2,000 livestock – 20 land conflicts
             </p>
           </div>
         </div>
@@ -39,14 +42,12 @@
               To re-activate the role and support of indigenous communities for
               wildlife protection within community lands. The indigenous
               traditional knowledge systems and their territories are vital in
-              continuing the peaceful co-existence to ensure wildlife
-              conservation in community lands.
-            </p>
-            <p>
-              The restoration of community roles in wildlife conservation will
-              strengthen and enhance meaningful collaboration of indigenous
-              communities and government agencies. Through this achievement,
-              TEST will increase the quality and quantity of wildlife habitats.
+              continuing the peaceful and sustainable co-existence to ensure
+              wildlife conservation in community lands. The restoration of
+              community roles in wildlife conservation will strengthen and
+              enhance meaningful collaboration of indigenous communities and
+              government agencies. Through this achievement, TEST will increase
+              the quality and quantity of wildlife habitats.
             </p>
           </div>
         </div>
@@ -56,14 +57,12 @@
           <div><img src="../../assets/indPeople.jpg" alt="" /></div>
           <div>
             <p>
-              TEST is committed to work with indigenous peoples and local
-              communities to provide wildlife conservation support, services and
-              campaigns within their territories and ecosystems.
-            </p>
-            <p>
-              Further to this, TEST will assist in obtaining formal recognition
-              of the indigenous community conserved areas (ICCAs) for wildlife
-              in the natural ecosystems in Tanzania.
+              TEST is committed to work with indigenous peoples and partners to
+              provide wildlife conservation support, services and campaigns
+              within their territories and ecosystems. Furthermore, TEST will
+              assist in obtaining formal recognition of the indigenous community
+              conserved areas for wildlife in the natural ecosystems in
+              Tanzania.
             </p>
           </div>
         </div>
@@ -107,20 +106,26 @@ export default {
 }
 #app {
   background: rgba(221, 221, 221, 0.555);
-  padding: 2.5rem;
+  padding: 4rem 2.5rem;
   box-shadow: 2px 5px #d8c690;
+
+  .appromixation {
+    text-align: center;
+    color: var(--primary-color);
+    font-weight: bold;
+    background-color: #d8c6903a;
+  }
 
   .content {
     display: grid;
     grid-template-columns: 1fr 2fr;
-
 
     p {
       width: 90%;
       margin: auto;
       padding: 0.6rem 0;
       line-height: 1.5;
-      font-size: 1.8rem;
+      font-size: 1.8rem !important;
     }
   }
 

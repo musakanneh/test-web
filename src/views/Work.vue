@@ -2,6 +2,7 @@
   <body>
     <div class="global__height"></div>
     <main class="container animate_1 mobile_top_margin">
+      <br>
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>

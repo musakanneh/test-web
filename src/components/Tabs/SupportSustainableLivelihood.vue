@@ -9,16 +9,17 @@
           <div>
             <p>
               As of 2021, over <strong>29 million</strong> people in Tanzania
-              lived in extreme poverty, with the poverty threshold at 1.90 U.S.
-              dollars a day. By 2025, <strong>26.4 million</strong> Tanzanians
-              are projected to live on a maximum of
-              <strong>1.90 U.S. dollars</strong> per day.
+              live in extreme poverty, with the poverty threshold at
+              <strong>1.90 U.S.</strong> dollars a day. By 2025,
+              <strong>26.4 million</strong> Tanzanians are projected to live on
+              a maximum of 1.90 U.S. dollars per day.
               <strong>12 million</strong> indigenous peoples are at the end of
-              the line living in acute poverty. They desire income to meet their
-              basic social and economic needs: food, shelter, health, education,
-              water and energy.
+              the line living in acute poverty. Indigenous peoples desire income
+              to meet their basic social and economic needs: food, shelter,
+              health, education, water and energy.
             </p>
-            <p>
+
+            <p class="appromixation">
               <strong>29 million</strong>
               poor people – 12 million indigenous communities –
               <strong>1.9 usd per day</strong>
@@ -153,6 +154,22 @@ export default {
   }
 }
 
+.appromixation {
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+  background-color: #d8c6903a;
+  font-size: 2rem !important;
+  // border: 1px solid red;
+  padding: 1rem !important;
+
+  strong {
+    // border: 1px solid red;
+    font-size: 2rem !important;
+    font-size: 2rem !important;
+  }
+}
+
 #app {
   padding: 2.5rem;
 
@@ -166,7 +183,7 @@ export default {
       text-align: left;
       padding: 0.6rem 0;
       line-height: 1.5;
-      font-size: 1.8rem;
+      font-size: 1.8rem !important;
     }
   }
 
