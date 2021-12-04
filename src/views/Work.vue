@@ -62,6 +62,10 @@ body {
     font-size: 15px !important;
   }
 
+  .animate_4 {
+    margin-top: 2rem;
+  }
+
   .mid-container {
     background-image: url("../assets/work.jpeg");
     background-repeat: no-repeat;

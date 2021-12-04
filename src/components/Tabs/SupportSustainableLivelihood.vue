@@ -4,7 +4,7 @@
       <Tab name="Why?" selected="true">
         <div class="content">
           <div>
-            <img src="../../assets/ind-people.png" alt="" />
+            <img src="../../assets/tz-people.png" alt="" />
           </div>
           <div>
             <p>

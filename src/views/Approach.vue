@@ -6,7 +6,7 @@
         <div class="col-xs-6 col-md-12 border__ animate_1">
           <div class="image">
             <img
-              src="../assets/colab-res1.png"
+              src="../assets/res-co2.png"
               class="img-responsive"
               alt="Responsive image"
             />
@@ -55,7 +55,7 @@
         <div class="col-xs-6 col-md-12 border__ animate_2">
           <div class="image">
             <img
-              src="../assets/surface.jpeg"
+              src="../assets/ed2.png"
               class="img-responsive"
               alt="Responsive image"
             />
@@ -97,7 +97,7 @@
         <div class="col-xs-6 col-md-12 border__">
           <div class="image">
             <img
-              src="../assets/culture.png"
+              src="../assets/cult-exchange.png"
               class="img-responsive"
               alt="Responsive image"
             />
@@ -205,13 +205,20 @@ export default {
 
 body {
   background: #ddd;
-  padding: 2rem 0 4rem 0;
+  padding: 2.5rem 0 4rem 0;
+
+  p,
+  strong {
+    // border: 1px solid red;
+    font-size: 1.8rem !important;
+  }
 
   .content__text {
+    // border: 1px solid red;
     strong {
       font-size: 1.5rem;
       font-family: "Raleway", sans-serif;
-      font-weight: bold;
+      // font-weight: bold;
     }
 
     li {
@@ -231,9 +238,10 @@ body {
   .border__ {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    column-gap: 50px;
-    padding: 2rem;
-    border: 1px solid #30303017;
+    // border: 1px solid red;
+    column-gap: 40px;
+    padding: 5rem 2rem;
+    // border: 1px solid #30303017;
     margin: 2rem 0;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
