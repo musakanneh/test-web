@@ -97,6 +97,14 @@ span {
   font-family: "Raleway", sans-serif !important;
 }
 
+h1 {
+  font-family: Baskerville, Times, "Times New Roman", serif;
+  font-size: 50px;
+  font-variant: small-caps;
+  text-align: center;
+  font-weight: bold;
+}
+
 main {
   height: 100%;
   width: 100%;
