@@ -205,7 +205,7 @@ body {
   }
 
   h1 {
-    font-size: 3rem !important;
+    // font-size: 3rem !important;
     padding: 6rem 0 4rem 0;
     width: 100%;
     margin: 0;

@@ -19,7 +19,7 @@
                   class="img-responsive img-circle"
                   alt="Responsive image"
                 />
-                <h3>Vision</h3>
+                <h2>Vision</h2>
               </div>
               <p>
                 A world in which people, livestock, wildlife and nature co-exist
@@ -38,7 +38,7 @@
                   class="img-responsive img-circle"
                   alt="Responsive image"
                 />
-                <h3>Purpose</h3>
+                <h2>Purpose</h2>
               </div>
               <p>
                 To facilitate effective collaborations that integrate technical
@@ -60,7 +60,7 @@
                   class="img-responsive img-circle"
                   alt="Responsive image"
                 />
-                <h3>Mission</h3>
+                <h2>Mission</h2>
               </div>
               <p>
                 To facilitate conflict resolution, collaboration and information
@@ -84,7 +84,7 @@
                   class="img-responsive img-circle"
                   alt="Responsive image"
                 />
-                <h3>Values</h3>
+                <h2>Values</h2>
               </div>
               <p>We value and respect our indigenous community</p>
               <p>We value and respect our natural ecosystems</p>

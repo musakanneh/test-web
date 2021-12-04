@@ -5,7 +5,8 @@
         <div class="container__">
           <div class="contact__info">
             <p>
-              <span title="Phone">Tel:</span> +255 752 773 890, 786 744 663<br />
+              <span title="Phone">Tel:</span> +255 752 773 890, +255 786 744 663
+              <br />
             </p>
             <p>|</p>
             <p>
@@ -71,21 +72,13 @@
           </div>
         </ul>
       </nav>
-      <!-- <div class="btn-cover">
-        <a href="/news"
-          ><Button :isFullWidth="false" label="NEWS" width="120px"> </Button
-        ></a>
-      </div> -->
     </main>
   </header>
 </template>
 
 <script>
-// import Button from "@/components/Button.vue";
 export default {
-  components: {
-    // Button,
-  },
+  components: {},
 };
 </script>
 
@@ -174,6 +167,7 @@ header {
         color: #fff;
         padding-right: 17px;
         font-weight: 500;
+        margin-right: 1rem !important;
         letter-spacing: 1px;
         font-size: 13px !important;
         color: #fff;

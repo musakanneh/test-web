@@ -119,7 +119,7 @@ body {
       font-weight: 500;
       margin: auto;
       padding: 20px 0;
-      font-size: 2rem;
+      font-size: 2.5rem !important;
     }
   }
 }

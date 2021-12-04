@@ -106,10 +106,32 @@ h1 {
 }
 
 h2 {
+  font-family: georgia, serif;
   font-family: Baskerville, Times, "Times New Roman", serif !important;
-  font-size: 35px;
-  font-variant: small-caps;
-  font-weight: bold;
+  font-size: 33px;
+  letter-spacing: 0;
+  font-variant: small-caps !important;
+  // font-style: italic;
+  padding: 0;
+}
+
+h3 {
+  font-family: georgia, serif;
+  font-family: Baskerville, Times, "Times New Roman", serif !important;
+  font-size: 30px;
+  font-weight: bolder !important;
+  padding: 0;
+}
+h4 {
+  font-family: georgia, serif;
+  // font-family: Baskerville, Times, "Times New Roman", serif !important;
+  font-size: 20px;
+  // font-style: italic;
+  // color: #3e2f2f;
+  font-weight: bolder !important;
+  // letter-spacing: 0;
+  // line-height: 1.429em;
+  padding: 0;
 }
 
 main {
@@ -122,24 +144,27 @@ main {
 
 p {
   color: var(--black);
-  font-size: 16px !important;
+  font-size: 18px !important;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
-}
-
-h1,
-h2,
-h3 {
-  font-weight: 900;
+  color: #666666;
+  padding: 5px 0 !important;
 }
 
 h1,
 h2,
 h3,
+h4 {
+  font-weight: 900 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
 span,
 strong {
   color: var(--primary-color);
-  font-family: "Roboto", sans-serif;
 }
 
 .mobile_top_margin {

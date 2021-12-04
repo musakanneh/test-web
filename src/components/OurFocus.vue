@@ -5,14 +5,14 @@
       <div class="row">
         <div class="col-xs-6 col-md-3">
           <div class="inner">
-            <h2>11</h2>
+            <h3>11</h3>
             <p>regions</p>
           </div>
           <img src="../assets/map-region.jpeg" alt="" />
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="inner">
-            <h2>300</h2>
+            <h3>300</h3>
             <p>villages</p>
             <br /><br />
           </div>

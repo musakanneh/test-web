@@ -5,7 +5,7 @@
         <div class="mobile__padding">
           <div class="col-xs-6 col-md-3">
             <div class="footer-nav-items">
-              <h3>Quick Links</h3>
+              <h4>Quick Links</h4>
               <hr />
               <a href="/about" class="tba">About Us</a><br />
               <a href="/work" class="tba">Our Work</a><br />
@@ -15,7 +15,7 @@
           <div class="col-xs-6 col-md-3">
             <div class="footer-nav-items">
               <address>
-                <h3>Contact Us</h3>
+                <h4>Contact Us</h4>
                 <hr />
                 PO Box 2268, Arusha<br />
                 Tanzania<br />
@@ -29,15 +29,14 @@
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="footer-nav-items">
-            <h3>Support our Projects</h3>
+            <h4>Support our Projects</h4>
             <hr />
-            <a href="/" class="tba">Donate</a><br />
             <a href="/volunteer" class="tba">Volunteer With Us</a><br />
           </div>
         </div>
         <div class="col-xs-6 col-md-3">
           <div class="contact-sec">
-            <h3>Follow Us</h3>
+            <h4>Follow Us</h4>
             <hr />
             <div class="social-medias">
               <a

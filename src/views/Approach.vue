@@ -12,7 +12,7 @@
             />
           </div>
           <div class="content__text">
-            <h3>COLLABORATIVE RESEARCH</h3>
+            <h2>COLLABORATIVE RESEARCH</h2>
             <p>
               Combining indigenous cultural practices and proven scientific
               solutions on ecological sustainability are useful to enhance
@@ -61,7 +61,7 @@
             />
           </div>
           <div class="content__text">
-            <h3>EMPOWERMENT AND CAPACITY BUILDING</h3>
+            <h2>EMPOWERMENT AND CAPACITY BUILDING</h2>
             <p>
               Indigenous Peoples and Local Communities (IPLCs) are natural
               conservators of nature. Their passion and skill in landscape
@@ -103,7 +103,7 @@
             />
           </div>
           <div class="content__text">
-            <h3>INDIGENOUS CULTURAL EXCHANGE</h3>
+            <h2>INDIGENOUS CULTURAL EXCHANGE</h2>
             <p>
               Tanzania has an ecosystem of indigenous cultures contributing to
               community as well as ecological resilience. These indigenous
@@ -139,7 +139,7 @@
             />
           </div>
           <div class="content__text">
-            <h3>ECOSYSTEM GOVERNANCE</h3>
+            <h2>ECOSYSTEM GOVERNANCE</h2>
             <p>
               Appropriate and acceptable ecosystems governance is key to
               ensuring ecological sustainability, building positive and lasting
@@ -209,16 +209,13 @@ body {
 
   p,
   strong {
-    // border: 1px solid red;
     font-size: 1.8rem !important;
   }
 
   .content__text {
-    // border: 1px solid red;
     strong {
       font-size: 1.5rem;
       font-family: "Raleway", sans-serif;
-      // font-weight: bold;
     }
 
     li {

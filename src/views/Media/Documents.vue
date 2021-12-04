@@ -4,10 +4,10 @@
     <div class="global__height"></div>
     <main class="container animate_1">
       <dl class="dl-horizontal">
-        <dt><h3>2022 - 2027</h3></dt>
+        <dt><h4>2022 - 2027</h4></dt>
         <dd>
           <div class="col-xs-6 col-md-4">
-            <h3>STRATEGIC PLAN</h3>
+            <h4>STRATEGIC PLAN</h4>
           </div>
           <div class="col-xs-6 col-md-4">
             <img
@@ -21,7 +21,7 @@
             <div class="download__report">
               <h3>
                 <a href="TEST-STRATEGIC-PLAN_2022-2026.pdf" download>
-                  <h3><i class="fas fa-download"></i> Download Report</h3>
+                  <h4><i class="fas fa-download"></i> Download Report</h4>
 
                   <link
                     rel="icon"
@@ -90,7 +90,6 @@ body {
       }
       h3 {
         text-align: center;
-        // padding: .2rem;
         i {
           color: #ddd;
         }
@@ -101,7 +100,6 @@ body {
       font-size: 1.5rem;
       border: 1px solid red;
       color: #303030;
-      // padding: 2rem 0;
       text-align: center;
     }
   }

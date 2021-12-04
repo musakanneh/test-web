@@ -64,11 +64,10 @@
               generation or village settlement designs.
             </p>
             <p>
-              <a href="/volunteer"
-                >We invite interested groups or individuals that wish to
-                practice their internship, retreat and pilot their models to
-                poverty reduction to apply to participate.</a
-              >
+              We invite interested groups or individuals that wish to practice
+              their internship, retreat and pilot their models to poverty
+              reduction to <strong><a href="/volunteer">apply</a></strong> to
+              participate.
             </p>
           </div>
         </div>
@@ -142,7 +141,6 @@ export default {
   padding: 1rem 4rem !important;
 
   strong {
-    // border: 1px solid red;
     font-size: 2rem !important;
     font-size: 2rem !important;
   }

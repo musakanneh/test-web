@@ -2,7 +2,7 @@
   <body>
     <main class="container">
       <div class="row our__partners">
-        <h2>PARTNERS</h2>
+        <h1>PARTNERS</h1>
         <div class="col-xs-6 col-md-3">
           <a href="https://www.nunamaisha.org/nunamaisha-is/">
             <img
@@ -41,7 +41,7 @@
         </div>
       </div>
       <div class="global__height">
-        <h2>INTERNATIONAL MEMBERSHIP</h2>
+        <h1>INTERNATIONAL MEMBERSHIP</h1>
         <div class="col-xs-6 col-md-12">
           <a
             href="https://www.iccaconsortium.org/index.php/members/the-eastern-serengeti-test/"
@@ -100,7 +100,7 @@ body {
       }
     }
 
-    h2 {
+    h1 {
       padding-bottom: 3rem;
       text-align: center;
     }
