@@ -36,7 +36,7 @@ export default {
   },
 
   metaInfo: {
-    title: "nyanda tz",
+    title: "Nyanda",
   },
 
   methods: {

@@ -21,11 +21,7 @@ export default {
   },
 };
 
-// metaInfo() {
-//   return  {
-//     title
-//   }
-// }
+
 </script>
 
 <style lang="scss" scoped>
