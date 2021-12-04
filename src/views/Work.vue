@@ -2,7 +2,7 @@
   <body>
     <div class="global__height"></div>
     <main class="container animate_1 mobile_top_margin">
-      <br>
+      <br />
       <h1>PEOPLE SAVE WILDLIFE</h1>
       <PeopleSaveWildlife />
     </main>
@@ -69,7 +69,7 @@ body {
     position: center;
     background-size: cover;
     z-index: 1;
-    padding: 8rem 0;
+    padding: 6rem 0;
 
     strong,
     h1 {

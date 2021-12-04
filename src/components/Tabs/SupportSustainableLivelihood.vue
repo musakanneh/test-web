@@ -26,10 +26,11 @@
             </p>
             <p>
               Indigenous peoples and local communities in Tanzania are
-              communities in transition. They desire improved and reliable
-              livelihoods options. They do not have access to reliable safe and
-              clean water services, quality education, energy, health services
-              or sustainable livelihoods options.
+              communities in transition. As such, they desire improved and
+              reliable livelihoods options. However, in most places, they do not
+              have access to reliable safe and clean water services, quality
+              education, energy, health services or sustainable livelihoods
+              options.
             </p>
           </div>
         </div>
@@ -41,24 +42,9 @@
           </div>
           <div>
             <p>
-              Based on national and global challenges TEST must design new
-              models that are tested for relevant poverty reduction for
-              indigenous peoples in responding with Sustainable Development
-              Goals.
-            </p>
-            <p>
-              To facilitate poverty alleviation on a practical level social
-              impact on poverty alleviation for the rural communities in
-              Tanzania through the power of knowledge and enterprise for
-              ensuring sustainability, growth and compatibility with
-              biodiversity approaches.
-            </p>
-            <p>
-              design and host an annual fellowship programme bringing academic
-              schools, think tanks, private organizations to work with the local
-              communities to find the solution to an identified social problem
-              in water supply, health services, waste management, income
-              generation or village settlement designs.
+              Based on national and global challenges, TEST must design new
+              models that are effective in poverty reduction for indigenous
+              peoples in line with Sustainable Development Goals targets.
             </p>
           </div>
         </div>
@@ -71,24 +57,18 @@
           <div>
             <p>
               TEST will design and host an annual Livelihoods Accelerator
-              Fellowship (LAF) Programme bringing academic schools, think tanks,
-              private organizations to work with the local communities to find
-              the solution to an identified social problem in water supply,
-              health services, waste management, income generation or village
-              settlement designs. We invite interested groups or individuals
-              that wish to practice their internship, retreat and complete
-              research to apply to participate.
-            </p>
-            <p class="volunteer__links">
-              <a href="/volunteer"><button>Students apply here</button></a>
-              <a href="/volunteer"><button>Universities apply here</button></a>
-              <a href="/volunteer"><button>ThinkTanks apply here</button></a>
+              Fellowship (LAF) Programme bringing together academic and research
+              institutions, think tanks and private organizations to work with
+              the local communities to find the solution to an identified social
+              problem in water supply, health services, waste management, income
+              generation or village settlement designs.
             </p>
             <p>
-              , in collaboration with its partners, embark in innovation in
-              designing and delivering livelihoods options to address poverty
-              and increase access to fundamental social services such as
-              education, health and water.
+              <a href="/volunteer"
+                >We invite interested groups or individuals that wish to
+                practice their internship, retreat and pilot their models to
+                poverty reduction to apply to participate.</a
+              >
             </p>
           </div>
         </div>
@@ -155,13 +135,11 @@ export default {
 }
 
 .appromixation {
-  text-align: center;
   color: var(--primary-color);
   font-weight: bold;
-  background-color: #d8c6903a;
+  background-color: #fbfbfb;
   font-size: 2rem !important;
-  // border: 1px solid red;
-  padding: 1rem !important;
+  padding: 1rem 4rem !important;
 
   strong {
     // border: 1px solid red;

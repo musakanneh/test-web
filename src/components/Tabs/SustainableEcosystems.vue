@@ -7,20 +7,20 @@
           <div>
             <p>
               Natural ecosystems are shrinking, deteriorating with no clear
-              governance mechanisms. Traditionally indigenous peoples have their
-              own ways of land governance and use for all seasons and for
-              various uses. The land governance system was confined to small
-              villages. This cultural practice allowed the lands to recover
-              between seasons and pasture to be available throughout the year.
-              But the pastoralists in Tanzania can hardly do this.
-            </p>
-            <p>
-              Population growth, coupled with land defragmentation and climate
-              change have reduced the extent of their pasturelands and resulted
-              into deterioration in quality and regular land use conflicts. As a
-              result, livestock and wildlife often die in the dry season or in
-              droughts from lack of grass and lack of water. This is
-              devastating.
+              governance mechanisms and rampant land use conflicts.
+              Traditionally, indigenous peoples have used ecological knowledge
+              to govern land use for all seasons and for various uses. These
+              cultural practices allowed the lands to recover between seasons
+              and pasture to be available throughout the year. The land
+              governance system is confined to small villages. In Tanzania there
+              are at least 20 cases related with land use and governance
+              conflicts. However, the pastoralists in Tanzania can hardly do
+              this. Population growth, coupled with land defragmentation and
+              climate change have reduced the extent of their pasturelands and
+              resulted into deterioration in quality and regular land use
+              conflicts. As a result, livestock and wildlife often die in the
+              dry season or in droughts due to lack of grass and lack of water.
+              This is devastating.
             </p>
           </div>
         </div>
