@@ -5,7 +5,7 @@
         <div class="container__">
           <div class="contact__info">
             <p>
-              <span title="Phone">Tel:</span> (+255) 752 773 890, 786 744 663<br />
+              <span title="Phone">Tel:</span> +255 752 773 890, 786 744 663<br />
             </p>
             <p>|</p>
             <p>
