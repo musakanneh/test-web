@@ -37,7 +37,17 @@ export default {
 
   metaInfo: {
     title: "Nyanda",
+
+    meta: [
+      { charset: "utf-8" },
+      { name: "Nyanda", content: "Environmental Conservation Organization" },
+      { name: "viewport", content: "width=device-width, initial-  scale=1" },
+    ],
   },
+
+  // metaInfo: {
+  //   title: "Nyanda",
+  // },
 
   methods: {
     isMobile() {
