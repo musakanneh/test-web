@@ -30,40 +30,33 @@
           <div><img src="../../assets/ecosystem-governance.jpg" alt="" /></div>
           <div>
             <p>
-              TEST is committed to introduce an innovative ecosystem governance
-              approach that will transcend boundaries of village systems in
-              Tanzania to encompass connected cultural and geographical
-              ecosystems and landscapes.
-            </p>
-            <p>
-              The Sustainable Ecosystems Approach will re-design land use and
-              governing models to allow integrated landscape approach to improve
+              TEST is committed to facilitate for the design of an innovative
+              ecosystem governance model that will transcend boundaries of
+              village systems in Tanzania to recognize connected cultural and
+              geographical ecosystems and landscapes. The Living Ecosystems
+              Approach will re-design land use and governing models to improve
               the livelihoods of the local communities as well as enhance the
               conservation of biodiversity.
             </p>
           </div>
         </div>
       </Tab>
-      <Tab name="Plan">
+      <Tab name="Outcome">
         <div class="content">
           <div><img src="../../assets/cattles.jpeg" alt="" /></div>
           <div>
             <p>
               TEST, in collaboration with indigenous peoples and partners in
-              Tanzania will introduce an innovative approach to govern and
-              manage ecosystems and landscapes to ensure sustainability of
-              ecosystems availability of pasture and to address the effects of
-              climate and cultural change.
+              Tanzania will produce governance models to create living
+              ecosystems giving life to the people and nature.
             </p>
             <p>
-              Together with partners, TEST will facilitate for the design of
-              livestock to markets programme as incentives for regulating the
-              number of livestock on the land. The programme will control and
-              maintain the carrying capacity of the land and loss of
-              biodiversity. This will ensure that livestock are kept at certain
-              numbers at different seasons (dry and wet) and according to land
-              use zones. The livestock will be sold at certain intervals during
-              the year.
+              <a href="/volunteer"
+                >Are you interested in contributing to the design of ecosystems
+                governance models? Do you have the passion and skills to shape
+                ecosystem governance for the future of people and biodiversity?
+                Please click here to register your interest.</a
+              >
             </p>
           </div>
         </div>
@@ -120,7 +113,7 @@ export default {
       text-align: left;
       padding: 0.6rem 0;
       line-height: 1.5;
-      font-size: 1.8rem;
+      font-size: 1.8rem !important;
     }
   }
 
