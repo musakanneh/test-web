@@ -1,16 +1,13 @@
 <template>
   <body>
-    <ProfileCaption name="Annual Reoports" />
+    <ProfileCaption name="" />
     <div class="global__height"></div>
     <main class="container animate_1">
       <dl class="dl-horizontal">
-        <dt><h1>Annual Report 2019</h1></dt>
+        <dt><h3>2022 - 2027</h3></dt>
         <dd>
           <div class="col-xs-6 col-md-4">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id
-              quo placeat, aut molestiae animi minima blanditiis laboriosam
-            </p>
+            <h3>STRATEGIC PLAN</h3>
           </div>
           <div class="col-xs-6 col-md-4">
             <img
@@ -19,8 +16,20 @@
               alt="Responsive image"
             />
           </div>
+
           <div class="col-xs-6 col-md-4">
-            <h3><i class="fas fa-download"></i> Download Report</h3>
+            <div class="download__report">
+              <h3>
+                <a href="TEST-STRATEGIC-PLAN_2022-2026.pdf" download>
+                  <h3><i class="fas fa-download"></i> Download Report</h3>
+
+                  <link
+                    rel="icon"
+                    href="<%= BASE_URL %>TEST-STRATEGIC-PLAN_2022-2026.pdf"
+                  />
+                </a>
+              </h3>
+            </div>
           </div>
         </dd>
       </dl>
@@ -65,16 +74,34 @@ body {
       }
     }
 
-    h3 {
-      i {
-        color: #ddd;
+    a {
+      text-decoration: none;
+    }
+    .download__report {
+      border: 1px solid #3030301e;
+      &:hover {
+        background-color: #30303031;
+        transition: 0.5s ease;
+
+        i {
+          color: #d8c690;
+          transition: 0.5s ease;
+        }
+      }
+      h3 {
+        text-align: center;
+        // padding: .2rem;
+        i {
+          color: #ddd;
+        }
       }
     }
 
     h1 {
       font-size: 1.5rem;
+      border: 1px solid red;
       color: #303030;
-      padding: 2rem 0;
+      // padding: 2rem 0;
       text-align: center;
     }
   }
