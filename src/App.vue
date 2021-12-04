@@ -34,6 +34,9 @@ export default {
     Footer,
     MobileView,
   },
+  metaInfo: {
+    title: 'Goodbye 2020'
+  },
 
   methods: {
     isMobile() {

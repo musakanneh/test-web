@@ -3,9 +3,13 @@ import App from './App.vue'
 import router from "./router";
 import 'animate.css';
 import VueTextTransition from 'vue-text-transition';
+import Meta from 'vue-meta';
 
 Vue.component('vue-text-transition', VueTextTransition)
 Vue.config.productionTip = false
+Vue.use(Meta, {
+    refreshOnceOnNavigation: true
+})
 
 new Vue({
     router,

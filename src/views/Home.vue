@@ -3,7 +3,6 @@
     <HeaderCard />
     <Ecosystems />
     <Partnership />
-    <!-- <ProjectCard /> -->
   </div>
 </template>
 
@@ -11,16 +10,20 @@
 import Partnership from "@/components/Partnership.vue";
 import HeaderCard from "@/components/HeaderCard.vue";
 import Ecosystems from "@/components/Ecosystems.vue";
-// import ProjectCard from "@/components/ProjectCard.vue";
 
 export default {
   components: {
     HeaderCard,
     Ecosystems,
     Partnership,
-    // ProjectCard,
   },
 };
+
+// metaInfo() {
+//   return  {
+//     title
+//   }
+// }
 </script>
 
 <style lang="scss" scoped>
