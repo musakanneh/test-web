@@ -124,13 +124,8 @@ h3 {
 }
 h4 {
   font-family: georgia, serif;
-  // font-family: Baskerville, Times, "Times New Roman", serif !important;
   font-size: 20px;
-  // font-style: italic;
-  // color: #3e2f2f;
   font-weight: bolder !important;
-  // letter-spacing: 0;
-  // line-height: 1.429em;
   padding: 0;
 }
 

@@ -20,7 +20,7 @@
                 PO Box 2268, Arusha<br />
                 Tanzania<br />
                 <span title="Phone">Tel:</span> +255 752 773 890<br />
-                <a href="mailto:#">
+                <a href="mailto:info@nyanda.org">
                   <span title="Phone">Email:</span> info@nyanda.org</a
                 >
               </address>
@@ -190,7 +190,7 @@ footer {
     }
     p {
       text-align: center;
-      font-size: 12px;
+      font-size: 12px !important;
       padding: 1rem 0 1rem 0;
     }
   }
