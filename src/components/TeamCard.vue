@@ -94,7 +94,7 @@
 								alt="Responsive image"
 							/>
 							<div class="team__details">
-								<TeamTag name="Babu Rotiken" position="Pos" />
+								<TeamTag name="Babu Rotiken" position="Legal Officer" />
 								<a href="/babu">View Profile</a>
 							</div>
 						</div>
