@@ -24,10 +24,16 @@
 						laws.
 					</p>
 					<div class="profile_content profile-social-medias__tags">
-						<a href=""> <i class="fab fa-facebook"></i></a>
-						<a href=""> <i class="fab fa-instagram"></i></a>
-						<a href=""> <i class="fab fa-linkedin"></i></a>
-						<a href=""> <i class="fab fa-twitter"></i></a>
+						<a href="https://www.facebook.com/babu.rotiken" target="_blank">
+							<i class="fab fa-facebook"></i
+						></a>
+						<a href="https://www.instagram.com/ole_rotiken_b" target="_blank">
+							<i class="fab fa-instagram"></i
+						></a>
+						<a href="" target="_blank"> <i class="fab fa-linkedin"></i></a>
+						<a href="https://twitter.com/rotiken_ole" target="_blank">
+							<i class="fab fa-twitter"></i
+						></a>
 					</div>
 				</div>
 			</div>
