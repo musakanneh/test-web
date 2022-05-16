@@ -15,7 +15,7 @@
 						educational background which accompanied by irresistible passion
 						currently he is offering strong attention to details, accuracy, and
 						doing well in excellent critical thinking, and legal research
-						skills. His dreams of being a legal legal practioner, is currently
+						skills. His dreams of being a legal practioner, is currently
 						studying a post graduate diploma in legal practice at the Law School
 						of Tanzania, with vast expertise and firm foundation in Land laws,
 						environmental laws and conservations laws. His passion in this field
