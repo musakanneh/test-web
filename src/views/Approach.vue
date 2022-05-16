@@ -209,12 +209,12 @@ body {
 
   p,
   strong {
-    font-size: 1.8rem !important;
+    font-size: 1.65rem !important;
   }
 
   .content__text {
     strong {
-      font-size: 1.5rem;
+      font-size: 1.65rem;
       font-family: "Raleway", sans-serif;
     }
 

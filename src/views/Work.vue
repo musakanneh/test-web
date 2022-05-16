@@ -3,8 +3,8 @@
     <div class="global__height"></div>
     <main class="container animate_1 mobile_top_margin">
       <br />
-      <h1>PEOPLE SAVE WILDLIFE</h1>
-      <PeopleSaveWildlife />
+      <h1>LIVING ECOSYSTEMS</h1>
+      <SustainableEcosystems />
     </main>
     <div class="mid-container">
       <div class="container animate_2">
@@ -16,8 +16,8 @@
     </div>
     <main class="container animate_4">
       <br />
-      <h1>LIVING ECOSYSTEMS</h1>
-      <SustainableEcosystems />
+      <h1>PEOPLE SAVE WILDLIFE</h1>
+      <PeopleSaveWildlife />
     </main>
   </body>
 </template>

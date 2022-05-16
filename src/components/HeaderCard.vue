@@ -36,7 +36,7 @@ export default {
     }
 
     p {
-      font-size: 1.8rem !important;
+      font-size: 1.65rem !important;
       padding-bottom: 4rem !important;
     }
 
@@ -53,8 +53,8 @@ export default {
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.712)),
-    url("../assets/rangeland.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7) 30%, transparent),
+    url("../assets/rangeland2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   width: 100%;

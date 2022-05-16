@@ -2,41 +2,18 @@
   <body class="height_and_weight__global">
     <h1>OUR FOCUS</h1>
     <main class="container">
-      <div class="row">
-        <div class="col-xs-6 col-md-3">
-          <div class="inner">
-            <h3>11</h3>
-            <p>regions</p>
+      <div class="flex-container flex-row flex-stretch outer">
+        <div 
+        v-for="(item, index) in items"
+        :key="index"
+        class="col-xs-6 col-md-3 inner">
+          <div class="image-container">
+            <img :src="item.image" alt="" />
           </div>
-          <img src="../assets/map-region.jpeg" alt="" />
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="inner">
-            <h3>300</h3>
-            <p>villages</p>
-            <br /><br />
+          <div>
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.subtitle }}</p>
           </div>
-          <img src="../assets/village.jpg" alt="" />
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="inner">
-            <h3>12 Million IPLCs</h3>
-            <p>
-              that live and share their lands with wildlife in critical and
-              globally important ecosystem hotspots
-            </p>
-          </div>
-          <img src="../assets/iplc.png" alt="" />
-        </div>
-        <div class="col-xs-6 col-md-3">
-          <div class="inner">
-            <h3>Culturally diverse communities</h3>
-            <p>
-              including pastoralists, hunters-gatherers and agro-pastoralist
-              communities in Tanzania.
-            </p>
-          </div>
-          <img src="../assets/diversity.jpg" alt="" />
         </div>
       </div>
     </main>
@@ -46,6 +23,32 @@
 <script>
 export default {
   components: {},
+  data: () => {
+    return {
+      items: [
+        {
+          title: "11",
+          subtitle: "regions",
+          image: require('../assets/map-region.jpeg')
+        },
+        {
+          title: "390",
+          subtitle: "villages",
+          image: require("../assets/village.jpg")
+        },
+        {
+          title: "12 Million IPLCs",
+          subtitle: "that live and share their lands with wildlife in critical and globally important ecosystem hotspots",
+          image: require("../assets/iplc.png")
+        },
+        {
+          title: "Culturally diverse communities",
+          subtitle: "including pastoralists, hunters-gatherers and agro-pastoralist communities in Tanzania.",
+          image: require("../assets/diversity.jpg")
+        }
+      ]
+    }
+  }
 };
 </script>
 
@@ -54,8 +57,16 @@ export default {
 }
 
 body {
+  .image-container {
+      height: 145px;
+      overflow: hidden;
+  }
+  .image-container img {
+    width: 100%;
+  }
   .inner {
-    padding: 1.5rem 0.8rem;
+    padding: 0rem 0.2rem;
+    margin: 0 1.1rem;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     box-shadow: rgba(0, 0, 0, 0.082) 0px 0px 50px -10px;

@@ -97,7 +97,7 @@ body {
     }
 
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.65rem;
       border: 1px solid red;
       color: #303030;
       text-align: center;

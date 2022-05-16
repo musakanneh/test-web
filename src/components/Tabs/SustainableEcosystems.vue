@@ -113,7 +113,7 @@ export default {
       text-align: left;
       padding: 0.6rem 0;
       line-height: 1.5;
-      font-size: 1.85rem !important;
+      font-size: 1.65rem !important;
     }
   }
 

@@ -66,6 +66,23 @@ export default {
 </script>
 
 <style lang="scss">
+.flex-container {
+  display: flex;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-stretch {
+  align-items: stretch;
+  align-content: stretch;
+}
+
+.flex-row {
+  flex-direction: row
+}
+
 #app {
   display: flex;
   flex: auto;

@@ -4,7 +4,7 @@
       <Tab name="Our Aim" selected="true">
         <div class="content">
           <div><img src="../../assets/governance.png" alt="" /></div>
-          <div>
+          <div class="flex-container  flex-center">
             <p class="mobile__text">
               Design innovative and sustainable ecosystem governance mechanisms
               and tools by combining scientifically proven solutions with the
@@ -16,7 +16,7 @@
       <Tab name="Outcome">
         <div class="content">
           <div><img src="../../assets/learning.png" alt="" /></div>
-          <div class="outcome">
+          <div class="outcome flex-container flex-center">
             <p>
               Open an alternative space for learning and research to addressing
               pressing ecosystems governance challenges while simulatneously
