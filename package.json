@@ -11,6 +11,7 @@
         "animate.css": "^4.1.1",
         "core-js": "^3.6.5",
         "meta": "^2.2.25",
+        "puppeteer": "^14.1.1",
         "vue": "^2.6.14",
         "vue-animate-css": "^1.0.0",
         "vue-cli-plugin-prerender-spa": "^1.1.6",

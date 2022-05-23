@@ -60,6 +60,9 @@
           <li>
             <a href="/projects">PROJECTS</a>
           </li>
+          <li>
+            <a href="/events">EVENTS</a>
+          </li>
           <div class="dropdown">
             <li class="dropbtn">
               MEDIA CENTER <i class="fas fa-caret-down"></i>

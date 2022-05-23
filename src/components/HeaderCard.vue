@@ -53,7 +53,7 @@ export default {
 }
 
 body {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7) 30%, transparent),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6) 80%, transparent),
     url("../assets/rangeland2.png");
   background-repeat: no-repeat;
   background-attachment: fixed;

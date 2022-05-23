@@ -10,6 +10,7 @@
               <a href="/about" class="tba">About Us</a><br />
               <a href="/work" class="tba">Our Work</a><br />
               <a href="/about" class="tba">Our Team</a><br />
+              <a href="/privacy-policy" class="tba">Privacy Policy</a><br />
             </div>
           </div>
           <div class="col-xs-6 col-md-3">
