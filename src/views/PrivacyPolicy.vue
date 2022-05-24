@@ -129,24 +129,6 @@
 					personal information and the security of your transaction during
 					transmission.
 				</p>
-				<h5>Overview and Donor Access Rights</h5>
-				<p>
-					NYANDA appreciates those individuals and entities whose contributions
-					finance NYANDA’s operations (“Donors”). To that end it wishes to
-					explicitly clarify the types of Donor Information it receives, and its
-					procedures with respect to this information.
-				</p>
-				<p>
-					Further, in addition to other safeguards listed in this privacy
-					policy, NYANDA confirms that (unless required to comply with law,
-					statute, or regulation) it does not sell or share a Donor’s Personal
-					Data without its explicit consent. A Donor that has provided such
-					consent may revoke such consent at any time via written notice and,
-					subject to exceptions stated in applicable law, NYANDA shall act in
-					accordance with such revocation. For avoidance of doubt, this addendum
-					applies equally to Donor Personal Data received through this website
-					and mobile app and any other forms of information acquisition.
-				</p>
 				<p>
 					Any revocation of consent may be submitted to the following email
 					address: info@nyanda.com
