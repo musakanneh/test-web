@@ -41,8 +41,8 @@
 					Nyanda does not share personal information provided by you through its
 					website or mobile app with any other institution, company, government
 					or governmental agency or other organization. Nyanda is obligated to
-					disclose personal information in exceptional cases as required by US
-					law, including a subpoena.
+					disclose personal information in exceptional cases as required by
+					United Republic of Tanzania law, including a subpoena.
 				</p>
 				<p>
 					Nyanda uses the information you provide about yourself for various
