@@ -8,9 +8,9 @@
 
 			<article style="max-width: 900px; margin: auto">
 				<p>
-					Nyanda takes very seriously the privacy of its website
+					Nyanda takes very seriously the privacy of its mobile app
 					visitors and the security of any personal information that may be
-					provided via the organizations website. Nyanda believes
+					provided via the organizations mobile app. Nyanda believes
 					you have the right to know the type of information the organization
 					collects, how it is protected and used, and the circumstances under
 					which it may be disclosed. For easy access, this Privacy Policy
@@ -50,11 +50,11 @@
 					Examples include email newsletters, invitations to Nyanda events, or
 					for information alerts about Nyanda programs or activities. In some
 					cases, Nyanda uses this information, including the email addresses and
-					contact information gathered from our websites, for
+					contact information gathered from our mobile apps, for
 					fundraising activities.
 				</p>
 				<p>
-					Information collected on Nyanda websites are never used
+					Information collected on Nyanda mobile apps are never used
 					for commercial purposes.
 				</p>
 				<h5>Email/SMS Updates</h5>
@@ -83,42 +83,20 @@
 					sole objective of improving the information services, features and
 					usability of the site.
 				</p>
-				<h5>Cookies</h5>
-				<p>
-					The Nyanda website uses web cookies—a mechanism by which a website and
-					a web browser can jointly “remember” information within or between
-					browsing sessions. Cookies are useful because they can improve the
-					user experience. However, cookies have been subject to criticism
-					because they also can be employed to invisibly assemble information
-					about user’s browsing habits for marketing purposes.
-				</p>
-				<p>
-					Nyanda uses cookies only to improve the user experience within the
-					context of a single browser session or between site visits and not for
-					any form of information gathering about user browsing. Cookies may
-					contain a “key,” so that you do not need to login every time you visit
-					a new page, or when you return to the Nyanda website from the same
-					computer at a later date. Remember, if you are using a public
-					computer, and you fail to log out from the website
-					after finishing your session, another person may be able to access
-					your account.
-				</p>
 				<h5>
-					Nyanda Partner websites and Links to Independent
-					websites
+					Nyanda Partner mobile apps and Links to Independent mobile apps
 				</h5>
 				<p>
-					The Nyanda privacy policy does not apply to such website and mobile
-					apps that are developed and maintained by Nyanda partners with Nyanda
+					The Nyanda privacy policy does not apply to such mobile apps that are developed and maintained by Nyanda partners with Nyanda
 					financial or technical assistance. Nyanda would typically encourage
 					these partners to develop and implement their own privacy policies for
-					information collected on their websites. It is Nyanda's
+					information collected on their mobile apps. It is Nyanda's
 					policy never to take possession of or use personal information
-					provided to partners through these kinds of websites.
+					provided to partners through these kinds of mobile apps.
 				</p>
 				<p>
-					Similarly, Nyanda websites may contain pages with links
-					to independent, external websites for which the
+					Similarly, Nyanda mobile apps may contain pages with links
+					to independent, external mobile apps for which the
 					Institute is not responsible.
 				</p>
 				<h5>Nyanda Commitment to Data Security</h5>
@@ -162,7 +140,7 @@
 				<p>
 					Nyanda retains the right to make changes, at its sole discretion, to
 					this Privacy Policy Statement or the privacy policies of the various
-					Nyanda program websites, which will be posted in an
+					Nyanda program mobile apps, which will be posted in an
 					accessible place on the pertinent site.
 				</p>
 				<h4>How to Contact Nyanda</h4>
@@ -180,9 +158,9 @@
 
 <script>
 export default {
-	name: "PrivacyPolicy",
+	name: "AppPrivacyPolicy",
 	metaInfo: {
-		title: "TEST - Privacy policy",
+		title: "Nyanda - Privacy policy",
 
 		meta: [
 			{ charset: "utf-8" },

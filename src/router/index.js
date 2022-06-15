@@ -20,6 +20,7 @@ import Videos from "../views/Media/Videos.vue";
 import Projects from "../views/Projects.vue";
 import Events from "../views/Events.vue";
 import PrivacyPolicy from "../views/PrivacyPolicy.vue";
+import AppPrivacyPolicy from "../views/PrivacyPolicy.vue";
 
 Vue.use(VueRouter);
 
@@ -47,6 +48,11 @@ const routes = [{
         path: "/privacy-policy",
         name: "PrivacyPolicy",
         component: PrivacyPolicy,
+    },
+    {
+        path: "/app-privacy-policy",
+        name: "AppPrivacyPolicy",
+        component: AppPrivacyPolicy,
     },
     {
         path: "/volunteer",
