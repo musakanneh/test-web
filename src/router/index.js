@@ -20,7 +20,7 @@ import Videos from "../views/Media/Videos.vue";
 import Projects from "../views/Projects.vue";
 import Events from "../views/Events.vue";
 import PrivacyPolicy from "../views/PrivacyPolicy.vue";
-import AppPrivacyPolicy from "../views/PrivacyPolicy.vue";
+import AppPrivacyPolicy from "../views/AppPrivacyPolicy.vue";
 
 Vue.use(VueRouter);
 

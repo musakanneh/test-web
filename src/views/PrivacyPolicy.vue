@@ -14,32 +14,32 @@
 					you have the right to know the type of information the organization
 					collects, how it is protected and used, and the circumstances under
 					which it may be disclosed. For easy access, this Privacy Policy
-					Statement is posted on Nyanda's homepage, all internal website and
-					mobile app pages and at every point where personally identifiable
+					Statement is posted on Nyanda's homepage, all internal website pages
+					and at every point where personally identifiable
 					information may be requested.
 				</p>
 				<p>
-					Any privacy policy provided on any specific Nyanda-branded website or
-					mobile app will always supersede this general policy. Please check the
-					Nyanda website(s) or mobile app(s) that you use for the applicable
+					Any privacy policy provided on any specific Nyanda-branded website will
+					always supersede this general policy. Please check the
+					Nyanda website(s) that you use for the applicable
 					privacy policy.
 				</p>
 				<h4>The Information We Collect and How it is Gathered and Used</h4>
 				<h5>Personal Information</h5>
 				<p>
 					This notice applies to all information collected or submitted on the
-					Nyanda website or mobile app. On some pages, visitors can make
+					Nyanda website. On some pages, visitors can make
 					information requests, register to receive program updates or resource
 					materials, or make financial contributions. Nyanda collects only the
-					personal information voluntarily provided through this website and
-					mobile app. This may include, but is not limited to, your name, email
+					personal information voluntarily provided through this website. This
+					may include, but is not limited to, your name, email
 					address, contact information, and any other demographic data or
 					details related to your background or interests that you choose to
 					provide.
 				</p>
 				<p>
 					Nyanda does not share personal information provided by you through its
-					website or mobile app with any other institution, company, government
+					website with any other institution, company, government
 					or governmental agency or other organization. Nyanda is obligated to
 					disclose personal information in exceptional cases as required by
 					United Republic of Tanzania law, including a subpoena.
@@ -69,10 +69,10 @@
 					list at the bottom of each email/SMS update. We will not sell, rent or
 					trade your email address/Phone Number to a third party.
 				</p>
-				<h5>Site/App Usage Information</h5>
+				<h5>Site Usage Information</h5>
 				<p>
 					When visitors browse, read or download information on the Nyanda
-					website or mobile app, limited, anonymous data is collected about the
+					website, limited, anonymous data is collected about the
 					visit. For instance, the web server may record the numerical Internet
 					Protocol address of your computer; information about your browser and
 					operating system; date and time of access; and the Internet address
@@ -108,8 +108,8 @@
 					websites
 				</h5>
 				<p>
-					The Nyanda privacy policy does not apply to such website and mobile
-					apps that are developed and maintained by Nyanda partners with Nyanda
+					The Nyanda privacy policy does not apply to such website that are
+					developed and maintained by Nyanda partners with Nyanda
 					financial or technical assistance. Nyanda would typically encourage
 					these partners to develop and implement their own privacy policies for
 					information collected on their websites. It is Nyanda's
