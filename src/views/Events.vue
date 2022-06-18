@@ -13,6 +13,7 @@
 						<p>
 						Terms of Reference for Land governance, Biodiversity conservation and poverty alleviation
 						</p>
+						<h3 style="float: right;"><a href="/documents" style="text-decoration: none;color: #BE9E44;"> View Document </a></h3>
 					</div>
 				</div>
 			</div>
