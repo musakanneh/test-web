@@ -13,7 +13,7 @@
 					</div>
 					<div class="col-xs-6 col-md-4">
 						<img
-							src="../../assets/people2.jpeg"
+							src="../../assets/indPeople.jpg"
 							class="img-responsive"
 							alt="Responsive image"
 						/>
