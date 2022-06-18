@@ -8,7 +8,7 @@
 				<dd>
 					<div class="col-xs-6 col-md-4">
 						<h4>
-							DRAFT- ToR for Land, Biodiversity Conservation
+							Terms of Reference for Land governance, Biodiversity conservation and poverty alleviation
 						</h4>
 					</div>
 					<div class="col-xs-6 col-md-4">

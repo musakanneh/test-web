@@ -11,7 +11,7 @@
 					</h3>
 					<div class="content__text">
 						<p>
-							DRAFT- ToR for Land, Biodiversity Conservation
+						Terms of Reference for Land governance, Biodiversity conservation and poverty alleviation
 						</p>
 					</div>
 				</div>
