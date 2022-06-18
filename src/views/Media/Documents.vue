@@ -4,6 +4,38 @@
 		<div class="global__height"></div>
 		<main class="container animate_1">
 			<dl class="dl-horizontal">
+				<dt><h4>June 2022</h4></dt>
+				<dd>
+					<div class="col-xs-6 col-md-4">
+						<h4>
+							DRAFT- ToR for Land, Biodiversity Conservation
+						</h4>
+					</div>
+					<div class="col-xs-6 col-md-4">
+						<img
+							src="../../assets/people2.jpeg"
+							class="img-responsive"
+							alt="Responsive image"
+						/>
+					</div>
+
+					<div class="col-xs-6 col-md-4">
+						<div class="download__report">
+							<h3>
+								<a href="DRAFT- ToR for Land, Biodiversity Conservation.pdf" download>
+									<h4><i class="fas fa-download"></i> Download Document</h4>
+
+									<link
+										rel="icon"
+										href="<%= BASE_URL %>DRAFT- ToR for Land, Biodiversity Conservation.pdf"
+									/>
+								</a>
+							</h3>
+						</div>
+					</div>
+				</dd>
+			</dl>
+			<dl class="dl-horizontal">
 				<dt><h4>May 2022</h4></dt>
 				<dd>
 					<div class="col-xs-6 col-md-4">

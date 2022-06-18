@@ -7,6 +7,18 @@
 			<div class="row">
 				<div class="col-xs-6 col-md-12 border__">
 					<h3>
+						vision 2033
+					</h3>
+					<div class="content__text">
+						<p>
+							DRAFT- ToR for Land, Biodiversity Conservation
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-6 col-md-12 border__">
+					<h3>
 						Land Governance, Conservation and livelihoods Support for Indigenous
 						People in East Africa- Kenya and Tanzania
 					</h3>

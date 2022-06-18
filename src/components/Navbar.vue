@@ -61,7 +61,7 @@
             <a href="/projects">PROJECTS</a>
           </li>
           <li>
-            <a href="/events">EVENTS</a>
+            <a href="/events">NEWS & EVENTS</a>
           </li>
           <div class="dropdown">
             <li class="dropbtn">
