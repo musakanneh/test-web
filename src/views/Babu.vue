@@ -44,9 +44,7 @@
 <script>
 import ProfileCaption from "@/components/ProfileCaption.vue";
 export default {
-	components: {
-		ProfileCaption,
-	},
+	components: { ProfileCaption },
 };
 </script>
 

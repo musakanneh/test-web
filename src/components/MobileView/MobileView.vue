@@ -25,8 +25,8 @@
           <a href="/projects">PROJECTS</a>
         </li>
         <li>
-            <a href="/events">NEWS & EVENTS</a>
-          </li>
+          <a href="/events">NEWS & EVENTS</a>
+        </li>
         <li>
           <label for="drop-2" id="label__title" class="toggle">MEDIA +</label>
           <a href="#"></a>

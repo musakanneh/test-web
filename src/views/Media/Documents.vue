@@ -8,7 +8,8 @@
 				<dd>
 					<div class="col-xs-6 col-md-4">
 						<h4>
-							Terms of Reference for Land governance, Biodiversity conservation and poverty alleviation
+							Terms of Reference for Land governance, Biodiversity conservation
+							and poverty alleviation
 						</h4>
 					</div>
 					<div class="col-xs-6 col-md-4">
@@ -22,7 +23,10 @@
 					<div class="col-xs-6 col-md-4">
 						<div class="download__report">
 							<h3>
-								<a href="DRAFT- ToR for Land, Biodiversity Conservation.pdf" download>
+								<a
+									href="DRAFT- ToR for Land, Biodiversity Conservation.pdf"
+									download
+								>
 									<h4><i class="fas fa-download"></i> Download Document</h4>
 
 									<link
@@ -105,9 +109,7 @@
 <script>
 import ProfileCaption from "@/components/ProfileCaption.vue";
 export default {
-	components: {
-		ProfileCaption,
-	},
+	components: { ProfileCaption },
 };
 </script>
 
