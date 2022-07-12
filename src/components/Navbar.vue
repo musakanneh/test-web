@@ -4,11 +4,11 @@
       <div class="container">
         <div class="container__">
           <div class="contact__info">
-            <p>
+         <!--   <p>
               <span title="Phone">Tel:</span> +255 752 773 890, +255 786 744 663
               <br />
             </p>
-            <p>|</p>
+            <p>|</p> -->
             <p>
               <a href="mailto:info@nyanda.org">
                 <span title="Phone">Email:</span> info@nyanda.org</a
