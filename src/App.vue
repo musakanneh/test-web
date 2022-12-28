@@ -104,7 +104,7 @@ export default {
 }
 
 :root {
-  --primary-color: #be9e44;
+  --primary-color: #A65C72; /*#be9e44*/
   --black: #1e2022;
   --border: 1px solid #ddd;
 }
