@@ -53,7 +53,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 2fr;
   background: #fff;
-  box-shadow: 2px 5px #d8c690;
+  box-shadow: 2px 5px #A65C72; /*#d8c690*/
 
   img {
     width: 100%;
